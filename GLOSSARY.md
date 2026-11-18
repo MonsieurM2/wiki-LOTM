@@ -36,6 +36,10 @@ _Avoid_: unverified entity, phantom, placeholder
 A secondary classification on an Entity that does not change its primary type.
 _Avoid_: secondary type, category, label
 
+**Sequence Title**:
+A named rank within a Pathway, such as Seer or Clown; its Entity has Concept as primary type and carries a `sequence-title` Tag, since the taxonomy is closed at eight types.
+_Avoid_: rank, level, Sequence 9
+
 ## Entity types
 
 **Character**:
@@ -57,10 +61,6 @@ _Avoid_: item, object, equipment
 **Pathway**:
 An Entity that is a named supernatural route of advancement, such as The Fool.
 _Avoid_: route, path, sequence (when the whole route is meant)
-
-**Sequence Title**:
-An Entity that is a named rank within a Pathway, such as Seer or Clown.
-_Avoid_: rank, level, Sequence 9
 
 **Concept**:
 An Entity that is a named idea, power, phenomenon or title that is not a person, place, object, event or Pathway.
