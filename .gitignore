@@ -1,0 +1,4 @@
+*.epub
+node_modules/
+dist/
+.scratch/
