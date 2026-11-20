@@ -1,0 +1,38 @@
+{
+  "chapter": 2,
+  "verdicts": [
+    {"evidence_id": "EV-0002-001", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-002", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-003", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-004", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-005", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-006", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-007", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-008", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-009", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-010", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-011", "verdict": "CORRECT", "note": "Citation littérale, MEN-0002-004 (Melissa, « my sister, Melissa ») et R14 exacts. En revanche EVT-005 « washes the blood stains in the shared bathroom » n'est soutenu par aucune des trois citations : EV-011/012/013 ne couvrent que les pensées (Melissa, Mr. Franky). Ancrer l'action sur « walked to the public bathroom which was shared by the tenants on the second floor » (para 36) et « used a moist towel to clean the blood stains from his face again and again » (para 44), ou retirer ce membre du label."},
+    {"evidence_id": "EV-0002-012", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-013", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-014", "verdict": "CORRECT", "note": "MEN-0002-001/002 et les APPEARS_IN correspondants sont exacts. EVT-006 « finds a bullet and works out how Klein died » dépasse la citation, qui ne dit que « had a rough idea how Klein had died » ; le bullet vient de « there was a yellow bullet to the left side of the wall » (para 49) et de « took the bullet and returned to the side of his desk » (para 51), non cités. Ajouter un ancrage ou retirer « finds a bullet » du label."},
+    {"evidence_id": "EV-0002-015", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-016", "verdict": "CORRECT", "note": "MEN-0002-010 est exacte (« Chinese Divination » est bien dans la citation). Mais R19 « one of the subjects Zhou Mingrui claims to know something of » suppose « deeming himself as 'knowing something of everything' » (para 66), absent de la citation : « And one of them was Chinese Divination » ne suffit pas à lui seul. Ajouter para 66 comme second evidence de la relation, ou resserrer le label."},
+    {"evidence_id": "EV-0002-017", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-018", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-019", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-020", "verdict": "CORRECT", "note": "La citation ne montre que l'action physique (« stopped flicking the revolver's cylinder and suddenly sat straight up »). EVT-007 « resolves to try it » s'appuie en réalité sur « I should give it a try here tomorrow. If it's really because of that, I stand a chance of transmigrating back! » (para 74, même paragraphe mais phrase non citée) et « He had to attempt a Hail Mary! » (para 76). Ajouter cet ancrage ou retirer « resolves to try it » du label. MEN-0002-001 et son APPEARS_IN restent exacts."},
+    {"evidence_id": "EV-0002-021", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0002-022", "verdict": "CONFIRM", "note": ""}
+  ],
+  "missing": [
+    "Guérison surnaturelle : « the wound might take thirty to forty minutes, or maybe even two to three hours before it would only leave a light scar » (para 33), l'hypothèse « The restorative effects that transmigration brings? » et « Regardless, he was still alive! » (paras 34-35) — aucun evidence distinct de EV-010.",
+    "Le bullet et la scène du suicide : « there was a yellow bullet to the left side of the wall » (para 49), « A total of five rounds and a cartridge shell all had a brass luster to them » (para 52), le mot du carnet « Everyone will die, including me. » (para 54), « Was it suicide or a faked suicide? » (para 56) — aucun Entity/Evidence ; EVT-006 ne garde que « had a rough idea how Klein had died ».",
+    "Le contenu du rituel de chance : quatre portions de nourriture aux quatre coins, quatre pas en sens antihoraire, les quatre invocations (« The Immortal Lord of Heaven and Earth for Blessings », « The Sky Lord... », « The Exalted Thearch... », « The Celestial Worthy... ») et cinq minutes les yeux fermés (para 70) — EV-018 ne cite que le titre du livre.",
+    "La résolution de réessayer : « I should give it a try here tomorrow. If it's really because of that, I stand a chance of transmigrating back! » (para 74) et « He had to attempt a Hail Mary! » (para 76) — non cités, alors que EVT-007 prétend couvrir cette résolution.",
+    "La lune anormale : « The moonlight of the sanguine moon was relatively dark » (para 11), « the crimson retreated out the window » (para 31), « crimson moonlight from the window at the end of the corridor » (para 38) — aucun Entity/Evidence, alors que le chapitre 1 relevait déjà la lune écarlate.",
+    "Le montage de la lampe à gaz par Benson : « he reasoned with the landlord to 'raise the apartment's standards by installing gas pipes...' The landlord was convinced and provided the money » et « working at an import and export company, he purchased a brand new gas lamp which was nearly at cost price » (para 15) — EVT-002 ne retient que « conducive studying conditions ».",
+    "Le portrait de Mr. Franky : « this short and thin gentleman who wore a top hat, a vest, and a black suit » (para 42) et l'eau incluse dans le loyer (para 42) — seul EV-012/013 est retenu, pas de mention de ces traits.",
+    "Les motifs de retour et le passé de Zhou Mingrui : « His parents, relatives, best buddies, and friends » et « all sorts of delicious delicacies » (para 61), « keyboard politician, keyboard historian... » (para 66), « losing his cell phone, customers running away after cheating him, and mistakes at work » (para 69) — non extraits."
+  ],
+  "wrong_types": []
+}

@@ -1,0 +1,25 @@
+{
+  "chapter": 1,
+  "verdicts": [
+    {"evidence_id": "EV-0001-001", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-002", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-003", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-004", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-005", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-006", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-007", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-008", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-009", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-010", "verdict": "CONFIRM", "note": ""},
+    {"evidence_id": "EV-0001-011", "verdict": "CONFIRM", "note": ""}
+  ],
+  "missing": [
+    "Bloody handprint and blood on Zhou Mingrui's right hand — no Evidence/Event: 'he suddenly discovered a red handprint to the side of the table' / 'It was a bloody handprint!' / 'his palm and fingers were covered in blood' (body paras [125]-[129]).",
+    "Brass revolver on the desk and Zhou Mingrui's question of how Klein's family could afford one — no Entity/Evidence: 'a brass revolver' ([047]), 'the shimmering brass revolver' ([119]), 'With Klein's family situation, how can they have the money or means to buy a revolver?' ([121]).",
+    "Transmigration hypothesis — no Event/Evidence: 'C-could I have transmigrated?' ([081]), concluding 'The revolver in ancient European style and the crimson moon that looked different from Earth's moon could only mean one thing!' ([079]).",
+    "Klein's siblings and household — no mention/relation: 'He also had an elder brother and a younger sister' ([099]) and 'the family was supported solely by the elder brother who worked at an import and export company as a clerk' ([101]).",
+    "Father's bereavement allowance funding Klein's education — not captured beyond EV-0001-006: 'The bereavement allowance gave Klein the opportunity to study at a private language school and laid the foundation for his admission into university' ([095]).",
+    "Timing of the mother's death — not captured beyond EV-0001-007: 'She passed away the year Klein passed the entrance examinations to Khoy University' ([097])."
+  ],
+  "wrong_types": []
+}
