@@ -16,7 +16,7 @@ RELATIONS = {
     "RELATED_TO": "RELATED_TO", "OPPOSES": "OPPOSED_BY", "MENTOR_OF": "MENTORED_BY",
 }
 REQUIRED = {"id", "book", "number", "title", "text", "status",
-            "evidence", "mentions", "events", "relations"}
+            "entities", "evidence", "mentions", "events", "relations"}
 
 
 def check(doc):
@@ -40,6 +40,13 @@ def check(doc):
             errors.append(f"{eid}: offsets do not match quote")
         if ev["chapter"] != doc["number"] or ev["book"] != doc["book"]:
             errors.append(f"{eid}: book/chapter mismatch")
+    declared = {e["id"] for e in doc["entities"]}
+    for group in ("mentions", "events"):
+        for item in doc[group]:
+            ids = [item["entity"]] if group == "mentions" else item["participants"]
+            for eid in ids:
+                if eid not in declared:
+                    errors.append(f"{group}: entity {eid} not declared in entities")
     for group in ("mentions", "events", "relations"):
         for item in doc[group]:
             for ref in item["evidence_ids"]:

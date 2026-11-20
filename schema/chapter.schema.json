@@ -5,7 +5,7 @@
   "description": "One file per chapter, 0001 to 1394. Evidence is stored here exactly once; derived fichés and the graph reference it by id.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "book", "number", "title", "text", "status", "evidence", "mentions", "events", "relations"],
+  "required": ["id", "book", "number", "title", "text", "status", "entities", "evidence", "mentions", "events", "relations"],
   "properties": {
     "id": { "type": "string", "pattern": "^C\\d{4}$" },
     "book": { "type": "integer", "minimum": 1, "maximum": 8 },
@@ -13,6 +13,7 @@
     "title": { "type": "string", "minLength": 1 },
     "text": { "type": "string", "minLength": 1 },
     "status": { "enum": ["extracted", "verified", "disputed", "excluded"] },
+    "entities": { "type": "array", "items": { "$ref": "#/$defs/entity" } },
     "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
     "mentions": { "type": "array", "items": { "$ref": "#/$defs/mention" } },
     "events": { "type": "array", "items": { "$ref": "#/$defs/event" } },
@@ -20,6 +21,29 @@
   },
   "$defs": {
     "entityId": { "type": "string", "pattern": "^E-[a-z0-9]+(?:-[a-z0-9]+)*-[a-f0-9]{6}$" },
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "canonical_name", "primary_type"],
+      "properties": {
+        "id": { "$ref": "#/$defs/entityId" },
+        "canonical_name": { "type": "string", "minLength": 1 },
+        "primary_type": { "enum": ["Character", "Event", "Chapter", "Faction", "Location", "Artifact", "Pathway", "Concept"] },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["form"],
+            "properties": {
+              "form": { "type": "string", "minLength": 1 },
+              "until": { "type": "integer", "minimum": 1, "maximum": 1394 }
+            }
+          }
+        },
+        "tags": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+      }
+    },
     "evidenceId": { "type": "string", "pattern": "^EV-\\d{4}-\\d{3}$" },
     "eventId": { "type": "string", "pattern": "^EVT-\\d{4}-\\d{3}$" },
     "relationType": {
