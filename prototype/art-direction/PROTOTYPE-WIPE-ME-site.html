@@ -159,7 +159,7 @@ let variant = q.get('variant') || 'A';
 let screen = q.get('screen') || 'chapter';
 function sync(){ q.set('variant',variant); q.set('screen',screen); history.replaceState(null,'','?'+q.toString()); render(); }
 function render(){
-  document.body.className = 'variant-'+variant;
+  document.body.className = 'variant-'+variant.toLowerCase();
   document.getElementById('crumb').textContent = VARIANTS.find(v=>v.key===variant).name.toUpperCase()+' / '+SCREENS.find(s=>s.key===screen).label.toUpperCase();
   document.getElementById('vlabel').textContent = variant+' ('+VARIANTS.find(v=>v.key===variant).name+')';
   document.getElementById('screens').innerHTML = SCREENS.map(s=>`<button data-screen="${s.key}" class="${s.key===screen?'on':''}">${s.label}</button>`).join('');
