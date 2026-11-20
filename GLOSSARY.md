@@ -24,6 +24,10 @@ _Avoid_: nickname, alternate name, typo
 A narrated happening with at least one identifiable participant, anchored to a Chapter by Evidence.
 _Avoid_: action, beat, occurrence
 
+**Relation**:
+A typed, directed link between two referents from the closed vocabulary, carrying its inverse and at least one Evidence.
+_Avoid_: link, edge, connection
+
 **Chapter**:
 A numbered narrative unit (1–1394) that is both an Entity and the spine the wiki navigates by.
 _Avoid_: volume, section, split
