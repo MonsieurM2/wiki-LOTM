@@ -58,3 +58,4 @@ Captures passées en revue une par une (`screenshots/variant-*.png`), pas seulem
 - **A** : la glose était un gros bloc ; elle est devenue une note étroite, bordée d'oxblood, posée à côté de la phrase. C'est le seul élément audacieux de l'écran.
 - **B** : le fond en grille et les libellés en petites capitales ont été retirés ; la grille n'apportait aucune information.
 - Contrôle final : 12/12 écrans rendent, zéro erreur console, focuses clavier visibles, `prefers-reduced-motion` respecté, mobile en une colonne.
+- Dernière consigne du client (« créatif, ludique, ergonomique ») : une règle dorée de progression en haut de page (ergonomie, quasi invisible) et un **tirage de chapitre** en fin de page A — un bouton « Draw a chapter » qui retourne une carte vers un chapitre aléatoire. Le jeu reste dans le thème (le Tarot Club) et ne touche pas à la lecture. Vérifié par clic : la carte change, zéro erreur console.

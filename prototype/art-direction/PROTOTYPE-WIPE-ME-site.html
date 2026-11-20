@@ -13,6 +13,11 @@
 @font-face{font-family:Spectral;src:url('fonts/spectral-italic.woff2') format('woff2');font-weight:400;font-style:italic;font-display:swap}
 :root{--ink:#070605;--vellum:#e9e1d0;--gold:#b9952f;--oxblood:#6d1f2b;--ash:#9a9080;--veil:#14100d;--line:#2c261f}
 *{box-sizing:border-box}
+#progress{position:fixed;top:0;left:0;height:2px;background:var(--gold);width:0;z-index:100;transition:width .12s linear}
+.variant-a .draw{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);break-inside:avoid}
+.variant-a .draw button{background:none;border:1px solid var(--gold);color:var(--gold);padding:8px 14px;cursor:pointer;font-size:.8125rem}
+.variant-a .card{display:inline-block;margin-left:14px;padding:8px 12px;border:1px solid var(--line);min-width:210px;color:var(--ash);font-style:italic;font-size:.875rem}
+.variant-a .card.shown{color:var(--vellum);border-color:var(--gold)}
 body{margin:0;background:var(--ink);color:var(--vellum);font:400 1.0625rem/1.75 Spectral,Georgia,serif;min-height:100vh;padding-bottom:84px}
 button,input{font:inherit;color:inherit}
 button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
@@ -94,6 +99,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-o
 </style>
 </head>
 <body>
+<div id="progress" aria-hidden="true"></div>
 <header class="topbar"><span class="brand">Lord of the Mysteries</span><small id="crumb"></small></header>
 <nav class="screens" id="screens"></nav>
 <main class="stage" id="stage"></main>
@@ -144,13 +150,17 @@ function render(){
  document.getElementById('screens').innerHTML=SCREENS.map(x=>`<button data-screen="${x.key}" class="${x.key===screen?'on':''}">${x.label}</button>`).join('');
  document.querySelectorAll('#screens button').forEach(b=>b.onclick=()=>{screen=b.dataset.screen;sync()});
  document.getElementById('stage').innerHTML=({A:renderA,B:renderB,C:renderC})[variant](screen);
+ const draw=document.getElementById('draw');
+ if(draw) draw.onclick=()=>{const cards=['Chapter 67, Response','Chapter 129, Rampager','Chapter 302, Miss Sharron','Chapter 999, Shermane','Chapter 1394, A New Journey'];
+  const card=document.getElementById('card');card.textContent=cards[Math.floor(Math.random()*cards.length)];card.classList.add('shown')};
 }
 function renderA(s){
  const d=DATA;
  if(s==='chapter') return `<p class="note">The proof sits in the margin, beside the line it justifies.</p>
   <div class="kicker">${d.chapter.book}</div><h1>${d.chapter.title}</h1><div class="sigil">&#9790; &#10022; &#9790;</div>
   ${d.chapter.paras.map((p,i)=>p+(i===1?`<div class="marg"><b>${d.chapter.quotes[0].label}</b>${d.chapter.quotes[0].text}</div>`:'')+(i===3?`<div class="marg"><b>${d.chapter.quotes[1].label}</b>${d.chapter.quotes[1].text}</div>`:'')).join('<br>')}
-  <div class="marg"><b>${d.chapter.quotes[2].label}</b>${d.chapter.quotes[2].text}</div>`;
+  <div class="marg"><b>${d.chapter.quotes[2].label}</b>${d.chapter.quotes[2].text}</div>
+  <div class="draw"><button id="draw" type="button">Draw a chapter</button><span class="card" id="card">The card turns when you ask.</span></div>`;
  if(s==='entity') return `<p class="note">A name, its other forms, then the order of its interventions.</p>
   <div class="sigil">&#10023;</div><div class="kicker">${d.entity.type}</div><h1>${d.entity.name}</h1>
   <div class="ribbon"><h2>Other names</h2><p>${d.entity.aliases.join(' and ')}</p></div>
@@ -210,6 +220,8 @@ document.getElementById('prev').onclick=()=>cycle(-1);
 document.getElementById('next').onclick=()=>cycle(1);
 addEventListener('keydown',e=>{if(/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)||document.activeElement.isContentEditable)return;
  if(e.key==='ArrowLeft')cycle(-1);if(e.key==='ArrowRight')cycle(1)});
+addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;
+ document.getElementById('progress').style.width=(h>0?Math.min(100,scrollY/h*100):0)+'%'},{passive:true});
 render();
 </script>
 </body>
