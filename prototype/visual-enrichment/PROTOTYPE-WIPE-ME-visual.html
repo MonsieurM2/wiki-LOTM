@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE — visual enrichment, hand-drawn vector</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23070605'/%3E%3Ccircle cx='50' cy='50' r='30' fill='none' stroke='%23b9952f' stroke-width='2'/%3E%3Cpath d='M58 32 A22 22 0 1 0 58 68 A18 18 0 1 1 58 32' fill='%23b9952f'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:Cormorant;src:url('fonts/cormorant-roman.woff2') format('woff2');font-weight:400 700;font-display:swap}
+@font-face{font-family:Cormorant;src:url('fonts/cormorant-italic.woff2') format('woff2');font-weight:400 700;font-style:italic;font-display:swap}
+@font-face{font-family:Spectral;src:url('fonts/spectral-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Spectral;src:url('fonts/spectral-500.woff2') format('woff2');font-weight:500;font-display:swap}
+:root{--ink:#070605;--vellum:#e9e1d0;--gold:#b9952f;--oxblood:#6d1f2b;--ash:#a89f8e;--veil:#14100d;--line:#2c261f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--vellum);font:400 1.0625rem/1.75 Spectral,Georgia,serif;padding-bottom:60px}
+button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.hero{position:relative;height:210px;overflow:hidden;border-bottom:1px solid var(--line);mask-image:linear-gradient(to bottom,#000 0%,#000 55%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 55%,transparent 100%)}
+.hero svg{display:block;width:100%;height:100%}
+.topbar{display:flex;align-items:center;gap:16px;padding:14px 34px;border-bottom:1px solid var(--line)}
+.mark{width:40px;height:40px;flex:none}
+.hero{transition:height .25s ease}
+.brand{font:500 1.45rem/1 Cormorant,serif;letter-spacing:.02em}
+.topbar small{color:var(--ash);font-size:.8125rem;margin-left:auto}
+.stage{max-width:1180px;margin:0 auto;padding:34px}
+.note{color:var(--ash);font-size:.875rem;margin:0 0 18px;max-width:70ch}
+h1{font:500 3.4rem/1.04 Cormorant,serif;margin:0 0 10px}
+h1::first-letter{font-size:5rem;color:var(--gold);float:left;line-height:.76;padding:8px 12px 0 0}
+.kicker{font-size:.8125rem;color:var(--ash);margin-bottom:18px}
+.kicker::after{content:'';display:block;width:46px;border-top:1px solid var(--gold);margin:12px 0 0;opacity:.6}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:56px}
+.prose p{margin:0 0 1.05em;line-height:1.85;max-width:66ch}
+.entity{border-bottom:1px dotted var(--gold);cursor:pointer;padding:0 1px}
+.margin{border-left:1px solid var(--line);padding-left:18px}
+.gloss{border-left:1px solid var(--oxblood);background:var(--veil);padding:11px 14px;margin-bottom:18px;font-size:.875rem;line-height:1.6}
+.gloss b{display:block;color:var(--gold);font-weight:500;font-size:.75rem}
+.gloss q{font-style:italic;color:#d8ccb7;display:block;margin:6px 0}
+.gloss small,.ledger{color:var(--ash);font-size:.8125rem}
+.switch{display:flex;gap:8px;margin-top:26px;border-top:1px solid var(--line);padding-top:18px}
+.switch button{background:none;border:1px solid var(--line);color:var(--ash);padding:10px 15px;cursor:pointer;font-size:.8125rem;min-height:44px}
+.switch button.on{border-color:var(--gold);color:var(--gold)}
+.spec{max-width:70ch}
+.spec h2{font:500 1.7rem/1.2 Cormorant,serif;margin:28px 0 10px}
+.spec ul{margin:0;padding-left:20px;color:var(--ash);font-size:.9rem}
+.spec li{margin:6px 0}
+@media(max-width:820px){.cols{grid-template-columns:1fr}h1{font-size:2.5rem}.hero{height:160px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="hero" aria-hidden="true"><svg id="heroSvg" viewBox="0 0 1200 210" preserveAspectRatio="xMidYMid slice"></svg></div>
+<header class="topbar">
+  <svg class="mark" viewBox="0 0 100 100" aria-hidden="true">
+    <circle cx="50" cy="50" r="40" fill="none" stroke="#b9952f" stroke-width=".8" opacity=".35"/>
+    <path d="M62 26 A27 27 0 1 0 62 74 A22 22 0 1 1 62 26 Z" fill="#b9952f"/>
+    <circle cx="62" cy="50" r="3.4" fill="#6d1f2b"/>
+  </svg>
+  <span class="brand">Lord of the Mysteries</span>
+  <small id="crumb"></small>
+</header>
+<main class="stage" id="stage"></main>
+<script>
+function buildHero(){
+ const s=document.getElementById('heroSvg');
+ let o='';
+ o+='<defs><radialGradient id="glow"><stop offset="0" stop-color="#6d1f2b" stop-opacity=".55"/><stop offset="1" stop-color="#6d1f2b" stop-opacity="0"/></radialGradient></defs>';
+ o+='<rect width="1200" height="210" fill="#070605"/>';
+ o+='<circle cx="960" cy="86" r="92" fill="url(#glow)" opacity=".55"/>';
+ o+='<path d="M 982 50 A 38 38 0 1 0 982 122 A 31 31 0 1 1 982 50 Z" fill="#8d6b4a" opacity=".24" stroke="#b9952f" stroke-width=".9"/>';
+ o+='<g stroke="#b9952f" fill="none" opacity=".42"><path d="M 1015 44 l 4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 Z" stroke-width=".8"/>'
+ +'<path d="M 740 62 q 14 -9 28 0 q -14 9 -28 0 Z" stroke-width=".9"/><circle cx="754" cy="62" r="3" fill="#6d1f2b" stroke="none"/></g>';
+ o+='<g transform="translate(210,112)">';
+ [[76,0,0],[63,1.4,-1],[45,-1,1.5],[27,.8,-.8]].forEach(([r,dx,dy],i)=>o+=`<path d="M ${r+dx} 0 A ${r} ${r-0.6} 0 1 1 ${-r+dx} ${dy} A ${r} ${r} 0 1 1 ${r+dx} 0" fill="none" stroke="#b9952f" stroke-width="${i===0?1.1:.65}" opacity="${.72-i*.1}"/>`);
+ for(let i=0;i<96;i++){const a=i*Math.PI/48,inner=i%8===0?65:70.5;const wob=(i%11===0?1.8:0);o+=`<line x1="${(Math.cos(a)*inner).toFixed(1)}" y1="${(Math.sin(a)*inner).toFixed(1)}" x2="${(Math.cos(a)*(76+wob)).toFixed(1)}" y2="${(Math.sin(a)*(76+wob)).toFixed(1)}" stroke="#b9952f" stroke-width="${i%8===0?1:.5}" opacity="${i%7===0?'.62':'.34'}"/>`}
+ for(let i=0;i<84;i++){const a=i*Math.PI/42,rr=62+(i%5)*2.6;o+=`<line x1="${(Math.cos(a)*62).toFixed(1)}" y1="${(Math.sin(a)*62).toFixed(1)}" x2="${(Math.cos(a)*rr).toFixed(1)}" y2="${(Math.sin(a)*rr).toFixed(1)}" stroke="#b9952f" stroke-width=".35" opacity=".13"/>`}
+ for(let i=0;i<12;i++){const a=i*Math.PI/6;o+=`<line x1="${(Math.cos(a)*13).toFixed(1)}" y1="${(Math.sin(a)*13).toFixed(1)}" x2="${(Math.cos(a)*45).toFixed(1)}" y2="${(Math.sin(a)*45).toFixed(1)}" stroke="#b9952f" stroke-width=".6" opacity=".5"/>`}
+ o+='<circle r="7" fill="none" stroke="#e9e1d0" stroke-width="1"/><circle r="2" fill="#6d1f2b"/></g>';
+ const motifs=[
+  '<path d="M-11 -6 Q0 -16 11 -6 Q0 4 -11 -6 Z" fill="none" stroke="#b9952f" stroke-width=".9"/><circle cy="-6" r="2.6" fill="#6d1f2b"/>',
+  '<circle cy="-6" r="8" fill="none" stroke="#b9952f" stroke-width=".9"/><path d="M0 2 v10 M-4 12 h8" stroke="#b9952f" stroke-width=".9"/>',
+  '<path d="M-9 -2 q 4 -9 10 -5 q 7 5 1 10 q -6 4 -8 -2 q -1 -4 3 -4" fill="none" stroke="#b9952f" stroke-width=".9"/>'];
+ [[470,96,-9],[540,104,7],[610,92,-4]].forEach(([x,y,r],i)=>{o+=`<g transform="translate(${x},${y}) rotate(${r})">
+  <rect x="-27" y="-40" width="54" height="80" fill="#14100d" stroke="#b9952f" stroke-width="1" opacity=".9"/>
+  <rect x="-22" y="-35" width="44" height="70" fill="none" stroke="#b9952f" stroke-width=".6" opacity=".5"/>
+  <path d="M-22 -30 l6 0 M-22 -30 l0 6 M22 -30 l-6 0 M22 -30 l0 6 M-22 30 l6 0 M-22 30 l0 -6 M22 30 l-6 0 M22 30 l0 -6" stroke="#b9952f" stroke-width=".7" opacity=".8"/>
+  ${motifs[i]}<path d="M-10 24 h20 M-7 30 h14" stroke="#b9952f" stroke-width=".7" opacity=".7"/></g>`});
+ for(let i=0;i<26;i++){const x=20+((i*137)%1160),y=12+((i*53)%120),r=i%4===0?1.6:.9;o+=`<circle cx="${x}" cy="${y}" r="${r}" fill="#e9e1d0" opacity="${i%3===0?'.45':'.2'}"/>`}
+ [[760,140],[815,160],[870,135]].forEach(([x,y],i)=>{o+=`<g transform="translate(${x},${y})" stroke="#b9952f" fill="none" opacity=".38">
+  <path d="M-13 0 a13 13 0 1 1 26 0" stroke-width=".8"/><path d="M-8 4 a8 8 0 1 0 16 0" stroke-width=".6"/>
+  <circle r="2" fill="${i===1?'#6d1f2b':'#b9952f'}" stroke="none"/><path d="M-18 8 h36" stroke-width=".5"/></g>`});
+ for(let i=0;i<5;i++)o+=`<path d="M0 ${150+i*13} Q 300 ${132+i*15}, 600 ${156+i*12} T 1200 ${148+i*14}" fill="none" stroke="#9a9080" stroke-width=".7" opacity=".10"/>`;
+ s.innerHTML=o;
+}
+const SCREENS=[{k:'home',n:'Home'},{k:'chapter',n:'Chapter'},{k:'notes',n:'Notes'}];
+let cur='home';
+function render(){
+ document.getElementById('crumb').textContent=SCREENS.find(x=>x.k===cur).n;
+ const home=cur==='home';
+ document.querySelector('.hero').style.height=home?'210px':'130px';
+ document.getElementById('heroSvg').setAttribute('viewBox',home?'0 0 1200 210':'0 25 1200 160');
+ document.getElementById('stage').innerHTML=views[cur]();
+ document.querySelectorAll('.switch button').forEach(b=>b.onclick=()=>{cur=b.dataset.k;render()});
+ if(cur==='chapter')document.querySelectorAll('.entity').forEach(el=>{
+  const show=()=>{const g=document.getElementById('g1');const a=el.getBoundingClientRect(),b=g.getBoundingClientRect();
+   document.getElementById('thread').innerHTML=`<svg style="position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:20"><path d="M ${a.right} ${a.top+a.height/2} C ${a.right+40} ${a.top+a.height/2}, ${b.left-40} ${b.top+20}, ${b.left} ${b.top+20}" fill="none" stroke="#b9952f" stroke-width="1"/></svg>`};
+  el.addEventListener('mouseenter',show);el.addEventListener('focus',show);el.addEventListener('click',show);
+  el.addEventListener('mouseleave',()=>document.getElementById('thread').innerHTML='');
+ });
+}
+const views={
+ home:()=>`<p class="note">A manuscript that opens by itself, then steps aside for the text.</p>
+  <div class="kicker">The archive of 1394 chapters</div><h1>Everything the text says,<br>with its source in the margin.</h1>
+  <p class="ledger" style="max-width:62ch">Eight volumes. Every named referent, however brief. Every fact anchored to a book, a chapter and the literal English sentence that carries it.</p>
+  <div class="switch"><button data-k="home" class="on">Home</button><button data-k="chapter">Chapter</button><button data-k="notes">Why this design</button></div>`,
+ chapter:()=>`<p class="note">First Naming — a name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div><h1>Chapter 1: Crimson</h1>
+  <div class="cols"><div class="prose">
+   <p>Painful! How painful! My head hurts so badly!</p>
+   <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button" data-gloss="g1">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+   <p>He sat before a mirror. <span class="entity" tabindex="0" role="button" data-gloss="g1">Klein Moretti</span> looked back at him from the glass.</p>
+   <div class="switch"><button data-k="home">Home</button><button data-k="chapter" class="on">Chapter</button><button data-k="notes">Why this design</button></div>
+  </div><div class="margin"><div class="gloss" id="g1"><b>First Naming · EV-0001-001</b>Zhou Mingrui — the name before the mask.<q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q><small>Volume 1, chapter 1</small></div></div></div>`,
+ notes:()=>`<div class="spec"><div class="kicker">Design notes</div><h1>One image, then silence</h1>
+  <h2>What was drawn</h2><ul>
+   <li>A copperplate-style engraving: crimson moon, brass astrolabe, three tarot cards, drifting fog, alchemical glyphs — all vector paths, no bitmap.</li>
+   <li>A custom sigil: crescent, eye and spiral. It is not the official calligraphic logo, and it carries no letters.</li>
+   <li>The band is masked into the page; it sets the weather of the place, then the text takes over.</li></ul>
+  <h2>What was refused</h2><ul>
+   <li>The full-screen nebula of the official-style wiki, the central character portrait of lotmcompanion, and the single suspended pendant of lomworld.</li>
+   <li>Any image per fiche: a fact is proved by a quote, not by an illustration.</li>
+   <li>Gradient washes, particles, rounded cards, all-caps eyebrows, middle-dot meta strings.</li></ul>
+  <h2>Why it still passes the quality floor</h2><ul>
+   <li>The engraving is decorative and aria-hidden; no information lives in it.</li>
+   <li>Palette and type stay exactly as decided: ink, vellum, gold, oxblood; Cormorant and Spectral.</li>
+   <li>Reduced motion respected; keyboard focus visible; mobile stacks to one column.</li></ul>
+  <div class="switch"><button data-k="home">Home</button><button data-k="chapter">Chapter</button><button data-k="notes" class="on">Why this design</button></div></div>`
+};
+buildHero();document.body.insertAdjacentHTML('beforeend','<div id="thread"></div>');render();
+</script>
+</body>
+</html>
