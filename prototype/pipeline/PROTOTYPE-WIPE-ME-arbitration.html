@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prototype — arbitrage extraction / vérification</title>
+<style>
+  :root { --ink:#1c1917; --muted:#6b6259; --paper:#faf8f5; --line:#ded7cd; --accent:#8a2432; --ok:#2f6b4f; --warn:#9a6b12; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.55 Georgia,'Times New Roman',serif; }
+  main { max-width:980px; margin:0 auto; padding:36px 24px 80px; }
+  h1 { font-size:1.9rem; margin:0 0 6px; letter-spacing:-.01em }
+  .intro { color:var(--muted); max-width:70ch; margin:0 0 28px }
+  .banner { border-left:3px solid var(--accent); padding:10px 16px; background:#f4eeea; margin:0 0 28px; font-size:.93rem }
+  h2 { font-size:1.05rem; text-transform:uppercase; letter-spacing:.09em; color:var(--muted); border-bottom:1px solid var(--line); padding-bottom:8px; margin:32px 0 14px }
+  .panel { border:1px solid var(--line); background:#fff; padding:18px; }
+  .fact { border-bottom:1px solid var(--line); padding:12px 6px; cursor:pointer }
+  .fact:last-child { border-bottom:0 }
+  .fact.selected { background:#fbf3f0; box-shadow:inset 3px 0 var(--accent) }
+  .fact-head { display:flex; gap:10px; align-items:baseline; justify-content:space-between }
+  .fact-id { font:12px/1.4 ui-monospace,Consolas,monospace; color:var(--muted) }
+  .badge { font:600 11px/1.4 system-ui,sans-serif; padding:2px 8px; border-radius:10px; background:#eee; color:#444 }
+  .badge.EXTRACTED,.badge.UNDER_REVIEW { background:#f2ead8; color:var(--warn) }
+  .badge.CONFIRMED { background:#e4f1e9; color:var(--ok) }
+  .badge.DISPUTED,.badge.ESCALATED { background:#f7e2e2; color:var(--accent) }
+  .badge.EXCLUDED { background:#e8e8e8; color:#777 }
+  .quote { font-style:italic; color:#444; margin:6px 0 2px }
+  .note { font-size:.85rem; color:var(--muted) }
+  .actions { display:flex; flex-wrap:wrap; gap:8px }
+  button { font:14px/1.2 system-ui,sans-serif; padding:9px 13px; border:1px solid var(--line); background:#fff; color:var(--ink); cursor:pointer; border-radius:4px }
+  button:hover:not(:disabled) { border-color:var(--accent); color:var(--accent) }
+  button:disabled { opacity:.35; cursor:not-allowed }
+  button.primary { background:var(--ink); color:#fff; border-color:var(--ink) }
+  table { border-collapse:collapse; width:100%; font-size:.86rem }
+  th,td { text-align:left; padding:7px 9px; border-bottom:1px solid var(--line); vertical-align:top }
+  th { color:var(--muted); font-weight:600 }
+  .tabs { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px }
+  .tab { padding:7px 12px }
+  .tab.active { background:var(--ink); color:#fff; border-color:var(--ink) }
+  .scenario { background:#fff; border:1px solid var(--line); padding:18px }
+  .scenario p { margin:0 0 14px }
+  .step { display:block; width:100%; text-align:left; margin:6px 0; font-family:ui-monospace,Consolas,monospace; font-size:12px }
+  .step.done { border-color:var(--ok); color:var(--ok) }
+  .legend { font-size:.82rem; color:var(--muted); margin-top:10px }
+</style>
+</head>
+<body>
+<main>
+  <h1>Prototype — arbitrage extraction / vérification</h1>
+  <p class="intro">Ce démo laisse piloter à la main la règle qui décide si un fait extrait entre ou non dans le wiki. Clique sur un fait, puis sur une action, et regarde l'état changer. Les quatre scénarios rejouent les cas qui sont difficiles à trancher sur le papier.</p>
+  <p class="banner"><strong>Question posée :</strong> le modèle « extracteur → vérificateur indépendant → arbitrage » tient-il les cas limites (citation dérivée, alias, changement de nom, hésitation de type) sans laisser entrer de fait non vérifié — et que faut-il journaliser ?</p>
+
+  <h2>État courant</h2>
+  <div class="panel" id="facts"></div>
+  <p class="legend">Un fait n'entre dans le corpus que lorsque son état est <strong>CONFIRMED</strong>. Clique sur une ligne pour la sélectionner.</p>
+
+  <h2>Actions possibles</h2>
+  <div class="panel actions" id="actions"></div>
+
+  <h2>Journal des désaccords</h2>
+  <div class="panel"><table id="log"><thead><tr><th>Étape</th><th>Fait</th><th>Action</th><th>Détail</th></tr></thead><tbody></tbody></table></div>
+
+  <h2>Scénarios guidés</h2>
+  <div class="tabs" id="tabs"></div>
+  <div class="scenario" id="scenario"></div>
+</main>
+
+<script>
+/* ---- MODULE PUR (à extraire tel quel dans le pipeline réel) ---- */
+const TRANSITIONS = {
+  EXTRACTED:    ['START_REVIEW','EXCLUDE'],
+  UNDER_REVIEW: ['CONFIRM','DISPUTE'],
+  DISPUTED:     ['ACCEPT_CORRECTION','EXCLUDE','ESCALATE'],
+  ESCALATED:    ['HUMAN_CONFIRMS','HUMAN_REJECTS'],
+  CONFIRMED:    [],
+  EXCLUDED:     []
+};
+const LABELS = {
+  START_REVIEW:'Lancer la revue', CONFIRM:'Confirmer', DISPUTE:'Contester',
+  ACCEPT_CORRECTION:'Accepter la correction', EXCLUDE:'Exclure du corpus',
+  ESCALATE:'Escalader à un humain', HUMAN_CONFIRMS:'Décision humaine : confirmer',
+  HUMAN_REJECTS:'Décision humaine : rejeter', RESET:'Réinitialiser'
+};
+const DISAGREEMENTS = ['DISPUTE','ACCEPT_CORRECTION','ESCALATE','HUMAN_CONFIRMS','HUMAN_REJECTS','EXCLUDE'];
+
+function makeFact(id, label, quote, extra = {}) {
+  return { id, label, quote, status:'EXTRACTED', note:'', correction:null, ...extra };
+}
+function initialState() {
+  return {
+    facts: {
+      F1: makeFact('EV-0001-001','Zhou Mingrui se réveille dans la douleur',
+        'The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head'),
+      F2: makeFact('EV-0002-004','Le miroir montre une blessure au temple',
+        'A clear reflection appeared in the mirror. His temple had a grotesque wound')
+    },
+    selected:'F1', step:0, log:[]
+  };
+}
+function reduce(state, action) {
+  if (action.type === 'SELECT') return {...state, selected:action.id};
+  if (action.type === 'RESET') return { ...initialState(), ...action.state, step:0, log:[] };
+  const fact = state.facts[state.selected];
+  if (!fact) return state;
+  const legal = TRANSITIONS[fact.status] || [];
+  if (!legal.includes(action.type)) {
+    return { ...state, step:state.step+1,
+      log:[...state.log, { step:state.step+1, fact:fact.id, action:action.type, detail:`Action refusée : état ${fact.status}` }] };
+  }
+  const facts = {...state.facts};
+  const next = {...fact};
+  const step = state.step + 1;
+  let detail = '';
+  switch (action.type) {
+    case 'START_REVIEW': next.status='UNDER_REVIEW'; detail='Vérificateur en train de rouvrir la source'; break;
+    case 'CONFIRM': next.status='CONFIRMED'; next.note=action.note||'Citation retrouvée à l\'identique dans le chapitre'; break;
+    case 'DISPUTE': next.status='DISPUTED'; next.note=action.note||'Désaccord'; detail=next.note; break;
+    case 'ACCEPT_CORRECTION': next.status='CONFIRMED'; next.correction=action.correction||'Correction acceptée'; next.note=next.correction; detail=next.correction; break;
+    case 'EXCLUDE': next.status='EXCLUDED'; next.note=action.note||'Non confirmé — exclu'; detail=next.note; break;
+    case 'ESCALATE': next.status='ESCALATED'; next.note=action.note||'Arbitrage humain requis'; detail=next.note; break;
+    case 'HUMAN_CONFIRMS': next.status='CONFIRMED'; next.note='Décision humaine : confirmé'; detail=next.note; break;
+    case 'HUMAN_REJECTS': next.status='EXCLUDED'; next.note='Décision humaine : rejeté'; detail=next.note; break;
+  }
+  facts[state.selected] = next;
+  return { ...state, facts, step,
+    log: DISAGREEMENTS.includes(action.type) ? [...state.log,{step,fact:fact.id,action:action.type,detail}] : state.log };
+}
+
+/* ---- SCÉNARIOS (données de démonstration) ---- */
+const SCENARIOS = {
+  happy: {
+    title:'Chemin nominal',
+    story:'La citation de l\'extracteur est retrouvée à l\'identique dans le chapitre. Rien à arbitrer : le fait doit entrer dans le corpus.',
+    setup:null,
+    steps:[['START_REVIEW'],['CONFIRM']]
+  },
+  drift: {
+    title:'Citation dérivée',
+    story:'L\'extracteur a cité une phrase qui vient en fait d\'une note du traducteur, pas du récit. La citation est littérale mais hors corpus : le fait doit être exclu, et le désaccord journalisé.',
+    setup:{ facts:{
+      F1: makeFact('EV-0003-002','Klein armourise son apparence',
+        'TL Note: Hi, CKtalon here, the translator of LoM')
+    }, selected:'F1' },
+    steps:[['START_REVIEW'],['DISPUTE',{note:'La citation provient d\'une TL Note, pas du récit'}],['EXCLUDE',{note:'Hors corps narratif — exclu'}]]
+  },
+  alias: {
+    title:'Piège des alias',
+    story:'Deux entités ont été créées pour le même personnage : Sharon au tome 1, Sharron au tome 2. L\'ADR 0001 dit de fusionner. Le vérificateur conteste, la correction est acceptée, puis l\'autre fait est confirmé.',
+    setup:{ facts:{
+      F1: makeFact('EV-0001-010','Madam Sharon apparaît','Madam Sharon looked at him'),
+      F2: makeFact('EV-0002-021','Miss Sharron apparaît','Miss Sharron smiled back')
+    }, selected:'F1' },
+    steps:[
+      ['START_REVIEW'],
+      ['DISPUTE',{note:'Sharon et Sharron sont un seul personnage (ADR 0001)'}],
+      ['ACCEPT_CORRECTION',{correction:'Alias unifié : nom canonique Sharon, Sharron en alias'}],
+      ['SELECT','F2'],['START_REVIEW'],['CONFIRM']
+    ]
+  },
+  escalation: {
+    title:'Hésitation de type',
+    story:'« Nighthawks » est saisi comme Faction, mais le vérificateur pense qu\'il s\'agit des membres, pas de l\'organisation. Le modèle ne sait pas trancher seul : il doit escalader, jamais deviner.',
+    setup:{ facts:{
+      F1: makeFact('EV-0005-007','Les Nighthawks interviennent','The Nighthawks arrived at dawn')
+    }, selected:'F1' },
+    steps:[
+      ['START_REVIEW'],
+      ['DISPUTE',{note:'Faction ou membres ? Le texte ne tranche pas'}],
+      ['ESCALATE',{note:'Type ambigu — décision humaine requise'}],
+      ['HUMAN_CONFIRMS']
+    ]
+  }
+};
+
+/* ---- SHELL (jetable) ---- */
+let state = initialState();
+let currentScenario = 'happy';
+let progress = 0;
+const $ = id => document.getElementById(id);
+function render() {
+  $('facts').innerHTML = Object.values(state.facts).map(f => `
+    <div class="fact ${f.id===state.selected?'selected':''}" data-id="${f.id}">
+      <div class="fact-head"><span><strong>${f.label}</strong> <span class="fact-id">${f.id}</span></span>
+      <span class="badge ${f.status}">${f.status}</span></div>
+      <div class="quote">« ${f.quote} »</div>
+      ${f.note?`<div class="note">${f.note}</div>`:''}
+      ${f.correction?`<div class="note">Correction : ${f.correction}</div>`:''}
+      <div class="note">Corpus : ${f.status==='CONFIRMED'?'oui':'non'}</div>
+    </div>`).join('');
+  document.querySelectorAll('.fact').forEach(el => el.onclick = () => {
+    state = reduce(state,{type:'SELECT',id:el.dataset.id}); progress = 0; render();
+  });
+  const fact = state.facts[state.selected];
+  const legal = TRANSITIONS[fact.status] || [];
+  $('actions').innerHTML = Object.keys(LABELS).map(t =>
+    `<button data-action="${t}" ${!legal.includes(t)?'disabled':''}>${LABELS[t]}</button>`).join('') +
+    `<button class="primary" data-action="RESET">${LABELS.RESET}</button>`;
+  document.querySelectorAll('#actions button').forEach(el => el.onclick = () => {
+    state = reduce(state,{type:el.dataset.action}); render();
+  });
+  $('log').querySelector('tbody').innerHTML = state.log.map(e =>
+    `<tr><td>${e.step}</td><td>${e.fact}</td><td>${e.action}</td><td>${e.detail}</td></tr>`).join('') ||
+    '<tr><td colspan="4">Aucun désaccord journalisé.</td></tr>';
+  const s = SCENARIOS[currentScenario];
+  $('tabs').innerHTML = Object.entries(SCENARIOS).map(([k,v]) =>
+    `<button class="tab ${k===currentScenario?'active':''}" data-scenario="${k}">${v.title}</button>`).join('');
+  document.querySelectorAll('.tab').forEach(el => el.onclick = () => {
+    currentScenario = el.dataset.scenario; progress = 0;
+    state = reduce(state,{type:'RESET',state:SCENARIOS[currentScenario].setup||{}}); render();
+  });
+  $('scenario').innerHTML = `<p>${s.story}</p>` + s.steps.map((args,i) => {
+    const [type,opts] = args;
+    const label = type==='SELECT' ? `Sélectionner ${opts}` : LABELS[type];
+    return `<button class="step ${i<progress?'done':''}" data-step="${i}" ${i!==progress?'disabled':''}>
+      ${i+1}. ${label}${opts&&type!=='SELECT'?` — ${opts.note||opts.correction||''}`:''}</button>`;
+  }).join('');
+  document.querySelectorAll('.step').forEach(el => el.onclick = () => {
+    const [type,opts] = SCENARIOS[currentScenario].steps[+el.dataset.step];
+    state = reduce(state, type==='SELECT' ? {type, id:opts} : {type, ...(opts||{})});
+    progress++; render();
+  });
+}
+state = reduce(state,{type:'RESET',state:SCENARIOS.happy.setup||{}});
+render();
+</script>
+</body>
+</html>
