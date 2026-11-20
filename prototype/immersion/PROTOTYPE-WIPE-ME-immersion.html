@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE — immersion, three gestures</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23070605'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%236d1f2b' stroke-width='2'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:Cormorant;src:url('fonts/cormorant-roman.woff2') format('woff2');font-weight:400 700;font-display:swap}
+@font-face{font-family:Cormorant;src:url('fonts/cormorant-italic.woff2') format('woff2');font-weight:400 700;font-style:italic;font-display:swap}
+@font-face{font-family:Spectral;src:url('fonts/spectral-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Spectral;src:url('fonts/spectral-500.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:Spectral;src:url('fonts/spectral-italic.woff2') format('woff2');font-weight:400;font-style:italic;font-display:swap}
+:root{--ink:#070605;--vellum:#e9e1d0;--gold:#b9952f;--oxblood:#6d1f2b;--ash:#a89f8e;--veil:#14100d;--line:#2c261f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ink);color:var(--vellum);font:400 1.0625rem/1.75 Spectral,Georgia,serif;padding-bottom:60px}
+button,input{font:inherit;color:inherit}
+button:focus-visible,input:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+#progress{position:fixed;top:0;left:0;height:2px;background:var(--gold);width:0;z-index:100;transition:width .12s linear}
+#thread{position:fixed;inset:0;width:100vw;height:100vh;pointer-events:none;z-index:20}
+.topbar{display:flex;align-items:baseline;gap:22px;padding:22px 34px 16px;border-bottom:1px solid var(--line)}
+.brand{font:500 1.45rem/1 Cormorant,serif;letter-spacing:.02em}
+.topbar small{color:var(--ash);font-size:.8125rem}
+.screens{display:flex;gap:6px;padding:8px 30px;border-bottom:1px solid var(--line)}
+.screens button{background:none;border:1px solid transparent;color:var(--ash);padding:11px 16px;cursor:pointer;font-size:.8125rem;min-height:44px}
+.screens button.on{color:var(--vellum);border-color:var(--line)}
+.stage{max-width:1180px;margin:0 auto;padding:34px}
+.note{color:var(--ash);font-size:.875rem;margin:0 0 18px;max-width:70ch}
+h1{font:500 3rem/1.05 Cormorant,serif;margin:0 0 10px}
+h1::first-letter{font-size:4.6rem;color:var(--gold);float:left;line-height:.76;padding:8px 12px 0 0}
+.kicker{font-size:.8125rem;color:var(--ash);margin-bottom:18px}
+.kicker::after{content:'';display:block;width:46px;border-top:1px solid var(--gold);margin:12px 0 0;opacity:.6}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:56px}
+.prose p{margin:0 0 1.05em;line-height:1.85;max-width:66ch}
+.entity{border-bottom:1px dotted var(--gold);cursor:pointer;padding:0 1px}
+.proofable{border-bottom:1px solid var(--oxblood);cursor:pointer}
+.margin{border-left:1px solid var(--line);padding-left:18px}
+.gloss{border-left:1px solid var(--oxblood);background:var(--veil);padding:11px 14px;margin-bottom:18px;font-size:.875rem;line-height:1.6}
+.gloss b{display:block;color:var(--gold);font-weight:500;font-size:.75rem}
+.gloss q{font-style:italic;color:#d8ccb7;display:block;margin:6px 0}
+.gloss small,.ledger{color:var(--ash);font-size:.8125rem}
+.echo{display:inline-block;margin-top:8px;border:1px solid var(--line);padding:5px 9px;font-size:.75rem;color:var(--ash);cursor:pointer;background:none;min-height:32px}
+.echo:hover{color:var(--gold);border-color:var(--gold)}
+.cta{margin-top:30px;border-top:1px solid var(--line);padding-top:18px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.cta button{background:none;border:1px solid var(--gold);color:var(--gold);padding:10px 15px;cursor:pointer;font-size:.875rem;min-height:44px}
+#query{display:block;width:100%;background:transparent;border:0;border-bottom:1px solid var(--gold);color:var(--vellum);font:500 2rem/1.4 Cormorant,serif;padding:8px 0;outline:none;margin:14px 0 24px}
+#query:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+#query::placeholder{color:#6d6559}
+.spread{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{border:1px solid var(--line);background:var(--veil);padding:16px;min-height:150px;cursor:pointer;text-align:left;width:100%}
+.card:hover,.card:focus{border-color:var(--gold)}
+.card .sig{font:400 1.6rem/1 Cormorant,serif;color:var(--gold)}
+.card h3{font:500 1.35rem/1.2 Cormorant,serif;margin:12px 0 6px}
+.card .alias{color:var(--ash);font-size:.8rem}
+.card .meta{position:relative;bottom:0;color:var(--ash);font-size:.75rem;border-top:1px solid var(--line);padding-top:8px;margin-top:14px}
+.plain{display:none}.plain.on{display:block}.spread.off{display:none}
+.plain div{padding:9px 0;border-bottom:1px solid var(--line);font-size:.9rem}
+.moonwrap{display:flex;gap:38px;align-items:center;margin-bottom:30px}
+.moon{width:112px;height:112px;border-radius:50%;border:1px solid var(--oxblood);
+ background:radial-gradient(circle at 40% 38%,#6d1f2b66,#2a0f12 70%);box-shadow:0 0 44px #6d1f2b33;flex:none}
+.moontext h1{font-size:2.7rem}
+.deck{display:grid;grid-template-columns:repeat(7,1fr);gap:9px;margin-top:22px}
+.arc{border:1px solid var(--line);background:var(--veil);min-height:112px;padding:10px;text-align:center;font:400 1.05rem/1.2 Cormorant,serif;color:var(--ash)}
+.arc.show{color:var(--vellum);border-color:var(--oxblood)}
+.arc small{display:block;font:400 .7rem Spectral,serif;color:var(--ash);margin-top:8px}
+.drawer{position:fixed;top:0;right:0;height:100vh;width:min(460px,100vw);background:var(--veil);border-left:1px solid var(--gold);
+ padding:38px 32px;transform:translateX(105%);transition:transform .3s ease;z-index:50;box-shadow:-20px 0 60px #0009}
+.drawer.open{transform:translateX(0)}
+.drawer h2{font:500 2.1rem/1.1 Cormorant,serif;margin:0 0 12px}
+.drawer q{display:block;font:italic 1.25rem/1.6 Cormorant,serif;color:var(--vellum)}
+.drawer .ref{color:var(--ash);font-size:.8125rem;margin-top:18px;border-top:1px solid var(--line);padding-top:14px}
+.drawer button{margin-top:24px;background:none;border:1px solid var(--line);color:var(--vellum);padding:10px 14px;cursor:pointer;font-size:.875rem;min-height:44px}
+@media(max-width:820px){.cols{grid-template-columns:1fr}.spread{grid-template-columns:repeat(2,1fr)}.deck{grid-template-columns:repeat(3,1fr)}.moonwrap{flex-direction:column;align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div id="progress" aria-hidden="true"></div>
+<svg id="thread" aria-hidden="true"></svg>
+<header class="topbar"><span class="brand">Lord of the Mysteries</span><small id="crumb"></small></header>
+<nav class="screens" id="screens" aria-label="Sections"></nav>
+<main class="stage" id="stage"></main>
+<aside class="drawer" id="drawer" role="dialog" aria-label="Source" aria-modal="false">
+  <h2>The Testimony</h2>
+  <q id="dquote"></q>
+  <div class="ref" id="dref"></div>
+  <button id="dclose" type="button">Return to the chapter (Esc)</button>
+</aside>
+<script>
+const SCREENS=[{key:'chapter',label:'Chapter'},{key:'second',label:'Chapter 2'},{key:'search',label:'Search'},{key:'drawing',label:'Drawing'},{key:'proof',label:'Proof'}];
+const CRUMB={chapter:'The Margin · First Naming',second:'The Trail · a second chapter',search:'The Invocation',drawing:'The Drawing',proof:'The Testimony'};
+const NAMES=[
+ {name:'Klein Moretti',alias:'Klein',note:'also written Klein in the text'},
+ {name:'Sharron',alias:'Sharon',note:'Sharon in volume 1, Sharron from volume 2'},
+ {name:'Alger Wilson',alias:'',note:'called Mr. Hanged Man'},
+ {name:'Shermane',alias:'Sherman',note:'Sherman until chapter 999, then Shermane'},
+ {name:'Audrey Hall',alias:'',note:'called Miss Justice'},
+ {name:'Emlyn White',alias:'',note:'called Mr. Hierophant'},
+ {name:'Cattleya',alias:'',note:'called Mrs. Wheel of Fortune'},
+ {name:'Mr. Fool',alias:'Mr Fool',note:'punctuation variant in the text'}
+];
+const EVIDENCE={
+ 'EV-0001-001':{quote:'The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head',ref:'Volume 1, chapter 1 — Crimson'},
+ 'EV-0001-002':{quote:'Is this the present me? Klein Moretti?',ref:'Volume 1, chapter 1 — Crimson'},
+ 'EV-0001-003':{quote:'A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.',ref:'Volume 1, chapter 1 — Crimson'}
+};
+let screen='chapter',lastOpener=null;
+function render(){
+ document.getElementById('crumb').textContent=CRUMB[screen];
+ document.getElementById('screens').innerHTML=SCREENS.map(s=>`<button data-screen="${s.key}" class="${s.key===screen?'on':''}" ${s.key===screen?'aria-current="page"':''}>${s.label}</button>`).join('');
+ document.querySelectorAll('#screens button').forEach(b=>b.onclick=()=>go(b.dataset.screen,true));
+ document.getElementById('stage').innerHTML=({chapter:chapterScreen,second:secondScreen,search:searchScreen,drawing:drawingScreen,proof:proofScreen})[screen]();
+ wire();
+}
+function go(s,keepFocus){screen=s;closeDrawer();render();if(keepFocus){const b=document.querySelector('#screens button.on');if(b)b.focus()}}
+function chapterScreen(){return `<p class="note">First Naming — a name is glossed once. Touch it, and the margin answers.</p>
+ <div class="kicker">Volume 1, Clown</div><h1>Chapter 1: Crimson</h1>
+ <div class="cols"><div class="prose">
+  <p>Painful! How painful! My head hurts so badly!</p>
+  <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button" aria-label="Show the gloss for Zhou Mingrui" data-gloss="g1">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+  <p>He sat before a mirror. The reflection did not belong to the man he remembered. <span class="entity" tabindex="0" role="button" aria-label="Show the gloss for Klein Moretti" data-gloss="g2">Klein Moretti</span> looked back at him from the glass.</p>
+  <p><span class="proofable" tabindex="0" role="button" data-ev="EV-0001-003">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+  <div class="cta"><button type="button" id="tocontinue">Continue reading — chapter 2</button><span class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</span></div>
+ </div><div class="margin" id="margin">
+  <div class="gloss" id="g1"><b>First Naming · EV-0001-001</b>Zhou Mingrui — the name before the mask.<q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q><small>Volume 1, chapter 1</small><br><button class="echo" type="button" data-echo="Sharron">? the same name returns in volume 2</button></div>
+  <div class="gloss" id="g2"><b>First Naming · EV-0001-002</b>Klein Moretti — also written Klein.<q>Is this the present me? Klein Moretti?</q><small>Volume 1, chapter 1</small></div>
+ </div></div>`;}
+function secondScreen(){return `<p class="note">The Trail — an entity's appearances, in the order the text gives them.</p>
+ <div class="kicker">Volume 1, Clown</div><h1>Chapter 2: Situation</h1>
+ <div class="cols"><div class="prose">
+  <p class="ledger">Excerpt from the source text.</p>
+  <p>Tap! Tap! Tap! Zhou Mingrui reeled back in fear at the sight that gre&hellip;</p>
+  <div class="cta"><button type="button" id="back1">Return to chapter 1</button><span class="ledger">The trail continues through chapters 1, 2 and 3.</span></div>
+ </div><div class="margin"><div class="gloss"><b>EV-0001-001 · carried forward</b>Zhou Mingrui appears again.<small>The trail is made of mentions, ordered by chapter.</small></div></div></div>`;}
+function searchScreen(){return `<p class="note">The Invocation — type any name the text has used. Its other forms are known.</p>
+ <h1>Speak a name</h1>
+ <input id="query" value="Sharon" aria-label="Search a name" placeholder="a name from the text">
+ <div class="spread" id="spread"></div><div class="plain" id="plain"></div>
+ <div class="cta"><button type="button" id="veil" aria-pressed="false">Lift the veil — show the plain list</button><span class="ledger" id="scount"></span></div>`;}
+function drawingScreen(){return `<p class="note">The Drawing — the same names for everyone today. Only the archive. No prediction.</p>
+ <div class="moonwrap"><div class="moon" aria-hidden="true"></div><div class="moontext"><div class="kicker">Today's draw · <span id="today"></span> UTC</div><h1>Seven names the archive puts forward</h1>
+ <div class="cta" style="margin-top:8px;border:0;padding:0"><button type="button" id="turndraw">Reveal today's names</button><span class="ledger">22 ways of the ritual</span></div></div></div>
+ <div class="deck" id="deck" aria-live="polite"></div>
+ <div class="cta"><span class="ledger">The same seven names for every visitor on a given day. Tomorrow, another seven.</span></div>`;}
+function proofScreen(){return `<p class="note">The Testimony — touch an underlined line to see the sentence it comes from.</p>
+ <div class="kicker">Volume 1, Clown</div><h1>Chapter 1: Crimson</h1>
+ <div class="prose" style="max-width:70ch">
+  <p>Ouch... In his stupor, Zhou Mingrui attempted to turn around, look up, and sit up; however, he was completely unable to move his limbs as though he had lost control over his body.</p>
+  <p><span class="proofable" tabindex="0" role="button" data-ev="EV-0001-003">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span> Blood stained the wound's surroundings and there were grayish-white brain juices squirming slowly within.</p>
+  <p class="ledger">The line is underlined in oxblood. Click it, or focus it and press Enter.</p>
+ </div>`;}
+function applyFilter(){
+ const q=document.getElementById('query').value.trim().toLowerCase();
+ const hits=NAMES.filter(n=>(n.name+' '+n.alias).toLowerCase().includes(q));
+ const glyphs=['&#9790;','&#10022;','&#10023;','&#9737;','&#9790;','&#10022;','&#10023;','&#9737;'];
+ document.getElementById('spread').innerHTML=hits.length?hits.map((n,i)=>`<button class="card" type="button" data-name="${n.name}">
+  <span class="sig">${glyphs[i%4]}</span><h3>${n.name}</h3><div class="alias">${n.note}</div>
+  <div class="meta">${n.alias?'also: '+n.alias:'exactly as written in the text'}</div></button>`).join(''):'<p class="ledger">No name in the archive matches that. Try Sharon, Klein, or Fool.</p>';
+ document.getElementById('plain').innerHTML=hits.length?hits.map(n=>`<div>${n.name} — ${n.note}</div>`).join(''):'<div>No match.</div>';
+ document.getElementById('scount').textContent=hits.length+' '+(hits.length===1?'name':'names')+' found. Alias forms resolved.';
+ document.querySelectorAll('.card').forEach(c=>c.onclick=()=>go('chapter',true));
+}
+function wire(){
+ if(screen==='chapter'){
+  document.querySelectorAll('.entity').forEach(el=>{
+   const show=()=>{const g=document.getElementById(el.dataset.gloss);const a=el.getBoundingClientRect(),b=g.getBoundingClientRect();
+    document.getElementById('thread').innerHTML=`<path d="M ${a.right} ${a.top+a.height/2} C ${a.right+40} ${a.top+a.height/2}, ${b.left-40} ${b.top+20}, ${b.left} ${b.top+20}" fill="none" stroke="#b9952f" stroke-width="1" opacity=".8"/>`;};
+   const hide=()=>document.getElementById('thread').innerHTML='';
+   el.addEventListener('mouseenter',show);el.addEventListener('focus',show);el.addEventListener('click',show);
+   el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show()}});
+   el.addEventListener('mouseleave',hide);el.addEventListener('blur',hide);
+  });
+  document.querySelectorAll('.echo').forEach(e=>e.onclick=()=>{screen='search';render();const q=document.getElementById('query');q.value=e.dataset.echo;applyFilter();q.focus()});
+  document.getElementById('tocontinue').onclick=()=>go('second',true);
+ }
+ if(screen==='second')document.getElementById('back1').onclick=()=>go('chapter',true);
+ if(screen==='search'){
+  document.getElementById('query').addEventListener('input',applyFilter);applyFilter();
+  const v=document.getElementById('veil');
+  v.onclick=()=>{const on=document.getElementById('plain').classList.toggle('on');document.getElementById('spread').classList.toggle('off',on);
+   v.setAttribute('aria-pressed',String(on));v.textContent=on?'Return to the spread':'Lift the veil — show the plain list'};
+ }
+ if(screen==='drawing'){
+  const d=new Date(),key=d.getUTCFullYear()+'-'+String(d.getUTCMonth()+1).padStart(2,'0')+'-'+String(d.getUTCDate()).padStart(2,'0');
+  document.getElementById('today').textContent=key;
+  document.getElementById('turndraw').onclick=()=>{
+   const pool=NAMES.slice();let h=0;for(const c of key)h=(h*31+c.charCodeAt(0))>>>0;let s=h||1;
+   const rnd=()=>{s^=s<<13;s>>>=0;s^=s>>17;s^=s<<5;s>>>=0;return s/4294967296};
+   for(let i=pool.length-1;i>0;i--){const j=Math.floor(rnd()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
+   document.getElementById('deck').innerHTML=pool.map(n=>`<div class="arc show">${n.name}<small>${n.note||'as written'}</small></div>`).join('')
+   +Array.from({length:14},()=>'<div class="arc" aria-hidden="true">&#10022;</div>').join('');
+  };
+ }
+ document.querySelectorAll('.proofable').forEach(el=>{
+  const open=()=>{const e=EVIDENCE[el.dataset.ev];lastOpener=el;
+   document.getElementById('dquote').textContent=e.quote;
+   document.getElementById('dref').textContent=e.ref+' · '+el.dataset.ev+' · evidence verified';
+   document.getElementById('drawer').classList.add('open');document.getElementById('dclose').focus()};
+  el.onclick=open;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open()}};
+ });
+}
+function closeDrawer(){document.getElementById('drawer').classList.remove('open');if(lastOpener){lastOpener.focus();lastOpener=null}}
+document.getElementById('dclose').onclick=closeDrawer;
+addEventListener('keydown',e=>{if(e.key==='Escape')closeDrawer()});
+addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-innerHeight;
+ document.getElementById('progress').style.width=(h>0?Math.min(100,scrollY/h*100):0)+'%'},{passive:true});
+render();
+</script>
+</body>
+</html>
