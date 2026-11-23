@@ -29,7 +29,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -103,7 +103,7 @@
       "tags": []
     },
     {
-      "id": "E-ricciardo-8c4e62",
+      "id": "E-fate-councilor-ricciardo-f12b56",
       "canonical_name": "Ricciardo",
       "primary_type": "Character",
       "aliases": [
@@ -490,7 +490,7 @@
     },
     {
       "id": "MEN-0675-004",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0675-005",
         "EV-0675-006",
@@ -574,7 +574,7 @@
     },
     {
       "id": "MEN-0675-015",
-      "entity": "E-ricciardo-8c4e62",
+      "entity": "E-fate-councilor-ricciardo-f12b56",
       "evidence_ids": [
         "EV-0675-018"
       ]
@@ -646,7 +646,7 @@
       "id": "EVT-0675-003",
       "label": "Anderson nearly chokes and uses a straw doll to save himself",
       "participants": [
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0675-006",
@@ -657,7 +657,7 @@
       "id": "EVT-0675-004",
       "label": "Anderson asks Gehrman Sparrow for help with his bad luck",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc"
       ],
       "evidence_ids": [
@@ -721,7 +721,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0675",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -757,7 +757,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "C0675",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

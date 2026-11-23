@@ -64,7 +64,7 @@
       "tags": []
     },
     {
-      "id": "E-pinster-street-7a2c56",
+      "id": "E-7-pinster-street-1d3d02",
       "canonical_name": "Pinster Street",
       "primary_type": "Location",
       "aliases": [],
@@ -523,7 +523,7 @@
     },
     {
       "id": "MEN-0980-007",
-      "entity": "E-pinster-street-7a2c56",
+      "entity": "E-7-pinster-street-1d3d02",
       "evidence_ids": [
         "EV-0980-005"
       ]
@@ -775,7 +775,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-pinster-street-7a2c56",
+      "source": "E-7-pinster-street-1d3d02",
       "target": "C0980",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -931,7 +931,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-dwayne-802dcc",
-      "target": "E-pinster-street-7a2c56",
+      "target": "E-7-pinster-street-1d3d02",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0980-005"
@@ -1028,7 +1028,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-pinster-street-7a2c56",
+      "source": "E-7-pinster-street-1d3d02",
       "target": "E-leonard-2c8d91",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

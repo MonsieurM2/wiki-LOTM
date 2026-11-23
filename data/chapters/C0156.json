@@ -139,7 +139,7 @@
       "tags": []
     },
     {
-      "id": "E-family-servant-assistance-association-8e5b31",
+      "id": "E-family-servant-assistance-association-24ff92",
       "canonical_name": "Family Servant Assistance Association",
       "primary_type": "Faction",
       "aliases": [
@@ -496,7 +496,7 @@
     },
     {
       "id": "MEN-0156-011",
-      "entity": "E-family-servant-assistance-association-8e5b31",
+      "entity": "E-family-servant-assistance-association-24ff92",
       "evidence_ids": [
         "EV-0156-010",
         "EV-0156-011",
@@ -639,7 +639,7 @@
       "id": "EVT-0156-005",
       "label": "The family goes to the Family Servant Assistance Association on Champagne Street",
       "participants": [
-        "E-family-servant-assistance-association-8e5b31",
+        "E-family-servant-assistance-association-24ff92",
         "E-champagne-street-1cd7ca",
         "E-benson-3c1a7f",
         "E-melissa-9d2e41",
@@ -765,7 +765,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-family-servant-assistance-association-8e5b31",
+      "source": "E-family-servant-assistance-association-24ff92",
       "target": "C0156",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -904,7 +904,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-family-servant-assistance-association-8e5b31",
+      "source": "E-family-servant-assistance-association-24ff92",
       "target": "E-champagne-street-1cd7ca",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

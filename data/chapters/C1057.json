@@ -45,7 +45,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -611,7 +611,7 @@
     },
     {
       "id": "MEN-1057-005",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1057-014"
       ]
@@ -942,7 +942,7 @@
       "id": "EVT-1057-007",
       "label": "Amidst high tea, Klein took note of the time and went to the bathroom.",
       "participants": [
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-blood_ruins-d895fa",
         "E-dreamwalker-5c1e73",
         "E-ch0529-000018",
@@ -1021,7 +1021,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1057",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

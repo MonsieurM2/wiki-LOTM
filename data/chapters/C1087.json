@@ -89,7 +89,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -593,7 +593,7 @@
     },
     {
       "id": "MEN-1087-010",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1087-006"
       ]
@@ -768,7 +768,7 @@
         "E-emperor-roselle-664e32",
         "E-uniqueness-041c3e",
         "E-black-emperor-5d2b64",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-backlund-east-borough-d14056",
         "E-balam-crown-1a2b5b",
         "E-loen-9b37f2"
@@ -953,7 +953,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1087",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

@@ -82,7 +82,7 @@
       "tags": []
     },
     {
-      "id": "E-leodero-649907",
+      "id": "E-card-of-blasphemy-4a9d21",
       "canonical_name": "Tyrant",
       "primary_type": "Concept",
       "aliases": [],
@@ -557,7 +557,7 @@
     },
     {
       "id": "MEN-0984-009",
-      "entity": "E-leodero-649907",
+      "entity": "E-card-of-blasphemy-4a9d21",
       "evidence_ids": [
         "EV-0984-006"
       ]
@@ -690,7 +690,7 @@
         "E-medici-3a9d61",
         "E-paper-angel-3f7b62",
         "E-black-emperor-5d2b64",
-        "E-leodero-649907"
+        "E-card-of-blasphemy-4a9d21"
       ],
       "evidence_ids": [
         "EV-0984-001",
@@ -867,7 +867,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leodero-649907",
+      "source": "E-card-of-blasphemy-4a9d21",
       "target": "C0984",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

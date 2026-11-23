@@ -243,7 +243,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [
@@ -714,7 +714,7 @@
     },
     {
       "id": "MEN-1012-023",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-1012-014"
       ]
@@ -816,7 +816,7 @@
         "E-dwayne-802dcc",
         "E-king-of-yellow-and-black-a14014",
         "E-worm-of-time-134600",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-audrey-hall-2b8d31",
         "E-leonard-2c8d91",
         "E-ian-wright-26ac8e",
@@ -1046,7 +1046,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C1012",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

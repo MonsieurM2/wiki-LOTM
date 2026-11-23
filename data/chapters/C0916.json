@@ -146,7 +146,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -553,7 +553,7 @@
     },
     {
       "id": "MEN-0916-015",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0916-018"
       ]
@@ -640,7 +640,7 @@
       "label": "Klein resolves to use the Fate Siphon charm to swap fates with Azik",
       "participants": [
         "E-dwayne-802dcc",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-death-consul-2e6b71"
       ],
       "evidence_ids": [
@@ -791,7 +791,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0916",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

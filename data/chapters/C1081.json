@@ -103,7 +103,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -550,7 +550,7 @@
     },
     {
       "id": "MEN-1081-013",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1081-016"
       ]
@@ -675,7 +675,7 @@
         "E-medici-3a9d61",
         "E-dwayne-802dcc",
         "E-card-of-blasphemy-4a9d21",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-ch0529-000018",
         "E-death-6097f8"
       ],
@@ -816,7 +816,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1081",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

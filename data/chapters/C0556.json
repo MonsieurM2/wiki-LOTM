@@ -64,7 +64,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [
@@ -467,7 +467,7 @@
     },
     {
       "id": "MEN-0556-007",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0556-007"
       ]
@@ -572,7 +572,7 @@
         "E-arrodes-29353d",
         "E-seer-2e2bc5",
         "E-gray-fog-3a7d64",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0556-004",
@@ -679,7 +679,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0556",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

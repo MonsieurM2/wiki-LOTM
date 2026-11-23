@@ -30,7 +30,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -446,7 +446,7 @@
     },
     {
       "id": "MEN-0658-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0658-001",
         "EV-0658-002",
@@ -586,7 +586,7 @@
       "label": "Klein and Anderson spot the Black Tulip, the flagship of Admiral Hell Ludwell",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-black-tulip-4f7a92",
         "E-admiral-hell-ludwell-9e2b41",
         "E-loen-9b37f2",
@@ -627,7 +627,7 @@
       "id": "EVT-0658-004",
       "label": "Anderson Hood intercepts the Black Tulip's cannon fire with Fire Ravens",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-black-tulip-4f7a92"
       ],
       "evidence_ids": [
@@ -664,7 +664,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0658",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

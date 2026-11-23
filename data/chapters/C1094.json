@@ -209,7 +209,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -647,7 +647,7 @@
     },
     {
       "id": "MEN-1094-022",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-1094-016"
       ]
@@ -851,7 +851,7 @@
       "id": "EVT-1094-016",
       "label": "Klein awaits Anderson and Danitz",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-dwayne-802dcc"
       ],
@@ -1073,7 +1073,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C1094",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1268,7 +1268,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-blazing-danitz-a1b2cd",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1278,7 +1278,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [

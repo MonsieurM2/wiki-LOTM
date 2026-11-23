@@ -29,7 +29,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -448,7 +448,7 @@
     },
     {
       "id": "MEN-0657-003",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0657-007",
         "EV-0657-013",
@@ -600,7 +600,7 @@
         "E-creeping-hunger-000009",
         "E-murloc-5e15d0",
         "E-death-consul-2e6b71",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0657-007",
@@ -614,7 +614,7 @@
       "label": "Cattleya and Anderson trap and shatter the monster as a Reaper",
       "participants": [
         "E-cattleya-3e8f15",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-reaper-ac546f"
       ],
       "evidence_ids": [
@@ -684,7 +684,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0657",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -839,7 +839,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-cattleya-3e8f15",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "RELATED_TO",
       "label": "Cattleya imprisons the monster while Anderson strikes it with Reaper flames",
       "evidence_ids": [

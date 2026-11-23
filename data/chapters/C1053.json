@@ -88,7 +88,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -658,7 +658,7 @@
     },
     {
       "id": "MEN-1053-009",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1053-014"
       ]
@@ -982,7 +982,7 @@
         "E-arianna-2b3c4d",
         "E-backlund-7a4d86",
         "E-barros-1f1422",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-blood_ruins-d895fa",
         "E-eric-299884",
         "E-four_kings-99eef9",
@@ -1102,7 +1102,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1053",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

@@ -71,7 +71,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -583,7 +583,7 @@
     },
     {
       "id": "MEN-0938-008",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0938-007"
       ]
@@ -753,7 +753,7 @@
       "label": "Danitz and Anderson conduct surveillance in West Balam while Klein watches",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc"
       ],
       "evidence_ids": [
@@ -898,7 +898,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0938",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

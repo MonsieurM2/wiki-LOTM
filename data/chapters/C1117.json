@@ -144,7 +144,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -464,7 +464,7 @@
     },
     {
       "id": "MEN-1117-010",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": []
     }
   ],
@@ -618,7 +618,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1117",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -677,7 +677,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-1117-014"

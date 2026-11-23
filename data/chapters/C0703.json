@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [],
@@ -466,7 +466,7 @@
   "mentions": [
     {
       "id": "MEN-0703-001",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0703-001",
         "EV-0703-002",
@@ -678,7 +678,7 @@
       "id": "EVT-0703-001",
       "label": "Anderson proposes burials and the companions divide the Beyonder characteristics",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-ch0523-000020",
         "E-dwayne-802dcc",
         "E-blazing-danitz-a1b2cd",

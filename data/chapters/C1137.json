@@ -228,7 +228,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [
@@ -805,7 +805,7 @@
     },
     {
       "id": "MEN-1137-029",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1137-013"
       ]
@@ -942,7 +942,7 @@
         "E-trunsoest-empire-57bf27",
         "E-tudor-dynasty-5802ed",
         "E-solomon-empire-29eeff",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-black-emperor-5d2b64",
         "E-rose-redemption-3639b7",
         "E-ch0529-000018",
@@ -1230,7 +1230,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1137",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

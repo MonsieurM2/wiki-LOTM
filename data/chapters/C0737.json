@@ -7,28 +7,28 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-danitz-7a3c11",
+      "id": "E-blazing-danitz-a1b2cd",
       "canonical_name": "Danitz",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-gehrman-sparrow-7a5007",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Gehrman Sparrow",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-admiral-of-blood-a1b2cc",
+      "id": "E-admiral-blood-cf2b52",
       "canonical_name": "Admiral of Blood",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-senor-5e8b34",
+      "id": "E-admiral-blood-cf2b52",
       "canonical_name": "Senor",
       "primary_type": "Character",
       "aliases": [],
@@ -49,56 +49,56 @@
       "tags": []
     },
     {
-      "id": "E-red-theater-a6a63e",
+      "id": "E-ch0523-000021",
       "canonical_name": "Red Theater",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-intis-7e5d1d",
+      "id": "E-ch0529-000019",
       "canonical_name": "Intis",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-feysac-59f2e1",
+      "id": "E-ch0529-000020",
       "canonical_name": "Feysac",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-feynapotter-36bd9c",
+      "id": "E-feynapotter-05936d",
       "canonical_name": "Feynapotter",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-anderson-hood-311134",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-the-fool-22e598",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "The Fool",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-seven-pirate-admirals-ff9864",
+      "id": "E-seven-admirals-a1b2f6",
       "canonical_name": "Seven Pirate Admirals",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-elland-262cdf",
+      "id": "E-captain-elland-a1b2c3",
       "canonical_name": "Elland",
       "primary_type": "Character",
       "aliases": [],
@@ -119,7 +119,7 @@
       "tags": []
     },
     {
-      "id": "E-bansy-harbor-ae885c",
+      "id": "E-bansy-98973a",
       "canonical_name": "Bansy Harbor",
       "primary_type": "Location",
       "aliases": [
@@ -130,7 +130,7 @@
       "tags": []
     },
     {
-      "id": "E-bayam-city-26bb8c",
+      "id": "E-bayam-3c7d52",
       "canonical_name": "Bayam",
       "primary_type": "Location",
       "aliases": [],
@@ -158,14 +158,14 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-dwayne-dantès-665674",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Dwayne Dantès",
       "primary_type": "Character",
       "aliases": [
@@ -183,7 +183,7 @@
       "tags": []
     },
     {
-      "id": "E-radio-transceiver-a74052",
+      "id": "E-ch0523-000005",
       "canonical_name": "radio transceiver",
       "primary_type": "Artifact",
       "aliases": [],
@@ -197,14 +197,14 @@
       "tags": []
     },
     {
-      "id": "E-cherwood-borough-b84faa",
+      "id": "E-ch0523-000007",
       "canonical_name": "Cherwood Borough",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-city-family-servant-assistance-association-6c4086",
+      "id": "E-city-family-servant-assistance-association-0f182b",
       "canonical_name": "City Family Servant Assistance Association",
       "primary_type": "Faction",
       "aliases": [],
@@ -490,7 +490,7 @@
   "mentions": [
     {
       "id": "MEN-0737-001",
-      "entity": "E-danitz-7a3c11",
+      "entity": "E-blazing-danitz-a1b2cd",
       "evidence_ids": [
         "EV-0737-001",
         "EV-0737-006",
@@ -500,7 +500,7 @@
     },
     {
       "id": "MEN-0737-002",
-      "entity": "E-gehrman-sparrow-7a5007",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0737-001",
         "EV-0737-002",
@@ -514,7 +514,7 @@
     },
     {
       "id": "MEN-0737-003",
-      "entity": "E-admiral-of-blood-a1b2cc",
+      "entity": "E-admiral-blood-cf2b52",
       "evidence_ids": [
         "EV-0737-001",
         "EV-0737-007",
@@ -523,7 +523,7 @@
     },
     {
       "id": "MEN-0737-004",
-      "entity": "E-senor-5e8b34",
+      "entity": "E-admiral-blood-cf2b52",
       "evidence_ids": [
         "EV-0737-007",
         "EV-0737-008"
@@ -546,56 +546,56 @@
     },
     {
       "id": "MEN-0737-007",
-      "entity": "E-red-theater-a6a63e",
+      "entity": "E-ch0523-000021",
       "evidence_ids": [
         "EV-0737-004"
       ]
     },
     {
       "id": "MEN-0737-008",
-      "entity": "E-intis-7e5d1d",
+      "entity": "E-ch0529-000019",
       "evidence_ids": [
         "EV-0737-005"
       ]
     },
     {
       "id": "MEN-0737-009",
-      "entity": "E-feysac-59f2e1",
+      "entity": "E-ch0529-000020",
       "evidence_ids": [
         "EV-0737-005"
       ]
     },
     {
       "id": "MEN-0737-010",
-      "entity": "E-feynapotter-36bd9c",
+      "entity": "E-feynapotter-05936d",
       "evidence_ids": [
         "EV-0737-005"
       ]
     },
     {
       "id": "MEN-0737-011",
-      "entity": "E-anderson-hood-311134",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0737-006"
       ]
     },
     {
       "id": "MEN-0737-012",
-      "entity": "E-the-fool-22e598",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0737-009"
       ]
     },
     {
       "id": "MEN-0737-013",
-      "entity": "E-seven-pirate-admirals-ff9864",
+      "entity": "E-seven-admirals-a1b2f6",
       "evidence_ids": [
         "EV-0737-008"
       ]
     },
     {
       "id": "MEN-0737-014",
-      "entity": "E-elland-262cdf",
+      "entity": "E-captain-elland-a1b2c3",
       "evidence_ids": [
         "EV-0737-010",
         "EV-0737-011",
@@ -622,7 +622,7 @@
     },
     {
       "id": "MEN-0737-017",
-      "entity": "E-bansy-harbor-ae885c",
+      "entity": "E-bansy-98973a",
       "evidence_ids": [
         "EV-0737-012",
         "EV-0737-013"
@@ -630,7 +630,7 @@
     },
     {
       "id": "MEN-0737-018",
-      "entity": "E-bayam-city-26bb8c",
+      "entity": "E-bayam-3c7d52",
       "evidence_ids": [
         "EV-0737-015"
       ]
@@ -658,7 +658,7 @@
     },
     {
       "id": "MEN-0737-022",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0737-017",
         "EV-0737-018",
@@ -668,7 +668,7 @@
     },
     {
       "id": "MEN-0737-023",
-      "entity": "E-dwayne-dantès-665674",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0737-017",
         "EV-0737-020"
@@ -683,7 +683,7 @@
     },
     {
       "id": "MEN-0737-025",
-      "entity": "E-radio-transceiver-a74052",
+      "entity": "E-ch0523-000005",
       "evidence_ids": [
         "EV-0737-018"
       ]
@@ -697,14 +697,14 @@
     },
     {
       "id": "MEN-0737-027",
-      "entity": "E-cherwood-borough-b84faa",
+      "entity": "E-ch0523-000007",
       "evidence_ids": [
         "EV-0737-019"
       ]
     },
     {
       "id": "MEN-0737-028",
-      "entity": "E-city-family-servant-assistance-association-6c4086",
+      "entity": "E-city-family-servant-assistance-association-0f182b",
       "evidence_ids": [
         "EV-0737-019",
         "EV-0737-020"
@@ -730,12 +730,12 @@
       "id": "EVT-0737-001",
       "label": "Danitz realizes Gehrman Sparrow likely killed Admiral of Blood",
       "participants": [
-        "E-danitz-7a3c11",
-        "E-gehrman-sparrow-7a5007",
-        "E-admiral-of-blood-a1b2cc",
-        "E-senor-5e8b34",
-        "E-anderson-hood-311134",
-        "E-seven-pirate-admirals-ff9864"
+        "E-blazing-danitz-a1b2cd",
+        "E-dwayne-802dcc",
+        "E-admiral-blood-cf2b52",
+        "E-admiral-blood-cf2b52",
+        "E-anderson-112b7c",
+        "E-seven-admirals-a1b2f6"
       ],
       "evidence_ids": [
         "EV-0737-001",
@@ -748,9 +748,9 @@
       "id": "EVT-0737-002",
       "label": "Danitz reflects on the cult backing Gehrman Sparrow and The Fool",
       "participants": [
-        "E-danitz-7a3c11",
-        "E-gehrman-sparrow-7a5007",
-        "E-the-fool-22e598",
+        "E-blazing-danitz-a1b2cd",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
         "E-church-of-storms-3c8d52"
       ],
       "evidence_ids": [
@@ -762,13 +762,13 @@
       "id": "EVT-0737-003",
       "label": "Elland and Oz Kent are interrogated and discuss Gehrman Sparrow and Bansy",
       "participants": [
-        "E-elland-262cdf",
+        "E-captain-elland-a1b2c3",
         "E-oz-kent-9b8481",
         "E-interrogators-81828b",
-        "E-gehrman-sparrow-7a5007",
-        "E-bansy-harbor-ae885c",
+        "E-dwayne-802dcc",
+        "E-bansy-98973a",
         "E-church-of-storms-3c8d52",
-        "E-admiral-of-blood-a1b2cc",
+        "E-admiral-blood-cf2b52",
         "E-fifth-king-c6994a"
       ],
       "evidence_ids": [
@@ -785,8 +785,8 @@
       "participants": [
         "E-denton-55f4d0",
         "E-donna-299007",
-        "E-gehrman-sparrow-7a5007",
-        "E-bayam-city-26bb8c"
+        "E-dwayne-802dcc",
+        "E-bayam-3c7d52"
       ],
       "evidence_ids": [
         "EV-0737-015",
@@ -797,13 +797,13 @@
       "id": "EVT-0737-005",
       "label": "Dwayne Dantes officially appears and goes to hire a butler",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dwayne-dantès-665674",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
         "E-hillston-3c9f47",
         "E-arrodes-29353d",
-        "E-radio-transceiver-a74052",
-        "E-cherwood-borough-b84faa",
-        "E-city-family-servant-assistance-association-6c4086",
+        "E-ch0523-000005",
+        "E-ch0523-000007",
+        "E-city-family-servant-assistance-association-0f182b",
         "E-9-canylowell-street-f3a56b",
         "E-baylin-189d53"
       ],
@@ -818,7 +818,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-danitz-7a3c11",
+      "source": "E-blazing-danitz-a1b2cd",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -827,7 +827,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-gehrman-sparrow-7a5007",
+      "source": "E-dwayne-802dcc",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -836,7 +836,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-admiral-of-blood-a1b2cc",
+      "source": "E-admiral-blood-cf2b52",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -845,7 +845,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-senor-5e8b34",
+      "source": "E-admiral-blood-cf2b52",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -872,7 +872,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-red-theater-a6a63e",
+      "source": "E-ch0523-000021",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -881,7 +881,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-intis-7e5d1d",
+      "source": "E-ch0529-000019",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -890,7 +890,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-feysac-59f2e1",
+      "source": "E-ch0529-000020",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -899,7 +899,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-feynapotter-36bd9c",
+      "source": "E-feynapotter-05936d",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -908,7 +908,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-hood-311134",
+      "source": "E-anderson-112b7c",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -917,7 +917,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-the-fool-22e598",
+      "source": "E-dwayne-802dcc",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -926,7 +926,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-seven-pirate-admirals-ff9864",
+      "source": "E-seven-admirals-a1b2f6",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -935,7 +935,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-elland-262cdf",
+      "source": "E-captain-elland-a1b2c3",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -962,7 +962,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-bansy-harbor-ae885c",
+      "source": "E-bansy-98973a",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -971,7 +971,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-bayam-city-26bb8c",
+      "source": "E-bayam-3c7d52",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1007,7 +1007,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1016,7 +1016,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dwayne-dantès-665674",
+      "source": "E-dwayne-802dcc",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1034,7 +1034,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-radio-transceiver-a74052",
+      "source": "E-ch0523-000005",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1052,7 +1052,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-cherwood-borough-b84faa",
+      "source": "E-ch0523-000007",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1061,7 +1061,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-city-family-servant-assistance-association-6c4086",
+      "source": "E-city-family-servant-assistance-association-0f182b",
       "target": "C0737",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1088,8 +1088,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-gehrman-sparrow-7a5007",
-      "target": "E-senor-5e8b34",
+      "source": "E-dwayne-802dcc",
+      "target": "E-admiral-blood-cf2b52",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0737-007"
@@ -1098,7 +1098,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-elland-262cdf",
+      "source": "E-captain-elland-a1b2c3",
       "target": "E-oz-kent-9b8481",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1108,8 +1108,8 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-bansy-harbor-ae885c",
-      "target": "E-bayam-city-26bb8c",
+      "source": "E-bansy-98973a",
+      "target": "E-bayam-3c7d52",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0737-012"
@@ -1117,8 +1117,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dwayne-dantès-665674",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0737-017"
@@ -1128,7 +1128,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-9-canylowell-street-f3a56b",
-      "target": "E-cherwood-borough-b84faa",
+      "target": "E-ch0523-000007",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0737-019"

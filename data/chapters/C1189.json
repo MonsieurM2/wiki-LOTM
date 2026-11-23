@@ -155,7 +155,7 @@
       "tags": []
     },
     {
-      "id": "E-winter-gifts-day-7e0bb5",
+      "id": "E-winter-gifts-day-32549c",
       "canonical_name": "Winter Gifts Day",
       "primary_type": "Event",
       "aliases": [],
@@ -682,7 +682,7 @@
     },
     {
       "id": "MEN-1189-017",
-      "entity": "E-winter-gifts-day-7e0bb5",
+      "entity": "E-winter-gifts-day-32549c",
       "evidence_ids": [
         "EV-1189-013"
       ]
@@ -845,7 +845,7 @@
       "label": "The Church of Evernight holds a Winter Gifts Day Mass at Memorial Square",
       "participants": [
         "E-ch0529-000018",
-        "E-winter-gifts-day-7e0bb5",
+        "E-winter-gifts-day-32549c",
         "E-ch0529-000018",
         "E-west-borough-6ccf1d",
         "E-memorial-square-2b74b8",
@@ -1027,7 +1027,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-winter-gifts-day-7e0bb5",
+      "source": "E-winter-gifts-day-32549c",
       "target": "C1189",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1211,7 +1211,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-winter-gifts-day-7e0bb5",
+      "source": "E-winter-gifts-day-32549c",
       "target": "E-ch0529-000018",
       "inverse": "RELATED_TO",
       "evidence_ids": [

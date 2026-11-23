@@ -154,7 +154,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -659,7 +659,7 @@
     },
     {
       "id": "MEN-0217-022",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0217-003",
         "EV-0217-004"
@@ -752,7 +752,7 @@
         "E-bethel-abraham-a78bd4",
         "E-war-of-four-emperors-13ac50",
         "E-black-emperor-5d2b64",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-night-emperor-0a0816",
         "E-emperor-of-the-underworld-43e53e",
         "E-death-6097f8"
@@ -1044,7 +1044,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0217",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1163,7 +1163,7 @@
     },
     {
       "type": "PARTICIPATED_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "E-war-of-four-emperors-13ac50",
       "inverse": "HAS_PARTICIPANT",
       "evidence_ids": [
@@ -1245,7 +1245,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "E-tudor-dynasty-5802ed",
       "inverse": "RELATED_TO",
       "evidence_ids": [

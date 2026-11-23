@@ -112,7 +112,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -627,7 +627,7 @@
     },
     {
       "id": "MEN-0607-010",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0607-009"
       ]
@@ -820,7 +820,7 @@
         "E-dwayne-802dcc",
         "E-kalvetua-452f62",
         "E-jahn-kottman-1116da",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-storm-priests-7a2d19",
         "E-leodero-649907",
         "E-rorsted-archipelago-4c0cd8",
@@ -937,7 +937,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0607-009"

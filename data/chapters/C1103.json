@@ -280,7 +280,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -323,7 +323,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -873,7 +873,7 @@
     },
     {
       "id": "MEN-1103-031",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1103-015"
       ]
@@ -910,7 +910,7 @@
     },
     {
       "id": "MEN-1103-036",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1103-017"
       ]
@@ -1090,7 +1090,7 @@
       "label": "Derrick reports that the expedition is less than a day from Afternoon Town and will explore the Giant King's Court",
       "participants": [
         "E-derek-769f2b",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-ch0523-000011",
         "E-city-of-miracles-e195c3",
         "E-ancient-sun-god-101eef",
@@ -1107,7 +1107,7 @@
       "label": "Klein plans to observe through prayer and hints that Derrick should pray to Mr. Fool before the exploration",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-derek-769f2b",
         "E-ch0523-000011"
       ],
@@ -1390,7 +1390,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1103",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1435,7 +1435,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1103",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1554,7 +1554,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-1103-017"

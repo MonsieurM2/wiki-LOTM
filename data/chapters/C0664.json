@@ -87,7 +87,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [
@@ -530,7 +530,7 @@
     },
     {
       "id": "MEN-0664-009",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0664-015"
       ]
@@ -684,7 +684,7 @@
         "E-sonia-golden-spring-97d4dd",
         "E-marionettist-3f7a29",
         "E-mermaid-0c9d2e",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0664-008",
@@ -796,7 +796,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0664",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

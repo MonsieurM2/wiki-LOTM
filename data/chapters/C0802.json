@@ -7,89 +7,129 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-dwayne-802dcc",
+      "id": "E-klein-moretti-6a3250",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
         {
           "form": "Klein"
         }
-      ]
+      ],
+      "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-9a1f32",
       "canonical_name": "Sea God Scepter",
-      "primary_type": "Artifact"
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-candle-51b681",
+      "id": "E-mental-terror-candle-213243",
       "canonical_name": "Mental Terror Candle",
-      "primary_type": "Artifact"
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-placate-13ea37",
-      "canonical_name": "Psychoanalysis",
-      "primary_type": "Concept"
+      "id": "E-ancient-notebook-01a9db",
+      "canonical_name": "Antigonus family’s notebook",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-faceless-c0f095",
+      "canonical_name": "Faceless",
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
     },
     {
       "id": "E-bishop-utravsky-1829ba",
-      "canonical_name": "Bishop Utravsky",
-      "primary_type": "Character"
+      "canonical_name": "Utravsky",
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Bishop Utravsky"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "E-psychiatrist-3f8d75",
       "canonical_name": "Psychiatrist",
-      "primary_type": "Concept"
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
     },
     {
       "id": "E-sleepless-pathway-2c3d4e",
       "canonical_name": "Sleepless pathway",
-      "primary_type": "Pathway"
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-spectator-a9bfae",
+      "id": "E-spectator-pathway-383934",
       "canonical_name": "Spectator pathway",
-      "primary_type": "Pathway"
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-arrodes-29353d",
+      "id": "E-arrodes-49f89a",
       "canonical_name": "Arrodes",
-      "primary_type": "Character"
+      "primary_type": "Artifact",
+      "aliases": [
+        {
+          "form": "magic mirror"
+        }
+      ],
+      "tags": []
     },
     {
-      "id": "E-ch0529-000018",
-      "canonical_name": "Church of Evernight",
-      "primary_type": "Faction"
+      "id": "E-ch0526-000008",
+      "canonical_name": "Keeper",
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "the Keeper"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "E-core-seal-8f3a26",
+      "canonical_name": "core seal",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
       "id": "E-chanis-gate-2b3c4d",
       "canonical_name": "Chanis Gate",
-      "primary_type": "Location"
+      "primary_type": "Location",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-ch0527-000016",
+      "id": "E-wraith-b4c5d6",
       "canonical_name": "Wraith",
-      "primary_type": "Concept"
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-bernadette-00001e",
+      "id": "E-queen-mystic-9c2d46",
       "canonical_name": "Queen Mystic",
       "primary_type": "Character",
       "aliases": [
         {
           "form": "Bernadette"
         }
-      ]
-    },
-    {
-      "id": "E-cattleya-3e8f15",
-      "canonical_name": "Admiral of Stars",
-      "primary_type": "Character"
-    },
-    {
-      "id": "E-king-of-yellow-and-black-a14014",
-      "canonical_name": "Will Auceptin",
-      "primary_type": "Character"
+      ],
+      "tags": []
     },
     {
       "id": "E-emlyn-white-1a2b3c",
@@ -98,38 +138,51 @@
       "aliases": [
         {
           "form": "Emlyn"
+        },
+        {
+          "form": "The Moon"
+        },
+        {
+          "form": "Mr. Moon"
         }
-      ]
+      ],
+      "tags": []
     },
     {
-      "id": "E-rus-b-thory-fcb3f0",
+      "id": "E-sanguine-8b41f6",
+      "canonical_name": "Sanguine",
+      "primary_type": "Faction",
+      "aliases": [
+        {
+          "form": "vampire"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "E-rus-bathory-2b3c4d",
       "canonical_name": "Rus Báthory",
-      "primary_type": "Character"
+      "primary_type": "Character",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-cosmi-odora-10c11c",
+      "id": "E-cosmi-odora-1a2b3c",
       "canonical_name": "Cosmi Odora",
       "primary_type": "Character",
       "aliases": [
         {
           "form": "Cosmi"
         }
-      ]
+      ],
+      "tags": []
     },
     {
       "id": "E-odora-family-3c4d5e",
       "canonical_name": "Odora family",
-      "primary_type": "Faction"
-    },
-    {
-      "id": "E-west-borough-6ccf1d",
-      "canonical_name": "West Borough",
-      "primary_type": "Location"
-    },
-    {
-      "id": "E-emlyn-white-1a2b3c",
-      "canonical_name": "Sanguine",
-      "primary_type": "Faction"
+      "primary_type": "Faction",
+      "aliases": [],
+      "tags": []
     }
   ],
   "evidence": [
@@ -138,10 +191,10 @@
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
-      "quote": "When Klein opened his eyes again, the threats and pleas in his mind had vanished.",
+      "quote": "He seriously inspected the state of his Spirit Body and confirmed that the signs of chaos were gone.",
       "offsets": [
-        0,
-        81
+        164,
+        264
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -177,10 +230,10 @@
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
-      "quote": "the path of a Beyonder was a path that constantly fought with madness",
+      "quote": "I fused with Klein Moretti’s memory fragments and received parts of his emotions.",
       "offsets": [
-        733,
-        802
+        1260,
+        1341
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -190,10 +243,10 @@
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
-      "quote": "I was able to resolve the problem with the Mental Terror Candle, which is equivalent to receiving a complete and effective Psychoanalysis.",
+      "quote": "Together with me trying to steal the Antigonus family’s notebook recently",
       "offsets": [
-        2082,
-        2220
+        1393,
+        1466
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -203,10 +256,10 @@
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
-      "quote": "Otherwise, the best outcome would be the state in which Bishop Utravsky was in, and the worst outcome would be a gradual loss of control until it became an inevitability.",
+      "quote": "the additional Faceless potion he had consumed was fully digested.",
       "offsets": [
-        3415,
-        3585
+        1915,
+        1981
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -216,16 +269,29 @@
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
-      "quote": "Furthermore, I still have a Psychiatrist as backup",
+      "quote": "the best outcome would be the state in which Bishop Utravsky was in",
       "offsets": [
-        3587,
-        3637
+        3426,
+        3493
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
       "id": "EV-0802-008",
+      "book": 4,
+      "chapter": 802,
+      "chapter_title": "Follow-up Solutions",
+      "quote": "Furthermore, I still have a Psychiatrist as backup...",
+      "offsets": [
+        3587,
+        3640
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0802-009",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
@@ -238,20 +304,20 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0802-009",
+      "id": "EV-0802-010",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
-      "quote": "the Spectator pathway should be capable of doing so as well",
+      "quote": "the Spectator pathway should be capable of doing so as well...",
       "offsets": [
         4394,
-        4453
+        4456
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0802-010",
+      "id": "EV-0802-011",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
@@ -264,7 +330,20 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0802-011",
+      "id": "EV-0802-012",
+      "book": 4,
+      "chapter": 802,
+      "chapter_title": "Follow-up Solutions",
+      "quote": "your loyal and humble servant, Arrodes, is constantly at your service.",
+      "offsets": [
+        5310,
+        5380
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0802-013",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
@@ -277,7 +356,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0802-012",
+      "id": "EV-0802-014",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
@@ -290,7 +369,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0802-013",
+      "id": "EV-0802-015",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
@@ -303,7 +382,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0802-014",
+      "id": "EV-0802-016",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
@@ -316,46 +395,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0802-015",
-      "book": 4,
-      "chapter": 802,
-      "chapter_title": "Follow-up Solutions",
-      "quote": "Admiral of Stars needs a drop of blood from a Mythical Creature",
-      "offsets": [
-        7349,
-        7412
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0802-016",
-      "book": 4,
-      "chapter": 802,
-      "chapter_title": "Follow-up Solutions",
-      "quote": "apart from providing an item that can satisfy Will Auceptin",
-      "offsets": [
-        7435,
-        7494
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
       "id": "EV-0802-017",
-      "book": 4,
-      "chapter": 802,
-      "chapter_title": "Follow-up Solutions",
-      "quote": "West Borough, within the Odora family’s villa.",
-      "offsets": [
-        7925,
-        7971
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0802-018",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
@@ -368,7 +408,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0802-019",
+      "id": "EV-0802-018",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
@@ -381,14 +421,27 @@
       "status": "confirmed"
     },
     {
+      "id": "EV-0802-019",
+      "book": 4,
+      "chapter": 802,
+      "chapter_title": "Follow-up Solutions",
+      "quote": "Cosmi Odora who had just entered",
+      "offsets": [
+        8505,
+        8537
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
       "id": "EV-0802-020",
       "book": 4,
       "chapter": 802,
       "chapter_title": "Follow-up Solutions",
-      "quote": "Cosmi forced himself to ignore Emlyn’s gaze as he walked to the fireplace",
+      "quote": "Emlyn White has already hunted three targets, automatically clinching victory.",
       "offsets": [
-        8603,
-        8676
+        9126,
+        9204
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -397,18 +450,209 @@
   "mentions": [
     {
       "id": "MEN-0802-001",
-      "entity": "E-dwayne-802dcc",
+      "entity": "E-klein-moretti-6a3250",
+      "evidence_ids": [
+        "EV-0802-001",
+        "EV-0802-002",
+        "EV-0802-004"
+      ]
+    },
+    {
+      "id": "MEN-0802-002",
+      "entity": "E-sea-god-scepter-9a1f32",
+      "evidence_ids": [
+        "EV-0802-002"
+      ]
+    },
+    {
+      "id": "MEN-0802-003",
+      "entity": "E-mental-terror-candle-213243",
+      "evidence_ids": [
+        "EV-0802-003"
+      ]
+    },
+    {
+      "id": "MEN-0802-004",
+      "entity": "E-ancient-notebook-01a9db",
+      "evidence_ids": [
+        "EV-0802-005"
+      ]
+    },
+    {
+      "id": "MEN-0802-005",
+      "entity": "E-faceless-c0f095",
+      "evidence_ids": [
+        "EV-0802-006"
+      ]
+    },
+    {
+      "id": "MEN-0802-006",
+      "entity": "E-bishop-utravsky-1829ba",
+      "evidence_ids": [
+        "EV-0802-007"
+      ]
+    },
+    {
+      "id": "MEN-0802-007",
+      "entity": "E-psychiatrist-3f8d75",
+      "evidence_ids": [
+        "EV-0802-008"
+      ]
+    },
+    {
+      "id": "MEN-0802-008",
+      "entity": "E-sleepless-pathway-2c3d4e",
+      "evidence_ids": [
+        "EV-0802-009"
+      ]
+    },
+    {
+      "id": "MEN-0802-009",
+      "entity": "E-spectator-pathway-383934",
+      "evidence_ids": [
+        "EV-0802-010"
+      ]
+    },
+    {
+      "id": "MEN-0802-010",
+      "entity": "E-arrodes-49f89a",
+      "evidence_ids": [
+        "EV-0802-011",
+        "EV-0802-012"
+      ]
+    },
+    {
+      "id": "MEN-0802-011",
+      "entity": "E-ch0526-000008",
+      "evidence_ids": [
+        "EV-0802-013"
+      ]
+    },
+    {
+      "id": "MEN-0802-012",
+      "entity": "E-core-seal-8f3a26",
+      "evidence_ids": [
+        "EV-0802-013",
+        "EV-0802-014"
+      ]
+    },
+    {
+      "id": "MEN-0802-013",
+      "entity": "E-chanis-gate-2b3c4d",
+      "evidence_ids": [
+        "EV-0802-013"
+      ]
+    },
+    {
+      "id": "MEN-0802-014",
+      "entity": "E-wraith-b4c5d6",
+      "evidence_ids": [
+        "EV-0802-015"
+      ]
+    },
+    {
+      "id": "MEN-0802-015",
+      "entity": "E-queen-mystic-9c2d46",
+      "evidence_ids": [
+        "EV-0802-016"
+      ]
+    },
+    {
+      "id": "MEN-0802-016",
+      "entity": "E-emlyn-white-1a2b3c",
+      "evidence_ids": [
+        "EV-0802-017",
+        "EV-0802-020"
+      ]
+    },
+    {
+      "id": "MEN-0802-017",
+      "entity": "E-sanguine-8b41f6",
+      "evidence_ids": [
+        "EV-0802-018"
+      ]
+    },
+    {
+      "id": "MEN-0802-018",
+      "entity": "E-rus-bathory-2b3c4d",
+      "evidence_ids": [
+        "EV-0802-018"
+      ]
+    },
+    {
+      "id": "MEN-0802-019",
+      "entity": "E-cosmi-odora-1a2b3c",
+      "evidence_ids": [
+        "EV-0802-019"
+      ]
+    },
+    {
+      "id": "MEN-0802-020",
+      "entity": "E-odora-family-3c4d5e",
+      "evidence_ids": [
+        "EV-0802-019"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-0802-001",
+      "label": "Klein resolves his split personality with the Mental Terror Candle and reflects on Beyonder madness",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-mental-terror-candle-213243",
+        "E-sea-god-scepter-9a1f32"
+      ],
       "evidence_ids": [
         "EV-0802-001",
         "EV-0802-002",
         "EV-0802-003",
-        "EV-0802-004",
+        "EV-0802-004"
+      ]
+    },
+    {
+      "id": "EVT-0802-002",
+      "label": "Klein recalls his transmigration, the Antigonus notebook and his Faceless potion",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-ancient-notebook-01a9db",
+        "E-faceless-c0f095"
+      ],
+      "evidence_ids": [
         "EV-0802-005",
-        "EV-0802-006",
+        "EV-0802-006"
+      ]
+    },
+    {
+      "id": "EVT-0802-003",
+      "label": "Klein considers the safeguards Utravsky, the Psychiatrist, Sleepless and Spectator pathways",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-bishop-utravsky-1829ba",
+        "E-psychiatrist-3f8d75",
+        "E-sleepless-pathway-2c3d4e",
+        "E-spectator-pathway-383934"
+      ],
+      "evidence_ids": [
         "EV-0802-007",
         "EV-0802-008",
         "EV-0802-009",
-        "EV-0802-010",
+        "EV-0802-010"
+      ]
+    },
+    {
+      "id": "EVT-0802-004",
+      "label": "Klein summons Arrodes to ask how to disguise a marionette against the core seal",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-arrodes-49f89a",
+        "E-ch0526-000008",
+        "E-core-seal-8f3a26",
+        "E-chanis-gate-2b3c4d",
+        "E-wraith-b4c5d6",
+        "E-queen-mystic-9c2d46"
+      ],
+      "evidence_ids": [
         "EV-0802-011",
         "EV-0802-012",
         "EV-0802-013",
@@ -418,248 +662,14 @@
       ]
     },
     {
-      "id": "MEN-0802-002",
-      "entity": "E-sea-god-scepter-1d4e83",
-      "evidence_ids": [
-        "EV-0802-002"
-      ]
-    },
-    {
-      "id": "MEN-0802-003",
-      "entity": "E-candle-51b681",
-      "evidence_ids": [
-        "EV-0802-003",
-        "EV-0802-005"
-      ]
-    },
-    {
-      "id": "MEN-0802-004",
-      "entity": "E-placate-13ea37",
-      "evidence_ids": [
-        "EV-0802-005"
-      ]
-    },
-    {
-      "id": "MEN-0802-005",
-      "entity": "E-bishop-utravsky-1829ba",
-      "evidence_ids": [
-        "EV-0802-006"
-      ]
-    },
-    {
-      "id": "MEN-0802-006",
-      "entity": "E-psychiatrist-3f8d75",
-      "evidence_ids": [
-        "EV-0802-007"
-      ]
-    },
-    {
-      "id": "MEN-0802-007",
-      "entity": "E-sleepless-pathway-2c3d4e",
-      "evidence_ids": [
-        "EV-0802-008"
-      ]
-    },
-    {
-      "id": "MEN-0802-008",
-      "entity": "E-spectator-a9bfae",
-      "evidence_ids": [
-        "EV-0802-009"
-      ]
-    },
-    {
-      "id": "MEN-0802-009",
-      "entity": "E-arrodes-29353d",
-      "evidence_ids": [
-        "EV-0802-010"
-      ]
-    },
-    {
-      "id": "MEN-0802-010",
-      "entity": "E-ch0529-000018",
-      "evidence_ids": [
-        "EV-0802-011"
-      ]
-    },
-    {
-      "id": "MEN-0802-011",
-      "entity": "E-chanis-gate-2b3c4d",
-      "evidence_ids": [
-        "EV-0802-011",
-        "EV-0802-012"
-      ]
-    },
-    {
-      "id": "MEN-0802-012",
-      "entity": "E-ch0527-000016",
-      "evidence_ids": [
-        "EV-0802-013"
-      ]
-    },
-    {
-      "id": "MEN-0802-013",
-      "entity": "E-bernadette-00001e",
-      "evidence_ids": [
-        "EV-0802-014"
-      ]
-    },
-    {
-      "id": "MEN-0802-014",
-      "entity": "E-cattleya-3e8f15",
-      "evidence_ids": [
-        "EV-0802-015"
-      ]
-    },
-    {
-      "id": "MEN-0802-015",
-      "entity": "E-king-of-yellow-and-black-a14014",
-      "evidence_ids": [
-        "EV-0802-016"
-      ]
-    },
-    {
-      "id": "MEN-0802-016",
-      "entity": "E-odora-family-3c4d5e",
-      "evidence_ids": [
-        "EV-0802-017"
-      ]
-    },
-    {
-      "id": "MEN-0802-017",
-      "entity": "E-west-borough-6ccf1d",
-      "evidence_ids": [
-        "EV-0802-017"
-      ]
-    },
-    {
-      "id": "MEN-0802-018",
-      "entity": "E-emlyn-white-1a2b3c",
-      "evidence_ids": [
-        "EV-0802-018",
-        "EV-0802-019",
-        "EV-0802-020"
-      ]
-    },
-    {
-      "id": "MEN-0802-019",
-      "entity": "E-rus-b-thory-fcb3f0",
-      "evidence_ids": [
-        "EV-0802-019"
-      ]
-    },
-    {
-      "id": "MEN-0802-020",
-      "entity": "E-cosmi-odora-10c11c",
-      "evidence_ids": [
-        "EV-0802-020"
-      ]
-    },
-    {
-      "id": "MEN-0802-021",
-      "entity": "E-emlyn-white-1a2b3c",
-      "evidence_ids": [
-        "EV-0802-019",
-        "EV-0802-020"
-      ]
-    }
-  ],
-  "events": [
-    {
-      "id": "EVT-0802-001",
-      "label": "Klein resolves his split personality with the Mental Terror Candle and lowers the Sea God Scepter",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-candle-51b681",
-        "E-sea-god-scepter-1d4e83",
-        "E-placate-13ea37"
-      ],
-      "evidence_ids": [
-        "EV-0802-001",
-        "EV-0802-002",
-        "EV-0802-003",
-        "EV-0802-005"
-      ]
-    },
-    {
-      "id": "EVT-0802-002",
-      "label": "Klein reflects on Beyonder madness, Bishop Utravsky's fate and keeping a Psychiatrist as backup",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-bishop-utravsky-1829ba",
-        "E-psychiatrist-3f8d75"
-      ],
-      "evidence_ids": [
-        "EV-0802-004",
-        "EV-0802-006",
-        "EV-0802-007"
-      ]
-    },
-    {
-      "id": "EVT-0802-003",
-      "label": "Klein notes that Mid-Sequence Sleepless and Spectator Beyonders can transmit mental corruption",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-sleepless-pathway-2c3d4e",
-        "E-spectator-a9bfae"
-      ],
-      "evidence_ids": [
-        "EV-0802-008",
-        "EV-0802-009"
-      ]
-    },
-    {
-      "id": "EVT-0802-004",
-      "label": "Klein summons Arrodes and asks how to perfect a disguise against the core seal behind Chanis Gate",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-arrodes-29353d",
-        "E-ch0529-000018",
-        "E-chanis-gate-2b3c4d"
-      ],
-      "evidence_ids": [
-        "EV-0802-010",
-        "EV-0802-011",
-        "EV-0802-012"
-      ]
-    },
-    {
       "id": "EVT-0802-005",
-      "label": "Arrodes proposes a Wraith marionette and directs Klein to Queen Mystic Bernadette",
-      "participants": [
-        "E-arrodes-29353d",
-        "E-dwayne-802dcc",
-        "E-ch0527-000016",
-        "E-bernadette-00001e",
-        "E-chanis-gate-2b3c4d"
-      ],
-      "evidence_ids": [
-        "EV-0802-012",
-        "EV-0802-013",
-        "EV-0802-014"
-      ]
-    },
-    {
-      "id": "EVT-0802-006",
-      "label": "Klein considers the middleman fee involving Admiral of Stars and Will Auceptin",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-cattleya-3e8f15",
-        "E-king-of-yellow-and-black-a14014"
-      ],
-      "evidence_ids": [
-        "EV-0802-015",
-        "EV-0802-016"
-      ]
-    },
-    {
-      "id": "EVT-0802-007",
-      "label": "At the Odora family villa, Emlyn is congratulated while Rus Báthory watches with hatred",
+      "label": "Emlyn White wins the Sanguine hunting competition at the Odora family villa",
       "participants": [
         "E-emlyn-white-1a2b3c",
-        "E-rus-b-thory-fcb3f0",
-        "E-cosmi-odora-10c11c",
-        "E-odora-family-3c4d5e",
-        "E-emlyn-white-1a2b3c"
+        "E-rus-bathory-2b3c4d",
+        "E-sanguine-8b41f6",
+        "E-cosmi-odora-1a2b3c",
+        "E-odora-family-3c4d5e"
       ],
       "evidence_ids": [
         "EV-0802-017",
@@ -671,198 +681,9 @@
   ],
   "relations": [
     {
-      "type": "APPEARS_IN",
-      "source": "E-dwayne-802dcc",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-candle-51b681",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-placate-13ea37",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-bishop-utravsky-1829ba",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-psychiatrist-3f8d75",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-sleepless-pathway-2c3d4e",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-spectator-a9bfae",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-arrodes-29353d",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-ch0529-000018",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-chanis-gate-2b3c4d",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-ch0527-000016",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-bernadette-00001e",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-cattleya-3e8f15",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-king-of-yellow-and-black-a14014",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-emlyn-white-1a2b3c",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-rus-b-thory-fcb3f0",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-cosmi-odora-10c11c",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-odora-family-3c4d5e",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-west-borough-6ccf1d",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-emlyn-white-1a2b3c",
-      "target": "C0802",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0802-001"
-      ]
-    },
-    {
       "type": "USES",
-      "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "source": "E-klein-moretti-6a3250",
+      "target": "E-sea-god-scepter-9a1f32",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0802-002"
@@ -870,72 +691,58 @@
     },
     {
       "type": "USES",
-      "source": "E-dwayne-802dcc",
-      "target": "E-candle-51b681",
+      "source": "E-klein-moretti-6a3250",
+      "target": "E-mental-terror-candle-213243",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0802-003"
       ]
     },
     {
-      "type": "RELATED_TO",
-      "source": "E-dwayne-802dcc",
-      "target": "E-placate-13ea37",
-      "inverse": "RELATED_TO",
+      "type": "LOCATED_IN",
+      "source": "E-core-seal-8f3a26",
+      "target": "E-chanis-gate-2b3c4d",
+      "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
-        "EV-0802-005"
-      ],
-      "label": "The Mental Terror Candle gave Klein an effective Psychoanalysis"
+        "EV-0802-013"
+      ]
     },
     {
-      "type": "RELATED_TO",
-      "source": "E-dwayne-802dcc",
+      "type": "FOLLOWS_PATHWAY",
+      "source": "E-ch0526-000008",
       "target": "E-sleepless-pathway-2c3d4e",
-      "inverse": "RELATED_TO",
+      "inverse": "HAS_FOLLOWER",
       "evidence_ids": [
-        "EV-0802-008"
-      ],
-      "label": "Klein warns about Mid-Sequence Sleepless Beyonders who can cause mental corruption"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-chanis-gate-2b3c4d",
-      "target": "E-ch0529-000018",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0802-011"
-      ],
-      "label": "The core seal behind Chanis Gate contaminates the Church of Evernight's Keepers"
+        "EV-0802-009"
+      ]
     },
     {
       "type": "MEMBER_OF",
       "source": "E-emlyn-white-1a2b3c",
-      "target": "E-emlyn-white-1a2b3c",
+      "target": "E-sanguine-8b41f6",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
-        "EV-0802-019"
+        "EV-0802-017"
+      ]
+    },
+    {
+      "type": "RELATED_TO",
+      "source": "E-rus-bathory-2b3c4d",
+      "target": "E-emlyn-white-1a2b3c",
+      "inverse": "RELATED_TO",
+      "evidence_ids": [
+        "EV-0802-018"
       ],
-      "label": "Emlyn White is a Sanguine Baron"
+      "label": "Rus Báthory resented Emlyn for stealing his spoils"
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-rus-b-thory-fcb3f0",
-      "target": "E-emlyn-white-1a2b3c",
+      "source": "E-cosmi-odora-1a2b3c",
+      "target": "E-odora-family-3c4d5e",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0802-019"
-      ],
-      "label": "Rus Báthory is a Sanguine Baron"
-    },
-    {
-      "type": "LOCATED_IN",
-      "source": "E-odora-family-3c4d5e",
-      "target": "E-west-borough-6ccf1d",
-      "inverse": "CONTAINS_LOCATION",
-      "evidence_ids": [
-        "EV-0802-017"
-      ],
-      "label": "The Odora family villa is in the West Borough"
+      ]
     }
   ]
 }

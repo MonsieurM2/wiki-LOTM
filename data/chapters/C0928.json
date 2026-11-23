@@ -32,7 +32,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -75,7 +75,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -396,7 +396,7 @@
     },
     {
       "id": "MEN-0928-004",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0928-003",
         "EV-0928-007",
@@ -435,7 +435,7 @@
     },
     {
       "id": "MEN-0928-009",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0928-018",
         "EV-0928-019"
@@ -471,7 +471,7 @@
       "participants": [
         "E-spirit-world-plunderer-4d8a03",
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-admiral-hell-ludwell-9e2b41"
       ],
       "evidence_ids": [
@@ -487,7 +487,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-spirit-world-plunderer-4d8a03",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-card-of-blasphemy-4a9d21",
         "E-calderon-city-2dcbdb"
       ],
@@ -522,7 +522,7 @@
       "label": "Klein chants 'Fate!' to invoke the Fate Siphon charm",
       "participants": [
         "E-dwayne-802dcc",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-dwayne-802dcc",
         "E-spirit-world-plunderer-4d8a03"
       ],
@@ -563,7 +563,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0928",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -608,7 +608,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0928",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -645,7 +645,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0928-003"
@@ -654,7 +654,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-fate-siphon-338a54",
+      "target": "E-fate-siphon-000000",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0928-019"

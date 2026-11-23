@@ -125,7 +125,7 @@
       "tags": []
     },
     {
-      "id": "E-leppard-be2a9e",
+      "id": "E-leppard-b1917b",
       "canonical_name": "Inventor Leppard",
       "primary_type": "Character",
       "aliases": [
@@ -640,7 +640,7 @@
     },
     {
       "id": "MEN-0337-015",
-      "entity": "E-leppard-be2a9e",
+      "entity": "E-leppard-b1917b",
       "evidence_ids": [
         "EV-0337-011"
       ]
@@ -821,7 +821,7 @@
       "label": "Klein visits Inventor Leppard and settles the bicycle patent",
       "participants": [
         "E-dwayne-802dcc",
-        "E-leppard-be2a9e",
+        "E-leppard-b1917b",
         "E-st-george-borough-945989",
         "E-sird-street-10ecf4",
         "E-bicycle-9e8e37"
@@ -1018,7 +1018,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leppard-be2a9e",
+      "source": "E-leppard-b1917b",
       "target": "C0337",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

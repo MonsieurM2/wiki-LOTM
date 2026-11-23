@@ -148,7 +148,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -815,7 +815,7 @@
     },
     {
       "id": "MEN-0066-020",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0066-007"
       ]
@@ -1315,7 +1315,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0066",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

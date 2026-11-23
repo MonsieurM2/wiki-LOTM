@@ -101,7 +101,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -522,7 +522,7 @@
     },
     {
       "id": "MEN-0898-009",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-0898-005"
       ]
@@ -643,7 +643,7 @@
       "participants": [
         "E-colin-iliad-07dd71",
         "E-jack-1b8f47",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-elder-lovia-000000",
         "E-derek-769f2b",
         "E-six-member-council-1d4e77"
@@ -797,7 +797,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C0898",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

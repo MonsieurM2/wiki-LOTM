@@ -60,7 +60,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -551,7 +551,7 @@
     },
     {
       "id": "MEN-1139-008",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1139-003",
         "EV-1139-009"
@@ -729,7 +729,7 @@
         "E-black-emperor-5d2b64",
         "E-card-of-blasphemy-4a9d21",
         "E-black-emperor-5d2b64",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-1139-001",
@@ -879,7 +879,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1139",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1117,7 +1117,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-1139-009"

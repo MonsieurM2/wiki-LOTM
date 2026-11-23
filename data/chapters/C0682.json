@@ -212,7 +212,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -663,7 +663,7 @@
     },
     {
       "id": "MEN-0682-018",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0682-013",
         "EV-0682-014",
@@ -786,7 +786,7 @@
       "id": "EVT-0682-006",
       "label": "Anderson pays Klein and names Molsona of the Loen’s New Party as deserving death; Klein stakes out the Oaktree Bar",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-dwayne-802dcc",
         "E-manipulator-0f1b2c",
@@ -962,7 +962,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0682",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1044,7 +1044,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1055,7 +1055,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-manipulator-0f1b2c",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0682-016"

@@ -119,7 +119,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -511,7 +511,7 @@
     },
     {
       "id": "MEN-1113-012",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1113-010"
       ]
@@ -601,7 +601,7 @@
         "E-derek-769f2b",
         "E-antiona-4c1f0a",
         "E-giant-king-court-6bae98",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-city-of-silver-000000"
       ],
       "evidence_ids": [
@@ -746,7 +746,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1113",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

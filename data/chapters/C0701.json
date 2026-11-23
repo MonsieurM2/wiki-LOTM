@@ -64,7 +64,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -424,7 +424,7 @@
     },
     {
       "id": "MEN-0701-007",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0701-003",
         "EV-0701-015"
@@ -520,7 +520,7 @@
       "participants": [
         "E-frunziar-bde57f",
         "E-ch0523-000020",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-mobet-f1062f",
         "E-king-of-the-north-6f2c39"
       ],
@@ -636,7 +636,7 @@
     },
     {
       "type": "USES",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-death-brachydont-1a7e44",
       "inverse": "USED_BY",
       "evidence_ids": [

@@ -185,7 +185,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -837,7 +837,7 @@
     },
     {
       "id": "MEN-0060-021",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0060-007"
       ]
@@ -1071,7 +1071,7 @@
         "E-abraham-f5717e",
         "E-jacob-71ee75",
         "E-war-of-four-emperors-13ac50",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-ch0529-000018"
       ],
       "evidence_ids": [
@@ -1348,7 +1348,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0060",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

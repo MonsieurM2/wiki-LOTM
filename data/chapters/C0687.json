@@ -102,7 +102,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -165,7 +165,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -597,7 +597,7 @@
     },
     {
       "id": "MEN-0687-013",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0687-005",
         "EV-0687-012",
@@ -661,7 +661,7 @@
     },
     {
       "id": "MEN-0687-021",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0687-019"
       ]
@@ -753,7 +753,7 @@
         "E-amon-0e5352",
         "E-bernadette-00001e",
         "E-cattleya-3e8f15",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-gray-fog-3a7d64"
       ],
       "evidence_ids": [
@@ -793,7 +793,7 @@
       "id": "EVT-0687-006",
       "label": "Anderson Hood reports that the adventurers hail Gehrman Sparrow as strongest hunter",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-kircheis-5a6b7c",
         "E-toscarter-2710d5",
@@ -813,7 +813,7 @@
         "E-molsona-1a2b3c",
         "E-loen-new-party-2f50a3",
         "E-church-of-storms-3c8d52",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0687-014",
@@ -836,10 +836,10 @@
       "label": "Klein boards the liner, planning to use the Sea God Scepter if the Death Announcer appears",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-death-announcer-3b34d2",
         "E-future-3a7b19",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0687-017",
@@ -919,7 +919,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0687-019"
@@ -1035,7 +1035,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0687",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1107,7 +1107,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0687",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

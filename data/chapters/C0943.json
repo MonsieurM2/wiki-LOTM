@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -201,7 +201,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -435,7 +435,7 @@
   "mentions": [
     {
       "id": "MEN-0943-001",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0943-002",
         "EV-0943-003"
@@ -592,7 +592,7 @@
     },
     {
       "id": "MEN-0943-022",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0943-001"
       ]
@@ -617,7 +617,7 @@
       "id": "EVT-0943-001",
       "label": "The Fate Siphon charm transfers Sauron Einhorn Medici from Ince Zangwill to Ludwell",
       "participants": [
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-admiral-hell-ludwell-9e2b41",
         "E-ince-zangwill-091a2b",
         "E-medici-3a9d61"
@@ -652,7 +652,7 @@
       "participants": [
         "E-leonard-2c8d91",
         "E-creeping-hunger-000009",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-ince-zangwill-091a2b",
         "E-dwayne-802dcc"
       ],
@@ -682,7 +682,7 @@
       "label": "Klein takes the Sea God Scepter for the third act, recalling Qonas Kilgor",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-qonas-18f91f",
         "E-black-emperor-5d2b64",
         "E-adam-1d7c29",
@@ -715,7 +715,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0943",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -904,7 +904,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0943",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -932,7 +932,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-fate-siphon-338a54",
+      "target": "E-fate-siphon-000000",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0943-002"

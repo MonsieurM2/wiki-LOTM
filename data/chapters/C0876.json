@@ -191,7 +191,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -205,7 +205,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -703,7 +703,7 @@
     },
     {
       "id": "MEN-0876-022",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0876-018",
         "EV-0876-019"
@@ -718,7 +718,7 @@
     },
     {
       "id": "MEN-0876-024",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0876-019"
       ]
@@ -828,9 +828,9 @@
         "E-miss-sharron-222559",
         "E-maric-00c1f9",
         "E-mummy-8fa72a",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-creeping-hunger-000009",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-lewis-wien-3c7a91",
         "E-leymano-29362a",
         "E-worm-of-time-134600"
@@ -1034,7 +1034,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0876",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1052,7 +1052,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0876",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1156,7 +1156,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "E-worm-of-time-134600",
       "inverse": "RELATED_TO",
       "evidence_ids": [

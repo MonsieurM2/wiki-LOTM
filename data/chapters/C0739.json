@@ -14,14 +14,14 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Character",
       "aliases": [],
@@ -35,7 +35,7 @@
       "tags": []
     },
     {
-      "id": "E-north-borough-8c99ff",
+      "id": "E-north-borough-00c1cf",
       "canonical_name": "North Borough",
       "primary_type": "Location",
       "aliases": [],
@@ -70,28 +70,28 @@
       "tags": []
     },
     {
-      "id": "E-new-party-af715f",
+      "id": "E-new-party-3c6889",
       "canonical_name": "New Party",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-quelaag-club-9258e8",
+      "id": "E-quelaag-club-00002d",
       "canonical_name": "Quelaag Club",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-lawyer-jurgen-073c7a",
+      "id": "E-jurgen-875f32",
       "canonical_name": "Lawyer Jurgen",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-east-borough-453c19",
+      "id": "E-backlund-east-borough-d14056",
       "canonical_name": "East Borough",
       "primary_type": "Location",
       "aliases": [],
@@ -112,7 +112,7 @@
       "tags": []
     },
     {
-      "id": "E-intis-srenzo-restaurant-b8d04e",
+      "id": "E-intis-srenzo-restaurant-4b8f02",
       "canonical_name": "Intis Srenzo Restaurant",
       "primary_type": "Location",
       "aliases": [],
@@ -126,7 +126,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -147,7 +147,7 @@
       "tags": []
     },
     {
-      "id": "E-bernadette-gustav-aca7ce",
+      "id": "E-bernadette-00001e",
       "canonical_name": "Bernadette Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -158,63 +158,63 @@
       "tags": []
     },
     {
-      "id": "E-hero-bandit-black-emperor-e5089f",
+      "id": "E-black-emperor-5d2b64",
       "canonical_name": "Hero Bandit Black Emperor",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-aaron-ceres-ea4cb8",
+      "id": "E-aaron-ceres-00c1c0",
       "canonical_name": "Aaron Ceres",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-sherlock-moriarty-5e1c84",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Sherlock Moriarty",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-will-auceptin-a06fa3",
+      "id": "E-king-of-yellow-and-black-a14014",
       "canonical_name": "Will Auceptin",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-baron-syndras-b5ec02",
+      "id": "E-baron-syndras-3c4d5e",
       "canonical_name": "Baron Syndras",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-fors-a146009",
+      "id": "E-fors-58fdc6",
       "canonical_name": "Fors",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-astrologer-b56569",
+      "id": "E-astrologer-1f4d22",
       "canonical_name": "Astrologer",
       "primary_type": "Pathway",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-xio-be7851",
+      "id": "E-xio-5b6c73",
       "canonical_name": "Xio",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-moon-puppet-becdd3",
+      "id": "E-moon-puppet-3fd45c",
       "canonical_name": "Moon Puppet",
       "primary_type": "Artifact",
       "aliases": [],
@@ -228,7 +228,7 @@
       "tags": []
     },
     {
-      "id": "E-dwayne-dantès-665674",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Dwayne Dantès",
       "primary_type": "Character",
       "aliases": [
@@ -512,7 +512,7 @@
     },
     {
       "id": "MEN-0739-002",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0739-002",
         "EV-0739-003",
@@ -530,7 +530,7 @@
     },
     {
       "id": "MEN-0739-003",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0739-003",
         "EV-0739-004",
@@ -547,7 +547,7 @@
     },
     {
       "id": "MEN-0739-005",
-      "entity": "E-north-borough-8c99ff",
+      "entity": "E-north-borough-00c1cf",
       "evidence_ids": [
         "EV-0739-006",
         "EV-0739-007"
@@ -585,14 +585,14 @@
     },
     {
       "id": "MEN-0739-010",
-      "entity": "E-new-party-af715f",
+      "entity": "E-new-party-3c6889",
       "evidence_ids": [
         "EV-0739-008"
       ]
     },
     {
       "id": "MEN-0739-011",
-      "entity": "E-quelaag-club-9258e8",
+      "entity": "E-quelaag-club-00002d",
       "evidence_ids": [
         "EV-0739-010",
         "EV-0739-018"
@@ -600,14 +600,14 @@
     },
     {
       "id": "MEN-0739-012",
-      "entity": "E-lawyer-jurgen-073c7a",
+      "entity": "E-jurgen-875f32",
       "evidence_ids": [
         "EV-0739-010"
       ]
     },
     {
       "id": "MEN-0739-013",
-      "entity": "E-east-borough-453c19",
+      "entity": "E-backlund-east-borough-d14056",
       "evidence_ids": [
         "EV-0739-010"
       ]
@@ -628,7 +628,7 @@
     },
     {
       "id": "MEN-0739-016",
-      "entity": "E-intis-srenzo-restaurant-b8d04e",
+      "entity": "E-intis-srenzo-restaurant-4b8f02",
       "evidence_ids": [
         "EV-0739-012",
         "EV-0739-013"
@@ -644,7 +644,7 @@
     },
     {
       "id": "MEN-0739-018",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0739-012",
         "EV-0739-016",
@@ -660,7 +660,7 @@
     },
     {
       "id": "MEN-0739-020",
-      "entity": "E-bernadette-gustav-aca7ce",
+      "entity": "E-bernadette-00001e",
       "evidence_ids": [
         "EV-0739-016",
         "EV-0739-017"
@@ -668,14 +668,14 @@
     },
     {
       "id": "MEN-0739-021",
-      "entity": "E-hero-bandit-black-emperor-e5089f",
+      "entity": "E-black-emperor-5d2b64",
       "evidence_ids": [
         "EV-0739-017"
       ]
     },
     {
       "id": "MEN-0739-022",
-      "entity": "E-aaron-ceres-ea4cb8",
+      "entity": "E-aaron-ceres-00c1c0",
       "evidence_ids": [
         "EV-0739-018",
         "EV-0739-019"
@@ -683,49 +683,49 @@
     },
     {
       "id": "MEN-0739-023",
-      "entity": "E-sherlock-moriarty-5e1c84",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0739-018"
       ]
     },
     {
       "id": "MEN-0739-024",
-      "entity": "E-will-auceptin-a06fa3",
+      "entity": "E-king-of-yellow-and-black-a14014",
       "evidence_ids": [
         "EV-0739-018"
       ]
     },
     {
       "id": "MEN-0739-025",
-      "entity": "E-baron-syndras-b5ec02",
+      "entity": "E-baron-syndras-3c4d5e",
       "evidence_ids": [
         "EV-0739-019"
       ]
     },
     {
       "id": "MEN-0739-026",
-      "entity": "E-fors-a146009",
+      "entity": "E-fors-58fdc6",
       "evidence_ids": [
         "EV-0739-020"
       ]
     },
     {
       "id": "MEN-0739-027",
-      "entity": "E-astrologer-b56569",
+      "entity": "E-astrologer-1f4d22",
       "evidence_ids": [
         "EV-0739-020"
       ]
     },
     {
       "id": "MEN-0739-028",
-      "entity": "E-xio-be7851",
+      "entity": "E-xio-5b6c73",
       "evidence_ids": [
         "EV-0739-020"
       ]
     },
     {
       "id": "MEN-0739-029",
-      "entity": "E-moon-puppet-becdd3",
+      "entity": "E-moon-puppet-3fd45c",
       "evidence_ids": [
         "EV-0739-020"
       ]
@@ -739,7 +739,7 @@
     },
     {
       "id": "MEN-0739-031",
-      "entity": "E-dwayne-dantès-665674",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0739-009"
       ]
@@ -750,9 +750,9 @@
       "id": "EVT-0739-001",
       "label": "Klein donates at Saint Samuel Cathedral and leaves without drawing attention",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-saint-samuel-cathedral-3d7a51",
-        "E-evernight-goddess-4a9d31"
+        "E-ch0529-000018"
       ],
       "evidence_ids": [
         "EV-0739-001",
@@ -766,14 +766,14 @@
       "id": "EVT-0739-002",
       "label": "Klein considers clubs, neighborhoods and a sumptuous lunch as Dwayne Dantes",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dwayne-dantès-665674",
-        "E-north-borough-8c99ff",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
+        "E-north-borough-00c1cf",
         "E-backlund-7a4d86",
         "E-carleton-club-211a26",
         "E-conservative-party-1b8cad",
         "E-club-of-the-free-9be110",
-        "E-new-party-af715f"
+        "E-new-party-3c6889"
       ],
       "evidence_ids": [
         "EV-0739-006",
@@ -786,16 +786,16 @@
       "id": "EVT-0739-003",
       "label": "Klein chooses the Intis Srenzo Restaurant for Roselle palace dishes",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-intis-srenzo-restaurant-b8d04e",
+        "E-dwayne-802dcc",
+        "E-intis-srenzo-restaurant-4b8f02",
         "E-intis-kingdom-345c26",
-        "E-roselle-gustav-5a8eb2",
+        "E-emperor-roselle-664e32",
         "E-west-borough-6ccf1d",
         "E-laborie-restaurant-2761de",
         "E-earl-hall-291c5e",
-        "E-quelaag-club-9258e8",
-        "E-lawyer-jurgen-073c7a",
-        "E-east-borough-453c19"
+        "E-quelaag-club-00002d",
+        "E-jurgen-875f32",
+        "E-backlund-east-borough-d14056"
       ],
       "evidence_ids": [
         "EV-0739-010",
@@ -809,11 +809,11 @@
       "id": "EVT-0739-004",
       "label": "Klein spots Queen Mystic Bernadette Gustav at the restaurant",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-faceless-00c1c6",
-        "E-bernadette-gustav-aca7ce",
-        "E-roselle-gustav-5a8eb2",
-        "E-hero-bandit-black-emperor-e5089f",
+        "E-bernadette-00001e",
+        "E-emperor-roselle-664e32",
+        "E-black-emperor-5d2b64",
         "E-backlund-7a4d86"
       ],
       "evidence_ids": [
@@ -826,11 +826,11 @@
       "id": "EVT-0739-005",
       "label": "Aaron Ceres and his wife head to the restaurant but turn back",
       "participants": [
-        "E-aaron-ceres-ea4cb8",
-        "E-quelaag-club-9258e8",
-        "E-sherlock-moriarty-5e1c84",
-        "E-will-auceptin-a06fa3",
-        "E-baron-syndras-b5ec02"
+        "E-aaron-ceres-00c1c0",
+        "E-quelaag-club-00002d",
+        "E-dwayne-802dcc",
+        "E-king-of-yellow-and-black-a14014",
+        "E-baron-syndras-3c4d5e"
       ],
       "evidence_ids": [
         "EV-0739-018",
@@ -841,10 +841,10 @@
       "id": "EVT-0739-006",
       "label": "Fors attends a Beyonder gathering and hears of a Moon Puppet for sale",
       "participants": [
-        "E-fors-a146009",
-        "E-astrologer-b56569",
-        "E-xio-be7851",
-        "E-moon-puppet-becdd3"
+        "E-fors-58fdc6",
+        "E-astrologer-1f4d22",
+        "E-xio-5b6c73",
+        "E-moon-puppet-3fd45c"
       ],
       "evidence_ids": [
         "EV-0739-020"
@@ -863,7 +863,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -872,7 +872,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -890,7 +890,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-north-borough-8c99ff",
+      "source": "E-north-borough-00c1cf",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -935,7 +935,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-new-party-af715f",
+      "source": "E-new-party-3c6889",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -944,7 +944,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-quelaag-club-9258e8",
+      "source": "E-quelaag-club-00002d",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -953,7 +953,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-lawyer-jurgen-073c7a",
+      "source": "E-jurgen-875f32",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -962,7 +962,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-east-borough-453c19",
+      "source": "E-backlund-east-borough-d14056",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -989,7 +989,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-intis-srenzo-restaurant-b8d04e",
+      "source": "E-intis-srenzo-restaurant-4b8f02",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1007,7 +1007,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1025,7 +1025,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-bernadette-gustav-aca7ce",
+      "source": "E-bernadette-00001e",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1034,7 +1034,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-hero-bandit-black-emperor-e5089f",
+      "source": "E-black-emperor-5d2b64",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1043,7 +1043,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-aaron-ceres-ea4cb8",
+      "source": "E-aaron-ceres-00c1c0",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1052,7 +1052,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sherlock-moriarty-5e1c84",
+      "source": "E-dwayne-802dcc",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1061,7 +1061,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-will-auceptin-a06fa3",
+      "source": "E-king-of-yellow-and-black-a14014",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1070,7 +1070,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-baron-syndras-b5ec02",
+      "source": "E-baron-syndras-3c4d5e",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1079,7 +1079,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fors-a146009",
+      "source": "E-fors-58fdc6",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1088,7 +1088,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-astrologer-b56569",
+      "source": "E-astrologer-1f4d22",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1097,7 +1097,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-xio-be7851",
+      "source": "E-xio-5b6c73",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1106,7 +1106,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-moon-puppet-becdd3",
+      "source": "E-moon-puppet-3fd45c",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1124,7 +1124,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dwayne-dantès-665674",
+      "source": "E-dwayne-802dcc",
       "target": "C0739",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1134,7 +1134,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-saint-samuel-cathedral-3d7a51",
-      "target": "E-north-borough-8c99ff",
+      "target": "E-north-borough-00c1cf",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0739-006"
@@ -1142,8 +1142,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-bernadette-gustav-aca7ce",
-      "target": "E-roselle-gustav-5a8eb2",
+      "source": "E-bernadette-00001e",
+      "target": "E-emperor-roselle-664e32",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0739-016"
@@ -1152,8 +1152,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-aaron-ceres-ea4cb8",
-      "target": "E-quelaag-club-9258e8",
+      "source": "E-aaron-ceres-00c1c0",
+      "target": "E-quelaag-club-00002d",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0739-018"
@@ -1161,8 +1161,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-fors-a146009",
-      "target": "E-astrologer-b56569",
+      "source": "E-fors-58fdc6",
+      "target": "E-astrologer-1f4d22",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0739-020"
@@ -1170,8 +1170,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dwayne-dantès-665674",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0739-009"
@@ -1180,8 +1180,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-hero-bandit-black-emperor-e5089f",
-      "target": "E-roselle-gustav-5a8eb2",
+      "source": "E-black-emperor-5d2b64",
+      "target": "E-emperor-roselle-664e32",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0739-017"

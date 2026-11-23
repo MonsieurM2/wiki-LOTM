@@ -28,7 +28,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -85,7 +85,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [
@@ -476,7 +476,7 @@
     },
     {
       "id": "MEN-0926-003",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0926-001",
         "EV-0926-002"
@@ -521,7 +521,7 @@
     },
     {
       "id": "MEN-0926-009",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0926-005",
         "EV-0926-007"
@@ -615,12 +615,12 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-card-of-blasphemy-4a9d21",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-groselle-4e7a15",
         "E-ancient-sun-god-101eef",
         "E-gregrace-6f7081",
         "E-azik-copper-whistle-5e3f27",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-priest-of-light-characteristic-18654a"
       ],
       "evidence_ids": [
@@ -721,7 +721,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0926",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -775,7 +775,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0926",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

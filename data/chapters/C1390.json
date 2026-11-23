@@ -221,7 +221,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -724,7 +724,7 @@
     },
     {
       "id": "MEN-1390-024",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1390-014"
       ]
@@ -833,7 +833,7 @@
         "E-audrey-hall-2b8d31",
         "E-psychology-alchemists-4d9e63",
         "E-alger-willson-3e9f42",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-derek-769f2b",
         "E-tarot-club-108663"
       ],
@@ -1072,7 +1072,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1390",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

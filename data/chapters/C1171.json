@@ -399,7 +399,7 @@
       "primary_type": "Artifact",
       "aliases": [],
       "tags": [],
-      "id": "E-fate-siphon-338a54"
+      "id": "E-fate-siphon-000000"
     },
     {
       "canonical_name": "Flaring Sun Charm",
@@ -1007,7 +1007,7 @@
     },
     {
       "id": "MEN-1171-035",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-1171-012"
       ]
@@ -1124,7 +1124,7 @@
         "E-groselle-4e7a15",
         "E-death-knell-18557c",
         "E-creeping-hunger-000009",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-flaring-sun-charm-12192d",
         "E-qonas-18f91f"
       ],
@@ -1477,7 +1477,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C1171",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

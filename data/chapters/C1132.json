@@ -183,7 +183,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -702,7 +702,7 @@
     },
     {
       "id": "MEN-1132-018",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1132-010"
       ]
@@ -812,7 +812,7 @@
         "E-colin-iliad-07dd71",
         "E-city-of-silver-000000",
         "E-mushrooms-c5d6e7",
-        "E-afternoon-town-74a1d3"
+        "E-afternoon-town-66c3e7"
       ],
       "evidence_ids": [
         "EV-1132-010",
@@ -998,7 +998,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1132",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1079,7 +1079,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "E-city-of-silver-000000",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

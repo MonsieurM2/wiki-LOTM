@@ -214,7 +214,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -642,7 +642,7 @@
     },
     {
       "id": "MEN-1068-017",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1068-001"
       ]
@@ -988,7 +988,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1068",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

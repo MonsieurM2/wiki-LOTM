@@ -14,7 +14,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -378,7 +378,7 @@
     },
     {
       "id": "MEN-0710-009",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0710-001",
         "EV-0710-002",
@@ -422,7 +422,7 @@
       "label": "Klein searches the seas with the Sea God Scepter above the gray fog",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-gray-fog-3a7d64"
       ],
       "evidence_ids": [
@@ -465,7 +465,7 @@
         "E-dwayne-802dcc",
         "E-marionettist-3f7a29",
         "E-connors-viktor-7e2a55",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-ch0528-000013",
         "E-jahn-kottman-1116da"
       ],
@@ -494,7 +494,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-connors-viktor-7e2a55",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-jahn-kottman-1116da",
         "E-great-smog-of-backlund-2243b5"
       ],
@@ -517,7 +517,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0710",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -645,7 +645,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0710-001",
@@ -655,7 +655,7 @@
     },
     {
       "type": "FOLLOWS_PATHWAY",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-ch0528-000013",
       "inverse": "HAS_FOLLOWER",
       "evidence_ids": [

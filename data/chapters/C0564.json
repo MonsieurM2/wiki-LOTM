@@ -50,7 +50,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -496,7 +496,7 @@
     },
     {
       "id": "MEN-0564-005",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0564-006"
       ]
@@ -621,7 +621,7 @@
         "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
         "E-hidden-sage-1bb230",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0564-003"
@@ -646,7 +646,7 @@
       "label": "Klein notes his Sea God Scepter, Black Emperor card and gray fog power let him resist threats",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-black-emperor-5d2b64",
         "E-gray-fog-3a7d64"
       ],

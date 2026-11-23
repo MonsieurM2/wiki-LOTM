@@ -49,7 +49,7 @@
       "tags": []
     },
     {
-      "id": "E-ricciardo-8c4e62",
+      "id": "E-fate-councilor-ricciardo-f12b56",
       "canonical_name": "Ricciardo",
       "primary_type": "Character",
       "aliases": [
@@ -253,7 +253,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -608,7 +608,7 @@
     },
     {
       "id": "MEN-0689-006",
-      "entity": "E-ricciardo-8c4e62",
+      "entity": "E-fate-councilor-ricciardo-f12b56",
       "evidence_ids": [
         "EV-0689-005",
         "EV-0689-006",
@@ -802,7 +802,7 @@
     },
     {
       "id": "MEN-0689-030",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0689-020",
         "EV-0689-004"
@@ -872,7 +872,7 @@
       "label": "Klein meets the blind Councilor Ricciardo",
       "participants": [
         "E-dwayne-802dcc",
-        "E-ricciardo-8c4e62"
+        "E-fate-councilor-ricciardo-f12b56"
       ],
       "evidence_ids": [
         "EV-0689-004",
@@ -899,7 +899,7 @@
       "id": "EVT-0689-004",
       "label": "Ricciardo explains why he rescued Roy King in Bayam",
       "participants": [
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-bayam-3c7d52",
         "E-roy-king-0c28e6"
       ],
@@ -912,7 +912,7 @@
       "id": "EVT-0689-005",
       "label": "Ricciardo explains the Mother Tree of Desire, the Chained God and the Mutant pathway",
       "participants": [
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-mother-3e3176",
         "E-rose-school-of-thought-1900fc",
         "E-chained-god-52aa42",
@@ -956,8 +956,8 @@
       "id": "EVT-0689-007",
       "label": "Ricciardo takes a gold coin and dispels Anderson's bad luck",
       "participants": [
-        "E-ricciardo-8c4e62",
-        "E-anderson-89ba02",
+        "E-fate-councilor-ricciardo-f12b56",
+        "E-anderson-112b7c",
         "E-gold-coin-2e5b77"
       ],
       "evidence_ids": [
@@ -1025,7 +1025,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "E-life-school-of-thought-3a6f1c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1080,7 +1080,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "C0689",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1323,7 +1323,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0689",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

@@ -25,7 +25,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -521,7 +521,7 @@
     },
     {
       "id": "MEN-0653-003",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0653-004",
         "EV-0653-007",
@@ -726,7 +726,7 @@
       "id": "EVT-0653-002",
       "label": "Anderson kills the stone golem as a Reaper of the Hunter pathway",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-reaper-ac546f",
         "E-hunter-pathway-4d7e21"
       ],
@@ -766,7 +766,7 @@
       "id": "EVT-0653-004",
       "label": "Anderson identifies Gehrman Sparrow and the Future continues on the safe route",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-dwayne-802dcc",
         "E-ailment-maiden-tracy-4a6c90",
@@ -816,7 +816,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0653",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1051,7 +1051,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-hunter-pathway-4d7e21",
       "inverse": "RELATED_TO",
       "label": "Anderson is a Reaper of the Hunter pathway",

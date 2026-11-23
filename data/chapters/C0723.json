@@ -151,7 +151,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -599,7 +599,7 @@
     },
     {
       "id": "MEN-0723-018",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0723-014"
       ]
@@ -700,7 +700,7 @@
       "label": "Klein broadcasts Helmosuin's location across Bayam with the Sea God Scepter",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-helmosuin-4e1b7c",
         "E-black-pepper-avenue-122ea9",
         "E-silver-coin-viper-oder-a1b2e0",
@@ -889,7 +889,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0723",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -952,7 +952,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [

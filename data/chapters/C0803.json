@@ -7,159 +7,164 @@
   "status": "verified",
   "entities": [
     {
+      "id": "E-sanguine-8b41f6",
+      "canonical_name": "Sanguine",
+      "primary_type": "Faction",
+      "aliases": [
+        {
+          "form": "vampire"
+        }
+      ],
+      "tags": []
+    },
+    {
       "id": "E-emlyn-white-1a2b3c",
       "canonical_name": "Emlyn White",
       "primary_type": "Character",
       "aliases": [
         {
           "form": "Emlyn"
-        }
-      ]
-    },
-    {
-      "id": "E-emlyn-white-1a2b3c",
-      "canonical_name": "Sanguine",
-      "primary_type": "Faction"
-    },
-    {
-      "id": "E-backlund-7a4d86",
-      "canonical_name": "Backlund",
-      "primary_type": "Location"
-    },
-    {
-      "id": "E-church-earth-01aa65",
-      "canonical_name": "Harvest Church",
-      "primary_type": "Faction"
-    },
-    {
-      "id": "E-ch0523-000016",
-      "canonical_name": "Earth Mother",
-      "primary_type": "Character"
-    },
-    {
-      "id": "E-mother-goddess-dep-9c4b28",
-      "canonical_name": "Primordial Moon",
-      "primary_type": "Faction"
-    },
-    {
-      "id": "E-derek-769f2b",
-      "canonical_name": "Sanguine Baron",
-      "primary_type": "Concept",
-      "aliases": [
+        },
         {
-          "form": "Baron"
+          "form": "The Moon"
+        },
+        {
+          "form": "Mr. Moon"
         }
-      ]
+      ],
+      "tags": []
     },
     {
-      "id": "E-emlyn-white-1a2b3c",
-      "canonical_name": "Viscount",
-      "primary_type": "Concept"
+      "id": "E-harvest-church-baed7b",
+      "canonical_name": "Harvest Church",
+      "primary_type": "Faction",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-cosmi-odora-10c11c",
+      "id": "E-earth-mother-5a0c73",
+      "canonical_name": "Earth Mother",
+      "primary_type": "Character",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-primordial-moon-4e5f60",
+      "canonical_name": "Primordial Moon",
+      "primary_type": "Character",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-cosmi-odora-1a2b3c",
       "canonical_name": "Cosmi Odora",
       "primary_type": "Character",
       "aliases": [
         {
           "form": "Cosmi"
         }
-      ]
+      ],
+      "tags": []
     },
     {
-      "id": "E-lilith-2cb1be",
+      "id": "E-lilith-708192",
       "canonical_name": "Lilith",
-      "primary_type": "Character"
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Sanguine Ancestor"
+        }
+      ],
+      "tags": []
     },
     {
-      "id": "E-liliths-ring-3b7e12",
-      "canonical_name": "Lilith's Ring",
-      "primary_type": "Artifact"
+      "id": "E-lilith-s-ring-293a4b",
+      "canonical_name": "Lilith’s Ring",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-door-of-summoning-a1401a",
+      "id": "E-door-of-summoning-ece3a7",
       "canonical_name": "Door of Summoning",
-      "primary_type": "Concept"
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-blood-thirsting-disease-98a6cd",
+      "id": "E-blood-thirsting-disease-1e2f30",
       "canonical_name": "Blood Thirsting Disease",
-      "primary_type": "Concept"
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-dwayne-802dcc",
+      "id": "E-klein-moretti-6a3250",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
         {
           "form": "Klein"
         }
-      ]
+      ],
+      "tags": []
     },
     {
-      "id": "E-leymano-29362a",
-      "canonical_name": "Leymano's Travels",
-      "primary_type": "Artifact"
+      "id": "E-leymanos-travels-30cb22",
+      "canonical_name": "Leymano’s Travels",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-lightning-storm-2c9a58",
-      "canonical_name": "Lightning Strike",
-      "primary_type": "Concept"
-    },
-    {
-      "id": "E-sun-brooch-00c1b2",
-      "canonical_name": "Sun Brooch",
-      "primary_type": "Artifact"
-    },
-    {
-      "id": "E-holy-light-summoning-6f7082",
-      "canonical_name": "Holy Light Summoning",
-      "primary_type": "Concept"
-    },
-    {
-      "id": "E-holy-water-creation-cae1fe",
-      "canonical_name": "Holy Water Creation",
-      "primary_type": "Concept"
-    },
-    {
-      "id": "E-spectator-a9bfae",
-      "canonical_name": "Spectator pathway",
-      "primary_type": "Pathway",
+      "id": "E-fors-a146009",
+      "canonical_name": "Fors",
+      "primary_type": "Character",
       "aliases": [
         {
-          "form": "Spectator domain"
+          "form": "Miss Magician"
         }
-      ]
+      ],
+      "tags": []
     },
     {
-      "id": "E-groselle-4e7a15",
-      "canonical_name": "Groselle's Travels",
-      "primary_type": "Artifact"
+      "id": "E-sun-brooch-1b2c3d",
+      "canonical_name": "Sun Brooch",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-candle-51b681",
+      "id": "E-mental-terror-candle-213243",
       "canonical_name": "Mental Terror Candle",
-      "primary_type": "Artifact"
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-fors-58fdc6",
-      "canonical_name": "Fors",
-      "primary_type": "Character"
+      "id": "E-abyss-shackles-462cfb",
+      "canonical_name": "Abyss Shackles",
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-ch0529-000018",
-      "canonical_name": "Church of Evernight",
-      "primary_type": "Faction"
-    },
-    {
-      "id": "E-ch0529-000018",
+      "id": "E-evernight-goddess-4a9d31",
       "canonical_name": "Evernight Goddess",
-      "primary_type": "Character"
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Goddess"
+        }
+      ],
+      "tags": []
     },
     {
-      "id": "E-dwayne-802dcc",
+      "id": "E-dwayne-dantes-8c1f02",
       "canonical_name": "Dwayne Dantès",
-      "primary_type": "Character"
+      "primary_type": "Character",
+      "aliases": [],
+      "tags": []
     }
   ],
   "evidence": [
@@ -181,10 +186,10 @@
       "book": 4,
       "chapter": 803,
       "chapter_title": "Name Rectification",
-      "quote": "When they heard that Emlyn walked into the Harvest Church because he got lost and ended up being captured and locked up underground by the Earth Mother’s bishop",
+      "quote": "When they heard that Emlyn walked into the Harvest Church because he got lost",
       "offsets": [
         1126,
-        1286
+        1203
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -220,10 +225,10 @@
       "book": 4,
       "chapter": 803,
       "chapter_title": "Name Rectification",
-      "quote": "The champion of the hunting competition will enter the final list of Viscount candidates and obtain free help for the ritual.",
+      "quote": "he will also receive a ring created by the Ancestor.",
       "offsets": [
-        2751,
-        2876
+        2892,
+        2944
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -311,9 +316,9 @@
       "book": 4,
       "chapter": 803,
       "chapter_title": "Name Rectification",
-      "quote": "the one passing through that door is an ancient goddess, Lilith",
+      "quote": "Perhaps there will come a day when the one passing through that door is an ancient goddess, Lilith",
       "offsets": [
-        7185,
+        7150,
         7248
       ],
       "verifier": "extractor+substring-check",
@@ -324,10 +329,10 @@
       "book": 4,
       "chapter": 803,
       "chapter_title": "Name Rectification",
-      "quote": "He used up all of the Lightning Strikes.",
+      "quote": "One is Abyss Shackles.",
       "offsets": [
-        7435,
-        7475
+        8508,
+        8530
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -350,29 +355,16 @@
       "book": 4,
       "chapter": 803,
       "chapter_title": "Name Rectification",
-      "quote": "since it belonged to the Spectator domain, it was possible that it could help him explore the sea of collective subconscious inside Groselle’s Travels",
+      "quote": "he returned the Mental Terror Candle and Leymano’s Travels to Emlyn and Fors respectively.",
       "offsets": [
-        9494,
-        9644
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0803-016",
-      "book": 4,
-      "chapter": 803,
-      "chapter_title": "Name Rectification",
-      "quote": "Through the bestowment ritual, he returned the Mental Terror Candle and Leymano’s Travels to Emlyn and Fors respectively.",
-      "offsets": [
-        10048,
+        10079,
         10169
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0803-017",
+      "id": "EV-0803-016",
       "book": 4,
       "chapter": 803,
       "chapter_title": "Name Rectification",
@@ -385,27 +377,27 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0803-018",
+      "id": "EV-0803-017",
       "book": 4,
       "chapter": 803,
       "chapter_title": "Name Rectification",
-      "quote": "This Beyonder was using the dream to placate the tycoon, Dwayne Dantès",
+      "quote": "the tycoon, Dwayne Dantès,",
       "offsets": [
-        10999,
-        11069
+        11044,
+        11070
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0803-019",
+      "id": "EV-0803-018",
       "book": 4,
       "chapter": 803,
       "chapter_title": "Name Rectification",
-      "quote": "All of this made Klein feel as though he had arrived in the Evernight Goddess’s divine kingdom.",
+      "quote": "ended up being captured and locked up underground by the Earth Mother’s bishop",
       "offsets": [
-        10725,
-        10820
+        1208,
+        1286
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -414,15 +406,10 @@
   "mentions": [
     {
       "id": "MEN-0803-001",
-      "entity": "E-emlyn-white-1a2b3c",
+      "entity": "E-sanguine-8b41f6",
       "evidence_ids": [
         "EV-0803-001",
-        "EV-0803-002",
-        "EV-0803-003",
-        "EV-0803-004",
-        "EV-0803-010",
-        "EV-0803-011",
-        "EV-0803-016"
+        "EV-0803-009"
       ]
     },
     {
@@ -431,203 +418,142 @@
       "evidence_ids": [
         "EV-0803-001",
         "EV-0803-002",
-        "EV-0803-009"
+        "EV-0803-003",
+        "EV-0803-004",
+        "EV-0803-010",
+        "EV-0803-011",
+        "EV-0803-015"
       ]
     },
     {
       "id": "MEN-0803-003",
-      "entity": "E-backlund-7a4d86",
+      "entity": "E-harvest-church-baed7b",
       "evidence_ids": [
         "EV-0803-002"
       ]
     },
     {
       "id": "MEN-0803-004",
-      "entity": "E-church-earth-01aa65",
+      "entity": "E-earth-mother-5a0c73",
       "evidence_ids": [
-        "EV-0803-002"
+        "EV-0803-018"
       ]
     },
     {
       "id": "MEN-0803-005",
-      "entity": "E-ch0523-000016",
-      "evidence_ids": [
-        "EV-0803-002"
-      ]
-    },
-    {
-      "id": "MEN-0803-006",
-      "entity": "E-mother-goddess-dep-9c4b28",
+      "entity": "E-primordial-moon-4e5f60",
       "evidence_ids": [
         "EV-0803-003"
       ]
     },
     {
-      "id": "MEN-0803-007",
-      "entity": "E-derek-769f2b",
+      "id": "MEN-0803-006",
+      "entity": "E-cosmi-odora-1a2b3c",
       "evidence_ids": [
-        "EV-0803-004"
-      ]
-    },
-    {
-      "id": "MEN-0803-008",
-      "entity": "E-emlyn-white-1a2b3c",
-      "evidence_ids": [
-        "EV-0803-005"
-      ]
-    },
-    {
-      "id": "MEN-0803-009",
-      "entity": "E-cosmi-odora-10c11c",
-      "evidence_ids": [
+        "EV-0803-004",
         "EV-0803-010"
       ]
     },
     {
-      "id": "MEN-0803-010",
-      "entity": "E-lilith-2cb1be",
+      "id": "MEN-0803-007",
+      "entity": "E-lilith-708192",
       "evidence_ids": [
-        "EV-0803-006",
+        "EV-0803-005",
         "EV-0803-012"
       ]
     },
     {
-      "id": "MEN-0803-011",
-      "entity": "E-liliths-ring-3b7e12",
+      "id": "MEN-0803-008",
+      "entity": "E-lilith-s-ring-293a4b",
       "evidence_ids": [
         "EV-0803-006",
         "EV-0803-010"
       ]
     },
     {
-      "id": "MEN-0803-012",
-      "entity": "E-door-of-summoning-a1401a",
+      "id": "MEN-0803-009",
+      "entity": "E-door-of-summoning-ece3a7",
       "evidence_ids": [
         "EV-0803-007",
         "EV-0803-012"
       ]
     },
     {
-      "id": "MEN-0803-013",
-      "entity": "E-blood-thirsting-disease-98a6cd",
+      "id": "MEN-0803-010",
+      "entity": "E-blood-thirsting-disease-1e2f30",
       "evidence_ids": [
-        "EV-0803-008",
-        "EV-0803-009"
+        "EV-0803-008"
+      ]
+    },
+    {
+      "id": "MEN-0803-011",
+      "entity": "E-klein-moretti-6a3250",
+      "evidence_ids": [
+        "EV-0803-011",
+        "EV-0803-014"
+      ]
+    },
+    {
+      "id": "MEN-0803-012",
+      "entity": "E-leymanos-travels-30cb22",
+      "evidence_ids": [
+        "EV-0803-011",
+        "EV-0803-015"
+      ]
+    },
+    {
+      "id": "MEN-0803-013",
+      "entity": "E-fors-a146009",
+      "evidence_ids": [
+        "EV-0803-015"
       ]
     },
     {
       "id": "MEN-0803-014",
-      "entity": "E-dwayne-802dcc",
+      "entity": "E-sun-brooch-1b2c3d",
       "evidence_ids": [
-        "EV-0803-011",
-        "EV-0803-012",
-        "EV-0803-013",
-        "EV-0803-014",
-        "EV-0803-015",
-        "EV-0803-016",
-        "EV-0803-017",
-        "EV-0803-018",
-        "EV-0803-019"
+        "EV-0803-014"
       ]
     },
     {
       "id": "MEN-0803-015",
-      "entity": "E-leymano-29362a",
+      "entity": "E-mental-terror-candle-213243",
       "evidence_ids": [
-        "EV-0803-011",
-        "EV-0803-013",
-        "EV-0803-016"
+        "EV-0803-015"
       ]
     },
     {
       "id": "MEN-0803-016",
-      "entity": "E-lightning-storm-2c9a58",
+      "entity": "E-abyss-shackles-462cfb",
       "evidence_ids": [
         "EV-0803-013"
       ]
     },
     {
       "id": "MEN-0803-017",
-      "entity": "E-sun-brooch-00c1b2",
+      "entity": "E-evernight-goddess-4a9d31",
       "evidence_ids": [
-        "EV-0803-014"
+        "EV-0803-016"
       ]
     },
     {
       "id": "MEN-0803-018",
-      "entity": "E-holy-light-summoning-6f7082",
-      "evidence_ids": [
-        "EV-0803-014"
-      ]
-    },
-    {
-      "id": "MEN-0803-019",
-      "entity": "E-holy-water-creation-cae1fe",
-      "evidence_ids": [
-        "EV-0803-014"
-      ]
-    },
-    {
-      "id": "MEN-0803-020",
-      "entity": "E-spectator-a9bfae",
-      "evidence_ids": [
-        "EV-0803-015"
-      ]
-    },
-    {
-      "id": "MEN-0803-021",
-      "entity": "E-groselle-4e7a15",
-      "evidence_ids": [
-        "EV-0803-015"
-      ]
-    },
-    {
-      "id": "MEN-0803-022",
-      "entity": "E-candle-51b681",
-      "evidence_ids": [
-        "EV-0803-016"
-      ]
-    },
-    {
-      "id": "MEN-0803-023",
-      "entity": "E-fors-58fdc6",
-      "evidence_ids": [
-        "EV-0803-016"
-      ]
-    },
-    {
-      "id": "MEN-0803-024",
-      "entity": "E-ch0529-000018",
+      "entity": "E-dwayne-dantes-8c1f02",
       "evidence_ids": [
         "EV-0803-017"
-      ]
-    },
-    {
-      "id": "MEN-0803-025",
-      "entity": "E-ch0529-000018",
-      "evidence_ids": [
-        "EV-0803-019"
-      ]
-    },
-    {
-      "id": "MEN-0803-026",
-      "entity": "E-dwayne-802dcc",
-      "evidence_ids": [
-        "EV-0803-018"
       ]
     }
   ],
   "events": [
     {
       "id": "EVT-0803-001",
-      "label": "The Sanguine mock Emlyn until he is revealed as a Baron who hunted three Primordial Moon believers",
+      "label": "The Sanguine gather learn Emlyn White has won and become a Baron",
       "participants": [
+        "E-sanguine-8b41f6",
         "E-emlyn-white-1a2b3c",
-        "E-emlyn-white-1a2b3c",
-        "E-church-earth-01aa65",
-        "E-ch0523-000016",
-        "E-mother-goddess-dep-9c4b28",
-        "E-derek-769f2b"
+        "E-cosmi-odora-1a2b3c",
+        "E-harvest-church-baed7b",
+        "E-primordial-moon-4e5f60"
       ],
       "evidence_ids": [
         "EV-0803-001",
@@ -638,15 +564,14 @@
     },
     {
       "id": "EVT-0803-002",
-      "label": "Cosmi awards Emlyn a place among the Viscount candidates and Lilith's Ring",
+      "label": "Cosmi Odora awards Emlyn Lilith’s Ring and explains its powers and curse",
       "participants": [
-        "E-cosmi-odora-10c11c",
+        "E-cosmi-odora-1a2b3c",
         "E-emlyn-white-1a2b3c",
-        "E-emlyn-white-1a2b3c",
-        "E-lilith-2cb1be",
-        "E-liliths-ring-3b7e12",
-        "E-door-of-summoning-a1401a",
-        "E-blood-thirsting-disease-98a6cd"
+        "E-lilith-708192",
+        "E-lilith-s-ring-293a4b",
+        "E-door-of-summoning-ece3a7",
+        "E-blood-thirsting-disease-1e2f30"
       ],
       "evidence_ids": [
         "EV-0803-005",
@@ -659,359 +584,95 @@
     },
     {
       "id": "EVT-0803-003",
-      "label": "Above the gray fog, Klein studies Lilith's Ring and the Door of Summoning",
+      "label": "Klein reviews Leymano’s Travels and records new Beyonder powers before returning the items",
       "participants": [
-        "E-dwayne-802dcc",
-        "E-liliths-ring-3b7e12",
-        "E-door-of-summoning-a1401a",
-        "E-lilith-2cb1be",
-        "E-leymano-29362a"
+        "E-klein-moretti-6a3250",
+        "E-leymanos-travels-30cb22",
+        "E-emlyn-white-1a2b3c",
+        "E-fors-a146009",
+        "E-sun-brooch-1b2c3d",
+        "E-mental-terror-candle-213243",
+        "E-abyss-shackles-462cfb",
+        "E-lilith-708192"
       ],
       "evidence_ids": [
         "EV-0803-011",
-        "EV-0803-012"
+        "EV-0803-012",
+        "EV-0803-013",
+        "EV-0803-014",
+        "EV-0803-015"
       ]
     },
     {
       "id": "EVT-0803-004",
-      "label": "Klein expands Leymano's Travels with recorded Beyonder powers",
+      "label": "A Beyonder from the Church of Evernight enters Dwayne Dantès’s dream to placate him",
       "participants": [
-        "E-dwayne-802dcc",
-        "E-leymano-29362a",
-        "E-lightning-storm-2c9a58",
-        "E-sun-brooch-00c1b2",
-        "E-holy-light-summoning-6f7082",
-        "E-holy-water-creation-cae1fe"
+        "E-evernight-goddess-4a9d31",
+        "E-dwayne-dantes-8c1f02",
+        "E-klein-moretti-6a3250"
       ],
       "evidence_ids": [
-        "EV-0803-013",
-        "EV-0803-014"
-      ]
-    },
-    {
-      "id": "EVT-0803-005",
-      "label": "Klein returns the Mental Terror Candle and Leymano's Travels via bestowment ritual",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-candle-51b681",
-        "E-leymano-29362a",
-        "E-emlyn-white-1a2b3c",
-        "E-fors-58fdc6",
-        "E-spectator-a9bfae",
-        "E-groselle-4e7a15"
-      ],
-      "evidence_ids": [
-        "EV-0803-015",
-        "EV-0803-016"
-      ]
-    },
-    {
-      "id": "EVT-0803-006",
-      "label": "A Beyonder from the Church of Evernight enters Klein's dream and brings him to the Evernight Goddess's divine kingdom",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-ch0529-000018",
-        "E-ch0529-000018",
-        "E-dwayne-802dcc"
-      ],
-      "evidence_ids": [
-        "EV-0803-017",
-        "EV-0803-018",
-        "EV-0803-019"
+        "EV-0803-016",
+        "EV-0803-017"
       ]
     }
   ],
   "relations": [
     {
-      "type": "APPEARS_IN",
+      "type": "OWNS",
       "source": "E-emlyn-white-1a2b3c",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
+      "target": "E-lilith-s-ring-293a4b",
+      "inverse": "OWNED_BY",
       "evidence_ids": [
-        "EV-0803-001"
+        "EV-0803-010"
       ]
     },
     {
-      "type": "APPEARS_IN",
+      "type": "OWNS",
+      "source": "E-fors-a146009",
+      "target": "E-leymanos-travels-30cb22",
+      "inverse": "OWNED_BY",
+      "evidence_ids": [
+        "EV-0803-015"
+      ]
+    },
+    {
+      "type": "OWNS",
       "source": "E-emlyn-white-1a2b3c",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
+      "target": "E-mental-terror-candle-213243",
+      "inverse": "OWNED_BY",
       "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-backlund-7a4d86",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-church-earth-01aa65",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-ch0523-000016",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-mother-goddess-dep-9c4b28",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-derek-769f2b",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-emlyn-white-1a2b3c",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-cosmi-odora-10c11c",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-lilith-2cb1be",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-liliths-ring-3b7e12",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-door-of-summoning-a1401a",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-blood-thirsting-disease-98a6cd",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-dwayne-802dcc",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-leymano-29362a",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-lightning-storm-2c9a58",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-sun-brooch-00c1b2",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-holy-light-summoning-6f7082",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-holy-water-creation-cae1fe",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-spectator-a9bfae",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-groselle-4e7a15",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-candle-51b681",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-fors-58fdc6",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-ch0529-000018",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-ch0529-000018",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-dwayne-802dcc",
-      "target": "C0803",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0803-001"
+        "EV-0803-015"
       ]
     },
     {
       "type": "MEMBER_OF",
       "source": "E-emlyn-white-1a2b3c",
-      "target": "E-emlyn-white-1a2b3c",
+      "target": "E-sanguine-8b41f6",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0803-001"
       ]
     },
     {
-      "type": "OWNS",
-      "source": "E-emlyn-white-1a2b3c",
-      "target": "E-liliths-ring-3b7e12",
-      "inverse": "OWNED_BY",
+      "type": "RELATED_TO",
+      "source": "E-lilith-s-ring-293a4b",
+      "target": "E-lilith-708192",
+      "inverse": "RELATED_TO",
       "evidence_ids": [
-        "EV-0803-010"
+        "EV-0803-005"
       ],
-      "label": "Cosmi gives Lilith's Ring to Emlyn"
-    },
-    {
-      "type": "USES",
-      "source": "E-dwayne-802dcc",
-      "target": "E-leymano-29362a",
-      "inverse": "USED_BY",
-      "evidence_ids": [
-        "EV-0803-011"
-      ]
-    },
-    {
-      "type": "USES",
-      "source": "E-dwayne-802dcc",
-      "target": "E-sun-brooch-00c1b2",
-      "inverse": "USED_BY",
-      "evidence_ids": [
-        "EV-0803-014"
-      ]
+      "label": "Lilith’s Ring was created by the Sanguine Ancestor"
     },
     {
       "type": "RELATED_TO",
-      "source": "E-liliths-ring-3b7e12",
-      "target": "E-door-of-summoning-a1401a",
+      "source": "E-blood-thirsting-disease-1e2f30",
+      "target": "E-lilith-s-ring-293a4b",
       "inverse": "RELATED_TO",
       "evidence_ids": [
-        "EV-0803-007"
+        "EV-0803-008"
       ],
-      "label": "Lilith's Ring can project the Door of Summoning"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-liliths-ring-3b7e12",
-      "target": "E-lilith-2cb1be",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0803-006"
-      ],
-      "label": "Lilith's Ring is named after and connected to the goddess Lilith"
+      "label": "Blood Thirsting Disease is the negative effect of Lilith’s Ring"
     }
   ]
 }

@@ -91,7 +91,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -517,7 +517,7 @@
     },
     {
       "id": "MEN-1243-009",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1243-009"
       ]
@@ -644,7 +644,7 @@
         "E-crystal-monocle-6c1e07",
         "E-dwayne-802dcc",
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-sefirah-castle-0b5d21"
       ],
       "evidence_ids": [
@@ -768,7 +768,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1243",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

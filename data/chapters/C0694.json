@@ -84,7 +84,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -112,7 +112,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -509,7 +509,7 @@
     },
     {
       "id": "MEN-0694-010",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0694-013"
       ]
@@ -537,7 +537,7 @@
     },
     {
       "id": "MEN-0694-014",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0694-017",
         "EV-0694-018",
@@ -651,7 +651,7 @@
       "label": "Klein rejects the Sea God Scepter and fears someone sacrificing the book",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-ancient-sun-god-0e7a93",
         "E-cheek-7c2a48",
         "E-hidden-sage-1bb230",
@@ -682,7 +682,7 @@
       "label": "Klein persuades Anderson to join the adventure as a Dragon Hunter",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dragon-hunter-04d263"
       ],
       "evidence_ids": [
@@ -694,7 +694,7 @@
       "id": "EVT-0694-009",
       "label": "Anderson smears blood on the book and vanishes; Klein follows after preparing Dowsing Rod Seeking",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-groselle-4e7a15",
         "E-blazing-danitz-a1b2cd",
         "E-dwayne-802dcc",
@@ -846,7 +846,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0694",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -882,7 +882,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0694",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

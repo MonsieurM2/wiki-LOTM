@@ -21,7 +21,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -186,7 +186,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -288,7 +288,7 @@
       "tags": []
     },
     {
-      "id": "E-ricciardo-8c4e62",
+      "id": "E-fate-councilor-ricciardo-f12b56",
       "canonical_name": "Ricciardo",
       "primary_type": "Character",
       "aliases": [],
@@ -600,7 +600,7 @@
     },
     {
       "id": "MEN-0688-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0688-001",
         "EV-0688-002",
@@ -833,7 +833,7 @@
     },
     {
       "id": "MEN-0688-032",
-      "entity": "E-ricciardo-8c4e62",
+      "entity": "E-fate-councilor-ricciardo-f12b56",
       "evidence_ids": [
         "EV-0688-019",
         "EV-0688-002"
@@ -856,7 +856,7 @@
     },
     {
       "id": "MEN-0688-035",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0688-007"
       ]
@@ -910,7 +910,7 @@
       "label": "Klein asks Anderson to watch for the Death Announcer from the crow's nest",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-death-announcer-3b34d2"
       ],
       "evidence_ids": [
@@ -977,7 +977,7 @@
       "id": "EVT-0688-005",
       "label": "The Death Announcer never appears as the liner leaves Toscarter",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-death-announcer-3b34d2",
         "E-agalito-4f2c18",
         "E-toscarter-2710d5"
@@ -1011,7 +1011,7 @@
         "E-church-of-storms-3c8d52",
         "E-st-draco-cathedral-b95dd8",
         "E-bellman-carnot-2d8e14",
-        "E-ricciardo-8c4e62"
+        "E-fate-councilor-ricciardo-f12b56"
       ],
       "evidence_ids": [
         "EV-0688-017",
@@ -1114,7 +1114,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0688",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1312,7 +1312,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0688",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1438,7 +1438,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "C0688",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

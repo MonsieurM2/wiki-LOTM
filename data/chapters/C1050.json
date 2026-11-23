@@ -74,7 +74,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [
@@ -520,7 +520,7 @@
     },
     {
       "id": "MEN-1050-008",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-1050-005"
       ]
@@ -698,7 +698,7 @@
       "participants": [
         "E-audrey-hall-2b8d31",
         "E-body-of-heart-and-mind-2bb2c5",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-hvin-d7918d",
         "E-hypnosis-3f1413",
         "E-mind_storm-7db06c"
@@ -853,7 +853,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C1050",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

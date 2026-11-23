@@ -147,7 +147,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -165,7 +165,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -674,7 +674,7 @@
     },
     {
       "id": "MEN-0816-017",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0816-013"
       ]
@@ -688,7 +688,7 @@
     },
     {
       "id": "MEN-0816-019",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0816-013"
       ]
@@ -833,9 +833,9 @@
         "E-creeping-hunger-000009",
         "E-death-knell-18557c",
         "E-leymano-29362a",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-groselle-4e7a15",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-purifying-bullet-313d9c",
         "E-ocean-songster-1b2c3d",
         "E-six-winged-gargoyle-079836"
@@ -1029,7 +1029,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0816",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1047,7 +1047,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0816",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

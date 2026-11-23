@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-helene-4c1a77",
+      "id": "E-helene-16e74e",
       "canonical_name": "red-haired Helene",
       "primary_type": "Character",
       "aliases": [
@@ -445,7 +445,7 @@
   "mentions": [
     {
       "id": "MEN-0579-001",
-      "entity": "E-helene-4c1a77",
+      "entity": "E-helene-16e74e",
       "evidence_ids": [
         "EV-0579-005",
         "EV-0579-017"
@@ -569,7 +569,7 @@
       "id": "EVT-0579-001",
       "label": "Helene recounts her early sea-trading life and how Ailment Maiden Tracy captured her",
       "participants": [
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-ailment-maiden-tracy-4a6c90"
       ],
       "evidence_ids": [
@@ -582,7 +582,7 @@
       "label": "Klein 'surveys' Helene's personality, habits and preferences to prepare his impersonation",
       "participants": [
         "E-dwayne-802dcc",
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-emperor-roselle-664e32",
         "E-clown-2e3b39"
       ],
@@ -627,7 +627,7 @@
       "label": "Klein divines Helene to confirm she is not lying, then sends her away with new identification",
       "participants": [
         "E-dwayne-802dcc",
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-blazing-danitz-a1b2cd"
       ],
       "evidence_ids": [
@@ -641,7 +641,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "C0579",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -805,7 +805,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-ailment-maiden-tracy-4a6c90",
-      "target": "E-helene-4c1a77",
+      "target": "E-helene-16e74e",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0579-001"

@@ -7,35 +7,35 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-the-world-cb4adb",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "The World",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-miss-messenger-31a738",
+      "id": "E-azik-s-messenger-ad73bf",
       "canonical_name": "Miss Messenger",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-reinette-tinekerr-522315",
+      "id": "E-headless-woman-b0197d",
       "canonical_name": "Reinette Tinekerr",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-biological-poison-bottle-a4b5c6",
+      "id": "E-biological-poison-bottle-00c1b1",
       "canonical_name": "Biological Poison Bottle",
       "primary_type": "Artifact",
       "aliases": [],
@@ -63,14 +63,14 @@
       "tags": []
     },
     {
-      "id": "E-frank-lee-8a7f98",
+      "id": "E-frank-lee-20aa5f",
       "canonical_name": "Frank Lee",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-sharron-a1fb8b",
+      "id": "E-miss-sharron-222559",
       "canonical_name": "Sharron",
       "primary_type": "Character",
       "aliases": [
@@ -81,35 +81,35 @@
       "tags": []
     },
     {
-      "id": "E-book-of-secrets-cfae94",
+      "id": "E-book-of-secrets-2cc69e",
       "canonical_name": "Book of Secrets",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-shaman-king-klarman-acea55",
+      "id": "E-klarman-d6e7fb",
       "canonical_name": "Shaman King Klarman",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-southern-continent-5c8d20",
+      "id": "E-ch0526-000007",
       "canonical_name": "Southern Continent",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-primordial-moon-01d15a",
+      "id": "E-mother-goddess-dep-9c4b28",
       "canonical_name": "Primordial Moon",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-mr-fool-b7e2c1",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Mr. Fool",
       "primary_type": "Character",
       "aliases": [],
@@ -123,28 +123,28 @@
       "tags": []
     },
     {
-      "id": "E-interrogator-39ae9c",
+      "id": "E-interrogator-00c1c5",
       "canonical_name": "Interrogator",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-xio-be7851",
+      "id": "E-xio-5b6c73",
       "canonical_name": "Xio",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-obninsk-b9de77",
+      "id": "E-obninsk-2e7863",
       "canonical_name": "Obninsk",
       "primary_type": "Concept",
       "aliases": [],
@@ -158,7 +158,7 @@
       "tags": []
     },
     {
-      "id": "E-fors-a146009",
+      "id": "E-fors-58fdc6",
       "canonical_name": "Fors",
       "primary_type": "Character",
       "aliases": [],
@@ -172,21 +172,21 @@
       "tags": []
     },
     {
-      "id": "E-derrick-berg-d5f147",
+      "id": "E-derek-769f2b",
       "canonical_name": "Derrick Berg",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-city-of-silver-44d62e",
+      "id": "E-city-of-silver-000000",
       "canonical_name": "City of Silver",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-tree-of-elders-7b71f6",
+      "id": "E-tree-of-elders-3e6b02",
       "canonical_name": "Tree of Elders",
       "primary_type": "Concept",
       "aliases": [],
@@ -200,7 +200,7 @@
       "tags": []
     },
     {
-      "id": "E-shepherd-8336aa",
+      "id": "E-ch0528-000016",
       "canonical_name": "Shepherd",
       "primary_type": "Concept",
       "aliases": [],
@@ -221,28 +221,14 @@
       "tags": []
     },
     {
-      "id": "E-notary-f8425d",
+      "id": "E-notary-8bc5d6",
       "canonical_name": "Notary",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-bansy-harbor-ae885c",
-      "canonical_name": "Bansy Harbor",
-      "primary_type": "Location",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-tarot-club-108663",
-      "canonical_name": "Tarot Club",
-      "primary_type": "Faction",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-the-gray-fog-145147",
+      "id": "E-gray-fog-3a7d64",
       "canonical_name": "the gray fog",
       "primary_type": "Location",
       "aliases": [],
@@ -509,25 +495,12 @@
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
-    },
-    {
-      "id": "EV-0745-021",
-      "book": 4,
-      "chapter": 745,
-      "chapter_title": "Knowledge is Money",
-      "quote": "“Recently, many pirates have been heading to Bansy Harbor. They discovered that it has already been completely destroyed. Even if it’s rebuilt, it would take several years.”",
-      "offsets": [
-        10327,
-        10500
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
     }
   ],
   "mentions": [
     {
       "id": "MEN-0745-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0745-001",
         "EV-0745-002",
@@ -540,7 +513,7 @@
     },
     {
       "id": "MEN-0745-002",
-      "entity": "E-the-world-cb4adb",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0745-001",
         "EV-0745-004",
@@ -552,7 +525,7 @@
     },
     {
       "id": "MEN-0745-003",
-      "entity": "E-miss-messenger-31a738",
+      "entity": "E-azik-s-messenger-ad73bf",
       "evidence_ids": [
         "EV-0745-002",
         "EV-0745-003"
@@ -560,14 +533,14 @@
     },
     {
       "id": "MEN-0745-004",
-      "entity": "E-reinette-tinekerr-522315",
+      "entity": "E-headless-woman-b0197d",
       "evidence_ids": [
         "EV-0745-002"
       ]
     },
     {
       "id": "MEN-0745-005",
-      "entity": "E-biological-poison-bottle-a4b5c6",
+      "entity": "E-biological-poison-bottle-00c1b1",
       "evidence_ids": [
         "EV-0745-004",
         "EV-0745-005",
@@ -604,42 +577,42 @@
     },
     {
       "id": "MEN-0745-009",
-      "entity": "E-frank-lee-8a7f98",
+      "entity": "E-frank-lee-20aa5f",
       "evidence_ids": [
         "EV-0745-008"
       ]
     },
     {
       "id": "MEN-0745-010",
-      "entity": "E-sharron-a1fb8b",
+      "entity": "E-miss-sharron-222559",
       "evidence_ids": [
         "EV-0745-009"
       ]
     },
     {
       "id": "MEN-0745-011",
-      "entity": "E-book-of-secrets-cfae94",
+      "entity": "E-book-of-secrets-2cc69e",
       "evidence_ids": [
         "EV-0745-009"
       ]
     },
     {
       "id": "MEN-0745-012",
-      "entity": "E-shaman-king-klarman-acea55",
+      "entity": "E-klarman-d6e7fb",
       "evidence_ids": [
         "EV-0745-009"
       ]
     },
     {
       "id": "MEN-0745-013",
-      "entity": "E-southern-continent-5c8d20",
+      "entity": "E-ch0526-000007",
       "evidence_ids": [
         "EV-0745-009"
       ]
     },
     {
       "id": "MEN-0745-014",
-      "entity": "E-primordial-moon-01d15a",
+      "entity": "E-mother-goddess-dep-9c4b28",
       "evidence_ids": [
         "EV-0745-011",
         "EV-0745-013"
@@ -647,7 +620,7 @@
     },
     {
       "id": "MEN-0745-015",
-      "entity": "E-mr-fool-b7e2c1",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0745-010",
         "EV-0745-012",
@@ -663,7 +636,7 @@
     },
     {
       "id": "MEN-0745-017",
-      "entity": "E-interrogator-39ae9c",
+      "entity": "E-interrogator-00c1c5",
       "evidence_ids": [
         "EV-0745-014",
         "EV-0745-015"
@@ -671,24 +644,23 @@
     },
     {
       "id": "MEN-0745-018",
-      "entity": "E-xio-be7851",
+      "entity": "E-xio-5b6c73",
       "evidence_ids": [
         "EV-0745-015"
       ]
     },
     {
       "id": "MEN-0745-019",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0745-010",
         "EV-0745-016",
-        "EV-0745-020",
-        "EV-0745-021"
+        "EV-0745-020"
       ]
     },
     {
       "id": "MEN-0745-020",
-      "entity": "E-obninsk-b9de77",
+      "entity": "E-obninsk-2e7863",
       "evidence_ids": [
         "EV-0745-016"
       ]
@@ -702,7 +674,7 @@
     },
     {
       "id": "MEN-0745-022",
-      "entity": "E-fors-a146009",
+      "entity": "E-fors-58fdc6",
       "evidence_ids": [
         "EV-0745-015",
         "EV-0745-017"
@@ -718,7 +690,7 @@
     },
     {
       "id": "MEN-0745-024",
-      "entity": "E-derrick-berg-d5f147",
+      "entity": "E-derek-769f2b",
       "evidence_ids": [
         "EV-0745-018",
         "EV-0745-019",
@@ -727,7 +699,7 @@
     },
     {
       "id": "MEN-0745-025",
-      "entity": "E-city-of-silver-44d62e",
+      "entity": "E-city-of-silver-000000",
       "evidence_ids": [
         "EV-0745-018",
         "EV-0745-019"
@@ -735,7 +707,7 @@
     },
     {
       "id": "MEN-0745-026",
-      "entity": "E-tree-of-elders-7b71f6",
+      "entity": "E-tree-of-elders-3e6b02",
       "evidence_ids": [
         "EV-0745-018"
       ]
@@ -749,7 +721,7 @@
     },
     {
       "id": "MEN-0745-028",
-      "entity": "E-shepherd-8336aa",
+      "entity": "E-ch0528-000016",
       "evidence_ids": [
         "EV-0745-020"
       ]
@@ -770,28 +742,14 @@
     },
     {
       "id": "MEN-0745-031",
-      "entity": "E-notary-f8425d",
+      "entity": "E-notary-8bc5d6",
       "evidence_ids": [
         "EV-0745-019"
       ]
     },
     {
       "id": "MEN-0745-032",
-      "entity": "E-bansy-harbor-ae885c",
-      "evidence_ids": [
-        "EV-0745-021"
-      ]
-    },
-    {
-      "id": "MEN-0745-033",
-      "entity": "E-tarot-club-108663",
-      "evidence_ids": [
-        "EV-0745-021"
-      ]
-    },
-    {
-      "id": "MEN-0745-034",
-      "entity": "E-the-gray-fog-145147",
+      "entity": "E-gray-fog-3a7d64",
       "evidence_ids": [
         "EV-0745-013"
       ]
@@ -802,10 +760,10 @@
       "id": "EVT-0745-001",
       "label": "Klein celebrates the Scales of Luck sale and worries about paying Miss Messenger",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-the-world-cb4adb",
-        "E-miss-messenger-31a738",
-        "E-reinette-tinekerr-522315"
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
+        "E-azik-s-messenger-ad73bf",
+        "E-headless-woman-b0197d"
       ],
       "evidence_ids": [
         "EV-0745-001",
@@ -817,13 +775,13 @@
       "id": "EVT-0745-002",
       "label": "The World offers Biological Poison Bottle but no member buys it",
       "participants": [
-        "E-the-world-cb4adb",
-        "E-klein-moretti-6a3250",
-        "E-biological-poison-bottle-a4b5c6",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
+        "E-biological-poison-bottle-00c1b1",
         "E-audrey-hall-2b8d31",
         "E-spectator-a9bfae",
         "E-cattleya-3e8f15",
-        "E-frank-lee-8a7f98"
+        "E-frank-lee-20aa5f"
       ],
       "evidence_ids": [
         "EV-0745-004",
@@ -837,18 +795,18 @@
       "id": "EVT-0745-003",
       "label": "Klein sells the Book of Secrets to Audrey and warns against praying to Primordial Moon",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-the-world-cb4adb",
-        "E-sharron-a1fb8b",
-        "E-book-of-secrets-cfae94",
-        "E-shaman-king-klarman-acea55",
-        "E-southern-continent-5c8d20",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
+        "E-miss-sharron-222559",
+        "E-book-of-secrets-2cc69e",
+        "E-klarman-d6e7fb",
+        "E-ch0526-000007",
         "E-audrey-hall-2b8d31",
-        "E-mr-fool-b7e2c1",
-        "E-alger-wilson-3e9f42",
-        "E-primordial-moon-01d15a",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
+        "E-mother-goddess-dep-9c4b28",
         "E-sea-god-scepter-13653b",
-        "E-the-gray-fog-145147"
+        "E-gray-fog-3a7d64"
       ],
       "evidence_ids": [
         "EV-0745-009",
@@ -862,11 +820,11 @@
       "id": "EVT-0745-004",
       "label": "The World offers an Interrogator Beyonder characteristic but no one responds",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-the-world-cb4adb",
-        "E-interrogator-39ae9c",
-        "E-fors-a146009",
-        "E-xio-be7851"
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
+        "E-interrogator-00c1c5",
+        "E-fors-58fdc6",
+        "E-xio-5b6c73"
       ],
       "evidence_ids": [
         "EV-0745-014",
@@ -877,20 +835,20 @@
       "id": "EVT-0745-005",
       "label": "Members trade clues and resources, including Emlyn and Derrick",
       "participants": [
-        "E-alger-wilson-3e9f42",
-        "E-obninsk-b9de77",
+        "E-alger-willson-3e9f42",
+        "E-obninsk-2e7863",
         "E-church-of-storms-3c8d52",
         "E-cattleya-3e8f15",
         "E-emlyn-white-1a2b3c",
-        "E-fors-a146009",
-        "E-derrick-berg-d5f147",
-        "E-tree-of-elders-7b71f6",
-        "E-city-of-silver-44d62e",
+        "E-fors-58fdc6",
+        "E-derek-769f2b",
+        "E-tree-of-elders-3e6b02",
+        "E-city-of-silver-000000",
         "E-afternoon-town-66c3e7",
         "E-chief-559232",
-        "E-notary-f8425d",
+        "E-notary-8bc5d6",
         "E-elder-council-6a8024",
-        "E-shepherd-8336aa"
+        "E-ch0528-000016"
       ],
       "evidence_ids": [
         "EV-0745-016",
@@ -899,24 +857,12 @@
         "EV-0745-019",
         "EV-0745-020"
       ]
-    },
-    {
-      "id": "EVT-0745-006",
-      "label": "Alger reports that Bansy Harbor has been destroyed",
-      "participants": [
-        "E-alger-wilson-3e9f42",
-        "E-bansy-harbor-ae885c",
-        "E-tarot-club-108663"
-      ],
-      "evidence_ids": [
-        "EV-0745-021"
-      ]
     }
   ],
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -925,7 +871,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-the-world-cb4adb",
+      "source": "E-dwayne-802dcc",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -934,7 +880,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-miss-messenger-31a738",
+      "source": "E-azik-s-messenger-ad73bf",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -943,7 +889,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-reinette-tinekerr-522315",
+      "source": "E-headless-woman-b0197d",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -952,7 +898,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-biological-poison-bottle-a4b5c6",
+      "source": "E-biological-poison-bottle-00c1b1",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -988,7 +934,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-frank-lee-8a7f98",
+      "source": "E-frank-lee-20aa5f",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -997,7 +943,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sharron-a1fb8b",
+      "source": "E-miss-sharron-222559",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1006,7 +952,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-book-of-secrets-cfae94",
+      "source": "E-book-of-secrets-2cc69e",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1015,7 +961,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-shaman-king-klarman-acea55",
+      "source": "E-klarman-d6e7fb",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1024,7 +970,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-southern-continent-5c8d20",
+      "source": "E-ch0526-000007",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1033,7 +979,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-primordial-moon-01d15a",
+      "source": "E-mother-goddess-dep-9c4b28",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1042,7 +988,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mr-fool-b7e2c1",
+      "source": "E-dwayne-802dcc",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1060,7 +1006,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-interrogator-39ae9c",
+      "source": "E-interrogator-00c1c5",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1069,7 +1015,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-xio-be7851",
+      "source": "E-xio-5b6c73",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1078,7 +1024,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1087,7 +1033,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-obninsk-b9de77",
+      "source": "E-obninsk-2e7863",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1105,7 +1051,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fors-a146009",
+      "source": "E-fors-58fdc6",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1123,7 +1069,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-derrick-berg-d5f147",
+      "source": "E-derek-769f2b",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1132,7 +1078,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-city-of-silver-44d62e",
+      "source": "E-city-of-silver-000000",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1141,7 +1087,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-tree-of-elders-7b71f6",
+      "source": "E-tree-of-elders-3e6b02",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1159,7 +1105,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-shepherd-8336aa",
+      "source": "E-ch0528-000016",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1186,7 +1132,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-notary-f8425d",
+      "source": "E-notary-8bc5d6",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1195,25 +1141,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-bansy-harbor-ae885c",
-      "target": "C0745",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0745-021"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-tarot-club-108663",
-      "target": "C0745",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0745-021"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-the-gray-fog-145147",
+      "source": "E-gray-fog-3a7d64",
       "target": "C0745",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1222,8 +1150,8 @@
     },
     {
       "type": "OWNS",
-      "source": "E-book-of-secrets-cfae94",
-      "target": "E-shaman-king-klarman-acea55",
+      "source": "E-book-of-secrets-2cc69e",
+      "target": "E-klarman-d6e7fb",
       "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-0745-009"
@@ -1241,7 +1169,7 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-frank-lee-8a7f98",
+      "source": "E-frank-lee-20aa5f",
       "target": "E-cattleya-3e8f15",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
@@ -1252,7 +1180,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-sea-god-scepter-13653b",
-      "target": "E-primordial-moon-01d15a",
+      "target": "E-mother-goddess-dep-9c4b28",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0745-013"
@@ -1261,8 +1189,8 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-tree-of-elders-7b71f6",
-      "target": "E-city-of-silver-44d62e",
+      "source": "E-tree-of-elders-3e6b02",
+      "target": "E-city-of-silver-000000",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0745-018"
@@ -1271,21 +1199,11 @@
     {
       "type": "LOCATED_IN",
       "source": "E-afternoon-town-66c3e7",
-      "target": "E-city-of-silver-44d62e",
+      "target": "E-city-of-silver-000000",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0745-019"
       ]
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-bansy-harbor-ae885c",
-      "target": "E-church-of-storms-3c8d52",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0745-021"
-      ],
-      "label": "The Church of Storms destroyed Bansy Harbor"
     }
   ]
 }

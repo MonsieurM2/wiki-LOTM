@@ -13,24 +13,9 @@
       "aliases": [
         {
           "form": "Audrey"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "E-relic-search-foundation-6b1e93",
-      "canonical_name": "Relic Search and Preservation Foundation",
-      "primary_type": "Faction",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-michele-deuth-59ea57",
-      "canonical_name": "Associate Professor Michele",
-      "primary_type": "Character",
-      "aliases": [
+        },
         {
-          "form": "Michele"
+          "form": "Miss Justice"
         }
       ],
       "tags": []
@@ -43,21 +28,28 @@
       "tags": []
     },
     {
-      "id": "E-lindelira-ba8cb9",
-      "canonical_name": "Lindelira",
+      "id": "E-michele-deuth-59ea57",
+      "canonical_name": "Michele Deuth",
       "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Associate Professor Michele"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "E-twenty-year-war-09b913",
+      "canonical_name": "Twenty Year War notebook",
+      "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-hartlarkh-2e8b06",
+      "id": "E-hartlarkh-village-4d5e6f",
       "canonical_name": "Hartlarkh Village",
       "primary_type": "Location",
-      "aliases": [
-        {
-          "form": "Hartlarkh"
-        }
-      ],
+      "aliases": [],
       "tags": []
     },
     {
@@ -75,7 +67,14 @@
       "tags": []
     },
     {
-      "id": "E-the-fool-22e598",
+      "id": "E-qilangos-630660",
+      "canonical_name": "Qilangos",
+      "primary_type": "Character",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-zhou-mingrui-e5a8be",
       "canonical_name": "The Fool",
       "primary_type": "Character",
       "aliases": [
@@ -89,13 +88,6 @@
       "id": "E-tarot-club-f6c8a2",
       "canonical_name": "Tarot Club",
       "primary_type": "Faction",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-qilangos-630660",
-      "canonical_name": "Qilangos",
-      "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
@@ -119,6 +111,9 @@
           "form": "Alger"
         },
         {
+          "form": "Mr. Hanged Man"
+        },
+        {
           "form": "The Hanged Man"
         }
       ],
@@ -130,16 +125,9 @@
       "primary_type": "Character",
       "aliases": [
         {
-          "form": "The World Gehrman Sparrow"
+          "form": "Mr. World"
         }
       ],
-      "tags": []
-    },
-    {
-      "id": "E-bayam-bb8c81",
-      "canonical_name": "Bayam",
-      "primary_type": "Location",
-      "aliases": [],
       "tags": []
     },
     {
@@ -150,46 +138,32 @@
       "tags": []
     },
     {
-      "id": "E-city-of-generosity-c4f649",
-      "canonical_name": "City of Generosity",
+      "id": "E-bayam-bb8c81",
+      "canonical_name": "Bayam",
       "primary_type": "Location",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-blue-avenger-364758",
-      "canonical_name": "Blue Avenger",
-      "primary_type": "Location",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-primitive-island-a8cc97",
-      "canonical_name": "primitive island",
-      "primary_type": "Location",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-sanguine-8b41f6",
-      "canonical_name": "Sanguine",
-      "primary_type": "Concept",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-leymano-s-travels-30cb22",
-      "canonical_name": "Leymano’s Travels",
-      "primary_type": "Artifact",
       "aliases": [
         {
-          "form": "Leymano's Travels"
+          "form": "City of Generosity"
         }
       ],
       "tags": []
     },
     {
-      "id": "E-fors-wall-8d9e4f",
+      "id": "E-blue-avenger-364758",
+      "canonical_name": "Blue Avenger",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-leymanos-travels-30cb22",
+      "canonical_name": "Leymano’s Travels",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-fors-a146009",
       "canonical_name": "Fors",
       "primary_type": "Character",
       "aliases": [
@@ -200,47 +174,22 @@
       "tags": []
     },
     {
-      "id": "E-resistance-d8201c",
-      "canonical_name": "Resistance",
-      "primary_type": "Faction",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-church-of-storms-3c8d52",
-      "canonical_name": "Church of Storms",
-      "primary_type": "Faction",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-backlund-7a4d86",
-      "canonical_name": "Backlund",
-      "primary_type": "Location",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-macht-419cbf",
-      "canonical_name": "Member of Parliament Macht",
+      "id": "E-gehrman-sparrow-7a5007",
+      "canonical_name": "Gehrman Sparrow",
       "primary_type": "Character",
-      "aliases": [
-        {
-          "form": "Macht"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "E-loen-kingdom-1b9c6e",
-      "canonical_name": "Loen Kingdom",
-      "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-imperial-science-institute-c17e0f",
-      "canonical_name": "Loen Kingdom Imperial Science Institute",
+      "id": "E-spectator-pathway-383934",
+      "canonical_name": "Spectator pathway",
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-archaeological-team-7a8b9c",
+      "canonical_name": "archaeological team",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
@@ -252,9 +201,9 @@
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
-      "quote": "Inside the building of the Relic Search and Preservation Foundation, Audrey, whose thoughts were undergoing an upheaval, blinked.",
+      "quote": "Audrey, whose thoughts were undergoing an upheaval, blinked.",
       "offsets": [
-        0,
+        69,
         129
       ],
       "verifier": "extractor+substring-check",
@@ -278,10 +227,10 @@
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
-      "quote": "this notebook belonged to the knight from Hartlarkh Village, Lindelira.",
+      "quote": "it was deeply connected to the village that worshiped dragons.",
       "offsets": [
-        602,
-        673
+        824,
+        886
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -291,10 +240,10 @@
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
-      "quote": "Audrey had made a request to Mr. Fool and relied on magic mirror divination",
+      "quote": "she knew ahead of time that there was a mind dragon hiding within the sea of collective subconscious",
       "offsets": [
-        686,
-        761
+        890,
+        990
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -304,16 +253,42 @@
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
-      "quote": "there was a mind dragon hiding within the sea of collective subconscious",
+      "quote": "the Psychology Alchemists had quite a significant chance of locking onto Hartlarkh Village through the notebook",
       "offsets": [
-        918,
-        990
+        1145,
+        1256
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
       "id": "EV-0805-006",
+      "book": 4,
+      "chapter": 805,
+      "chapter_title": "Meeting Up",
+      "quote": "the strange mental illness that the archaeological team suffered.",
+      "offsets": [
+        1352,
+        1417
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0805-007",
+      "book": 4,
+      "chapter": 805,
+      "chapter_title": "Meeting Up",
+      "quote": "chaos and madness could be spread to others through spirit channeling, dreams, and the subconscious!",
+      "offsets": [
+        1691,
+        1791
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0805-008",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
@@ -326,7 +301,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0805-007",
+      "id": "EV-0805-009",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
@@ -339,46 +314,59 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0805-008",
-      "book": 4,
-      "chapter": 805,
-      "chapter_title": "Meeting Up",
-      "quote": "Associate Professor Michele noticed that Audrey had been silent.",
-      "offsets": [
-        3270,
-        3334
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0805-009",
-      "book": 4,
-      "chapter": 805,
-      "chapter_title": "Meeting Up",
-      "quote": "On Friday afternoon, Klein received the invitation list for the ball tomorrow.",
-      "offsets": [
-        5895,
-        5973
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
       "id": "EV-0805-010",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
-      "quote": "When meeting Member of Parliament Macht, I need to make remarks about the recent good air in Backlund",
+      "quote": "the Psychology Alchemists is in control of the Spectator pathway",
       "offsets": [
-        6061,
-        6162
+        4662,
+        4726
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
       "id": "EV-0805-011",
+      "book": 4,
+      "chapter": 805,
+      "chapter_title": "Meeting Up",
+      "quote": "Her only intentions were to mention the matter at the next Tarot Club",
+      "offsets": [
+        5386,
+        5455
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0805-012",
+      "book": 4,
+      "chapter": 805,
+      "chapter_title": "Meeting Up",
+      "quote": "Klein received the invitation list for the ball tomorrow.",
+      "offsets": [
+        5916,
+        5973
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0805-013",
+      "book": 4,
+      "chapter": 805,
+      "chapter_title": "Meeting Up",
+      "quote": "it’s most likely Mr. Hanged Man",
+      "offsets": [
+        6349,
+        6380
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0805-014",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
@@ -391,20 +379,20 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0805-012",
+      "id": "EV-0805-015",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
-      "quote": "arrived at the capital of the Rorsted Archipelago, City of Generosity, Bayam.",
+      "quote": "The World that he had arrived at the capital of the Rorsted Archipelago, City of Generosity, Bayam.",
       "offsets": [
-        6774,
+        6752,
         6851
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0805-013",
+      "id": "EV-0805-016",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
@@ -417,20 +405,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0805-014",
-      "book": 4,
-      "chapter": 805,
-      "chapter_title": "Meeting Up",
-      "quote": "Meet at the cemetery outside the city at midnight today.",
-      "offsets": [
-        7577,
-        7633
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0805-015",
+      "id": "EV-0805-017",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
@@ -443,20 +418,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0805-016",
-      "book": 4,
-      "chapter": 805,
-      "chapter_title": "Meeting Up",
-      "quote": "he found his contact with the Resistance and replenished his Storm charms that were made with tin.",
-      "offsets": [
-        8955,
-        9053
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0805-017",
+      "id": "EV-0805-018",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
@@ -469,14 +431,27 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0805-018",
+      "id": "EV-0805-019",
       "book": 4,
       "chapter": 805,
       "chapter_title": "Meeting Up",
-      "quote": "a figure quickly outlined itself in the shade.",
+      "quote": "Gehrman Sparrow nearly destroyed Bayam,",
       "offsets": [
-        11128,
-        11174
+        10388,
+        10427
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0805-020",
+      "book": 4,
+      "chapter": 805,
+      "chapter_title": "Meeting Up",
+      "quote": "The emotionless dark brown eyes were none other than Gehrman Sparrow’s.",
+      "offsets": [
+        11283,
+        11354
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -489,498 +464,274 @@
       "evidence_ids": [
         "EV-0805-001",
         "EV-0805-002",
-        "EV-0805-004",
-        "EV-0805-006",
-        "EV-0805-007",
-        "EV-0805-008"
+        "EV-0805-011"
       ]
     },
     {
       "id": "MEN-0805-002",
-      "entity": "E-relic-search-foundation-6b1e93",
+      "entity": "E-psychology-alchemists-4d9e63",
       "evidence_ids": [
-        "EV-0805-001"
+        "EV-0805-002",
+        "EV-0805-005",
+        "EV-0805-006",
+        "EV-0805-010"
       ]
     },
     {
       "id": "MEN-0805-003",
       "entity": "E-michele-deuth-59ea57",
       "evidence_ids": [
-        "EV-0805-002",
-        "EV-0805-008"
-      ]
-    },
-    {
-      "id": "MEN-0805-004",
-      "entity": "E-psychology-alchemists-4d9e63",
-      "evidence_ids": [
         "EV-0805-002"
       ]
     },
     {
-      "id": "MEN-0805-005",
-      "entity": "E-lindelira-ba8cb9",
+      "id": "MEN-0805-004",
+      "entity": "E-twenty-year-war-09b913",
       "evidence_ids": [
-        "EV-0805-003"
+        "EV-0805-002",
+        "EV-0805-003",
+        "EV-0805-005"
+      ]
+    },
+    {
+      "id": "MEN-0805-005",
+      "entity": "E-hartlarkh-village-4d5e6f",
+      "evidence_ids": [
+        "EV-0805-003",
+        "EV-0805-005"
       ]
     },
     {
       "id": "MEN-0805-006",
-      "entity": "E-hartlarkh-2e8b06",
+      "entity": "E-mind-dragon-b4a135",
       "evidence_ids": [
-        "EV-0805-003"
+        "EV-0805-004"
       ]
     },
     {
       "id": "MEN-0805-007",
-      "entity": "E-mind-dragon-b4a135",
-      "evidence_ids": [
-        "EV-0805-005"
-      ]
-    },
-    {
-      "id": "MEN-0805-008",
       "entity": "E-sea-of-collective-subconscious-cfceb0",
-      "evidence_ids": [
-        "EV-0805-005"
-      ]
-    },
-    {
-      "id": "MEN-0805-009",
-      "entity": "E-the-fool-22e598",
       "evidence_ids": [
         "EV-0805-004",
         "EV-0805-007"
       ]
     },
     {
-      "id": "MEN-0805-011",
+      "id": "MEN-0805-008",
       "entity": "E-qilangos-630660",
       "evidence_ids": [
-        "EV-0805-006"
+        "EV-0805-008"
+      ]
+    },
+    {
+      "id": "MEN-0805-009",
+      "entity": "E-zhou-mingrui-e5a8be",
+      "evidence_ids": [
+        "EV-0805-009"
+      ]
+    },
+    {
+      "id": "MEN-0805-010",
+      "entity": "E-tarot-club-f6c8a2",
+      "evidence_ids": [
+        "EV-0805-011"
+      ]
+    },
+    {
+      "id": "MEN-0805-011",
+      "entity": "E-klein-moretti-6a3250",
+      "evidence_ids": [
+        "EV-0805-012"
       ]
     },
     {
       "id": "MEN-0805-012",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-alger-wilson-3e9f42",
       "evidence_ids": [
-        "EV-0805-009",
-        "EV-0805-010"
+        "EV-0805-013",
+        "EV-0805-014"
       ]
     },
     {
       "id": "MEN-0805-013",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-the-world-cb4adb",
       "evidence_ids": [
-        "EV-0805-011",
-        "EV-0805-012",
-        "EV-0805-013",
-        "EV-0805-014",
         "EV-0805-015",
-        "EV-0805-016",
-        "EV-0805-017",
-        "EV-0805-018"
+        "EV-0805-016"
       ]
     },
     {
       "id": "MEN-0805-014",
-      "entity": "E-the-world-cb4adb",
+      "entity": "E-rorsted-archipelago-4c0cd8",
       "evidence_ids": [
-        "EV-0805-013",
-        "EV-0805-014",
-        "EV-0805-018"
+        "EV-0805-015"
       ]
     },
     {
       "id": "MEN-0805-015",
       "entity": "E-bayam-bb8c81",
       "evidence_ids": [
-        "EV-0805-012"
+        "EV-0805-015",
+        "EV-0805-018",
+        "EV-0805-019"
       ]
     },
     {
       "id": "MEN-0805-016",
-      "entity": "E-rorsted-archipelago-4c0cd8",
+      "entity": "E-blue-avenger-364758",
       "evidence_ids": [
-        "EV-0805-012"
+        "EV-0805-016"
       ]
     },
     {
       "id": "MEN-0805-017",
-      "entity": "E-city-of-generosity-c4f649",
+      "entity": "E-leymanos-travels-30cb22",
       "evidence_ids": [
-        "EV-0805-012"
+        "EV-0805-017"
       ]
     },
     {
       "id": "MEN-0805-018",
-      "entity": "E-blue-avenger-364758",
+      "entity": "E-fors-a146009",
       "evidence_ids": [
-        "EV-0805-013"
+        "EV-0805-017"
+      ]
+    },
+    {
+      "id": "MEN-0805-019",
+      "entity": "E-gehrman-sparrow-7a5007",
+      "evidence_ids": [
+        "EV-0805-019",
+        "EV-0805-020"
+      ]
+    },
+    {
+      "id": "MEN-0805-020",
+      "entity": "E-spectator-pathway-383934",
+      "evidence_ids": [
+        "EV-0805-010"
       ]
     },
     {
       "id": "MEN-0805-021",
-      "entity": "E-leymano-s-travels-30cb22",
+      "entity": "E-archaeological-team-7a8b9c",
       "evidence_ids": [
-        "EV-0805-015"
-      ]
-    },
-    {
-      "id": "MEN-0805-022",
-      "entity": "E-fors-wall-8d9e4f",
-      "evidence_ids": [
-        "EV-0805-015"
-      ]
-    },
-    {
-      "id": "MEN-0805-023",
-      "entity": "E-resistance-d8201c",
-      "evidence_ids": [
-        "EV-0805-016"
-      ]
-    },
-    {
-      "id": "MEN-0805-024",
-      "entity": "E-church-of-storms-3c8d52",
-      "evidence_ids": [
-        "EV-0805-016"
-      ]
-    },
-    {
-      "id": "MEN-0805-025",
-      "entity": "E-backlund-7a4d86",
-      "evidence_ids": [
-        "EV-0805-010"
-      ]
-    },
-    {
-      "id": "MEN-0805-026",
-      "entity": "E-macht-419cbf",
-      "evidence_ids": [
-        "EV-0805-010"
+        "EV-0805-006"
       ]
     }
   ],
   "events": [
     {
       "id": "EVT-0805-001",
-      "label": "Audrey realizes the archaeological team likely came from the Psychology Alchemists",
+      "label": "Audrey deduces that the mad archaeological team were Psychology Alchemists who found Hartlarkh Village via the notebook",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-relic-search-foundation-6b1e93",
         "E-psychology-alchemists-4d9e63",
+        "E-archaeological-team-7a8b9c",
         "E-michele-deuth-59ea57",
-        "E-lindelira-ba8cb9",
-        "E-hartlarkh-2e8b06"
-      ],
-      "evidence_ids": [
-        "EV-0805-001",
-        "EV-0805-002",
-        "EV-0805-003"
-      ]
-    },
-    {
-      "id": "EVT-0805-002",
-      "label": "Audrey suspects the mind dragon spread mental corruption through the collective subconscious",
-      "participants": [
-        "E-audrey-hall-2b8d31",
+        "E-twenty-year-war-09b913",
+        "E-hartlarkh-village-4d5e6f",
         "E-mind-dragon-b4a135",
         "E-sea-of-collective-subconscious-cfceb0"
       ],
       "evidence_ids": [
+        "EV-0805-001",
+        "EV-0805-002",
+        "EV-0805-003",
         "EV-0805-004",
-        "EV-0805-005"
-      ]
-    },
-    {
-      "id": "EVT-0805-003",
-      "label": "Audrey gives thanks to Mr. Fool and the Tarot Club for her caution",
-      "participants": [
-        "E-audrey-hall-2b8d31",
-        "E-the-fool-22e598",
-        "E-qilangos-630660",
-        "E-tarot-club-f6c8a2"
-      ],
-      "evidence_ids": [
+        "EV-0805-005",
         "EV-0805-006",
         "EV-0805-007"
       ]
     },
     {
-      "id": "EVT-0805-004",
-      "label": "Klein prepares for the ball and is contacted by The Hanged Man",
+      "id": "EVT-0805-002",
+      "label": "Audrey gives thanks to Mr. Fool and the Tarot Club, including Qilangos, for making her cautious",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-macht-419cbf",
-        "E-backlund-7a4d86",
-        "E-alger-wilson-3e9f42"
+        "E-audrey-hall-2b8d31",
+        "E-zhou-mingrui-e5a8be",
+        "E-tarot-club-f6c8a2",
+        "E-qilangos-630660"
       ],
       "evidence_ids": [
+        "EV-0805-008",
         "EV-0805-009",
         "EV-0805-010",
         "EV-0805-011"
       ]
     },
     {
-      "id": "EVT-0805-005",
-      "label": "Alger arrives at Bayam and is told where to meet The World",
+      "id": "EVT-0805-003",
+      "label": "Klein relays The Hanged Man’s request for The World to meet him in Bayam",
       "participants": [
+        "E-klein-moretti-6a3250",
         "E-alger-wilson-3e9f42",
-        "E-rorsted-archipelago-4c0cd8",
-        "E-city-of-generosity-c4f649",
-        "E-bayam-bb8c81",
         "E-the-world-cb4adb",
+        "E-rorsted-archipelago-4c0cd8",
+        "E-bayam-bb8c81",
         "E-blue-avenger-364758"
       ],
       "evidence_ids": [
         "EV-0805-012",
         "EV-0805-013",
-        "EV-0805-014"
+        "EV-0805-014",
+        "EV-0805-015",
+        "EV-0805-016"
       ]
     },
     {
-      "id": "EVT-0805-006",
-      "label": "Alger replenishes supplies with the Resistance and notices the collapsed mountain",
+      "id": "EVT-0805-004",
+      "label": "Alger travels to the cemetery outside Bayam and notices the vanished mountain",
       "participants": [
         "E-alger-wilson-3e9f42",
-        "E-resistance-d8201c",
-        "E-the-world-cb4adb"
+        "E-bayam-bb8c81",
+        "E-gehrman-sparrow-7a5007"
       ],
       "evidence_ids": [
-        "EV-0805-016",
         "EV-0805-017",
-        "EV-0805-018"
+        "EV-0805-018",
+        "EV-0805-019",
+        "EV-0805-020"
       ]
     }
   ],
   "relations": [
     {
-      "type": "APPEARS_IN",
+      "type": "MEMBER_OF",
       "source": "E-audrey-hall-2b8d31",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-relic-search-foundation-6b1e93",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-michele-deuth-59ea57",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-002"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-psychology-alchemists-4d9e63",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-002"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-lindelira-ba8cb9",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-003"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-hartlarkh-2e8b06",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-003"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-mind-dragon-b4a135",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-005"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-sea-of-collective-subconscious-cfceb0",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-005"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-the-fool-22e598",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-004"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-qilangos-630660",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-006"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-009"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
+      "target": "E-tarot-club-f6c8a2",
+      "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0805-011"
       ]
     },
     {
-      "type": "APPEARS_IN",
-      "source": "E-macht-419cbf",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-010"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-backlund-7a4d86",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-010"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-the-world-cb4adb",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
+      "type": "MEMBER_OF",
+      "source": "E-alger-wilson-3e9f42",
+      "target": "E-tarot-club-f6c8a2",
+      "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0805-013"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-bayam-bb8c81",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-012"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-rorsted-archipelago-4c0cd8",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-012"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-city-of-generosity-c4f649",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-012"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-blue-avenger-364758",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-013"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-leymano-s-travels-30cb22",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-015"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-fors-wall-8d9e4f",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-015"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-resistance-d8201c",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-016"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-church-of-storms-3c8d52",
-      "target": "C0805",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0805-016"
       ]
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-audrey-hall-2b8d31",
-      "target": "E-psychology-alchemists-4d9e63",
+      "source": "E-the-world-cb4adb",
+      "target": "E-tarot-club-f6c8a2",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
-        "EV-0805-002"
-      ],
-      "label": "Audrey receives missions from the Psychology Alchemists"
+        "EV-0805-015"
+      ]
     },
     {
-      "type": "LOCATED_IN",
-      "source": "E-lindelira-ba8cb9",
-      "target": "E-hartlarkh-2e8b06",
-      "inverse": "CONTAINS_LOCATION",
+      "type": "RELATED_TO",
+      "source": "E-twenty-year-war-09b913",
+      "target": "E-hartlarkh-village-4d5e6f",
+      "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0805-003"
       ],
-      "label": "Lindelira was the knight from Hartlarkh Village"
+      "label": "The notebook was connected to the dragon-worshiping village"
     },
     {
       "type": "LOCATED_IN",
@@ -988,19 +739,19 @@
       "target": "E-sea-of-collective-subconscious-cfceb0",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
-        "EV-0805-005"
+        "EV-0805-004"
       ],
-      "label": "The mind dragon hides in the sea of collective subconscious"
+      "label": "The mind dragon hid in the sea of collective subconscious"
     },
     {
-      "type": "MEMBER_OF",
-      "source": "E-audrey-hall-2b8d31",
-      "target": "E-tarot-club-f6c8a2",
-      "inverse": "HAS_MEMBER",
+      "type": "OWNS",
+      "source": "E-fors-a146009",
+      "target": "E-leymanos-travels-30cb22",
+      "inverse": "OWNED_BY",
       "evidence_ids": [
-        "EV-0805-006"
+        "EV-0805-017"
       ],
-      "label": "Audrey is a member of the Tarot Club"
+      "label": "Fors owns Leymano’s Travels"
     },
     {
       "type": "LOCATED_IN",
@@ -1008,39 +759,8 @@
       "target": "E-rorsted-archipelago-4c0cd8",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
-        "EV-0805-012"
-      ],
-      "label": "Bayam is the capital of the Rorsted Archipelago"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-bayam-bb8c81",
-      "target": "E-city-of-generosity-c4f649",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0805-012"
-      ],
-      "label": "The City of Generosity is another name for Bayam"
-    },
-    {
-      "type": "LOCATED_IN",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-bayam-bb8c81",
-      "inverse": "CONTAINS_LOCATION",
-      "evidence_ids": [
-        "EV-0805-012"
-      ],
-      "label": "Alger is in Bayam"
-    },
-    {
-      "type": "USES",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-leymano-s-travels-30cb22",
-      "inverse": "USED_BY",
-      "evidence_ids": [
         "EV-0805-015"
-      ],
-      "label": "Alger considers using Leymano’s Travels to teleport"
+      ]
     }
   ]
 }

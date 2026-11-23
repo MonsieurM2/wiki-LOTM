@@ -226,7 +226,7 @@
       "tags": []
     },
     {
-      "id": "E-family-servant-assistance-association-8e5b31",
+      "id": "E-family-servant-assistance-association-24ff92",
       "canonical_name": "Family Servant Assistance Association",
       "primary_type": "Faction",
       "aliases": [],
@@ -712,7 +712,7 @@
     },
     {
       "id": "MEN-0762-029",
-      "entity": "E-family-servant-assistance-association-8e5b31",
+      "entity": "E-family-servant-assistance-association-24ff92",
       "evidence_ids": [
         "EV-0762-012"
       ]
@@ -1090,7 +1090,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-family-servant-assistance-association-8e5b31",
+      "source": "E-family-servant-assistance-association-24ff92",
       "target": "C0762",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

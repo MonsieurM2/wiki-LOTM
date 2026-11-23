@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -50,7 +50,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -438,7 +438,7 @@
   "mentions": [
     {
       "id": "MEN-0945-001",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0945-001",
         "EV-0945-002"
@@ -484,7 +484,7 @@
     },
     {
       "id": "MEN-0945-006",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0945-008"
       ]
@@ -603,7 +603,7 @@
       "id": "EVT-0945-001",
       "label": "The Fate Siphon charm redirects Lightning Storm from Leonard onto Ince Zangwill",
       "participants": [
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-leonard-2c8d91",
         "E-dwayne-802dcc",
         "E-lightning-storm-2c9a58",
@@ -632,7 +632,7 @@
       "label": "Klein arrives in the real world with Death Knell and executes Ince Zangwill",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-death-knell-18557c",
         "E-ch0524-000003",
         "E-ince-zangwill-091a2b",
@@ -688,7 +688,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0945",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -733,7 +733,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0945",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -878,7 +878,7 @@
     {
       "type": "USES",
       "source": "E-leonard-2c8d91",
-      "target": "E-fate-siphon-338a54",
+      "target": "E-fate-siphon-000000",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0945-001"

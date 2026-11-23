@@ -217,7 +217,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -751,7 +751,7 @@
     },
     {
       "id": "MEN-0851-027",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0851-001"
       ]
@@ -941,7 +941,7 @@
         "E-calvin-7a4d86",
         "E-ch0526-000006",
         "E-ch0529-000019",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-bernadette-00001e",
         "E-bernadette-00001e",
         "E-bayam-resistance-31190b",
@@ -1208,7 +1208,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0851",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

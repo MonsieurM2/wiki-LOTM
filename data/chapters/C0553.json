@@ -36,7 +36,7 @@
       "tags": []
     },
     {
-      "id": "E-conspirer-3b7d18",
+      "id": "E-conspirer-23064f",
       "canonical_name": "Conspirer",
       "primary_type": "Concept",
       "aliases": [],
@@ -446,7 +446,7 @@
     },
     {
       "id": "MEN-0553-004",
-      "entity": "E-conspirer-3b7d18",
+      "entity": "E-conspirer-23064f",
       "evidence_ids": [
         "EV-0553-006"
       ]
@@ -571,7 +571,7 @@
         "E-blazing-danitz-a1b2cd",
         "E-dwayne-802dcc",
         "E-bayam-3c7d52",
-        "E-conspirer-3b7d18"
+        "E-conspirer-23064f"
       ],
       "evidence_ids": [
         "EV-0553-001",
@@ -681,7 +681,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-conspirer-3b7d18",
+      "source": "E-conspirer-23064f",
       "target": "C0553",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

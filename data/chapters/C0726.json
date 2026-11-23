@@ -81,7 +81,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -540,7 +540,7 @@
     },
     {
       "id": "MEN-0726-011",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0726-009"
       ]
@@ -669,7 +669,7 @@
         "E-human-skinned-glove-3ed0cb",
         "E-icicle-9553e7",
         "E-groselle-4e7a15",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0726-004",
@@ -823,7 +823,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0726",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

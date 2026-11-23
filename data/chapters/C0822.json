@@ -173,7 +173,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [
@@ -757,7 +757,7 @@
     },
     {
       "id": "MEN-0822-011",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0822-007"
       ]
@@ -909,7 +909,7 @@
       "participants": [
         "E-cattleya-3e8f15",
         "E-leodero-649907",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-kalvetua-452f62",
         "E-leodero-649907",
         "E-ch0528-000013"
@@ -1060,7 +1060,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0822",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

@@ -515,7 +515,79 @@
       ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "EVT-0810-001",
+      "label": "Klein and Alger identify the ruin as an early Fourth Epoch cathedral with catacombs",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-alger-wilson-3e9f42",
+        "E-cathedral-ruin-8b9c0d",
+        "E-fourth-epoch-5c59d5",
+        "E-church-of-storms-3c8d52",
+        "E-catacombs-9c0d1e"
+      ],
+      "evidence_ids": [
+        "EV-0810-001",
+        "EV-0810-002",
+        "EV-0810-003",
+        "EV-0810-004"
+      ]
+    },
+    {
+      "id": "EVT-0810-002",
+      "label": "Klein divines and recognizes the Blasphemy Slate and the ancient sun god in the cathedral murals",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-card-of-blasphemy-4a9d21",
+        "E-amon-dfff5d",
+        "E-blasphemy-slate-f46e14",
+        "E-ancient-sun-god-7557b1",
+        "E-city-of-silver-7e1a36",
+        "E-admiral-of-blood-a1b2cc"
+      ],
+      "evidence_ids": [
+        "EV-0810-005",
+        "EV-0810-006",
+        "EV-0810-007",
+        "EV-0810-008",
+        "EV-0810-009",
+        "EV-0810-010"
+      ]
+    },
+    {
+      "id": "EVT-0810-003",
+      "label": "Alger reveals his past with Qilangos as fellow-townsmen and cathedral servants",
+      "participants": [
+        "E-alger-wilson-3e9f42",
+        "E-qilangos-630660"
+      ],
+      "evidence_ids": [
+        "EV-0810-011",
+        "EV-0810-012"
+      ]
+    },
+    {
+      "id": "EVT-0810-004",
+      "label": "Klein and Alger find petrified stone statues at the catacomb entrance and discuss night vision and the lantern",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-alger-wilson-3e9f42",
+        "E-petrification-3f4051",
+        "E-sailor-pathway-9d14e4",
+        "E-city-of-silver-7e1a36",
+        "E-stone-statues-6a7b8c"
+      ],
+      "evidence_ids": [
+        "EV-0810-013",
+        "EV-0810-014",
+        "EV-0810-015",
+        "EV-0810-016",
+        "EV-0810-017",
+        "EV-0810-018"
+      ]
+    }
+  ],
   "relations": [
     {
       "type": "MEMBER_OF",

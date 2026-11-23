@@ -68,7 +68,7 @@
       "primary_type": "Pathway"
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact"
     },
@@ -182,7 +182,7 @@
       "primary_type": "Character"
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location"
     },
@@ -534,7 +534,7 @@
     },
     {
       "id": "MEN-0671-009",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0671-012"
       ]
@@ -641,7 +641,7 @@
     },
     {
       "id": "MEN-0671-023",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-0671-020"
       ]
@@ -683,7 +683,7 @@
         "E-aurora-order-1c4d09",
         "E-spectator-a9bfae",
         "E-ch0528-000016",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-candle-51b681",
         "E-bishop-utravsky-1829ba",
         "E-audrey-hall-2b8d31",
@@ -728,7 +728,7 @@
         "E-derek-769f2b",
         "E-haim-97cd5e",
         "E-joshua-5c2a71",
-        "E-afternoon-town-74a1d3"
+        "E-afternoon-town-66c3e7"
       ],
       "evidence_ids": [
         "EV-0671-018",
@@ -824,7 +824,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0671",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -950,7 +950,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C0671",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

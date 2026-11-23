@@ -96,7 +96,7 @@
       "primary_type": "Character"
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -567,7 +567,7 @@
     },
     {
       "id": "MEN-0673-012",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0673-015",
         "EV-0673-017",
@@ -733,7 +733,7 @@
         "E-dwayne-802dcc",
         "E-bloodless-heath-doyle-0380df",
         "E-nina-7f6ebf",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-three-mast-sailboat-a1b2cc",
         "E-cattleya-3e8f15"
       ],
@@ -782,7 +782,7 @@
         "E-feysac-adventurer-a1b2d3",
         "E-kircheis-5a6b7c",
         "E-king-of-immortality-agalito-9086e4",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-frank-lee-20aa5f",
         "E-bloodless-heath-doyle-0380df"
       ],
@@ -914,7 +914,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0673",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

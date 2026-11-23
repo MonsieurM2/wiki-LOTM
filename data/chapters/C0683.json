@@ -149,7 +149,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -538,7 +538,7 @@
     },
     {
       "id": "MEN-0683-016",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0683-019"
       ]
@@ -622,7 +622,7 @@
         "E-slaughter-kircheis-4fb05d",
         "E-criminal-pathway-00000c",
         "E-toscarter-island-9b2e64",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0683-016",
@@ -770,7 +770,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0683",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

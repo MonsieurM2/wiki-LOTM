@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [],
@@ -590,7 +590,7 @@
   "mentions": [
     {
       "id": "MEN-0935-001",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0935-001",
         "EV-0935-002",
@@ -992,7 +992,7 @@
       "id": "EVT-0935-001",
       "label": "Anderson and Danitz travel together in West Balam",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-ch0526-000006",
         "E-feynapotter-05936d",
@@ -1013,7 +1013,7 @@
       "label": "Danitz describes visions of an angel’s wings while wearing the boxing glove",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0935-005"
@@ -1023,7 +1023,7 @@
       "id": "EVT-0935-003",
       "label": "Anderson notices Klein and his marionettes disguised as a master and two servants",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-dwayne-802dcc",
         "E-admiral-hell-ludwell-9e2b41"
@@ -1037,7 +1037,7 @@
       "label": "Danitz and Anderson discuss coffins and the Lord of Storms",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-leodero-649907"
       ],
       "evidence_ids": [
@@ -1050,7 +1050,7 @@
       "label": "Danitz reads that Gehrman Sparrow killed Ludwell and took over the Black Tulip",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-admiral-hell-ludwell-9e2b41",
         "E-mirella-6d895d",
@@ -1140,7 +1140,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0935",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

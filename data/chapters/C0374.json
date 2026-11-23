@@ -32,7 +32,7 @@
       "tags": []
     },
     {
-      "id": "E-elder-council-74a1d5",
+      "id": "E-elder-council-6a8024",
       "canonical_name": "Elder Council",
       "primary_type": "Faction",
       "aliases": [],
@@ -602,7 +602,7 @@
     },
     {
       "id": "MEN-0374-003",
-      "entity": "E-elder-council-74a1d5",
+      "entity": "E-elder-council-6a8024",
       "evidence_ids": [
         "EV-0374-002",
         "EV-0374-003"
@@ -830,7 +830,7 @@
       "participants": [
         "E-lawrence-nord-c37010",
         "E-abraham-f5717e",
-        "E-elder-council-74a1d5",
+        "E-elder-council-6a8024",
         "E-abraham-curse-c37061",
         "E-life-school-of-thought-3a6f1c",
         "E-bethel-abraham-a78bd4",
@@ -979,7 +979,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-elder-council-74a1d5",
+      "source": "E-elder-council-6a8024",
       "target": "C0374",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1250,7 +1250,7 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-elder-council-74a1d5",
+      "source": "E-elder-council-6a8024",
       "target": "E-abraham-f5717e",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [

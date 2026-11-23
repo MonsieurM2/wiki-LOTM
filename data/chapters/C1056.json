@@ -59,7 +59,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -530,7 +530,7 @@
     },
     {
       "id": "MEN-1056-007",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1056-001",
         "EV-1056-003",
@@ -706,7 +706,7 @@
       "label": "Does that mean that the king’s secret is in the Blood Emperor’s ruins...",
       "participants": [
         "E-arrodes-29353d",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-blood_ruins-d895fa",
         "E-demoness-of-unaging-4a8c12",
         "E-dwayne-802dcc"
@@ -720,7 +720,7 @@
       "id": "EVT-1056-002",
       "label": "In the mirror, the silver words rapidly faded and disappeared, but the background didn’t change at all.",
       "participants": [
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-blood_ruins-d895fa",
         "E-demoness-of-unaging-4a8c12",
         "E-dwayne-802dcc"
@@ -881,7 +881,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1056",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1089,7 +1089,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "E-blood_ruins-d895fa",
       "inverse": "RELATED_TO",
       "label": "Both referred to in chapter 1056: Does that mean that the king’s secret is in the Blood Emperor’s ruins.…",
@@ -1099,7 +1099,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "E-demoness-of-unaging-4a8c12",
       "inverse": "RELATED_TO",
       "label": "Both referred to in chapter 1056: If not for the word’s appearance and disappearance, I would’ve thought…",
@@ -1109,7 +1109,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Both referred to in chapter 1056: If not for the word’s appearance and disappearance, I would’ve thought…",

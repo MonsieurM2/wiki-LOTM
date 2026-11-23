@@ -35,7 +35,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -488,7 +488,7 @@
     },
     {
       "id": "MEN-0964-002",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0964-014",
         "EV-0964-016"
@@ -504,7 +504,7 @@
     },
     {
       "id": "MEN-0964-004",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0964-014"
       ]
@@ -718,8 +718,8 @@
         "E-leonard-2c8d91",
         "E-sauron-family-2f8c17",
         "E-einhorn-family-3b8808",
-        "E-alista-tudor-7e3c19",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
+        "E-alista-tudor-505075",
         "E-tudor-trunsoest-united-empire-a57d69",
         "E-amon-0e5352",
         "E-adam-1d7c29"
@@ -759,7 +759,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0964",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -777,7 +777,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0964",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -960,7 +960,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-medici-3a9d61",
-      "target": "E-alista-tudor-7e3c19",
+      "target": "E-alista-tudor-505075",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0964-014"

@@ -14,7 +14,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -507,7 +507,7 @@
     },
     {
       "id": "MEN-0952-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0952-002",
         "EV-0952-003",
@@ -721,7 +721,7 @@
       "label": "Danitz walks in on Anderson cutting his abdomen and decides to leave",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-black-boxing-glove-2a7d41"
       ],
       "evidence_ids": [
@@ -733,7 +733,7 @@
       "id": "EVT-0952-002",
       "label": "Anderson explains the chrysalis implanted in him by captors attracted to Hunter pathway Beyonders",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-chrysalis-5b9e42",
         "E-hunter-pathway-4d7e21",
@@ -748,7 +748,7 @@
       "id": "EVT-0952-003",
       "label": "Anderson asks Danitz to consult Gehrman Sparrow or their captain about the chrysalis",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-dwayne-802dcc",
         "E-headless-woman-b0197d",
@@ -823,7 +823,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0952",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1066,7 +1066,7 @@
     },
     {
       "type": "USES",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-black-boxing-glove-2a7d41",
       "inverse": "USED_BY",
       "evidence_ids": [
@@ -1086,7 +1086,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [

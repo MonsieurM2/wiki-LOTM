@@ -67,7 +67,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -474,7 +474,7 @@
     },
     {
       "id": "MEN-0903-008",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0903-007",
         "EV-0903-008",
@@ -599,7 +599,7 @@
       "id": "EVT-0903-003",
       "label": "Anderson sends Danitz to the Church of Knowledge for Language Comprehension charms",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-church-of-knowledge-3629b1",
         "E-language-comprehension-4a7e32"
@@ -629,7 +629,7 @@
       "id": "EVT-0903-005",
       "label": "The bishop sends Danitz back with reading material and a lesson for Anderson",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd"
       ],
       "evidence_ids": [
@@ -731,7 +731,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0903",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -868,7 +868,7 @@
     },
     {
       "type": "MENTOR_OF",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-blazing-danitz-a1b2cd",
       "inverse": "MENTORED_BY",
       "evidence_ids": [

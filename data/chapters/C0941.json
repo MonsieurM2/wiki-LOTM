@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -232,7 +232,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -478,7 +478,7 @@
   "mentions": [
     {
       "id": "MEN-0941-001",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0941-001",
         "EV-0941-006",
@@ -658,7 +658,7 @@
     },
     {
       "id": "MEN-0941-025",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0941-001"
       ]
@@ -669,7 +669,7 @@
       "id": "EVT-0941-001",
       "label": "Anderson remembers the demigod Adam's hidden mission and the priest's surveillance",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-adam-1d7c29",
         "E-dwayne-802dcc"
       ],
@@ -768,7 +768,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0941",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -984,7 +984,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0941",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

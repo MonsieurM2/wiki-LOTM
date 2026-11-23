@@ -159,7 +159,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [
@@ -612,7 +612,7 @@
     },
     {
       "id": "MEN-0558-019",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0558-018"
       ]
@@ -720,7 +720,7 @@
         "E-daly-8192a3",
         "E-azik-s-messenger-ad73bf",
         "E-azik-copper-whistle-5e3f27",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-gray-fog-3a7d64",
         "E-mr-a-000020"
       ],
@@ -896,7 +896,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0558",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

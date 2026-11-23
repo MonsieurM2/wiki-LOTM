@@ -70,7 +70,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -567,7 +567,7 @@
     },
     {
       "id": "MEN-1205-007",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1205-004"
       ]
@@ -729,7 +729,7 @@
         "E-leonard-2c8d91",
         "E-ian-wright-26ac8e",
         "E-jacob-family-1dce7c",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-fourth-epoch-134600"
       ],
       "evidence_ids": [
@@ -894,7 +894,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1205",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1152,7 +1152,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-jacob-family-1dce7c",
-      "target": "E-alista-tudor-7e3c19",
+      "target": "E-alista-tudor-505075",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-1205-004"

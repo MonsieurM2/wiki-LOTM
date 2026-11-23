@@ -64,7 +64,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [],
@@ -113,7 +113,7 @@
       "tags": []
     },
     {
-      "id": "E-ricciardo-8c4e62",
+      "id": "E-fate-councilor-ricciardo-f12b56",
       "canonical_name": "Ricciardo",
       "primary_type": "Character",
       "aliases": [],
@@ -468,7 +468,7 @@
     },
     {
       "id": "MEN-0770-007",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0770-001"
       ]
@@ -519,7 +519,7 @@
     },
     {
       "id": "MEN-0770-014",
-      "entity": "E-ricciardo-8c4e62",
+      "entity": "E-fate-councilor-ricciardo-f12b56",
       "evidence_ids": [
         "EV-0770-014"
       ]
@@ -581,7 +581,7 @@
         "E-aurora-order-1c4d09",
         "E-ancient-sun-god-0e7a93",
         "E-rose-redemption-3639b7",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-aaron-ceres-00c1c0"
       ],
       "evidence_ids": [
@@ -625,7 +625,7 @@
       "label": "Will reveals Ricciardo’s Die of Probability marks and Pallez Zoroast’s parasitism of Leonard",
       "participants": [
         "E-king-of-yellow-and-black-a14014",
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-die-of-probability-7d9541",
         "E-ian-wright-26ac8e",
         "E-leonard-2c8d91",

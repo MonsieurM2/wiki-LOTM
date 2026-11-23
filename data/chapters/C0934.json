@@ -302,7 +302,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [],
@@ -988,7 +988,7 @@
     },
     {
       "id": "MEN-0934-036",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0934-018",
         "EV-0934-019",
@@ -1138,7 +1138,7 @@
         "E-bansy-98973a",
         "E-beyonder-characteristic-convergence-4c7a93",
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-ch0526-000006",
         "E-cookawa-2d7e43",
         "E-hunter-pathway-4d7e21"
@@ -1468,7 +1468,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0934",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

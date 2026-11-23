@@ -15,51 +15,32 @@
           "form": "Alger"
         },
         {
+          "form": "Mr. Hanged Man"
+        },
+        {
           "form": "The Hanged Man"
         }
       ],
       "tags": []
     },
     {
-      "id": "E-the-world-cb4adb",
-      "canonical_name": "The World",
+      "id": "E-gehrman-sparrow-7a5007",
+      "canonical_name": "Gehrman Sparrow",
       "primary_type": "Character",
-      "aliases": [
-        {
-          "form": "Gehrman Sparrow"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "E-klein-moretti-6a3250",
-      "canonical_name": "Klein Moretti",
-      "primary_type": "Character",
-      "aliases": [
-        {
-          "form": "Klein"
-        }
-      ],
+      "aliases": [],
       "tags": []
     },
     {
       "id": "E-sailor-pathway-9d14e4",
       "canonical_name": "Sailor pathway",
       "primary_type": "Pathway",
-      "aliases": [
-        {
-          "form": "Sailor"
-        },
-        {
-          "form": "Seafarer"
-        }
-      ],
+      "aliases": [],
       "tags": []
     },
     {
-      "id": "E-feathered-serpent-7d3c18",
+      "id": "E-feathered-serpent-5e6f70",
       "canonical_name": "feathered serpent",
-      "primary_type": "Character",
+      "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
@@ -71,13 +52,6 @@
       "tags": []
     },
     {
-      "id": "E-descendants-of-death-3a7b92",
-      "canonical_name": "descendants of Death",
-      "primary_type": "Faction",
-      "aliases": [],
-      "tags": []
-    },
-    {
       "id": "E-eggers-family-46b95a",
       "canonical_name": "Eggers family",
       "primary_type": "Faction",
@@ -85,43 +59,46 @@
       "tags": []
     },
     {
-      "id": "E-copper-whistle-993625",
-      "canonical_name": "Azik’s copper whistle",
-      "primary_type": "Artifact",
+      "id": "E-zhou-mingrui-e5a8be",
+      "canonical_name": "The Fool",
+      "primary_type": "Character",
       "aliases": [
         {
-          "form": "copper whistle"
+          "form": "Mr. Fool"
         }
       ],
+      "tags": []
+    },
+    {
+      "id": "E-aziks-copper-whistle-6d1c40",
+      "canonical_name": "Azik’s copper whistle",
+      "primary_type": "Artifact",
+      "aliases": [],
       "tags": []
     },
     {
       "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
-      "aliases": [
-        {
-          "form": "Fate Siphon"
-        }
-      ],
+      "aliases": [],
       "tags": []
     },
     {
-      "id": "E-leymano-s-travels-30cb22",
+      "id": "E-leymanos-travels-30cb22",
       "canonical_name": "Leymano’s Travels",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-death-knell-6f7081",
-      "canonical_name": "Death Knell",
-      "primary_type": "Artifact",
+      "id": "E-traveling-f45a6c",
+      "canonical_name": "Traveling",
+      "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-illusory-chime-tree-4a7c30",
+      "id": "E-illusory-chime-tree-29b534",
       "canonical_name": "Illusory Chime Tree",
       "primary_type": "Artifact",
       "aliases": [],
@@ -132,6 +109,9 @@
       "canonical_name": "Audrey Hall",
       "primary_type": "Character",
       "aliases": [
+        {
+          "form": "Audrey"
+        },
         {
           "form": "Miss Justice"
         }
@@ -146,19 +126,19 @@
       "tags": []
     },
     {
-      "id": "E-gray-rat-8c1f42",
+      "id": "E-gray-rat-5b6273",
       "canonical_name": "gray rat",
-      "primary_type": "Character",
+      "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-the-fool-22e598",
-      "canonical_name": "The Fool",
+      "id": "E-klein-moretti-6a3250",
+      "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
         {
-          "form": "The King of Yellow and Black who wields good luck"
+          "form": "Klein"
         }
       ],
       "tags": []
@@ -170,10 +150,10 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "Sensing the land quake, Alger’s heart tightened as he glanced at Gehrman Sparrow",
+      "quote": "Sensing the land quake, Alger’s heart tightened as he glanced at Gehrman Sparrow, using his actions to replace his words.",
       "offsets": [
         0,
-        80
+        121
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -183,10 +163,10 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "As an experienced Sailor, he knew that decisive action spurred companions who remained indecisive into subconsciously following his actions.",
+      "quote": "he was worried that Gehrman Sparrow would suddenly go mad",
       "offsets": [
-        543,
-        683
+        263,
+        320
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -196,10 +176,10 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "Klein and Alger ran out of the sparse woods and circled around the flank of the eerie darkness.",
+      "quote": "As an experienced Sailor, he knew that decisive action spurred companions",
       "offsets": [
-        1078,
-        1173
+        543,
+        616
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -248,10 +228,10 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "“A demigod-level feathered serpent.”",
+      "quote": "A demigod-level feathered serpent.",
       "offsets": [
-        3091,
-        3127
+        3092,
+        3126
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -261,10 +241,10 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "That feathered serpent wouldn’t chase after us.",
+      "quote": "Such matters are mainly about luck.",
       "offsets": [
-        3441,
-        3488
+        3854,
+        3889
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -313,10 +293,10 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "I’ve been here at night before, but I’ve only discovered the traces left behind by Beyonder creatures at the demigod level without encountering them.",
+      "quote": "If we head forward more, there will be an Illusory Chime Tree. I hope to handle it by myself.",
       "offsets": [
-        3664,
-        3813
+        5890,
+        5983
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -326,10 +306,10 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "Klein had long drawn his iron-black Death Knell.",
+      "quote": "The main Beyonder ingredient which Miss Justice needs...",
       "offsets": [
-        5547,
-        5595
+        6333,
+        6389
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -339,10 +319,10 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "there will be an Illusory Chime Tree. I hope to handle it by myself.",
+      "quote": "If you can’t deal with it, it’s best you shout for help; otherwise, I’ll treat it as your persistence.",
       "offsets": [
-        5915,
-        5983
+        6712,
+        6814
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -352,29 +332,16 @@
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "The main Beyonder ingredient which Miss Justice needs",
+      "quote": "This was his mystical item, Whip of Mind.",
       "offsets": [
-        6333,
-        6386
+        8204,
+        8245
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
       "id": "EV-0807-016",
-      "book": 4,
-      "chapter": 807,
-      "chapter_title": "Mediocre Luck",
-      "quote": "Its side effects was to place the wearer in a state of a constant headache",
-      "offsets": [
-        8246,
-        8320
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0807-017",
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
@@ -387,14 +354,53 @@
       "status": "confirmed"
     },
     {
+      "id": "EV-0807-017",
+      "book": 4,
+      "chapter": 807,
+      "chapter_title": "Mediocre Luck",
+      "quote": "The gray rat was no longer moving.",
+      "offsets": [
+        9125,
+        9159
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
       "id": "EV-0807-018",
       "book": 4,
       "chapter": 807,
       "chapter_title": "Mediocre Luck",
-      "quote": "the gray rat he carried with him was only an ordinary animal.",
+      "quote": "it perished from the effects of the feathered serpent.",
       "offsets": [
-        9432,
-        9493
+        9548,
+        9602
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0807-019",
+      "book": 4,
+      "chapter": 807,
+      "chapter_title": "Mediocre Luck",
+      "quote": "His luck is mediocre...",
+      "offsets": [
+        9714,
+        9737
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0807-020",
+      "book": 4,
+      "chapter": 807,
+      "chapter_title": "Mediocre Luck",
+      "quote": "And on the branch closest to the trunk, there was a fist-sized, colorless, translucent fruit.",
+      "offsets": [
+        10650,
+        10743
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -411,372 +417,217 @@
         "EV-0807-008",
         "EV-0807-012",
         "EV-0807-014",
+        "EV-0807-015",
         "EV-0807-016",
-        "EV-0807-017",
-        "EV-0807-018"
+        "EV-0807-019"
       ]
     },
     {
       "id": "MEN-0807-002",
-      "entity": "E-the-world-cb4adb",
+      "entity": "E-gehrman-sparrow-7a5007",
       "evidence_ids": [
-        "EV-0807-001"
+        "EV-0807-001",
+        "EV-0807-002",
+        "EV-0807-014"
       ]
     },
     {
       "id": "MEN-0807-003",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-sailor-pathway-9d14e4",
       "evidence_ids": [
-        "EV-0807-003",
-        "EV-0807-007",
-        "EV-0807-009",
-        "EV-0807-010",
-        "EV-0807-011",
-        "EV-0807-013",
-        "EV-0807-015"
+        "EV-0807-003"
       ]
     },
     {
       "id": "MEN-0807-004",
-      "entity": "E-sailor-pathway-9d14e4",
-      "evidence_ids": [
-        "EV-0807-002"
-      ]
-    },
-    {
-      "id": "MEN-0807-005",
-      "entity": "E-feathered-serpent-7d3c18",
+      "entity": "E-feathered-serpent-5e6f70",
       "evidence_ids": [
         "EV-0807-004",
         "EV-0807-005",
         "EV-0807-006",
         "EV-0807-007",
-        "EV-0807-008"
+        "EV-0807-018"
       ]
     },
     {
-      "id": "MEN-0807-006",
+      "id": "MEN-0807-005",
       "entity": "E-southern-continent-5c8d20",
       "evidence_ids": [
         "EV-0807-005"
       ]
     },
     {
-      "id": "MEN-0807-007",
-      "entity": "E-descendants-of-death-3a7b92",
-      "evidence_ids": [
-        "EV-0807-006"
-      ]
-    },
-    {
-      "id": "MEN-0807-008",
+      "id": "MEN-0807-006",
       "entity": "E-eggers-family-46b95a",
       "evidence_ids": [
         "EV-0807-006"
       ]
     },
     {
-      "id": "MEN-0807-009",
-      "entity": "E-copper-whistle-993625",
+      "id": "MEN-0807-007",
+      "entity": "E-zhou-mingrui-e5a8be",
+      "evidence_ids": [
+        "EV-0807-009"
+      ]
+    },
+    {
+      "id": "MEN-0807-008",
+      "entity": "E-aziks-copper-whistle-6d1c40",
       "evidence_ids": [
         "EV-0807-010"
       ]
     },
     {
-      "id": "MEN-0807-010",
+      "id": "MEN-0807-009",
       "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0807-011"
       ]
     },
     {
+      "id": "MEN-0807-010",
+      "entity": "E-leymanos-travels-30cb22",
+      "evidence_ids": [
+        "EV-0807-011"
+      ]
+    },
+    {
       "id": "MEN-0807-011",
-      "entity": "E-leymano-s-travels-30cb22",
+      "entity": "E-traveling-f45a6c",
       "evidence_ids": [
         "EV-0807-011"
       ]
     },
     {
       "id": "MEN-0807-012",
-      "entity": "E-death-knell-6f7081",
+      "entity": "E-illusory-chime-tree-29b534",
+      "evidence_ids": [
+        "EV-0807-012",
+        "EV-0807-020"
+      ]
+    },
+    {
+      "id": "MEN-0807-013",
+      "entity": "E-audrey-hall-2b8d31",
       "evidence_ids": [
         "EV-0807-013"
       ]
     },
     {
-      "id": "MEN-0807-013",
-      "entity": "E-illusory-chime-tree-4a7c30",
-      "evidence_ids": [
-        "EV-0807-014",
-        "EV-0807-015"
-      ]
-    },
-    {
       "id": "MEN-0807-014",
-      "entity": "E-audrey-hall-2b8d31",
+      "entity": "E-whip-of-mind-3a9c47",
       "evidence_ids": [
         "EV-0807-015"
       ]
     },
     {
       "id": "MEN-0807-015",
-      "entity": "E-whip-of-mind-3a9c47",
+      "entity": "E-gray-rat-5b6273",
       "evidence_ids": [
-        "EV-0807-016"
-      ]
-    },
-    {
-      "id": "MEN-0807-016",
-      "entity": "E-gray-rat-8c1f42",
-      "evidence_ids": [
+        "EV-0807-016",
         "EV-0807-017",
         "EV-0807-018"
       ]
     },
     {
-      "id": "MEN-0807-017",
-      "entity": "E-the-fool-22e598",
+      "id": "MEN-0807-016",
+      "entity": "E-klein-moretti-6a3250",
       "evidence_ids": [
-        "EV-0807-009"
+        "EV-0807-010",
+        "EV-0807-011"
       ]
     }
   ],
   "events": [
     {
       "id": "EVT-0807-001",
-      "label": "Alger and Klein flee the quaking area to avoid the underground creature",
+      "label": "Alger and Gehrman flee a demigod-level feathered serpent, a holy symbol of the Eggers family in the Southern Continent",
       "participants": [
         "E-alger-wilson-3e9f42",
-        "E-the-world-cb4adb",
-        "E-klein-moretti-6a3250"
+        "E-gehrman-sparrow-7a5007",
+        "E-feathered-serpent-5e6f70",
+        "E-southern-continent-5c8d20",
+        "E-eggers-family-46b95a",
+        "E-sailor-pathway-9d14e4"
       ],
       "evidence_ids": [
         "EV-0807-001",
         "EV-0807-002",
-        "EV-0807-003"
+        "EV-0807-003",
+        "EV-0807-004",
+        "EV-0807-005",
+        "EV-0807-006",
+        "EV-0807-007"
       ]
     },
     {
       "id": "EVT-0807-002",
-      "label": "They identify a demigod-level feathered serpent, emblem of the Eggers family",
+      "label": "Klein notes his preparations against demigods: Azik's copper whistle, Fate Siphon, Leymano's Travels and Traveling",
       "participants": [
-        "E-feathered-serpent-7d3c18",
-        "E-southern-continent-5c8d20",
-        "E-descendants-of-death-3a7b92",
-        "E-eggers-family-46b95a",
         "E-klein-moretti-6a3250",
+        "E-zhou-mingrui-e5a8be",
+        "E-aziks-copper-whistle-6d1c40",
+        "E-fate-siphon-000000",
+        "E-leymanos-travels-30cb22",
+        "E-traveling-f45a6c",
         "E-alger-wilson-3e9f42"
       ],
       "evidence_ids": [
-        "EV-0807-004",
-        "EV-0807-005",
-        "EV-0807-006",
-        "EV-0807-007",
-        "EV-0807-008"
+        "EV-0807-008",
+        "EV-0807-009",
+        "EV-0807-010",
+        "EV-0807-011"
       ]
     },
     {
       "id": "EVT-0807-003",
-      "label": "Klein reviews his preparations for demigod creatures",
+      "label": "Alger asks to handle the Illusory Chime Tree alone, using Whip of Mind and a gray rat as bait",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-copper-whistle-993625",
-        "E-fate-siphon-000000",
-        "E-leymano-s-travels-30cb22",
-        "E-death-knell-6f7081"
+        "E-alger-wilson-3e9f42",
+        "E-gehrman-sparrow-7a5007",
+        "E-illusory-chime-tree-29b534",
+        "E-audrey-hall-2b8d31",
+        "E-whip-of-mind-3a9c47",
+        "E-gray-rat-5b6273"
       ],
       "evidence_ids": [
-        "EV-0807-010",
-        "EV-0807-011",
-        "EV-0807-013"
+        "EV-0807-012",
+        "EV-0807-013",
+        "EV-0807-014",
+        "EV-0807-015",
+        "EV-0807-016"
       ]
     },
     {
       "id": "EVT-0807-004",
-      "label": "Alger asks to handle the Illusory Chime Tree alone for Miss Justice’s ingredient",
+      "label": "The gray rat is killed by the feathered serpent's lingering effects, ruining Alger's plan",
       "participants": [
+        "E-gray-rat-5b6273",
+        "E-feathered-serpent-5e6f70",
         "E-alger-wilson-3e9f42",
-        "E-illusory-chime-tree-4a7c30",
-        "E-klein-moretti-6a3250",
-        "E-audrey-hall-2b8d31"
+        "E-klein-moretti-6a3250"
       ],
       "evidence_ids": [
-        "EV-0807-014",
-        "EV-0807-015"
-      ]
-    },
-    {
-      "id": "EVT-0807-005",
-      "label": "Alger uses the Whip of Mind and a gray rat as bait, but the rat is dead",
-      "participants": [
-        "E-alger-wilson-3e9f42",
-        "E-whip-of-mind-3a9c47",
-        "E-gray-rat-8c1f42"
-      ],
-      "evidence_ids": [
-        "EV-0807-016",
         "EV-0807-017",
-        "EV-0807-018"
+        "EV-0807-018",
+        "EV-0807-019",
+        "EV-0807-020"
       ]
     }
   ],
   "relations": [
     {
-      "type": "APPEARS_IN",
+      "type": "OWNS",
       "source": "E-alger-wilson-3e9f42",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-the-world-cb4adb",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-003"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-sailor-pathway-9d14e4",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-002"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-feathered-serpent-7d3c18",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-004"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-southern-continent-5c8d20",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-005"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-descendants-of-death-3a7b92",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-006"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-eggers-family-46b95a",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-006"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-copper-whistle-993625",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-010"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-fate-siphon-000000",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-011"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-leymano-s-travels-30cb22",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-011"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-the-fool-22e598",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-009"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-death-knell-6f7081",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-013"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-illusory-chime-tree-4a7c30",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-014"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-audrey-hall-2b8d31",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
+      "target": "E-whip-of-mind-3a9c47",
+      "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-0807-015"
       ]
     },
     {
-      "type": "APPEARS_IN",
-      "source": "E-whip-of-mind-3a9c47",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-016"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-gray-rat-8c1f42",
-      "target": "C0807",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0807-017"
-      ]
-    },
-    {
       "type": "RELATED_TO",
-      "source": "E-feathered-serpent-7d3c18",
+      "source": "E-feathered-serpent-5e6f70",
       "target": "E-eggers-family-46b95a",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -785,94 +636,13 @@
       "label": "The feathered serpent is the emblem of the Eggers family"
     },
     {
-      "type": "MEMBER_OF",
-      "source": "E-eggers-family-46b95a",
-      "target": "E-descendants-of-death-3a7b92",
-      "inverse": "HAS_MEMBER",
-      "evidence_ids": [
-        "EV-0807-006"
-      ],
-      "label": "The Eggers family are descendants of Death"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-feathered-serpent-7d3c18",
-      "target": "E-southern-continent-5c8d20",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0807-005"
-      ],
-      "label": "The feathered serpent is a symbol of holiness in the Southern Continent"
-    },
-    {
       "type": "OWNS",
       "source": "E-klein-moretti-6a3250",
-      "target": "E-copper-whistle-993625",
+      "target": "E-aziks-copper-whistle-6d1c40",
       "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-0807-010"
-      ],
-      "label": "Klein carries Azik’s copper whistle"
-    },
-    {
-      "type": "OWNS",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-fate-siphon-000000",
-      "inverse": "OWNED_BY",
-      "evidence_ids": [
-        "EV-0807-011"
-      ],
-      "label": "Klein carries the Fate Siphon charm"
-    },
-    {
-      "type": "OWNS",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-leymano-s-travels-30cb22",
-      "inverse": "OWNED_BY",
-      "evidence_ids": [
-        "EV-0807-011"
-      ],
-      "label": "Klein carries pages of Leymano’s Travels"
-    },
-    {
-      "type": "OWNS",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-death-knell-6f7081",
-      "inverse": "OWNED_BY",
-      "evidence_ids": [
-        "EV-0807-013"
-      ],
-      "label": "Klein carries the revolver Death Knell"
-    },
-    {
-      "type": "OWNS",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-whip-of-mind-3a9c47",
-      "inverse": "OWNED_BY",
-      "evidence_ids": [
-        "EV-0807-016"
-      ],
-      "label": "Alger owns the Whip of Mind"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-illusory-chime-tree-4a7c30",
-      "target": "E-audrey-hall-2b8d31",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0807-015"
-      ],
-      "label": "The Illusory Chime Tree bears the ingredient Audrey needs"
-    },
-    {
-      "type": "FOLLOWS_PATHWAY",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-sailor-pathway-9d14e4",
-      "inverse": "HAS_FOLLOWER",
-      "evidence_ids": [
-        "EV-0807-002"
-      ],
-      "label": "Alger is an experienced Sailor"
+      ]
     }
   ]
 }

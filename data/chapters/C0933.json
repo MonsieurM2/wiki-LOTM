@@ -43,7 +43,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -529,7 +529,7 @@
     },
     {
       "id": "MEN-0933-005",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0933-001",
         "EV-0933-002",
@@ -813,7 +813,7 @@
         "E-leonard-2c8d91",
         "E-ian-wright-26ac8e",
         "E-worm-of-time-134600",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-dwayne-802dcc",
         "E-0-08-f1d2b9",
         "E-spirit-warlock-1a19f5",
@@ -958,7 +958,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0933",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

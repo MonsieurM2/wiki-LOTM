@@ -132,7 +132,7 @@
       "tags": []
     },
     {
-      "id": "E-ricciardo-8c4e62",
+      "id": "E-fate-councilor-ricciardo-f12b56",
       "canonical_name": "Ricciardo",
       "primary_type": "Character",
       "aliases": [
@@ -552,7 +552,7 @@
     },
     {
       "id": "MEN-0611-015",
-      "entity": "E-ricciardo-8c4e62",
+      "entity": "E-fate-councilor-ricciardo-f12b56",
       "evidence_ids": [
         "EV-0611-011",
         "EV-0611-012",
@@ -643,7 +643,7 @@
       "label": "Carnot leads the pair to the injured Fate Councilor Ricciardo beneath the stone bridge",
       "participants": [
         "E-bellman-carnot-2d8e14",
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-darkwill-4a1b2c",
         "E-dwayne-802dcc"
       ],
@@ -657,7 +657,7 @@
       "id": "EVT-0611-004",
       "label": "Ricciardo seals the Die of Probability using an item prepared by Will Auceptin",
       "participants": [
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-die-of-probability-7d9541",
         "E-king-of-yellow-and-black-a14014",
         "E-king-of-yellow-and-black-a14014",
@@ -673,7 +673,7 @@
       "id": "EVT-0611-005",
       "label": "Ricciardo augments Gehrman Sparrow with luck for the casinos, but Klein loses money",
       "participants": [
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-dwayne-802dcc",
         "E-dwayne-802dcc",
         "E-darkwill-4a1b2c",
@@ -707,7 +707,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "C0611",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -743,7 +743,7 @@
     },
     {
       "type": "OWNS",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "E-die-of-probability-7d9541",
       "inverse": "OWNED_BY",
       "evidence_ids": [
@@ -790,7 +790,7 @@
     },
     {
       "type": "OPPOSES",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "E-dwayne-802dcc",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [

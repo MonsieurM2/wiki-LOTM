@@ -30,7 +30,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -566,7 +566,7 @@
     },
     {
       "id": "MEN-0661-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0661-016",
         "EV-0661-018"
@@ -854,7 +854,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0661",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

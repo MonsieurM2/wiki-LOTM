@@ -25,7 +25,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -437,7 +437,7 @@
     },
     {
       "id": "MEN-0677-003",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0677-001",
         "EV-0677-004",
@@ -558,7 +558,7 @@
       "id": "EVT-0677-001",
       "label": "Anderson is attacked by nearly everyone in the restaurant as Klein activates his Spirit Vision and Spirit Body Threads",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-soulbody-de6d84"
       ],
@@ -594,7 +594,7 @@
       "label": "Klein warns Anderson that Mandated Punishers or Church of Storms priests could have been among the controlled",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-mandated-punisher-4c7d29",
         "E-church-of-storms-3c8d52"
       ],
@@ -662,7 +662,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0677",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -816,7 +816,7 @@
     {
       "type": "OPPOSES",
       "source": "E-manipulator-0f1b2c",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
         "EV-0677-006",
@@ -865,7 +865,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [

@@ -207,7 +207,7 @@
       ]
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -702,7 +702,7 @@
     },
     {
       "id": "MEN-0904-020",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0904-009"
       ]
@@ -863,7 +863,7 @@
       "label": "Colin used the Fate Siphon charm to foil the True Creator’s ploy, taking the blame onto Amon",
       "participants": [
         "E-colin-iliad-07dd71",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-derek-769f2b",
         "E-ancient-sun-god-0e7a93",
         "E-amon-0e5352",
@@ -1098,7 +1098,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0904",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1252,7 +1252,7 @@
     {
       "type": "OWNS",
       "source": "E-colin-iliad-07dd71",
-      "target": "E-fate-siphon-338a54",
+      "target": "E-fate-siphon-000000",
       "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-0904-009"

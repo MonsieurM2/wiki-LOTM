@@ -150,7 +150,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -235,7 +235,7 @@
       "tags": []
     },
     {
-      "id": "E-conspirer-3b7d18",
+      "id": "E-conspirer-23064f",
       "canonical_name": "Conspirer",
       "primary_type": "Concept",
       "aliases": [],
@@ -641,7 +641,7 @@
     },
     {
       "id": "MEN-1043-018",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-1043-010"
       ]
@@ -776,10 +776,10 @@
       "label": "Danitz proposes a mission to Anderson to investigate Ailment and gather Conspirer ingredients",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-ailment-maiden-tracy-4a6c90",
         "E-theros-island-1a2b57",
-        "E-conspirer-3b7d18",
+        "E-conspirer-23064f",
         "E-iron-blooded-knight-2f9a41"
       ],
       "evidence_ids": [
@@ -794,7 +794,7 @@
       "label": "Klein considers the two solutions to Anderson’s foreign object using Unshadowed or the Iron-blooded Knight formula",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-foreign-object-7a3d25",
         "E-sun-pathway-9f1f2e",
         "E-derek-769f2b",
@@ -970,7 +970,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C1043",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1051,7 +1051,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-conspirer-3b7d18",
+      "source": "E-conspirer-23064f",
       "target": "C1043",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1088,7 +1088,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-foreign-object-7a3d25",
       "inverse": "RELATED_TO",
       "evidence_ids": [

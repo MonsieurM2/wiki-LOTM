@@ -27,7 +27,7 @@
       "tags": []
     },
     {
-      "id": "E-helene-4c1a77",
+      "id": "E-helene-16e74e",
       "canonical_name": "red-haired Helene",
       "primary_type": "Character",
       "aliases": [
@@ -404,7 +404,7 @@
     },
     {
       "id": "MEN-0581-002",
-      "entity": "E-helene-4c1a77",
+      "entity": "E-helene-16e74e",
       "evidence_ids": [
         "EV-0581-002",
         "EV-0581-003",
@@ -511,7 +511,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-faceless-00c1c6",
-        "E-helene-4c1a77"
+        "E-helene-16e74e"
       ],
       "evidence_ids": [
         "EV-0581-007",
@@ -556,7 +556,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "C0581",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

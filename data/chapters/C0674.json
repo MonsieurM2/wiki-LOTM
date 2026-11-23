@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -476,7 +476,7 @@
     },
     {
       "id": "MEN-0674-006",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0674-003",
         "EV-0674-017"
@@ -666,7 +666,7 @@
         "E-dwayne-802dcc",
         "E-cattleya-3e8f15",
         "E-future-3a7b19",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-pugilist-79e647",
         "E-arbiter-6f2a37"
       ],
@@ -679,7 +679,7 @@
       "id": "EVT-0674-006",
       "label": "Anderson asks Klein to lend him money",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc"
       ],
       "evidence_ids": [
@@ -699,7 +699,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0674",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

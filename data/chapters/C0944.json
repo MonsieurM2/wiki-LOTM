@@ -150,7 +150,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -512,7 +512,7 @@
     },
     {
       "id": "MEN-0944-018",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0944-001"
       ]
@@ -614,7 +614,7 @@
         "E-leonard-2c8d91",
         "E-dwayne-802dcc",
         "E-ancient-hermes-2a152002",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-ince-zangwill-091a2b",
         "E-lightning-storm-2c9a58",
         "E-ancient-feysac-45768e"
@@ -783,7 +783,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0944",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -862,7 +862,7 @@
     {
       "type": "USES",
       "source": "E-leonard-2c8d91",
-      "target": "E-fate-siphon-338a54",
+      "target": "E-fate-siphon-000000",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0944-013"

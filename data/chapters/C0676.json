@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -71,7 +71,7 @@
       "tags": []
     },
     {
-      "id": "E-ricciardo-8c4e62",
+      "id": "E-fate-councilor-ricciardo-f12b56",
       "canonical_name": "Ricciardo",
       "primary_type": "Character",
       "aliases": [
@@ -519,7 +519,7 @@
     },
     {
       "id": "MEN-0676-012",
-      "entity": "E-ricciardo-8c4e62",
+      "entity": "E-fate-councilor-ricciardo-f12b56",
       "evidence_ids": [
         "EV-0676-009",
         "EV-0676-013"
@@ -550,7 +550,7 @@
     },
     {
       "id": "MEN-0676-016",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0676-012",
         "EV-0676-014",
@@ -614,11 +614,11 @@
       "label": "Klein plans to ask Ricciardo via Bellman Carnot to change Anderson’s luck",
       "participants": [
         "E-dwayne-802dcc",
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-oravi-a61ce1",
         "E-bellman-carnot-2d8e14",
         "E-life-school-of-thought-3a6f1c",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0676-009",
@@ -632,7 +632,7 @@
       "label": "Klein and Anderson strike a deal for a mystical item and revolver clues",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-death-brachydont-1a7e44"
       ],
       "evidence_ids": [
@@ -646,7 +646,7 @@
       "id": "EVT-0676-005",
       "label": "The waiter and hotel boss suddenly attack Anderson during breakfast",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc"
       ],
       "evidence_ids": [
@@ -667,7 +667,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0676",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -694,7 +694,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "C0676",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -749,7 +749,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-ricciardo-8c4e62",
+      "source": "E-fate-councilor-ricciardo-f12b56",
       "target": "E-oravi-a61ce1",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -760,7 +760,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-bellman-carnot-2d8e14",
-      "target": "E-ricciardo-8c4e62",
+      "target": "E-fate-councilor-ricciardo-f12b56",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0676-010"
@@ -770,7 +770,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-death-brachydont-1a7e44",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0676-015"

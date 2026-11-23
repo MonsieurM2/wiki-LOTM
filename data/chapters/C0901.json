@@ -91,7 +91,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -551,7 +551,7 @@
     },
     {
       "id": "MEN-0901-011",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0901-004"
       ]
@@ -707,7 +707,7 @@
         "E-sequence-0-f9c9e2",
         "E-groselle-4e7a15",
         "E-ancient-sun-god-101eef",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-bethel-abraham-a78bd4"
       ],
       "evidence_ids": [
@@ -892,7 +892,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0901",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

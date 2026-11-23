@@ -63,7 +63,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -138,7 +138,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -586,7 +586,7 @@
     },
     {
       "id": "MEN-0637-008",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-0637-007"
       ]
@@ -653,7 +653,7 @@
     },
     {
       "id": "MEN-0637-016",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0637-011"
       ]
@@ -735,7 +735,7 @@
         "E-axe-of-hurricane-b8c044",
         "E-city-of-silver-000000",
         "E-ch0523-000011",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-ch0523-000014"
       ],
       "evidence_ids": [
@@ -770,7 +770,7 @@
         "E-sonia-sea-0fb1dc",
         "E-slaughter-kircheis-4fb05d",
         "E-agalito-4f2c18",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-2-105-blood-vessel-thief-4d7e13",
         "E-desire-apostle-2f8a61"
       ],
@@ -865,7 +865,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C0637",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -928,7 +928,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0637",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

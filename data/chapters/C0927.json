@@ -36,7 +36,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -438,7 +438,7 @@
     },
     {
       "id": "MEN-0927-004",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0927-004",
         "EV-0927-017"
@@ -536,7 +536,7 @@
         "E-dwayne-802dcc",
         "E-dwayne-802dcc",
         "E-word-of-the-sea-69d145",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-card-of-blasphemy-4a9d21"
       ],
       "evidence_ids": [
@@ -614,7 +614,7 @@
       "label": "Klein uses Lightning Storm twice, destroying the creatures and nearly wiping out Enzo",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-calderon-city-2dcbdb",
         "E-admiral-hell-ludwell-9e2b41",
         "E-dwayne-802dcc",
@@ -657,7 +657,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0927",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -806,7 +806,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0927-017"

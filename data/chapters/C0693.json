@@ -92,7 +92,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -106,7 +106,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -120,7 +120,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -510,7 +510,7 @@
     },
     {
       "id": "MEN-0693-010",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0693-014",
         "EV-0693-016"
@@ -525,7 +525,7 @@
     },
     {
       "id": "MEN-0693-012",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0693-016"
       ]
@@ -540,7 +540,7 @@
     },
     {
       "id": "MEN-0693-014",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0693-019"
       ]
@@ -628,7 +628,7 @@
         "E-dwayne-802dcc",
         "E-black-emperor-5d2b64",
         "E-gray-fog-3a7d64",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-groselle-4e7a15"
       ],
       "evidence_ids": [
@@ -642,11 +642,11 @@
       "label": "Klein rejects entering as a Spirit Body because of the Blood Emperor card and Nast",
       "participants": [
         "E-dwayne-802dcc",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-nast-3d7c05",
         "E-ch0523-000020",
         "E-golden-dream-1c9d42",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0693-016",
@@ -709,7 +709,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0693-014"
@@ -816,7 +816,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0693",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -834,7 +834,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0693",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -852,7 +852,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0693",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

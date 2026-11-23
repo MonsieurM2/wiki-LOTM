@@ -53,7 +53,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "tags": []
@@ -502,7 +502,7 @@
     },
     {
       "id": "MEN-0583-004",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0583-005"
       ]
@@ -625,7 +625,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-creeping-hunger-000009",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-dwayne-802dcc",
         "E-kalvetua-452f62",
         "E-gray-fog-3a7d64"
@@ -735,7 +735,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0583",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -889,7 +889,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0583-005"

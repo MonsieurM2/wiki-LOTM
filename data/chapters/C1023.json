@@ -110,7 +110,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "tags": []
@@ -520,7 +520,7 @@
     },
     {
       "id": "MEN-1023-013",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1023-010"
       ]
@@ -630,7 +630,7 @@
       "label": "Klein observes via the Sea God Scepter and suspects King George III caused the Great Smog",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-stratford-4c9e02",
         "E-qonas-18f91f",
         "E-xio-5b6c73",
@@ -760,7 +760,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1023",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

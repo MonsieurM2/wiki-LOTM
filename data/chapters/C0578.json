@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-helene-4c1a77",
+      "id": "E-helene-16e74e",
       "canonical_name": "red-haired Helene",
       "primary_type": "Character",
       "aliases": [
@@ -402,7 +402,7 @@
   "mentions": [
     {
       "id": "MEN-0578-001",
-      "entity": "E-helene-4c1a77",
+      "entity": "E-helene-16e74e",
       "evidence_ids": [
         "EV-0578-002",
         "EV-0578-006",
@@ -517,7 +517,7 @@
       "id": "EVT-0578-001",
       "label": "Helene, disguised as a man, leaves the Intis embassy in Bayam aboard a carriage toward the harbor",
       "participants": [
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-bayam-3c7d52"
       ],
       "evidence_ids": [
@@ -532,7 +532,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-blazing-danitz-a1b2cd",
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-creeping-hunger-000009"
       ],
       "evidence_ids": [
@@ -546,7 +546,7 @@
       "label": "Klein questions Helene about Jimmy Necker, Tracy and the Balam Empire documents",
       "participants": [
         "E-dwayne-802dcc",
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-jimmy-necker-2955f8",
         "E-ailment-maiden-tracy-4a6c90",
         "E-ancient-balam-empire-707ffb"
@@ -561,7 +561,7 @@
       "id": "EVT-0578-004",
       "label": "Helene recalls Trier, Emperor Roselle and her Sauron family origins",
       "participants": [
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-trier-2f6b14",
         "E-emperor-roselle-664e32",
         "E-ch0529-000019",
@@ -580,7 +580,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "C0578",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -715,7 +715,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "E-ailment-maiden-tracy-4a6c90",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -725,7 +725,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "E-sauron-family-2f8c17",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -762,7 +762,7 @@
     },
     {
       "type": "OPPOSES",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "E-ailment-maiden-tracy-4a6c90",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
@@ -771,7 +771,7 @@
     },
     {
       "type": "FOLLOWS_PATHWAY",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "E-hunter-pathway-4d7e21",
       "inverse": "HAS_FOLLOWER",
       "evidence_ids": [

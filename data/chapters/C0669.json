@@ -61,7 +61,7 @@
       "primary_type": "Pathway"
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact"
     },
@@ -146,7 +146,7 @@
       "primary_type": "Location"
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location"
     },
@@ -580,7 +580,7 @@
     },
     {
       "id": "MEN-0669-007",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0669-004"
       ]
@@ -688,7 +688,7 @@
     },
     {
       "id": "MEN-0669-022",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-0669-015"
       ]
@@ -833,7 +833,7 @@
         "E-bloodless-heath-doyle-0380df",
         "E-sealed-art-134600",
         "E-bloodless-heath-doyle-0380df",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0669-001",
@@ -871,7 +871,7 @@
         "E-bernadette-00001e",
         "E-dwayne-802dcc",
         "E-ch0523-000011",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-black-cloister-5cf486",
         "E-great-twilight-hall-224f62",
         "E-ch0529-000020",
@@ -980,7 +980,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0669",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1115,7 +1115,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C0669",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1287,7 +1287,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "E-ch0523-000011",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

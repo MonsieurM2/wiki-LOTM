@@ -70,7 +70,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -91,7 +91,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [],
@@ -562,7 +562,7 @@
     },
     {
       "id": "MEN-0888-007",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0888-003"
       ]
@@ -583,7 +583,7 @@
     },
     {
       "id": "MEN-0888-010",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-0888-006"
       ]
@@ -728,10 +728,10 @@
         "E-death-knell-18557c",
         "E-azik-copper-whistle-5e3f27",
         "E-adventurer-s-harmonica-35618e",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-groselle-4e7a15",
         "E-creeping-hunger-000009",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-worm-of-time-134600",
         "E-amon-0e5352",
         "E-headless-woman-b0197d"
@@ -866,7 +866,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0888",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -893,7 +893,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C0888",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1056,7 +1056,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "E-worm-of-time-134600",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1066,7 +1066,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "E-amon-0e5352",
       "inverse": "RELATED_TO",
       "evidence_ids": [

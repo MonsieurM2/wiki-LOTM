@@ -187,7 +187,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -721,7 +721,7 @@
     },
     {
       "id": "MEN-0064-020",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0064-012"
       ]
@@ -878,7 +878,7 @@
         "E-alger-willson-3e9f42",
         "E-blue-avenger-364758",
         "E-tudor-dynasty-5802ed",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-rorsted-archipelago-4c0cd8",
         "E-sonia-sea-0fb1dc"
       ],
@@ -1109,7 +1109,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0064",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

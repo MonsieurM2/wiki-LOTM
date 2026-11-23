@@ -21,7 +21,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [
@@ -466,7 +466,7 @@
     },
     {
       "id": "MEN-0554-002",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0554-001",
         "EV-0554-004"
@@ -607,7 +607,7 @@
       "label": "Klein reviews the Sea God prayers with the Sea God Scepter and calms a storm for fishermen",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-kalvetua-452f62"
       ],
       "evidence_ids": [
@@ -656,7 +656,7 @@
       "label": "Klein answers the Resistance's ritual and enchants their Beyonder items",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-bayam-resistance-31190b",
         "E-kalat-3bdd07",
         "E-edmonton-25d43c",
@@ -694,7 +694,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0554",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -857,7 +857,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0554-001"

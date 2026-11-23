@@ -66,7 +66,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "tags": []
@@ -470,7 +470,7 @@
     },
     {
       "id": "MEN-1030-010",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1030-009",
         "EV-1030-012"
@@ -558,7 +558,7 @@
         "E-qonas-18f91f",
         "E-randall-valentinus-89130e",
         "E-horamick-haydn-1f7c44",
-        "E-alista-tudor-7e3c19"
+        "E-alista-tudor-505075"
       ],
       "evidence_ids": [
         "EV-1030-005",
@@ -576,7 +576,7 @@
         "E-horamick-haydn-1f7c44",
         "E-anthony-stevenson-92a3c1",
         "E-arianna-2b3c4d",
-        "E-alista-tudor-7e3c19"
+        "E-alista-tudor-505075"
       ],
       "evidence_ids": [
         "EV-1030-010",
@@ -720,7 +720,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1030",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -829,7 +829,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-blood_ruins-d895fa",
-      "target": "E-alista-tudor-7e3c19",
+      "target": "E-alista-tudor-505075",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-1030-012"

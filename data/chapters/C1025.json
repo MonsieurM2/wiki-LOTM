@@ -96,7 +96,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "tags": []
@@ -519,7 +519,7 @@
     },
     {
       "id": "MEN-1025-015",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-1025-019"
       ]
@@ -594,7 +594,7 @@
         "E-seer-2e2bc5",
         "E-enuni-3c4d5e",
         "E-concerto-light-shadow-4d5e6f",
-        "E-fate-siphon-338a54"
+        "E-fate-siphon-000000"
       ],
       "evidence_ids": [
         "EV-1025-008",
@@ -771,7 +771,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C1025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

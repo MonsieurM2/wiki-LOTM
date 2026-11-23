@@ -46,7 +46,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -479,7 +479,7 @@
     },
     {
       "id": "MEN-0551-006",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0551-008",
         "EV-0551-010",
@@ -605,7 +605,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-kalat-3bdd07",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0551-001",
@@ -622,7 +622,7 @@
         "E-edmonton-25d43c",
         "E-bayam-resistance-31190b",
         "E-edmonton-25d43c",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0551-005",
@@ -637,7 +637,7 @@
       "label": "Klein studies the Sea God Scepter's limits and the altered iron cigar case above the gray fog",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-gray-fog-3a7d64",
         "E-azik-copper-whistle-5e3f27"
       ],
@@ -734,7 +734,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0551",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

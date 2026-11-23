@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -70,7 +70,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -420,7 +420,7 @@
   "mentions": [
     {
       "id": "MEN-0696-001",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0696-001",
         "EV-0696-007",
@@ -468,7 +468,7 @@
     },
     {
       "id": "MEN-0696-006",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0696-005"
       ]
@@ -548,7 +548,7 @@
       "id": "EVT-0696-001",
       "label": "Anderson and Klein judge the strength of the departing King of the North",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-king-of-the-north-6f2c39",
         "E-rampager-7baa1d"
@@ -568,7 +568,7 @@
         "E-groselle-4e7a15",
         "E-king-of-the-north-6f2c39",
         "E-reader-pathway-000014",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-groselle-09b6fd"
       ],
       "evidence_ids": [
@@ -583,7 +583,7 @@
       "label": "The group rests in the cave and Klein uses Edwina's pearl earring to divine",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-ch0523-000020",
         "E-pearl-earring-4c6b18"
@@ -599,7 +599,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-elven-songster-siatas-86b57d",
         "E-groselle-09b6fd",
         "E-ch0528-000013"
@@ -619,7 +619,7 @@
         "E-elven-songster-siatas-86b57d",
         "E-king-of-the-north-6f2c39",
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-ocean-songster-1b2c3d"
       ],
@@ -648,7 +648,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0696",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -693,7 +693,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0696",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

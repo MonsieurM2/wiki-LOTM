@@ -209,7 +209,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -625,7 +625,7 @@
     },
     {
       "id": "MEN-0895-018",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0895-019",
         "EV-0895-020"
@@ -723,7 +723,7 @@
       "label": "Danitz and Anderson settle in Behrens Harbor",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-iron-black-boxing-glove-b44b3a"
       ],
       "evidence_ids": [
@@ -888,7 +888,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0895",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

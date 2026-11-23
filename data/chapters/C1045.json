@@ -31,7 +31,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -493,7 +493,7 @@
     },
     {
       "id": "MEN-1045-003",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1045-001"
       ]
@@ -651,7 +651,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-bronze-cross-92a3c8",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-xio-5b6c73",
         "E-psych-invisibility-0a1b2c"
       ],
@@ -686,7 +686,7 @@
         "E-dwayne-802dcc",
         "E-ch0529-000018",
         "E-arianna-2b3c4d",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-kalvetua-452f62"
       ],
       "evidence_ids": [
@@ -792,7 +792,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1045",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

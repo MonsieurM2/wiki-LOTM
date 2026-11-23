@@ -156,7 +156,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -593,7 +593,7 @@
     },
     {
       "id": "MEN-1109-015",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1109-009"
       ]
@@ -686,7 +686,7 @@
         "E-dwayne-802dcc",
         "E-demoness-of-unaging-4a8c12",
         "E-kalvetua-452f62",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-instigator-tris-38513a",
         "E-gatekeeper-ade4f3",
         "E-gray-fog-3a7d64"
@@ -858,7 +858,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1109",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -952,7 +952,7 @@
     {
       "type": "OWNS",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-1109-009"

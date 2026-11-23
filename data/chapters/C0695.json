@@ -141,7 +141,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [],
@@ -567,7 +567,7 @@
     },
     {
       "id": "MEN-0695-017",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0695-016",
         "EV-0695-017",
@@ -688,7 +688,7 @@
       "label": "Klein uses Dowsing Rod Seeking to find Anderson; Danitz insults him",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-fog-sea-134600"
       ],
@@ -702,7 +702,7 @@
       "id": "EVT-0695-008",
       "label": "Klein and Danitz find Anderson in a cave roasting a rabbit",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-dwayne-802dcc"
       ],
@@ -716,7 +716,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-king-of-the-north-6f2c39"
       ],
       "evidence_ids": [
@@ -785,7 +785,7 @@
     {
       "type": "OPPOSES",
       "source": "E-blazing-danitz-a1b2cd",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
         "EV-0695-017"
@@ -946,7 +946,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0695",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

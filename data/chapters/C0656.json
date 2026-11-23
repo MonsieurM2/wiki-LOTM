@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -430,7 +430,7 @@
     },
     {
       "id": "MEN-0656-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0656-001",
         "EV-0656-003",
@@ -552,7 +552,7 @@
       "id": "EVT-0656-001",
       "label": "Anderson and Klein speculate about the door opened in the dream",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-cattleya-3e8f15"
       ],
@@ -643,7 +643,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0656",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -778,7 +778,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Anderson tells Klein that no one else could act freely in the dream",

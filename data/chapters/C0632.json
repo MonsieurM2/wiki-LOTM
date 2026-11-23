@@ -134,7 +134,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -613,7 +613,7 @@
     },
     {
       "id": "MEN-0632-013",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0632-013"
       ]
@@ -742,7 +742,7 @@
         "E-dwayne-802dcc",
         "E-bilt-b24418",
         "E-headless-woman-b0197d",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0632-012",
@@ -896,7 +896,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0632",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

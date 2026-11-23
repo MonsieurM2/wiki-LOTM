@@ -132,7 +132,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -584,7 +584,7 @@
     },
     {
       "id": "MEN-0699-012",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0699-010"
       ]
@@ -681,7 +681,7 @@
         "E-elven-songster-siatas-86b57d",
         "E-mobet-f1062f",
         "E-ascetic-snowman-6e4a18",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-death-brachydont-1a7e44",
         "E-solomon-empire-29eeff"
       ],
@@ -848,7 +848,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0699",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -948,7 +948,7 @@
     },
     {
       "type": "OWNS",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-death-brachydont-1a7e44",
       "inverse": "OWNED_BY",
       "evidence_ids": [

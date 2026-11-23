@@ -47,7 +47,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -559,7 +559,7 @@
     },
     {
       "id": "MEN-1371-005",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1371-004",
         "EV-1371-005",
@@ -757,7 +757,7 @@
         "E-dwayne-802dcc",
         "E-alger-willson-3e9f42",
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-1371-001",
@@ -864,7 +864,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1371",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1109,7 +1109,7 @@
     {
       "type": "OWNS",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-1371-007"
@@ -1119,7 +1119,7 @@
     {
       "type": "USES",
       "source": "E-alger-willson-3e9f42",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-1371-005"
@@ -1138,7 +1138,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-kalvetua-452f62",
       "inverse": "RELATED_TO",
       "evidence_ids": [

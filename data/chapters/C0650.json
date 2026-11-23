@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -421,7 +421,7 @@
     },
     {
       "id": "MEN-0650-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0650-002",
         "EV-0650-012",
@@ -551,7 +551,7 @@
       "label": "Klein studies the mural and concludes it belongs to Anderson’s dream",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0650-001",
@@ -610,7 +610,7 @@
       "id": "EVT-0650-005",
       "label": "Anderson recounts his treasure-hunting disaster to Klein",
       "participants": [
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0650-012",
@@ -650,7 +650,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0650",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -795,7 +795,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-dwayne-802dcc",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "RELATED_TO",
       "label": "Klein suspects the unlucky Anderson is tied to the mural",
       "evidence_ids": [

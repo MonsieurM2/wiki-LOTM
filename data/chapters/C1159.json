@@ -38,7 +38,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -543,7 +543,7 @@
     },
     {
       "id": "MEN-1159-003",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1159-002"
       ]
@@ -712,7 +712,7 @@
       "participants": [
         "E-derek-769f2b",
         "E-colin-iliad-07dd71",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-silver-knight-potion-9a2f36"
       ],
       "evidence_ids": [
@@ -825,7 +825,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1159",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1023,7 +1023,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "E-city-of-silver-000000",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

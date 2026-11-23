@@ -36,7 +36,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -459,7 +459,7 @@
     },
     {
       "id": "MEN-0651-004",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0651-002",
         "EV-0651-016",
@@ -665,7 +665,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-cattleya-3e8f15",
         "E-fog-sea-134600"
       ],
@@ -707,7 +707,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0651",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -881,7 +881,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-cattleya-3e8f15",
       "inverse": "RELATED_TO",
       "label": "Cattleya knows Anderson Hood as the Strongest Hunter of the Fog Sea",
@@ -893,7 +893,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-dwayne-802dcc",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "RELATED_TO",
       "label": "Gehrman Sparrow throws a Storm charm at Anderson on the beach",
       "evidence_ids": [

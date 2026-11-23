@@ -7,56 +7,56 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-fors-a146009",
+      "id": "E-fors-58fdc6",
       "canonical_name": "Fors",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-moon-puppet-becdd3",
+      "id": "E-moon-puppet-3fd45c",
       "canonical_name": "Moon Puppet",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-southern-continent-5c8d20",
+      "id": "E-ch0526-000007",
       "canonical_name": "Southern Continent",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-paz-valley-db6e6f",
+      "id": "E-paz-valley-88a2bc",
       "canonical_name": "Paz Valley",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-primordial-moon-01d15a",
+      "id": "E-mother-goddess-dep-9c4b28",
       "canonical_name": "Primordial Moon",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-mr-moon-98fbde",
+      "id": "E-derek-769f2b",
       "canonical_name": "Mr. Moon",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-leymano-s-travels-5a805c",
+      "id": "E-leymano-29362a",
       "canonical_name": "Leymano's Travels",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-windsor-behring-3b3605",
+      "id": "E-primordial-moon-believers-2f7a11",
       "canonical_name": "Windsor Behring",
       "primary_type": "Character",
       "aliases": [],
@@ -70,14 +70,14 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-radio-transceiver-a74052",
+      "id": "E-ch0523-000005",
       "canonical_name": "radio transceiver",
       "primary_type": "Artifact",
       "aliases": [],
@@ -91,14 +91,14 @@
       "tags": []
     },
     {
-      "id": "E-williams-street-ccff17",
+      "id": "E-williams-street-000023",
       "canonical_name": "Williams Street",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-sharron-a1fb8b",
+      "id": "E-miss-sharron-222559",
       "canonical_name": "Sharron",
       "primary_type": "Character",
       "aliases": [
@@ -109,7 +109,7 @@
       "tags": []
     },
     {
-      "id": "E-evil-spirit-d1684b",
+      "id": "E-evil-spirit-42467b",
       "canonical_name": "evil spirit",
       "primary_type": "Concept",
       "aliases": [
@@ -120,7 +120,7 @@
       "tags": []
     },
     {
-      "id": "E-hunter-pathway-de8456",
+      "id": "E-hunter-pathway-4d7e21",
       "canonical_name": "Hunter pathway",
       "primary_type": "Pathway",
       "aliases": [],
@@ -134,28 +134,28 @@
       "tags": []
     },
     {
-      "id": "E-leonard-8be322",
+      "id": "E-leonard-2c8d91",
       "canonical_name": "Leonard",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-baronet-pound-aa3b5a",
+      "id": "E-baronet-pound-7a3c18",
       "canonical_name": "Baronet Pound",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-intis-7e5d1d",
+      "id": "E-ch0529-000019",
       "canonical_name": "Intis",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-feysac-59f2e1",
+      "id": "E-ch0529-000020",
       "canonical_name": "Feysac",
       "primary_type": "Faction",
       "aliases": [],
@@ -169,35 +169,35 @@
       "tags": []
     },
     {
-      "id": "E-rebach-38f3ec",
+      "id": "E-mr-rebach-2f6b04",
       "canonical_name": "Rebach",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-walter-7a1269",
+      "id": "E-butler-walter-8a66d9",
       "canonical_name": "Walter",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-duke-negan-04fe43",
+      "id": "E-aguesid-negan-d7ccfc",
       "canonical_name": "Duke Negan",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-viscount-conrad-d9fcd0",
+      "id": "E-viscount-conrad-3e7a51",
       "canonical_name": "Viscount Conrad",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-church-of-steam-d3a773",
+      "id": "E-church-of-craftsmanship-9f2c07",
       "canonical_name": "Church of Steam",
       "primary_type": "Faction",
       "aliases": [],
@@ -476,7 +476,7 @@
   "mentions": [
     {
       "id": "MEN-0740-001",
-      "entity": "E-fors-a146009",
+      "entity": "E-fors-58fdc6",
       "evidence_ids": [
         "EV-0740-001",
         "EV-0740-003",
@@ -491,7 +491,7 @@
     },
     {
       "id": "MEN-0740-002",
-      "entity": "E-moon-puppet-becdd3",
+      "entity": "E-moon-puppet-3fd45c",
       "evidence_ids": [
         "EV-0740-001",
         "EV-0740-002",
@@ -502,7 +502,7 @@
     },
     {
       "id": "MEN-0740-003",
-      "entity": "E-southern-continent-5c8d20",
+      "entity": "E-ch0526-000007",
       "evidence_ids": [
         "EV-0740-002",
         "EV-0740-005"
@@ -510,14 +510,14 @@
     },
     {
       "id": "MEN-0740-004",
-      "entity": "E-paz-valley-db6e6f",
+      "entity": "E-paz-valley-88a2bc",
       "evidence_ids": [
         "EV-0740-002"
       ]
     },
     {
       "id": "MEN-0740-005",
-      "entity": "E-primordial-moon-01d15a",
+      "entity": "E-mother-goddess-dep-9c4b28",
       "evidence_ids": [
         "EV-0740-005",
         "EV-0740-008"
@@ -525,7 +525,7 @@
     },
     {
       "id": "MEN-0740-006",
-      "entity": "E-mr-moon-98fbde",
+      "entity": "E-derek-769f2b",
       "evidence_ids": [
         "EV-0740-005",
         "EV-0740-008"
@@ -533,7 +533,7 @@
     },
     {
       "id": "MEN-0740-007",
-      "entity": "E-leymano-s-travels-5a805c",
+      "entity": "E-leymano-29362a",
       "evidence_ids": [
         "EV-0740-006",
         "EV-0740-007",
@@ -542,7 +542,7 @@
     },
     {
       "id": "MEN-0740-008",
-      "entity": "E-windsor-behring-3b3605",
+      "entity": "E-primordial-moon-believers-2f7a11",
       "evidence_ids": [
         "EV-0740-008",
         "EV-0740-009"
@@ -557,7 +557,7 @@
     },
     {
       "id": "MEN-0740-010",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0740-011",
         "EV-0740-012",
@@ -573,7 +573,7 @@
     },
     {
       "id": "MEN-0740-011",
-      "entity": "E-radio-transceiver-a74052",
+      "entity": "E-ch0523-000005",
       "evidence_ids": [
         "EV-0740-012",
         "EV-0740-013"
@@ -590,28 +590,28 @@
     },
     {
       "id": "MEN-0740-013",
-      "entity": "E-williams-street-ccff17",
+      "entity": "E-williams-street-000023",
       "evidence_ids": [
         "EV-0740-015"
       ]
     },
     {
       "id": "MEN-0740-014",
-      "entity": "E-sharron-a1fb8b",
+      "entity": "E-miss-sharron-222559",
       "evidence_ids": [
         "EV-0740-016"
       ]
     },
     {
       "id": "MEN-0740-015",
-      "entity": "E-evil-spirit-d1684b",
+      "entity": "E-evil-spirit-42467b",
       "evidence_ids": [
         "EV-0740-016"
       ]
     },
     {
       "id": "MEN-0740-016",
-      "entity": "E-hunter-pathway-de8456",
+      "entity": "E-hunter-pathway-4d7e21",
       "evidence_ids": [
         "EV-0740-017"
       ]
@@ -625,28 +625,28 @@
     },
     {
       "id": "MEN-0740-018",
-      "entity": "E-leonard-8be322",
+      "entity": "E-leonard-2c8d91",
       "evidence_ids": [
         "EV-0740-018"
       ]
     },
     {
       "id": "MEN-0740-019",
-      "entity": "E-baronet-pound-aa3b5a",
+      "entity": "E-baronet-pound-7a3c18",
       "evidence_ids": [
         "EV-0740-018"
       ]
     },
     {
       "id": "MEN-0740-020",
-      "entity": "E-intis-7e5d1d",
+      "entity": "E-ch0529-000019",
       "evidence_ids": [
         "EV-0740-018"
       ]
     },
     {
       "id": "MEN-0740-021",
-      "entity": "E-feysac-59f2e1",
+      "entity": "E-ch0529-000020",
       "evidence_ids": [
         "EV-0740-018"
       ]
@@ -660,35 +660,35 @@
     },
     {
       "id": "MEN-0740-023",
-      "entity": "E-rebach-38f3ec",
+      "entity": "E-mr-rebach-2f6b04",
       "evidence_ids": [
         "EV-0740-019"
       ]
     },
     {
       "id": "MEN-0740-024",
-      "entity": "E-walter-7a1269",
+      "entity": "E-butler-walter-8a66d9",
       "evidence_ids": [
         "EV-0740-019"
       ]
     },
     {
       "id": "MEN-0740-025",
-      "entity": "E-duke-negan-04fe43",
+      "entity": "E-aguesid-negan-d7ccfc",
       "evidence_ids": [
         "EV-0740-019"
       ]
     },
     {
       "id": "MEN-0740-026",
-      "entity": "E-viscount-conrad-d9fcd0",
+      "entity": "E-viscount-conrad-3e7a51",
       "evidence_ids": [
         "EV-0740-019"
       ]
     },
     {
       "id": "MEN-0740-027",
-      "entity": "E-church-of-steam-d3a773",
+      "entity": "E-church-of-craftsmanship-9f2c07",
       "evidence_ids": [
         "EV-0740-020"
       ]
@@ -706,10 +706,10 @@
       "id": "EVT-0740-001",
       "label": "A masked seller offers a Moon Puppet from Paz Valley at a Beyonder gathering",
       "participants": [
-        "E-fors-a146009",
-        "E-moon-puppet-becdd3",
-        "E-southern-continent-5c8d20",
-        "E-paz-valley-db6e6f"
+        "E-fors-58fdc6",
+        "E-moon-puppet-3fd45c",
+        "E-ch0526-000007",
+        "E-paz-valley-88a2bc"
       ],
       "evidence_ids": [
         "EV-0740-001",
@@ -722,11 +722,11 @@
       "id": "EVT-0740-002",
       "label": "A hooded buyer pays 50 pounds for the Moon Puppet and Fors suspects Primordial Moon links",
       "participants": [
-        "E-fors-a146009",
-        "E-moon-puppet-becdd3",
-        "E-primordial-moon-01d15a",
-        "E-mr-moon-98fbde",
-        "E-windsor-behring-3b3605"
+        "E-fors-58fdc6",
+        "E-moon-puppet-3fd45c",
+        "E-mother-goddess-dep-9c4b28",
+        "E-derek-769f2b",
+        "E-primordial-moon-believers-2f7a11"
       ],
       "evidence_ids": [
         "EV-0740-005",
@@ -738,9 +738,9 @@
       "id": "EVT-0740-003",
       "label": "Fors uses Leymanos Travels to spy on the hooded woman as a mosquito",
       "participants": [
-        "E-fors-a146009",
-        "E-leymano-s-travels-5a805c",
-        "E-windsor-behring-3b3605"
+        "E-fors-58fdc6",
+        "E-leymano-29362a",
+        "E-primordial-moon-believers-2f7a11"
       ],
       "evidence_ids": [
         "EV-0740-006",
@@ -752,13 +752,13 @@
       "id": "EVT-0740-004",
       "label": "Klein contacts Arrodes through the radio transceiver and asks about the Williams Street evil spirit",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-hillston-3c9f47",
-        "E-radio-transceiver-a74052",
+        "E-ch0523-000005",
         "E-arrodes-29353d",
-        "E-williams-street-ccff17",
-        "E-sharron-a1fb8b",
-        "E-evil-spirit-d1684b"
+        "E-williams-street-000023",
+        "E-miss-sharron-222559",
+        "E-evil-spirit-42467b"
       ],
       "evidence_ids": [
         "EV-0740-011",
@@ -773,13 +773,13 @@
       "id": "EVT-0740-005",
       "label": "Klein ponders the Conspirer, Leonard, Baronet Pound and foreign spies",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-hunter-pathway-de8456",
+        "E-dwayne-802dcc",
+        "E-hunter-pathway-4d7e21",
         "E-conspirer-23064f",
-        "E-leonard-8be322",
-        "E-baronet-pound-aa3b5a",
-        "E-intis-7e5d1d",
-        "E-feysac-59f2e1"
+        "E-leonard-2c8d91",
+        "E-baronet-pound-7a3c18",
+        "E-ch0529-000019",
+        "E-ch0529-000020"
       ],
       "evidence_ids": [
         "EV-0740-017",
@@ -790,14 +790,14 @@
       "id": "EVT-0740-006",
       "label": "Arrodes advises on the three butlers and asks to be taken out of the Church of Steam",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-arrodes-29353d",
         "E-asnia-2e12a4",
-        "E-rebach-38f3ec",
-        "E-walter-7a1269",
-        "E-duke-negan-04fe43",
-        "E-viscount-conrad-d9fcd0",
-        "E-church-of-steam-d3a773",
+        "E-mr-rebach-2f6b04",
+        "E-butler-walter-8a66d9",
+        "E-aguesid-negan-d7ccfc",
+        "E-viscount-conrad-3e7a51",
+        "E-church-of-craftsmanship-9f2c07",
         "E-backlund-7a4d86"
       ],
       "evidence_ids": [
@@ -809,7 +809,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-fors-a146009",
+      "source": "E-fors-58fdc6",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -818,7 +818,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-moon-puppet-becdd3",
+      "source": "E-moon-puppet-3fd45c",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -827,7 +827,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-southern-continent-5c8d20",
+      "source": "E-ch0526-000007",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -836,7 +836,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-paz-valley-db6e6f",
+      "source": "E-paz-valley-88a2bc",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -845,7 +845,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-primordial-moon-01d15a",
+      "source": "E-mother-goddess-dep-9c4b28",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -854,7 +854,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mr-moon-98fbde",
+      "source": "E-derek-769f2b",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -863,7 +863,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leymano-s-travels-5a805c",
+      "source": "E-leymano-29362a",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -872,7 +872,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-windsor-behring-3b3605",
+      "source": "E-primordial-moon-believers-2f7a11",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -890,7 +890,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -899,7 +899,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-radio-transceiver-a74052",
+      "source": "E-ch0523-000005",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -917,7 +917,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-williams-street-ccff17",
+      "source": "E-williams-street-000023",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -926,7 +926,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sharron-a1fb8b",
+      "source": "E-miss-sharron-222559",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -935,7 +935,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evil-spirit-d1684b",
+      "source": "E-evil-spirit-42467b",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -944,7 +944,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-hunter-pathway-de8456",
+      "source": "E-hunter-pathway-4d7e21",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -962,7 +962,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leonard-8be322",
+      "source": "E-leonard-2c8d91",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -971,7 +971,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-baronet-pound-aa3b5a",
+      "source": "E-baronet-pound-7a3c18",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -980,7 +980,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-intis-7e5d1d",
+      "source": "E-ch0529-000019",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -989,7 +989,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-feysac-59f2e1",
+      "source": "E-ch0529-000020",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1007,7 +1007,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-rebach-38f3ec",
+      "source": "E-mr-rebach-2f6b04",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1016,7 +1016,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-walter-7a1269",
+      "source": "E-butler-walter-8a66d9",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1025,7 +1025,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-duke-negan-04fe43",
+      "source": "E-aguesid-negan-d7ccfc",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1034,7 +1034,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-viscount-conrad-d9fcd0",
+      "source": "E-viscount-conrad-3e7a51",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1043,7 +1043,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-church-of-steam-d3a773",
+      "source": "E-church-of-craftsmanship-9f2c07",
       "target": "C0740",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1061,8 +1061,8 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-paz-valley-db6e6f",
-      "target": "E-southern-continent-5c8d20",
+      "source": "E-paz-valley-88a2bc",
+      "target": "E-ch0526-000007",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0740-002"
@@ -1070,8 +1070,8 @@
     },
     {
       "type": "OWNS",
-      "source": "E-fors-a146009",
-      "target": "E-leymano-s-travels-5a805c",
+      "source": "E-fors-58fdc6",
+      "target": "E-leymano-29362a",
       "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-0740-006"
@@ -1079,8 +1079,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-windsor-behring-3b3605",
-      "target": "E-primordial-moon-01d15a",
+      "source": "E-primordial-moon-believers-2f7a11",
+      "target": "E-mother-goddess-dep-9c4b28",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0740-008"
@@ -1088,8 +1088,8 @@
     },
     {
       "type": "USES",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-radio-transceiver-a74052",
+      "source": "E-dwayne-802dcc",
+      "target": "E-ch0523-000005",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0740-012"
@@ -1097,8 +1097,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-evil-spirit-d1684b",
-      "target": "E-williams-street-ccff17",
+      "source": "E-evil-spirit-42467b",
+      "target": "E-williams-street-000023",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0740-015"
@@ -1108,7 +1108,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-arrodes-29353d",
-      "target": "E-church-of-steam-d3a773",
+      "target": "E-church-of-craftsmanship-9f2c07",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0740-020"

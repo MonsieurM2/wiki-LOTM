@@ -127,7 +127,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "tags": []
@@ -582,7 +582,7 @@
     },
     {
       "id": "MEN-1032-021",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1032-018"
       ]
@@ -723,7 +723,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-gray-fog-3a7d64",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-enuni-3c4d5e",
         "E-maygur-c10059",
         "E-bronze-cross-92a3c8",
@@ -894,7 +894,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

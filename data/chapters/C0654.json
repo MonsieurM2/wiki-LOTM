@@ -71,7 +71,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -442,7 +442,7 @@
     },
     {
       "id": "MEN-0654-009",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0654-015",
         "EV-0654-016"
@@ -541,7 +541,7 @@
         "E-dwayne-802dcc",
         "E-dwayne-802dcc",
         "E-baron-ed58e2",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-ch0527-000006"
       ],
       "evidence_ids": [
@@ -640,7 +640,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0654",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -725,7 +725,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "RELATED_TO",
       "label": "Klein retrieves the Sea God Scepter from a unique zone in the spirit world",
       "evidence_ids": [

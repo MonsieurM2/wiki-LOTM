@@ -63,7 +63,7 @@
       ]
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact"
     },
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location"
     },
@@ -520,7 +520,7 @@
     },
     {
       "id": "MEN-0672-008",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0672-007",
         "EV-0672-009",
@@ -575,7 +575,7 @@
     },
     {
       "id": "MEN-0672-015",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0672-017"
       ]
@@ -635,7 +635,7 @@
     },
     {
       "id": "MEN-0672-023",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-0672-024"
       ]
@@ -688,7 +688,7 @@
       "label": "Klein talks with Anderson Hood about faith and origins",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-ch0529-000019",
         "E-church-of-the-eternal-blazing-sun-a03d18",
         "E-church-of-god-of-steam-and-machinery-62e08a",
@@ -711,8 +711,8 @@
       "participants": [
         "E-leomaster-0fd9fe",
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
-        "E-sea-god-scepter-1d4e83",
+        "E-anderson-112b7c",
+        "E-sea-god-scepter-13653b",
         "E-bernadette-00001e"
       ],
       "evidence_ids": [
@@ -751,7 +751,7 @@
         "E-forsaken-land-4b8e0d",
         "E-ch0523-000011",
         "E-colin-iliad-07dd71",
-        "E-afternoon-town-74a1d3"
+        "E-afternoon-town-66c3e7"
       ],
       "evidence_ids": [
         "EV-0672-021",
@@ -828,7 +828,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0672",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -891,7 +891,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0672",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -963,7 +963,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C0672",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

@@ -30,7 +30,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -111,7 +111,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [
@@ -488,7 +488,7 @@
     },
     {
       "id": "MEN-0659-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0659-001",
         "EV-0659-002",
@@ -549,7 +549,7 @@
     },
     {
       "id": "MEN-0659-009",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0659-003",
         "EV-0659-004"
@@ -655,7 +655,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-admiral-hell-ludwell-9e2b41",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-black-tulip-4f7a92",
         "E-future-3a7b19"
       ],
@@ -724,7 +724,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0659",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -787,7 +787,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0659",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

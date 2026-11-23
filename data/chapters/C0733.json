@@ -14,21 +14,21 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-backlund-bike-company-63cef6",
+      "id": "E-backlund-bike-company-186771",
       "canonical_name": "Backlund Bike Company",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-bicycle-a3e331",
+      "id": "E-bicycle-9e8e37",
       "canonical_name": "bicycle",
       "primary_type": "Concept",
       "aliases": [
@@ -46,7 +46,7 @@
       "tags": []
     },
     {
-      "id": "E-backlund-bridge-e78b79",
+      "id": "E-backlund-bridge-0cbceb",
       "canonical_name": "Backlund Bridge",
       "primary_type": "Location",
       "aliases": [],
@@ -60,7 +60,7 @@
       "tags": []
     },
     {
-      "id": "E-dwayne-dantès-665674",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Dwayne Dantès",
       "primary_type": "Character",
       "aliases": [
@@ -71,7 +71,7 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Character",
       "aliases": [],
@@ -92,14 +92,14 @@
       "tags": []
     },
     {
-      "id": "E-great-smog-of-backlund-c07512",
+      "id": "E-great-smog-of-backlund-2243b5",
       "canonical_name": "Great Smog of Backlund",
       "primary_type": "Event",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-antigonus-family-s-notebook-eccf3e",
+      "id": "E-ancient-notebook-01a9db",
       "canonical_name": "Antigonus family's notebook",
       "primary_type": "Artifact",
       "aliases": [],
@@ -113,35 +113,35 @@
       "tags": []
     },
     {
-      "id": "E-mandated-punishers-ed47bb",
+      "id": "E-mandated-punisher-4c7d29",
       "canonical_name": "Mandated Punishers",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-southern-continent-5c8d20",
+      "id": "E-ch0526-000007",
       "canonical_name": "Southern Continent",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-east-balam-cd144a",
+      "id": "E-east-balam-2c8f41",
       "canonical_name": "East Balam",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-west-balam-a34bb0",
+      "id": "E-ch0526-000006",
       "canonical_name": "West Balam",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [
@@ -166,7 +166,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Emperor Roselle",
       "primary_type": "Character",
       "aliases": [
@@ -177,14 +177,14 @@
       "tags": []
     },
     {
-      "id": "E-zaratul-118a31",
+      "id": "E-zaratul-02f747",
       "canonical_name": "Zaratul",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-mr-fool-b7e2c1",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Mr. Fool",
       "primary_type": "Character",
       "aliases": [],
@@ -198,42 +198,42 @@
       "tags": []
     },
     {
-      "id": "E-chanis-gate-fab541",
+      "id": "E-chanis-gate-2b3c4d",
       "canonical_name": "Chanis Gate",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-king-of-angels-bea1dc",
+      "id": "E-amon-0e5352",
       "canonical_name": "King of Angels",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-keepers-143f66",
+      "id": "E-ch0526-000008",
       "canonical_name": "Keepers",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-north-borough-8c99ff",
+      "id": "E-north-borough-00c1cf",
       "canonical_name": "North Borough",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-sherlock-moriarty-5e1c84",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Sherlock Moriarty",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-isengard-stanton-9c3a71",
+      "id": "E-isengard-5e1e43",
       "canonical_name": "Isengard Stanton",
       "primary_type": "Character",
       "aliases": [],
@@ -247,7 +247,7 @@
       "tags": []
     },
     {
-      "id": "E-gathering-f0acc0",
+      "id": "E-gathering-778d7f",
       "canonical_name": "Gathering",
       "primary_type": "Concept",
       "aliases": [],
@@ -514,7 +514,7 @@
     },
     {
       "id": "MEN-0733-002",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0733-001",
         "EV-0733-002",
@@ -529,7 +529,7 @@
     },
     {
       "id": "MEN-0733-003",
-      "entity": "E-backlund-bike-company-63cef6",
+      "entity": "E-backlund-bike-company-186771",
       "evidence_ids": [
         "EV-0733-002",
         "EV-0733-003"
@@ -537,7 +537,7 @@
     },
     {
       "id": "MEN-0733-004",
-      "entity": "E-bicycle-a3e331",
+      "entity": "E-bicycle-9e8e37",
       "evidence_ids": [
         "EV-0733-002"
       ]
@@ -551,7 +551,7 @@
     },
     {
       "id": "MEN-0733-006",
-      "entity": "E-backlund-bridge-e78b79",
+      "entity": "E-backlund-bridge-0cbceb",
       "evidence_ids": [
         "EV-0733-003"
       ]
@@ -566,7 +566,7 @@
     },
     {
       "id": "MEN-0733-008",
-      "entity": "E-dwayne-dantès-665674",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0733-005",
         "EV-0733-008"
@@ -574,7 +574,7 @@
     },
     {
       "id": "MEN-0733-009",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0733-005"
       ]
@@ -596,14 +596,14 @@
     },
     {
       "id": "MEN-0733-012",
-      "entity": "E-great-smog-of-backlund-c07512",
+      "entity": "E-great-smog-of-backlund-2243b5",
       "evidence_ids": [
         "EV-0733-006"
       ]
     },
     {
       "id": "MEN-0733-013",
-      "entity": "E-antigonus-family-s-notebook-eccf3e",
+      "entity": "E-ancient-notebook-01a9db",
       "evidence_ids": [
         "EV-0733-006",
         "EV-0733-010",
@@ -622,35 +622,35 @@
     },
     {
       "id": "MEN-0733-015",
-      "entity": "E-mandated-punishers-ed47bb",
+      "entity": "E-mandated-punisher-4c7d29",
       "evidence_ids": [
         "EV-0733-007"
       ]
     },
     {
       "id": "MEN-0733-016",
-      "entity": "E-southern-continent-5c8d20",
+      "entity": "E-ch0526-000007",
       "evidence_ids": [
         "EV-0733-008"
       ]
     },
     {
       "id": "MEN-0733-017",
-      "entity": "E-east-balam-cd144a",
+      "entity": "E-east-balam-2c8f41",
       "evidence_ids": [
         "EV-0733-008"
       ]
     },
     {
       "id": "MEN-0733-018",
-      "entity": "E-west-balam-a34bb0",
+      "entity": "E-ch0526-000006",
       "evidence_ids": [
         "EV-0733-008"
       ]
     },
     {
       "id": "MEN-0733-019",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0733-009"
       ]
@@ -671,21 +671,21 @@
     },
     {
       "id": "MEN-0733-022",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0733-014"
       ]
     },
     {
       "id": "MEN-0733-023",
-      "entity": "E-zaratul-118a31",
+      "entity": "E-zaratul-02f747",
       "evidence_ids": [
         "EV-0733-014"
       ]
     },
     {
       "id": "MEN-0733-024",
-      "entity": "E-mr-fool-b7e2c1",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0733-015"
       ]
@@ -700,7 +700,7 @@
     },
     {
       "id": "MEN-0733-026",
-      "entity": "E-chanis-gate-fab541",
+      "entity": "E-chanis-gate-2b3c4d",
       "evidence_ids": [
         "EV-0733-010",
         "EV-0733-011"
@@ -708,28 +708,28 @@
     },
     {
       "id": "MEN-0733-027",
-      "entity": "E-king-of-angels-bea1dc",
+      "entity": "E-amon-0e5352",
       "evidence_ids": [
         "EV-0733-010"
       ]
     },
     {
       "id": "MEN-0733-028",
-      "entity": "E-keepers-143f66",
+      "entity": "E-ch0526-000008",
       "evidence_ids": [
         "EV-0733-012"
       ]
     },
     {
       "id": "MEN-0733-029",
-      "entity": "E-north-borough-8c99ff",
+      "entity": "E-north-borough-00c1cf",
       "evidence_ids": [
         "EV-0733-013"
       ]
     },
     {
       "id": "MEN-0733-030",
-      "entity": "E-sherlock-moriarty-5e1c84",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0733-016",
         "EV-0733-017",
@@ -739,7 +739,7 @@
     },
     {
       "id": "MEN-0733-031",
-      "entity": "E-isengard-stanton-9c3a71",
+      "entity": "E-isengard-5e1e43",
       "evidence_ids": [
         "EV-0733-017",
         "EV-0733-018",
@@ -755,7 +755,7 @@
     },
     {
       "id": "MEN-0733-033",
-      "entity": "E-gathering-f0acc0",
+      "entity": "E-gathering-778d7f",
       "evidence_ids": [
         "EV-0733-014"
       ]
@@ -766,11 +766,11 @@
       "id": "EVT-0733-001",
       "label": "Klein sees the bicycles his Backlund Bike Company promoted on the streets",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-backlund-bike-company-63cef6",
-        "E-bicycle-a3e331",
+        "E-dwayne-802dcc",
+        "E-backlund-bike-company-186771",
+        "E-bicycle-9e8e37",
         "E-cherwood-fdf138",
-        "E-backlund-bridge-e78b79"
+        "E-backlund-bridge-0cbceb"
       ],
       "evidence_ids": [
         "EV-0733-001",
@@ -782,15 +782,15 @@
       "id": "EVT-0733-002",
       "label": "Klein refines the three-layered identity of Dwayne Dantes",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dwayne-dantès-665674",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
         "E-hillston-3c9f47",
-        "E-evernight-goddess-4a9d31",
+        "E-ch0529-000018",
         "E-ch0524-000013",
-        "E-southern-continent-5c8d20",
-        "E-east-balam-cd144a",
-        "E-west-balam-a34bb0",
-        "E-loen-kingdom-1b9c6e",
+        "E-ch0526-000007",
+        "E-east-balam-2c8f41",
+        "E-ch0526-000006",
+        "E-loen-9b37f2",
         "E-conant-city-331b79"
       ],
       "evidence_ids": [
@@ -804,14 +804,14 @@
       "id": "EVT-0733-003",
       "label": "Klein weighs how to steal the Antigonus family notebook from Chanis Gate",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-antigonus-family-s-notebook-eccf3e",
+        "E-dwayne-802dcc",
+        "E-ancient-notebook-01a9db",
         "E-saint-samuel-cathedral-3d7a51",
-        "E-chanis-gate-fab541",
+        "E-chanis-gate-2b3c4d",
         "E-nighthawks-1f592c",
-        "E-keepers-143f66",
-        "E-king-of-angels-bea1dc",
-        "E-north-borough-8c99ff"
+        "E-ch0526-000008",
+        "E-amon-0e5352",
+        "E-north-borough-00c1cf"
       ],
       "evidence_ids": [
         "EV-0733-006",
@@ -825,14 +825,14 @@
       "id": "EVT-0733-004",
       "label": "Klein considers using the Tarot Club and recruiting a Nighthawk or Keeper",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-tarot-club-108663",
-        "E-gathering-f0acc0",
+        "E-gathering-778d7f",
         "E-ch0529-000018",
         "E-nighthawks-1f592c",
-        "E-roselle-gustav-5a8eb2",
-        "E-zaratul-118a31",
-        "E-mr-fool-b7e2c1"
+        "E-emperor-roselle-664e32",
+        "E-zaratul-02f747",
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0733-014",
@@ -843,9 +843,9 @@
       "id": "EVT-0733-005",
       "label": "Klein returns to Sherlock Moriarty and goes to Isengard Stanton house",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-sherlock-moriarty-5e1c84",
-        "E-isengard-stanton-9c3a71",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
+        "E-isengard-5e1e43",
         "E-hillston-3c9f47",
         "E-church-of-the-god-of-knowledge-and-wisdom-b78c31"
       ],
@@ -869,7 +869,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -878,7 +878,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-backlund-bike-company-63cef6",
+      "source": "E-backlund-bike-company-186771",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -887,7 +887,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-bicycle-a3e331",
+      "source": "E-bicycle-9e8e37",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -905,7 +905,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-backlund-bridge-e78b79",
+      "source": "E-backlund-bridge-0cbceb",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -923,7 +923,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dwayne-dantès-665674",
+      "source": "E-dwayne-802dcc",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -932,7 +932,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -959,7 +959,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-great-smog-of-backlund-c07512",
+      "source": "E-great-smog-of-backlund-2243b5",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -968,7 +968,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-antigonus-family-s-notebook-eccf3e",
+      "source": "E-ancient-notebook-01a9db",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -986,7 +986,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mandated-punishers-ed47bb",
+      "source": "E-mandated-punisher-4c7d29",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -995,7 +995,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-southern-continent-5c8d20",
+      "source": "E-ch0526-000007",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1004,7 +1004,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-east-balam-cd144a",
+      "source": "E-east-balam-2c8f41",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1013,7 +1013,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-west-balam-a34bb0",
+      "source": "E-ch0526-000006",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1022,7 +1022,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-loen-kingdom-1b9c6e",
+      "source": "E-loen-9b37f2",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1049,7 +1049,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1058,7 +1058,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zaratul-118a31",
+      "source": "E-zaratul-02f747",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1067,7 +1067,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mr-fool-b7e2c1",
+      "source": "E-dwayne-802dcc",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1085,7 +1085,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-chanis-gate-fab541",
+      "source": "E-chanis-gate-2b3c4d",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1094,7 +1094,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-king-of-angels-bea1dc",
+      "source": "E-amon-0e5352",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1103,7 +1103,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-keepers-143f66",
+      "source": "E-ch0526-000008",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1112,7 +1112,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-north-borough-8c99ff",
+      "source": "E-north-borough-00c1cf",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1121,7 +1121,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sherlock-moriarty-5e1c84",
+      "source": "E-dwayne-802dcc",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1130,7 +1130,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-isengard-stanton-9c3a71",
+      "source": "E-isengard-5e1e43",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1148,7 +1148,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-gathering-f0acc0",
+      "source": "E-gathering-778d7f",
       "target": "C0733",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1157,7 +1157,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-chanis-gate-fab541",
+      "source": "E-chanis-gate-2b3c4d",
       "target": "E-saint-samuel-cathedral-3d7a51",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
@@ -1166,7 +1166,7 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-nighthawks-1f592c",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
@@ -1176,7 +1176,7 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-keepers-143f66",
+      "source": "E-ch0526-000008",
       "target": "E-ch0529-000018",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
@@ -1185,8 +1185,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dwayne-dantès-665674",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0733-005"
@@ -1195,8 +1195,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sherlock-moriarty-5e1c84",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0733-016"
@@ -1205,8 +1205,8 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-east-balam-cd144a",
-      "target": "E-southern-continent-5c8d20",
+      "source": "E-east-balam-2c8f41",
+      "target": "E-ch0526-000007",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0733-008"
@@ -1214,8 +1214,8 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-west-balam-a34bb0",
-      "target": "E-southern-continent-5c8d20",
+      "source": "E-ch0526-000006",
+      "target": "E-ch0526-000007",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0733-008"

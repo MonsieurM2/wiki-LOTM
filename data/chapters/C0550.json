@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -421,7 +421,7 @@
     },
     {
       "id": "MEN-0550-002",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0550-001",
         "EV-0550-002",
@@ -551,7 +551,7 @@
       "label": "Klein tests the Sea God Scepter's powers and recognizes its divine level",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0550-001",
@@ -564,7 +564,7 @@
       "label": "Klein catalogs the three negative effects of the Sea God Scepter",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-ch0529-000018"
       ],
       "evidence_ids": [
@@ -580,7 +580,7 @@
       "label": "Klein plans to keep the scepter above the gray fog to screen prayers and use it against threats",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-gray-fog-3a7d64",
         "E-amon-0e5352",
         "E-audrey-hall-2b8d31",
@@ -598,7 +598,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-kalvetua-452f62",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-kalat-3bdd07",
         "E-blue-mountain-1bdef1",
         "E-bayam-resistance-31190b"
@@ -619,7 +619,7 @@
         "E-jahn-kottman-1116da",
         "E-mandated-punisher-4c7d29",
         "E-church-of-storms-3c8d52",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-dwayne-802dcc"
       ],
       "evidence_ids": [
@@ -640,7 +640,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0550",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -784,7 +784,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-kalvetua-452f62",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -794,7 +794,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-gray-fog-3a7d64",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

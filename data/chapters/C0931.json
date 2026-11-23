@@ -14,7 +14,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [],
@@ -502,7 +502,7 @@
     },
     {
       "id": "MEN-0931-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0931-001",
         "EV-0931-002",
@@ -830,7 +830,7 @@
       "id": "EVT-0931-001",
       "label": "Anderson recounts leaving the Iron and Blood Cross Order and his distrust of evil gods",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-iron-and-blood-cross-order-28df5b",
         "E-ancient-sun-god-0e7a93",
@@ -848,7 +848,7 @@
       "label": "Danitz warns Anderson about the Aurora Order and Numinous Episcopate pursuing Gehrman Sparrow",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-aurora-order-1c4d09",
         "E-numinous-episcopate-20beba",
         "E-dwayne-802dcc"
@@ -862,7 +862,7 @@
       "label": "Danitz explains his mission to investigate faiths and factions in West Balam",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-ch0526-000006",
         "E-ch0526-000007"
       ],
@@ -947,7 +947,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0931",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1253,7 +1253,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-iron-and-blood-cross-order-28df5b",
       "inverse": "RELATED_TO",
       "evidence_ids": [

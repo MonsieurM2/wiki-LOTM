@@ -39,7 +39,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -422,7 +422,7 @@
     },
     {
       "id": "MEN-0708-005",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0708-008",
         "EV-0708-007",
@@ -504,7 +504,7 @@
         "E-ukfa-connerchris-bb9364",
         "E-dwayne-802dcc",
         "E-death-knell-18557c",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0708-001",
@@ -522,7 +522,7 @@
         "E-hunter-pathway-4d7e21",
         "E-guardian-431f6f",
         "E-demigod-61c359",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-ukfa-connerchris-bb9364"
       ],
       "evidence_ids": [
@@ -539,7 +539,7 @@
         "E-ukfa-connerchris-bb9364",
         "E-dwayne-802dcc",
         "E-death-knell-18557c",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0708-009",
@@ -553,7 +553,7 @@
         "E-dwayne-802dcc",
         "E-ukfa-connerchris-bb9364",
         "E-death-knell-18557c",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0708-011",
@@ -565,7 +565,7 @@
       "id": "EVT-0708-005",
       "label": "Anderson and Klein part ways after Ukfa's farewell",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-ukfa-connerchris-bb9364",
         "E-druid-1a2b54",
@@ -615,7 +615,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0708",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -643,7 +643,7 @@
     },
     {
       "type": "FOLLOWS_PATHWAY",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-hunter-pathway-4d7e21",
       "inverse": "HAS_FOLLOWER",
       "evidence_ids": [
@@ -673,7 +673,7 @@
     },
     {
       "type": "OPPOSES",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-demigod-61c359",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [

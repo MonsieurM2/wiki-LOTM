@@ -57,7 +57,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -170,7 +170,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -509,7 +509,7 @@
     },
     {
       "id": "MEN-0700-005",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0700-006",
         "EV-0700-011",
@@ -602,7 +602,7 @@
     },
     {
       "id": "MEN-0700-016",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0700-019"
       ]
@@ -631,7 +631,7 @@
         "E-dwayne-802dcc",
         "E-mobet-f1062f",
         "E-elven-songster-siatas-86b57d",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-ch0523-000020",
         "E-ascetic-snowman-6e4a18",
         "E-frunziar-bde57f",
@@ -678,7 +678,7 @@
       "id": "EVT-0700-004",
       "label": "Anderson spears the dragon and dodges its charge",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-king-of-the-north-6f2c39",
         "E-death-brachydont-1a7e44"
       ],
@@ -695,7 +695,7 @@
         "E-ascetic-snowman-6e4a18",
         "E-elven-songster-siatas-86b57d",
         "E-mobet-f1062f",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-frunziar-bde57f",
         "E-king-of-the-north-6f2c39"
       ],
@@ -729,7 +729,7 @@
         "E-ch0523-000020",
         "E-dwayne-802dcc",
         "E-groselle-09b6fd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-frunziar-bde57f",
         "E-ascetic-snowman-6e4a18"
       ],
@@ -744,7 +744,7 @@
       "label": "Klein considers the Sea God Scepter and Edwina uses fire learned from Danitz to aid him",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-gray-fog-3a7d64",
         "E-ch0523-000020",
         "E-blazing-danitz-a1b2cd"
@@ -793,7 +793,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0700",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -892,7 +892,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0700",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -946,7 +946,7 @@
     },
     {
       "type": "OWNS",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-death-brachydont-1a7e44",
       "inverse": "OWNED_BY",
       "evidence_ids": [
@@ -974,7 +974,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0700-019"
@@ -991,7 +991,7 @@
     },
     {
       "type": "OPPOSES",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-king-of-the-north-6f2c39",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [

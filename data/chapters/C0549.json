@@ -32,7 +32,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -413,7 +413,7 @@
     },
     {
       "id": "MEN-0549-004",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0549-003",
         "EV-0549-004",
@@ -518,7 +518,7 @@
       "label": "Klein resists the prayers overwhelming him and names the Sea God Scepter",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-black-emperor-5d2b64",
         "E-azik-copper-whistle-5e3f27"
       ],
@@ -579,7 +579,7 @@
       "label": "Klein pulls out the Sea God Scepter, seeing Kalat and Edmonton praying, then returns above the gray fog",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-kalat-3bdd07",
         "E-edmonton-25d43c",
         "E-gray-fog-3a7d64"
@@ -622,7 +622,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0549",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -739,7 +739,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-kalvetua-452f62",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -824,7 +824,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-gray-fog-3a7d64",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

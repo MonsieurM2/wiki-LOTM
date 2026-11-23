@@ -107,7 +107,7 @@
       "primary_type": "Location"
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location"
     },
@@ -518,7 +518,7 @@
     },
     {
       "id": "MEN-0666-013",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-0666-010",
         "EV-0666-011",
@@ -597,7 +597,7 @@
         "E-colin-iliad-07dd71",
         "E-derek-769f2b",
         "E-axe-of-hurricane-b8c044",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-city-of-silver-000000",
         "E-ch0523-000011"
       ],
@@ -617,7 +617,7 @@
         "E-colin-iliad-07dd71",
         "E-derek-769f2b",
         "E-axe-of-hurricane-b8c044",
-        "E-afternoon-town-74a1d3"
+        "E-afternoon-town-66c3e7"
       ],
       "evidence_ids": [
         "EV-0666-012",
@@ -758,7 +758,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C0666",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -830,7 +830,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "E-ch0523-000011",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

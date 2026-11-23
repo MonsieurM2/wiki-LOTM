@@ -120,7 +120,7 @@
       "tags": []
     },
     {
-      "id": "E-helene-4c1a77",
+      "id": "E-helene-16e74e",
       "canonical_name": "red-haired Helene",
       "primary_type": "Character",
       "aliases": [
@@ -202,7 +202,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "tags": []
@@ -558,7 +558,7 @@
     },
     {
       "id": "MEN-0572-011",
-      "entity": "E-helene-4c1a77",
+      "entity": "E-helene-16e74e",
       "evidence_ids": [
         "EV-0572-014",
         "EV-0572-020"
@@ -634,7 +634,7 @@
     },
     {
       "id": "MEN-0572-019",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0572-020"
       ]
@@ -681,7 +681,7 @@
       "label": "Klein links red-haired Helene to Tracy, Qilangos and the chronicles of Death",
       "participants": [
         "E-dwayne-802dcc",
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-ailment-maiden-tracy-4a6c90",
         "E-qilangos-000008",
         "E-jimmy-necker-2955f8",
@@ -703,8 +703,8 @@
       "label": "Klein summons the Sea God Scepter to issue a mass revelation",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
-        "E-helene-4c1a77",
+        "E-sea-god-scepter-13653b",
+        "E-helene-16e74e",
         "E-ailment-maiden-tracy-4a6c90"
       ],
       "evidence_ids": [
@@ -805,7 +805,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "C0572",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -877,7 +877,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0572",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -886,7 +886,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "E-ailment-maiden-tracy-4a6c90",
       "inverse": "RELATED_TO",
       "evidence_ids": [

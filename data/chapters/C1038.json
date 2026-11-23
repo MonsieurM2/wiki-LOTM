@@ -335,7 +335,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [
@@ -821,7 +821,7 @@
     },
     {
       "id": "MEN-1038-015",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1038-011"
       ]
@@ -934,7 +934,7 @@
       "participants": [
         "E-derek-769f2b",
         "E-city-of-silver-000000",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-ch0523-000011",
         "E-alger-willson-3e9f42"
       ],
@@ -1110,7 +1110,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1038",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

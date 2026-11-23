@@ -113,7 +113,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -622,7 +622,7 @@
     },
     {
       "id": "MEN-1340-014",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-1340-010",
         "EV-1340-012"
@@ -749,7 +749,7 @@
         "E-iris-hotel-134600",
         "E-utopia-s-fizzling-ice-tea-da4070",
         "E-musical-tour-9b616a",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-alzu-2165f5",
         "E-wendy-smyrin-3e6c90",
         "E-fors-58fdc6"

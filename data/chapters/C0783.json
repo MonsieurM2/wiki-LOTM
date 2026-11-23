@@ -98,7 +98,7 @@
       "primary_type": "Character"
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact"
     },
@@ -470,7 +470,7 @@
     },
     {
       "id": "MEN-0783-014",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0783-010"
       ]
@@ -539,7 +539,7 @@
       "label": "Klein uses the Sea God Scepter because the Obninsk resists Sea God",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-kalvetua-452f62",
         "E-kalvetua-452f62",
         "E-obninsk-2e7863"
@@ -711,7 +711,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0783",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -808,7 +808,7 @@
     {
       "type": "OWNS",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-0783-010"

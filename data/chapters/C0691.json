@@ -170,7 +170,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -221,7 +221,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -550,7 +550,7 @@
     },
     {
       "id": "MEN-0691-017",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0691-008",
         "EV-0691-011",
@@ -581,7 +581,7 @@
     },
     {
       "id": "MEN-0691-021",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0691-011"
       ]
@@ -615,7 +615,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-headless-woman-b0197d",
-        "E-anderson-89ba02"
+        "E-anderson-112b7c"
       ],
       "evidence_ids": [
         "EV-0691-001"
@@ -658,8 +658,8 @@
       "label": "Klein and Anderson ride an undersea creature summoned by the Sea God Scepter",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
-        "E-sea-god-scepter-1d4e83",
+        "E-anderson-112b7c",
+        "E-sea-god-scepter-13653b",
         "E-kalvetua-452f62",
         "E-tin-charm-a1b2db"
       ],
@@ -675,7 +675,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-golden-dream-1c9d42"
       ],
       "evidence_ids": [
@@ -831,7 +831,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0691",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -867,7 +867,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0691",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -914,7 +914,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0691-011"
@@ -940,7 +940,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-church-of-the-god-of-knowledge-and-wisdom-b78c31",
       "inverse": "RELATED_TO",
       "evidence_ids": [

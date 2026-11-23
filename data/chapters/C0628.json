@@ -74,7 +74,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -365,7 +365,7 @@
     },
     {
       "id": "MEN-0628-009",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0628-007"
       ]
@@ -407,7 +407,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-ninthlaw-ebb1f2",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-gray-fog-3a7d64"
       ],
       "evidence_ids": [
@@ -530,7 +530,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0628",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-ricciardo-8c4e62",
+      "id": "E-fate-councilor-ricciardo-f12b56",
       "canonical_name": "Ricciardo",
       "primary_type": "Character",
       "aliases": [
@@ -153,7 +153,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -457,7 +457,7 @@
   "mentions": [
     {
       "id": "MEN-0612-001",
-      "entity": "E-ricciardo-8c4e62",
+      "entity": "E-fate-councilor-ricciardo-f12b56",
       "evidence_ids": [
         "EV-0612-001",
         "EV-0612-002",
@@ -578,7 +578,7 @@
     },
     {
       "id": "MEN-0612-016",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0612-017"
       ]
@@ -604,7 +604,7 @@
       "id": "EVT-0612-001",
       "label": "Ricciardo fails to augment Klein with luck and instead augments Darkwill to win the money",
       "participants": [
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-dwayne-802dcc",
         "E-darkwill-4a1b2c",
         "E-fate-pathway-86af99",
@@ -660,7 +660,7 @@
         "E-gray-fog-3a7d64",
         "E-leonard-2c8d91",
         "E-marauder-fe903e",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-worm-of-time-134600",
         "E-amon-0e5352"
       ],
@@ -735,7 +735,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0612-017"
@@ -784,7 +784,7 @@
     {
       "type": "OPPOSES",
       "source": "E-dwayne-802dcc",
-      "target": "E-ricciardo-8c4e62",
+      "target": "E-fate-councilor-ricciardo-f12b56",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
         "EV-0612-001"

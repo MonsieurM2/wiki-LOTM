@@ -129,7 +129,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -537,7 +537,7 @@
     },
     {
       "id": "MEN-1155-010",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1155-011",
         "EV-1155-016"
@@ -629,7 +629,7 @@
         "E-amon-0e5352",
         "E-ch0523-000011",
         "E-city-of-silver-000000",
-        "E-afternoon-town-74a1d3"
+        "E-afternoon-town-66c3e7"
       ],
       "evidence_ids": [
         "EV-1155-006",
@@ -659,7 +659,7 @@
       "participants": [
         "E-dawn-paladin-05d63d",
         "E-city-of-silver-000000",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-jack-1b8f47"
       ],
       "evidence_ids": [
@@ -770,7 +770,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1155",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -851,7 +851,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "E-city-of-silver-000000",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

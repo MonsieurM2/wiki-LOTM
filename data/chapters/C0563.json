@@ -153,7 +153,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -630,7 +630,7 @@
     },
     {
       "id": "MEN-0563-019",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0563-009"
       ]
@@ -774,7 +774,7 @@
         "E-azure-inn-9d2845",
         "E-ch0523-000005",
         "E-gray-fog-3a7d64",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0563-008",

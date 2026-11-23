@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact"
     },
@@ -504,7 +504,7 @@
     },
     {
       "id": "MEN-0667-014",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0667-016"
       ]
@@ -584,7 +584,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-derek-769f2b",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-black-emperor-5d2b64",
         "E-sequence-5-04d331"
       ],
@@ -727,7 +727,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0667",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -774,7 +774,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0667-016"

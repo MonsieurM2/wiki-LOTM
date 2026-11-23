@@ -45,7 +45,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -74,7 +74,7 @@
       "tags": []
     },
     {
-      "id": "E-conspirer-3b7d18",
+      "id": "E-conspirer-23064f",
       "canonical_name": "Conspirer",
       "primary_type": "Pathway",
       "aliases": [],
@@ -452,7 +452,7 @@
     },
     {
       "id": "MEN-0905-005",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0905-006"
       ]
@@ -473,7 +473,7 @@
     },
     {
       "id": "MEN-0905-008",
-      "entity": "E-conspirer-3b7d18",
+      "entity": "E-conspirer-23064f",
       "evidence_ids": [
         "EV-0905-010"
       ]
@@ -586,7 +586,7 @@
       "label": "Klein considers Sea God Scepter and Azik’s copper whistle as possible causes of such weather",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-azik-copper-whistle-5e3f27",
         "E-death-consul-2e6b71"
       ],
@@ -613,7 +613,7 @@
       "label": "Klein sees through the ruse and suspects the pursuee was a Conspirer or Magician",
       "participants": [
         "E-dwayne-802dcc",
-        "E-conspirer-3b7d18",
+        "E-conspirer-23064f",
         "E-clown-potion-4a7d91"
       ],
       "evidence_ids": [
@@ -706,7 +706,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0905",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -733,7 +733,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-conspirer-3b7d18",
+      "source": "E-conspirer-23064f",
       "target": "C0905",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

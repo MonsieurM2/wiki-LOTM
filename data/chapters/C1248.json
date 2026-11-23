@@ -125,7 +125,7 @@
       "tags": []
     },
     {
-      "id": "E-conspirer-3b7d18",
+      "id": "E-conspirer-23064f",
       "canonical_name": "Conspirer",
       "primary_type": "Pathway",
       "aliases": [],
@@ -225,7 +225,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [
@@ -619,7 +619,7 @@
     },
     {
       "id": "MEN-1248-013",
-      "entity": "E-conspirer-3b7d18",
+      "entity": "E-conspirer-23064f",
       "evidence_ids": [
         "EV-1248-005",
         "EV-1248-007"
@@ -703,7 +703,7 @@
     },
     {
       "id": "MEN-1248-023",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1248-018"
       ]
@@ -744,7 +744,7 @@
       "label": "Danitz becomes a Conspirer and asks to pray to God before deciding",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-conspirer-3b7d18",
+        "E-conspirer-23064f",
         "E-dwayne-802dcc",
         "E-bayam-resistance-31190b"
       ],
@@ -920,7 +920,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-conspirer-3b7d18",
+      "source": "E-conspirer-23064f",
       "target": "C1248",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1010,7 +1010,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1248",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1029,7 +1029,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-blazing-danitz-a1b2cd",
-      "target": "E-conspirer-3b7d18",
+      "target": "E-conspirer-23064f",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-1248-005"

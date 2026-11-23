@@ -52,7 +52,7 @@
     {
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "aliases": []
     },
     {
@@ -448,7 +448,7 @@
     },
     {
       "id": "MEN-0976-007",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0976-005"
       ]
@@ -607,7 +607,7 @@
         "E-clown-2e3b39",
         "E-gray-fog-3a7d64",
         "E-black-emperor-5d2b64",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
         "E-spectator-a9bfae",
@@ -745,7 +745,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0976",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

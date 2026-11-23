@@ -39,7 +39,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -560,7 +560,7 @@
     },
     {
       "id": "MEN-0717-004",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-0717-002"
       ]
@@ -759,7 +759,7 @@
       "label": "Derrick describes how the City of Silver survives in Afternoon Town",
       "participants": [
         "E-derek-769f2b",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-city-of-silver-000000",
         "E-black-faced-grass-2e1a93",
         "E-audrey-hall-2b8d31",
@@ -867,7 +867,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C0717",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

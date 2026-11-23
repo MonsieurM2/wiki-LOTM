@@ -7,119 +7,197 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-alger-willson-3e9f42",
+      "id": "E-alger-wilson-3e9f42",
       "canonical_name": "Alger Wilson",
-      "primary_type": "Character"
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Alger"
+        },
+        {
+          "form": "Mr. Hanged Man"
+        },
+        {
+          "form": "The Hanged Man"
+        }
+      ],
+      "tags": []
     },
     {
-      "id": "E-dwayne-802dcc",
-      "canonical_name": "Gehrman Sparrow",
-      "primary_type": "Character"
+      "id": "E-sailor-pathway-9d14e4",
+      "canonical_name": "Sailor pathway",
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-dwayne-802dcc",
-      "canonical_name": "Klein Moretti",
-      "primary_type": "Character"
+      "id": "E-ch0528-000023",
+      "canonical_name": "Raging Blow",
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
     },
     {
       "id": "E-six-winged-gargoyle-079836",
       "canonical_name": "six-winged gargoyle",
-      "primary_type": "Concept"
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-sailor-pathway-423e34",
-      "canonical_name": "Sailor pathway",
-      "primary_type": "Pathway"
+      "id": "E-ocean-songster-1b2c3d",
+      "canonical_name": "Ocean Songster",
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-klein-moretti-6a3250",
+      "canonical_name": "Klein Moretti",
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Klein"
+        }
+      ],
+      "tags": []
     },
     {
       "id": "E-death-knell-18557c",
       "canonical_name": "Death Knell",
-      "primary_type": "Artifact"
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-azik-copper-whistle-5e3f27",
-      "canonical_name": "Azik's copper whistle",
-      "primary_type": "Artifact"
+      "id": "E-petrification-3f4051",
+      "canonical_name": "petrification",
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-admiral-blood-cf2b52",
-      "canonical_name": "Senor",
-      "primary_type": "Character"
-    },
-    {
-      "id": "E-ch0527-000016",
-      "canonical_name": "Wraith",
-      "primary_type": "Concept"
-    },
-    {
-      "id": "E-tyrannous-deceased-body-71d436",
-      "canonical_name": "tyrannous deceased body",
-      "primary_type": "Concept"
-    },
-    {
-      "id": "E-sea-god-scepter-1d4e83",
-      "canonical_name": "Sea God Scepter",
-      "primary_type": "Artifact"
-    },
-    {
-      "id": "E-lightning-storm-2c9a58",
-      "canonical_name": "Lightning Storm",
-      "primary_type": "Concept"
-    },
-    {
-      "id": "E-leymano-29362a",
-      "canonical_name": "Leymano's Travels",
-      "primary_type": "Artifact"
+      "id": "E-leymanos-travels-30cb22",
+      "canonical_name": "Leymano’s Travels",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
     },
     {
       "id": "E-abyss-shackles-462cfb",
       "canonical_name": "Abyss Shackles",
-      "primary_type": "Concept"
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
     },
     {
       "id": "E-emlyn-white-1a2b3c",
       "canonical_name": "Emlyn White",
-      "primary_type": "Character"
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Emlyn"
+        },
+        {
+          "form": "The Moon"
+        },
+        {
+          "form": "Mr. Moon"
+        }
+      ],
+      "tags": []
     },
     {
-      "id": "E-emlyn-white-1728a9",
+      "id": "E-vampire-41ad87",
       "canonical_name": "Vampire",
-      "primary_type": "Pathway"
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
     },
     {
-      "id": "E-emperor-roselle-664e32",
-      "canonical_name": "Roselle Gustav",
-      "primary_type": "Character"
-    },
-    {
-      "id": "E-black-emperor-5d2b64",
-      "canonical_name": "Card of Blasphemy",
-      "primary_type": "Artifact"
-    },
-    {
-      "id": "E-leodero-649907",
-      "canonical_name": "Tyrant",
-      "primary_type": "Concept"
-    },
-    {
-      "id": "E-ch0528-000013",
-      "canonical_name": "Storm pathway",
-      "primary_type": "Pathway"
-    },
-    {
-      "id": "E-leodero-649907",
-      "canonical_name": "Lord of Storms",
-      "primary_type": "Character"
-    },
-    {
-      "id": "E-church-of-the-god-of-knowledge-and-wisdom-b78c31",
-      "canonical_name": "God of Knowledge and Wisdom",
-      "primary_type": "Character"
-    },
-    {
-      "id": "E-purifying-bullet-313d9c",
+      "id": "E-purifying-bullet-c41d6a",
       "canonical_name": "Purifying Bullet",
-      "primary_type": "Concept"
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-wraith-b4c5d6",
+      "canonical_name": "Wraith",
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-aziks-copper-whistle-6d1c40",
+      "canonical_name": "Azik’s copper whistle",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-roselle-gustav-5a8eb2",
+      "canonical_name": "Roselle Gustav",
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Emperor Roselle"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "E-card-of-blasphemy-4a9d21",
+      "canonical_name": "Card of Blasphemy",
+      "primary_type": "Artifact",
+      "aliases": [
+        {
+          "form": "Tyrant card"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "E-storm-pathway-dcaae5",
+      "canonical_name": "Storm pathway",
+      "primary_type": "Pathway",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-tyrant-8a4e21",
+      "canonical_name": "Tyrant",
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-gargoyle-crystal-2e3f40",
+      "canonical_name": "gargoyle translucent crystal",
+      "primary_type": "Artifact",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-cathedral-ruin-8b9c0d",
+      "canonical_name": "cathedral ruin",
+      "primary_type": "Location",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-lightning-storm-2c9a58",
+      "canonical_name": "Lightning Storm",
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-deceased-body-8c9dae",
+      "canonical_name": "deceased body",
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
     }
   ],
   "evidence": [
@@ -128,10 +206,10 @@
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
-      "quote": "Aside from the Sailor pathway’s Raging Blow, Alger knew that he didn’t have any powers that were adequate against the six-winged gargoyle’s strong body",
+      "quote": "Aside from the Sailor pathway’s Raging Blow, Alger knew that he didn’t have any powers that were adequate against the six-winged gargoyle",
       "offsets": [
         0,
-        151
+        137
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -141,10 +219,10 @@
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
-      "quote": "But now, he was in a catacomb",
+      "quote": "directly creating a resonance with its hearing organs and Body of Heart and Mind through the use of his singing was the most effective method.",
       "offsets": [
-        657,
-        686
+        206,
+        348
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -154,16 +232,29 @@
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
-      "quote": "The gargoyle’s heavy trident had blasted open a huge crater again.",
+      "quote": "The stone trident crashed heavily into the ground, blasting open an exaggerated crater.",
       "offsets": [
-        2220,
-        2286
+        1151,
+        1238
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
       "id": "EV-0813-004",
+      "book": 4,
+      "chapter": 813,
+      "chapter_title": "Tyrant",
+      "quote": "He had the feeling of being petrified again",
+      "offsets": [
+        1627,
+        1670
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0813-005",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
@@ -176,7 +267,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0813-005",
+      "id": "EV-0813-006",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
@@ -189,7 +280,33 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0813-006",
+      "id": "EV-0813-007",
+      "book": 4,
+      "chapter": 813,
+      "chapter_title": "Tyrant",
+      "quote": "his dagger exploded, turning into countless fragments that scattered everywhere.",
+      "offsets": [
+        3891,
+        3971
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0813-008",
+      "book": 4,
+      "chapter": 813,
+      "chapter_title": "Tyrant",
+      "quote": "a bullet tore through the pit in the gargoyle’s chest and pierced it.",
+      "offsets": [
+        4319,
+        4388
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0813-009",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
@@ -202,7 +319,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0813-007",
+      "id": "EV-0813-010",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
@@ -215,46 +332,33 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0813-008",
+      "id": "EV-0813-011",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
-      "quote": "It was the domineering, savage, tyrannous deceased body that wore a tattered brown jacket with a triangular captain’s hat.",
+      "quote": "Even if the act of recording had reduced its might, it was definitely the Beyonder power at the demigod level.",
       "offsets": [
-        5111,
-        5233
+        5618,
+        5728
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0813-009",
+      "id": "EV-0813-012",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
-      "quote": "Klein had used Lightning Storm, which he had recorded from the Sea God Scepter.",
+      "quote": "Klein sensed a tyrannical and high-level repulsive force. The Wraith was unable to possess it!",
       "offsets": [
-        5538,
-        5617
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0813-010",
-      "book": 4,
-      "chapter": 813,
-      "chapter_title": "Tyrant",
-      "quote": "The Wraith was unable to possess it!",
-      "offsets": [
-        6164,
+        6106,
         6200
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0813-011",
+      "id": "EV-0813-013",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
@@ -267,7 +371,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0813-012",
+      "id": "EV-0813-014",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
@@ -280,7 +384,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0813-013",
+      "id": "EV-0813-015",
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
@@ -288,32 +392,6 @@
       "offsets": [
         7381,
         7439
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0813-014",
-      "book": 4,
-      "chapter": 813,
-      "chapter_title": "Tyrant",
-      "quote": "The deceased body melted like wax as it bent its waist and lost its balance",
-      "offsets": [
-        7607,
-        7682
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0813-015",
-      "book": 4,
-      "chapter": 813,
-      "chapter_title": "Tyrant",
-      "quote": "controlling Senor to pick up the ancient and exquisite copper whistle and stuffing it inside his body",
-      "offsets": [
-        8092,
-        8193
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -336,9 +414,9 @@
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
-      "quote": "there was a line of text formed from resplendent starlight: Sequence 0: Tyrant!",
+      "quote": "Sequence 0: Tyrant!",
       "offsets": [
-        8892,
+        8952,
         8971
       ],
       "verifier": "extractor+substring-check",
@@ -362,10 +440,10 @@
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
-      "quote": "Church of the God of Knowledge and Wisdom addressed the Lord of Storms: Tyrant!",
+      "quote": "and dug out the eyeball that glowed red. Then, he patiently waited for a moment and reached into its shattered back to extract a gargoyle translucent crystal.",
       "offsets": [
-        9069,
-        9148
+        10070,
+        10228
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -375,10 +453,10 @@
       "book": 4,
       "chapter": 813,
       "chapter_title": "Tyrant",
-      "quote": "Alger also saw the Card of Blasphemy as his gaze froze instantly. Flames of greed flared up in his eyes.",
+      "quote": "This sighing came from deep within the cathedral",
       "offsets": [
-        9150,
-        9254
+        10835,
+        10883
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -387,43 +465,29 @@
   "mentions": [
     {
       "id": "MEN-0813-001",
-      "entity": "E-alger-willson-3e9f42",
+      "entity": "E-alger-wilson-3e9f42",
       "evidence_ids": [
         "EV-0813-001",
         "EV-0813-002",
-        "EV-0813-003",
         "EV-0813-004",
         "EV-0813-005",
-        "EV-0813-020"
+        "EV-0813-006",
+        "EV-0813-007",
+        "EV-0813-019"
       ]
     },
     {
       "id": "MEN-0813-002",
-      "entity": "E-dwayne-802dcc",
+      "entity": "E-sailor-pathway-9d14e4",
       "evidence_ids": [
-        "EV-0813-004",
-        "EV-0813-006",
-        "EV-0813-020"
+        "EV-0813-001"
       ]
     },
     {
       "id": "MEN-0813-003",
-      "entity": "E-dwayne-802dcc",
+      "entity": "E-ch0528-000023",
       "evidence_ids": [
-        "EV-0813-004",
-        "EV-0813-006",
-        "EV-0813-007",
-        "EV-0813-009",
-        "EV-0813-010",
-        "EV-0813-011",
-        "EV-0813-013",
-        "EV-0813-014",
-        "EV-0813-015",
-        "EV-0813-016",
-        "EV-0813-017",
-        "EV-0813-018",
-        "EV-0813-019",
-        "EV-0813-020"
+        "EV-0813-001"
       ]
     },
     {
@@ -431,57 +495,196 @@
       "entity": "E-six-winged-gargoyle-079836",
       "evidence_ids": [
         "EV-0813-001",
+        "EV-0813-002",
         "EV-0813-003",
-        "EV-0813-004",
-        "EV-0813-005",
-        "EV-0813-006"
+        "EV-0813-006",
+        "EV-0813-008",
+        "EV-0813-019"
       ]
     },
     {
       "id": "MEN-0813-005",
-      "entity": "E-sailor-pathway-423e34",
+      "entity": "E-ocean-songster-1b2c3d",
       "evidence_ids": [
-        "EV-0813-001"
+        "EV-0813-002"
       ]
     },
     {
       "id": "MEN-0813-006",
-      "entity": "E-death-knell-18557c",
+      "entity": "E-klein-moretti-6a3250",
       "evidence_ids": [
-        "EV-0813-006",
-        "EV-0813-013"
+        "EV-0813-005",
+        "EV-0813-010",
+        "EV-0813-012",
+        "EV-0813-013",
+        "EV-0813-015"
       ]
     },
     {
       "id": "MEN-0813-007",
-      "entity": "E-azik-copper-whistle-5e3f27",
+      "entity": "E-death-knell-18557c",
       "evidence_ids": [
-        "EV-0813-007",
-        "EV-0813-010",
-        "EV-0813-015"
+        "EV-0813-008",
+        "EV-0813-009"
       ]
     },
     {
       "id": "MEN-0813-008",
-      "entity": "E-admiral-blood-cf2b52",
+      "entity": "E-petrification-3f4051",
       "evidence_ids": [
-        "EV-0813-010",
-        "EV-0813-011",
-        "EV-0813-015"
+        "EV-0813-004"
       ]
     },
     {
       "id": "MEN-0813-009",
-      "entity": "E-ch0527-000016",
+      "entity": "E-leymanos-travels-30cb22",
+      "evidence_ids": [
+        "EV-0813-013"
+      ]
+    },
+    {
+      "id": "MEN-0813-010",
+      "entity": "E-abyss-shackles-462cfb",
+      "evidence_ids": [
+        "EV-0813-013",
+        "EV-0813-014"
+      ]
+    },
+    {
+      "id": "MEN-0813-011",
+      "entity": "E-emlyn-white-1a2b3c",
+      "evidence_ids": [
+        "EV-0813-014"
+      ]
+    },
+    {
+      "id": "MEN-0813-012",
+      "entity": "E-vampire-41ad87",
+      "evidence_ids": [
+        "EV-0813-014"
+      ]
+    },
+    {
+      "id": "MEN-0813-013",
+      "entity": "E-purifying-bullet-c41d6a",
+      "evidence_ids": [
+        "EV-0813-015"
+      ]
+    },
+    {
+      "id": "MEN-0813-014",
+      "entity": "E-wraith-b4c5d6",
+      "evidence_ids": [
+        "EV-0813-012"
+      ]
+    },
+    {
+      "id": "MEN-0813-015",
+      "entity": "E-aziks-copper-whistle-6d1c40",
       "evidence_ids": [
         "EV-0813-010"
       ]
     },
     {
-      "id": "MEN-0813-010",
-      "entity": "E-tyrannous-deceased-body-71d436",
+      "id": "MEN-0813-016",
+      "entity": "E-roselle-gustav-5a8eb2",
       "evidence_ids": [
+        "EV-0813-016"
+      ]
+    },
+    {
+      "id": "MEN-0813-017",
+      "entity": "E-card-of-blasphemy-4a9d21",
+      "evidence_ids": [
+        "EV-0813-018"
+      ]
+    },
+    {
+      "id": "MEN-0813-018",
+      "entity": "E-storm-pathway-dcaae5",
+      "evidence_ids": [
+        "EV-0813-018"
+      ]
+    },
+    {
+      "id": "MEN-0813-019",
+      "entity": "E-tyrant-8a4e21",
+      "evidence_ids": [
+        "EV-0813-017",
+        "EV-0813-018"
+      ]
+    },
+    {
+      "id": "MEN-0813-020",
+      "entity": "E-gargoyle-crystal-2e3f40",
+      "evidence_ids": [
+        "EV-0813-019"
+      ]
+    },
+    {
+      "id": "MEN-0813-021",
+      "entity": "E-cathedral-ruin-8b9c0d",
+      "evidence_ids": [
+        "EV-0813-020"
+      ]
+    },
+    {
+      "id": "MEN-0813-022",
+      "entity": "E-lightning-storm-2c9a58",
+      "evidence_ids": [
+        "EV-0813-011"
+      ]
+    },
+    {
+      "id": "MEN-0813-023",
+      "entity": "E-deceased-body-8c9dae",
+      "evidence_ids": [
+        "EV-0813-015"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-0813-001",
+      "label": "Alger battles the six-winged gargoyle, avoids its petrifying gaze and strikes its chest while Klein kills it with Death Knell",
+      "participants": [
+        "E-alger-wilson-3e9f42",
+        "E-sailor-pathway-9d14e4",
+        "E-ch0528-000023",
+        "E-six-winged-gargoyle-079836",
+        "E-ocean-songster-1b2c3d",
+        "E-klein-moretti-6a3250",
+        "E-death-knell-18557c",
+        "E-petrification-3f4051"
+      ],
+      "evidence_ids": [
+        "EV-0813-001",
+        "EV-0813-002",
+        "EV-0813-003",
+        "EV-0813-004",
+        "EV-0813-005",
+        "EV-0813-006",
+        "EV-0813-007",
         "EV-0813-008",
+        "EV-0813-009"
+      ]
+    },
+    {
+      "id": "EVT-0813-002",
+      "label": "Klein deals with the surviving tyrannous deceased body using Wraith, Abyss Shackles and a Purifying Bullet",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-wraith-b4c5d6",
+        "E-aziks-copper-whistle-6d1c40",
+        "E-leymanos-travels-30cb22",
+        "E-abyss-shackles-462cfb",
+        "E-emlyn-white-1a2b3c",
+        "E-vampire-41ad87",
+        "E-purifying-bullet-c41d6a",
+        "E-lightning-storm-2c9a58",
+        "E-deceased-body-8c9dae"
+      ],
+      "evidence_ids": [
         "EV-0813-010",
         "EV-0813-011",
         "EV-0813-012",
@@ -491,204 +694,33 @@
       ]
     },
     {
-      "id": "MEN-0813-011",
-      "entity": "E-sea-god-scepter-1d4e83",
-      "evidence_ids": [
-        "EV-0813-009"
-      ]
-    },
-    {
-      "id": "MEN-0813-012",
-      "entity": "E-lightning-storm-2c9a58",
-      "evidence_ids": [
-        "EV-0813-009"
-      ]
-    },
-    {
-      "id": "MEN-0813-013",
-      "entity": "E-leymano-29362a",
-      "evidence_ids": [
-        "EV-0813-011",
-        "EV-0813-012"
-      ]
-    },
-    {
-      "id": "MEN-0813-014",
-      "entity": "E-abyss-shackles-462cfb",
-      "evidence_ids": [
-        "EV-0813-011",
-        "EV-0813-012"
-      ]
-    },
-    {
-      "id": "MEN-0813-015",
-      "entity": "E-emlyn-white-1a2b3c",
-      "evidence_ids": [
-        "EV-0813-012"
-      ]
-    },
-    {
-      "id": "MEN-0813-016",
-      "entity": "E-emlyn-white-1728a9",
-      "evidence_ids": [
-        "EV-0813-012"
-      ]
-    },
-    {
-      "id": "MEN-0813-017",
-      "entity": "E-emperor-roselle-664e32",
-      "evidence_ids": [
-        "EV-0813-016"
-      ]
-    },
-    {
-      "id": "MEN-0813-018",
-      "entity": "E-black-emperor-5d2b64",
-      "evidence_ids": [
-        "EV-0813-018",
-        "EV-0813-020"
-      ]
-    },
-    {
-      "id": "MEN-0813-019",
-      "entity": "E-leodero-649907",
-      "evidence_ids": [
-        "EV-0813-017",
-        "EV-0813-018",
-        "EV-0813-019"
-      ]
-    },
-    {
-      "id": "MEN-0813-020",
-      "entity": "E-ch0528-000013",
-      "evidence_ids": [
-        "EV-0813-018"
-      ]
-    },
-    {
-      "id": "MEN-0813-021",
-      "entity": "E-leodero-649907",
-      "evidence_ids": [
-        "EV-0813-019"
-      ]
-    },
-    {
-      "id": "MEN-0813-022",
-      "entity": "E-church-of-the-god-of-knowledge-and-wisdom-b78c31",
-      "evidence_ids": [
-        "EV-0813-019"
-      ]
-    },
-    {
-      "id": "MEN-0813-023",
-      "entity": "E-purifying-bullet-313d9c",
-      "evidence_ids": [
-        "EV-0813-013",
-        "EV-0813-014"
-      ]
-    }
-  ],
-  "events": [
-    {
-      "id": "EVT-0813-001",
-      "label": "Alger battles the six-winged gargoyle in the catacomb and Klein advises attacking its chest",
-      "participants": [
-        "E-alger-willson-3e9f42",
-        "E-six-winged-gargoyle-079836",
-        "E-sailor-pathway-423e34",
-        "E-dwayne-802dcc",
-        "E-dwayne-802dcc"
-      ],
-      "evidence_ids": [
-        "EV-0813-001",
-        "EV-0813-002",
-        "EV-0813-003",
-        "EV-0813-004"
-      ]
-    },
-    {
-      "id": "EVT-0813-002",
-      "label": "Alger strikes the gargoyle's chest and Klein finishes it with Death Knell",
-      "participants": [
-        "E-alger-willson-3e9f42",
-        "E-six-winged-gargoyle-079836",
-        "E-death-knell-18557c",
-        "E-dwayne-802dcc"
-      ],
-      "evidence_ids": [
-        "EV-0813-005",
-        "EV-0813-006"
-      ]
-    },
-    {
       "id": "EVT-0813-003",
-      "label": "A tyrannous deceased body rises and resists Wraith possession beside Azik's copper whistle",
+      "label": "Klein finds the Tyrant Card of Blasphemy depicting Emperor Roselle; Alger is consumed by greed",
       "participants": [
-        "E-dwayne-802dcc",
-        "E-tyrannous-deceased-body-71d436",
-        "E-azik-copper-whistle-5e3f27",
-        "E-admiral-blood-cf2b52",
-        "E-ch0527-000016"
-      ],
-      "evidence_ids": [
-        "EV-0813-007",
-        "EV-0813-008",
-        "EV-0813-010"
-      ]
-    },
-    {
-      "id": "EVT-0813-004",
-      "label": "Klein recalls Lightning Storm from the Sea God Scepter and uses Abyss Shackles recorded by Emlyn",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
-        "E-lightning-storm-2c9a58",
-        "E-leymano-29362a",
-        "E-abyss-shackles-462cfb",
-        "E-emlyn-white-1a2b3c",
-        "E-emlyn-white-1728a9"
-      ],
-      "evidence_ids": [
-        "EV-0813-009",
-        "EV-0813-011",
-        "EV-0813-012"
-      ]
-    },
-    {
-      "id": "EVT-0813-005",
-      "label": "Klein purifies the deceased body with a bullet and retrieves the copper whistle with Senor",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-tyrannous-deceased-body-71d436",
-        "E-death-knell-18557c",
-        "E-purifying-bullet-313d9c",
-        "E-azik-copper-whistle-5e3f27",
-        "E-admiral-blood-cf2b52"
-      ],
-      "evidence_ids": [
-        "EV-0813-013",
-        "EV-0813-014",
-        "EV-0813-015"
-      ]
-    },
-    {
-      "id": "EVT-0813-006",
-      "label": "Senor pulls out the Tyrant Card of Blasphemy showing Emperor Roselle, shocking Alger",
-      "participants": [
-        "E-dwayne-802dcc",
-        "E-admiral-blood-cf2b52",
-        "E-black-emperor-5d2b64",
-        "E-emperor-roselle-664e32",
-        "E-leodero-649907",
-        "E-ch0528-000013",
-        "E-leodero-649907",
-        "E-church-of-the-god-of-knowledge-and-wisdom-b78c31",
-        "E-alger-willson-3e9f42"
+        "E-klein-moretti-6a3250",
+        "E-card-of-blasphemy-4a9d21",
+        "E-roselle-gustav-5a8eb2",
+        "E-tyrant-8a4e21",
+        "E-storm-pathway-dcaae5",
+        "E-alger-wilson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0813-016",
         "EV-0813-017",
-        "EV-0813-018",
+        "EV-0813-018"
+      ]
+    },
+    {
+      "id": "EVT-0813-004",
+      "label": "Both collect spoils: the gargoyle crystal and Beyonder characteristics, as a sigh echoes in the cathedral",
+      "participants": [
+        "E-alger-wilson-3e9f42",
+        "E-klein-moretti-6a3250",
+        "E-six-winged-gargoyle-079836",
+        "E-gargoyle-crystal-2e3f40",
+        "E-cathedral-ruin-8b9c0d"
+      ],
+      "evidence_ids": [
         "EV-0813-019",
         "EV-0813-020"
       ]
@@ -696,277 +728,60 @@
   ],
   "relations": [
     {
-      "type": "APPEARS_IN",
-      "source": "E-alger-willson-3e9f42",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-dwayne-802dcc",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-dwayne-802dcc",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-six-winged-gargoyle-079836",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-sailor-pathway-423e34",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-death-knell-18557c",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-azik-copper-whistle-5e3f27",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-admiral-blood-cf2b52",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-ch0527-000016",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-tyrannous-deceased-body-71d436",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-lightning-storm-2c9a58",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-leymano-29362a",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-abyss-shackles-462cfb",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-emlyn-white-1a2b3c",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-emlyn-white-1728a9",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-emperor-roselle-664e32",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-black-emperor-5d2b64",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-leodero-649907",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-ch0528-000013",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-leodero-649907",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-church-of-the-god-of-knowledge-and-wisdom-b78c31",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-purifying-bullet-313d9c",
-      "target": "C0813",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0813-001"
-      ]
-    },
-    {
-      "type": "USES",
-      "source": "E-dwayne-802dcc",
-      "target": "E-death-knell-18557c",
-      "inverse": "USED_BY",
-      "evidence_ids": [
-        "EV-0813-006"
-      ]
-    },
-    {
-      "type": "USES",
-      "source": "E-dwayne-802dcc",
-      "target": "E-abyss-shackles-462cfb",
-      "inverse": "USED_BY",
-      "evidence_ids": [
-        "EV-0813-011"
-      ]
-    },
-    {
-      "type": "OWNS",
-      "source": "E-dwayne-802dcc",
-      "target": "E-azik-copper-whistle-5e3f27",
-      "inverse": "OWNED_BY",
-      "evidence_ids": [
-        "EV-0813-015"
-      ]
-    },
-    {
       "type": "FOLLOWS_PATHWAY",
-      "source": "E-alger-willson-3e9f42",
-      "target": "E-sailor-pathway-423e34",
+      "source": "E-alger-wilson-3e9f42",
+      "target": "E-sailor-pathway-9d14e4",
       "inverse": "HAS_FOLLOWER",
       "evidence_ids": [
         "EV-0813-001"
       ]
     },
     {
+      "type": "FOLLOWS_PATHWAY",
+      "source": "E-alger-wilson-3e9f42",
+      "target": "E-ocean-songster-1b2c3d",
+      "inverse": "HAS_FOLLOWER",
+      "evidence_ids": [
+        "EV-0813-002"
+      ]
+    },
+    {
+      "type": "USES",
+      "source": "E-klein-moretti-6a3250",
+      "target": "E-death-knell-18557c",
+      "inverse": "USED_BY",
+      "evidence_ids": [
+        "EV-0813-008"
+      ]
+    },
+    {
+      "type": "USES",
+      "source": "E-klein-moretti-6a3250",
+      "target": "E-abyss-shackles-462cfb",
+      "inverse": "USED_BY",
+      "evidence_ids": [
+        "EV-0813-013"
+      ]
+    },
+    {
       "type": "RELATED_TO",
-      "source": "E-black-emperor-5d2b64",
-      "target": "E-emperor-roselle-664e32",
+      "source": "E-emlyn-white-1a2b3c",
+      "target": "E-abyss-shackles-462cfb",
+      "inverse": "RELATED_TO",
+      "evidence_ids": [
+        "EV-0813-014"
+      ],
+      "label": "Emlyn recorded Abyss Shackles"
+    },
+    {
+      "type": "RELATED_TO",
+      "source": "E-card-of-blasphemy-4a9d21",
+      "target": "E-roselle-gustav-5a8eb2",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0813-016"
       ],
-      "label": "The Card of Blasphemy depicts Emperor Roselle"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-leodero-649907",
-      "target": "E-leodero-649907",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0813-019"
-      ],
-      "label": "The God of Knowledge and Wisdom calls the Lord of Storms Tyrant"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-azik-copper-whistle-5e3f27",
-      "target": "E-tyrannous-deceased-body-71d436",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0813-007"
-      ],
-      "label": "Azik's copper whistle lay beside the tyrannous deceased body"
+      "label": "The Tyrant card depicts Emperor Roselle"
     }
   ]
 }

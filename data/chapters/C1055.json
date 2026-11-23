@@ -70,7 +70,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -159,7 +159,7 @@
       "tags": []
     },
     {
-      "id": "E-fate-siphon-338a54",
+      "id": "E-fate-siphon-000000",
       "canonical_name": "Fate Siphon charm",
       "primary_type": "Artifact",
       "aliases": [
@@ -619,7 +619,7 @@
     },
     {
       "id": "MEN-1055-008",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1055-009"
       ]
@@ -697,7 +697,7 @@
     },
     {
       "id": "MEN-1055-019",
-      "entity": "E-fate-siphon-338a54",
+      "entity": "E-fate-siphon-000000",
       "evidence_ids": [
         "EV-1055-001"
       ]
@@ -864,7 +864,7 @@
         "E-angel-17e7aa",
         "E-audrey-hall-2b8d31",
         "E-body-of-heart-and-mind-2bb2c5",
-        "E-fate-siphon-338a54",
+        "E-fate-siphon-000000",
         "E-hypnosis-3f1413",
         "E-george-iii-4f7da1",
         "E-dwayne-802dcc"
@@ -926,7 +926,7 @@
       "id": "EVT-1055-005",
       "label": "“The king’s secret?",
       "participants": [
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-blood_ruins-d895fa",
         "E-bottle-3a385a",
         "E-contracts-e98394",
@@ -1052,7 +1052,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1055",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1151,7 +1151,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fate-siphon-338a54",
+      "source": "E-fate-siphon-000000",
       "target": "C1055",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1391,7 +1391,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-adam-1d7c29",
-      "target": "E-fate-siphon-338a54",
+      "target": "E-fate-siphon-000000",
       "inverse": "RELATED_TO",
       "label": "Both referred to in chapter 1055: Completely digested? That’s understandable. This is the act of hypnoti…",
       "evidence_ids": [

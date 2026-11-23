@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -551,7 +551,7 @@
     },
     {
       "id": "MEN-0711-002",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0711-005",
         "EV-0711-007"
@@ -804,7 +804,7 @@
       "label": "Klein’s Lightning Storm is dispelled by a demigod power aboard the Single-eyed Skull",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-lightning-storm-2c9a58",
         "E-connors-viktor-7e2a55",
         "E-single-eyed-skull-e9df5c"
@@ -820,7 +820,7 @@
       "label": "Klein creates a tsunami and hurricane to force out the hidden powerhouse",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-single-eyed-skull-e9df5c",
         "E-kalvetua-452f62"
       ],
@@ -974,7 +974,7 @@
     {
       "type": "USES",
       "source": "E-dwayne-802dcc",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0711-005",

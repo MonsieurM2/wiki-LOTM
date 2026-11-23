@@ -7,6 +7,24 @@
   "status": "verified",
   "entities": [
     {
+      "id": "E-klein-moretti-6a3250",
+      "canonical_name": "Klein Moretti",
+      "primary_type": "Character",
+      "aliases": [
+        {
+          "form": "Klein"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "id": "E-gehrman-sparrow-7a5007",
+      "canonical_name": "Gehrman Sparrow",
+      "primary_type": "Character",
+      "aliases": [],
+      "tags": []
+    },
+    {
       "id": "E-alger-wilson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
@@ -15,32 +33,10 @@
           "form": "Alger"
         },
         {
-          "form": "The Hanged Man"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "E-the-world-cb4adb",
-      "canonical_name": "The World",
-      "primary_type": "Character",
-      "aliases": [
-        {
-          "form": "Gehrman Sparrow"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "id": "E-klein-moretti-6a3250",
-      "canonical_name": "Klein Moretti",
-      "primary_type": "Character",
-      "aliases": [
-        {
-          "form": "Klein"
+          "form": "Mr. Hanged Man"
         },
         {
-          "form": "Dwayne Dantès"
+          "form": "The Hanged Man"
         }
       ],
       "tags": []
@@ -48,21 +44,7 @@
     {
       "id": "E-sea-king-6b3598",
       "canonical_name": "Sea King",
-      "primary_type": "Concept",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-bayam-bb8c81",
-      "canonical_name": "Bayam",
-      "primary_type": "Location",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-grade-1-sealed-artifact-6b2c19",
-      "canonical_name": "Grade 1 Sealed Artifact",
-      "primary_type": "Artifact",
+      "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
@@ -70,14 +52,11 @@
       "id": "E-arrodes-49f89a",
       "canonical_name": "Arrodes",
       "primary_type": "Artifact",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-church-of-evernight-b4c2d7",
-      "canonical_name": "Church of Evernight",
-      "primary_type": "Faction",
-      "aliases": [],
+      "aliases": [
+        {
+          "form": "magic mirror"
+        }
+      ],
       "tags": []
     },
     {
@@ -95,14 +74,21 @@
       "tags": []
     },
     {
-      "id": "E-primitive-island-a8cc97",
-      "canonical_name": "primitive island",
+      "id": "E-traveling-f45a6c",
+      "canonical_name": "Traveling",
+      "primary_type": "Concept",
+      "aliases": [],
+      "tags": []
+    },
+    {
+      "id": "E-spirit-world-b4c5d0",
+      "canonical_name": "spirit world",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-ancient-ruins-6b4d20",
+      "id": "E-ancient-ruins-6f7081",
       "canonical_name": "ancient ruins",
       "primary_type": "Location",
       "aliases": [],
@@ -119,13 +105,6 @@
       "id": "E-artificial-death-project-8d3f26",
       "canonical_name": "Artificial Death Project",
       "primary_type": "Concept",
-      "aliases": [],
-      "tags": []
-    },
-    {
-      "id": "E-church-of-storms-3c8d52",
-      "canonical_name": "Church of Storms",
-      "primary_type": "Faction",
       "aliases": [],
       "tags": []
     }
@@ -149,10 +128,10 @@
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "The traces you left behind might not vanish for the next few centuries or even millennia.",
+      "quote": "As expected of the crazy adventurer who can instigate a battle of demigod proportions while escaping unscathed...",
       "offsets": [
-        630,
-        719
+        339,
+        452
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
@@ -175,68 +154,16 @@
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "triggered a demigod battle that could’ve destroyed Bayam",
+      "quote": "Klein had summoned Arrodes to monitor the mirror illusion",
       "offsets": [
-        1026,
-        1082
+        1734,
+        1791
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
       "id": "EV-0806-005",
-      "book": 4,
-      "chapter": 806,
-      "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "Alger began to suspect if Gehrman Sparrow had a Grade 1 Sealed Artifact on him",
-      "offsets": [
-        1247,
-        1325
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0806-006",
-      "book": 4,
-      "chapter": 806,
-      "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "It was late at night, a period when Dwayne Dantès was asleep.",
-      "offsets": [
-        1545,
-        1606
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0806-007",
-      "book": 4,
-      "chapter": 806,
-      "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "Klein had summoned Arrodes to monitor the mirror illusion and provide a response.",
-      "offsets": [
-        1734,
-        1815
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0806-008",
-      "book": 4,
-      "chapter": 806,
-      "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "It’s thanks to the Church of Evernight for having ended its dream treatment of Mr. Tycoon",
-      "offsets": [
-        1817,
-        1906
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0806-009",
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
@@ -249,7 +176,33 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0806-010",
+      "id": "EV-0806-006",
+      "book": 4,
+      "chapter": 806,
+      "chapter_title": "Entering the Island in the Middle of the Night",
+      "quote": "Then, he saw Gehrman Sparrow walk over with a stoic expression, reach out his hand, and grab his shoulder.",
+      "offsets": [
+        2324,
+        2430
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0806-007",
+      "book": 4,
+      "chapter": 806,
+      "chapter_title": "Entering the Island in the Middle of the Night",
+      "quote": "Countless nearly formless figures receded “backwards” as Alger tore through the spirit world with Gehrman Sparrow’s help.",
+      "offsets": [
+        3037,
+        3158
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0806-008",
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
@@ -262,46 +215,20 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0806-011",
+      "id": "EV-0806-009",
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "This is a deserted island...",
+      "quote": "Alger said as he looked around.",
       "offsets": [
-        3396,
-        3424
+        4300,
+        4331
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0806-012",
-      "book": 4,
-      "chapter": 806,
-      "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "Alger’s and Gehrman Sparrow’s figures rapidly phased away.",
-      "offsets": [
-        3918,
-        3976
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0806-013",
-      "book": 4,
-      "chapter": 806,
-      "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "the two had arrived at the periphery of a gigantic island.",
-      "offsets": [
-        4021,
-        4079
-      ],
-      "verifier": "extractor+substring-check",
-      "status": "confirmed"
-    },
-    {
-      "id": "EV-0806-014",
+      "id": "EV-0806-010",
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
@@ -314,33 +241,72 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0806-015",
+      "id": "EV-0806-011",
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "we will arrive at that ancient ruins of unknown age.",
+      "quote": "If we follow this trail and enter the dark forest all the way to the end, we will arrive at that ancient ruins of unknown age.",
       "offsets": [
-        5267,
+        5193,
         5319
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0806-016",
+      "id": "EV-0806-012",
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
-      "quote": "If it’s killed independently, the corresponding ingredients will belong to the killer.",
+      "quote": "Those we jointly killed will be held in your custody.",
       "offsets": [
-        5414,
-        5500
+        5501,
+        5554
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
     },
     {
-      "id": "EV-0806-017",
+      "id": "EV-0806-013",
+      "book": 4,
+      "chapter": 806,
+      "chapter_title": "Entering the Island in the Middle of the Night",
+      "quote": "Our main goal is to explore that ancient ruins.",
+      "offsets": [
+        6174,
+        6221
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0806-014",
+      "book": 4,
+      "chapter": 806,
+      "chapter_title": "Entering the Island in the Middle of the Night",
+      "quote": "The two quickly entered the dark forest that had nearly zero moonlight shining in.",
+      "offsets": [
+        7878,
+        7960
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0806-015",
+      "book": 4,
+      "chapter": 806,
+      "chapter_title": "Entering the Island in the Middle of the Night",
+      "quote": "It’s like a mutated drago tree. A snake-scaled tree?",
+      "offsets": [
+        8264,
+        8316
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0806-016",
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
@@ -353,7 +319,7 @@
       "status": "confirmed"
     },
     {
-      "id": "EV-0806-018",
+      "id": "EV-0806-017",
       "book": 4,
       "chapter": 806,
       "chapter_title": "Entering the Island in the Middle of the Night",
@@ -364,22 +330,40 @@
       ],
       "verifier": "extractor+substring-check",
       "status": "confirmed"
+    },
+    {
+      "id": "EV-0806-018",
+      "book": 4,
+      "chapter": 806,
+      "chapter_title": "Entering the Island in the Middle of the Night",
+      "quote": "I’ve never seen such a situation before.",
+      "offsets": [
+        10335,
+        10375
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
+    },
+    {
+      "id": "EV-0806-019",
+      "book": 4,
+      "chapter": 806,
+      "chapter_title": "Entering the Island in the Middle of the Night",
+      "quote": "Just as he said that, the land quaked as though a creature beneath them was rolling over in its bed!",
+      "offsets": [
+        10766,
+        10866
+      ],
+      "verifier": "extractor+substring-check",
+      "status": "confirmed"
     }
   ],
   "mentions": [
     {
       "id": "MEN-0806-001",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-klein-moretti-6a3250",
       "evidence_ids": [
-        "EV-0806-001",
-        "EV-0806-002",
-        "EV-0806-004",
-        "EV-0806-005",
-        "EV-0806-009",
-        "EV-0806-010",
-        "EV-0806-011",
         "EV-0806-012",
-        "EV-0806-013",
         "EV-0806-014",
         "EV-0806-015",
         "EV-0806-016"
@@ -387,27 +371,30 @@
     },
     {
       "id": "MEN-0806-002",
-      "entity": "E-the-world-cb4adb",
+      "entity": "E-gehrman-sparrow-7a5007",
       "evidence_ids": [
-        "EV-0806-001",
         "EV-0806-002",
-        "EV-0806-003",
-        "EV-0806-005",
-        "EV-0806-012",
-        "EV-0806-013",
-        "EV-0806-015",
-        "EV-0806-016"
+        "EV-0806-006",
+        "EV-0806-007"
       ]
     },
     {
       "id": "MEN-0806-003",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-alger-wilson-3e9f42",
       "evidence_ids": [
+        "EV-0806-001",
+        "EV-0806-005",
         "EV-0806-006",
         "EV-0806-007",
         "EV-0806-008",
-        "EV-0806-017",
-        "EV-0806-018"
+        "EV-0806-009",
+        "EV-0806-010",
+        "EV-0806-011",
+        "EV-0806-012",
+        "EV-0806-013",
+        "EV-0806-014",
+        "EV-0806-018",
+        "EV-0806-019"
       ]
     },
     {
@@ -419,366 +406,152 @@
     },
     {
       "id": "MEN-0806-005",
-      "entity": "E-bayam-bb8c81",
+      "entity": "E-arrodes-49f89a",
       "evidence_ids": [
         "EV-0806-004"
       ]
     },
     {
       "id": "MEN-0806-006",
-      "entity": "E-grade-1-sealed-artifact-6b2c19",
+      "entity": "E-whip-of-mind-3a9c47",
       "evidence_ids": [
         "EV-0806-005"
       ]
     },
     {
       "id": "MEN-0806-007",
-      "entity": "E-arrodes-49f89a",
-      "evidence_ids": [
-        "EV-0806-007"
-      ]
-    },
-    {
-      "id": "MEN-0806-008",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-creeping-hunger-f725d1",
       "evidence_ids": [
         "EV-0806-008"
       ]
     },
     {
-      "id": "MEN-0806-009",
-      "entity": "E-whip-of-mind-3a9c47",
+      "id": "MEN-0806-008",
+      "entity": "E-traveling-f45a6c",
       "evidence_ids": [
-        "EV-0806-009"
+        "EV-0806-001",
+        "EV-0806-008"
+      ]
+    },
+    {
+      "id": "MEN-0806-009",
+      "entity": "E-spirit-world-b4c5d0",
+      "evidence_ids": [
+        "EV-0806-007"
       ]
     },
     {
       "id": "MEN-0806-010",
-      "entity": "E-creeping-hunger-f725d1",
+      "entity": "E-ancient-ruins-6f7081",
       "evidence_ids": [
-        "EV-0806-010"
+        "EV-0806-011",
+        "EV-0806-013"
       ]
     },
     {
       "id": "MEN-0806-011",
-      "entity": "E-primitive-island-a8cc97",
+      "entity": "E-numinous-episcopate-ef67a7",
       "evidence_ids": [
-        "EV-0806-011"
+        "EV-0806-017"
       ]
     },
     {
       "id": "MEN-0806-012",
-      "entity": "E-ancient-ruins-6b4d20",
-      "evidence_ids": [
-        "EV-0806-015"
-      ]
-    },
-    {
-      "id": "MEN-0806-013",
-      "entity": "E-numinous-episcopate-ef67a7",
-      "evidence_ids": [
-        "EV-0806-018"
-      ]
-    },
-    {
-      "id": "MEN-0806-014",
       "entity": "E-artificial-death-project-8d3f26",
       "evidence_ids": [
-        "EV-0806-018"
+        "EV-0806-017"
       ]
     }
   ],
   "events": [
     {
       "id": "EVT-0806-001",
-      "label": "Alger confirms Gehrman Sparrow teleported and probes about the collapsed mountain",
+      "label": "Alger meets Gehrman Sparrow near Bayam and explains the Sea King caused the mountain's collapse",
       "participants": [
         "E-alger-wilson-3e9f42",
-        "E-the-world-cb4adb"
+        "E-gehrman-sparrow-7a5007",
+        "E-sea-king-6b3598"
       ],
       "evidence_ids": [
         "EV-0806-001",
-        "EV-0806-002"
+        "EV-0806-002",
+        "EV-0806-003"
       ]
     },
     {
       "id": "EVT-0806-002",
-      "label": "Klein admits Sea King caused most of the damage to Bayam",
-      "participants": [
-        "E-the-world-cb4adb",
-        "E-sea-king-6b3598",
-        "E-bayam-bb8c81"
-      ],
-      "evidence_ids": [
-        "EV-0806-003",
-        "EV-0806-004"
-      ]
-    },
-    {
-      "id": "EVT-0806-003",
-      "label": "Klein leaves Arrodes to guard his identity as Dwayne Dantès",
+      "label": "Klein leaves Arrodes monitoring Dwayne Dantès’s mirror illusion and teleports with Alger to the primitive island",
       "participants": [
         "E-klein-moretti-6a3250",
         "E-arrodes-49f89a",
-        "E-church-of-evernight-b4c2d7"
+        "E-alger-wilson-3e9f42",
+        "E-gehrman-sparrow-7a5007",
+        "E-traveling-f45a6c",
+        "E-spirit-world-b4c5d0",
+        "E-creeping-hunger-f725d1"
       ],
       "evidence_ids": [
+        "EV-0806-004",
+        "EV-0806-005",
         "EV-0806-006",
         "EV-0806-007",
-        "EV-0806-008"
-      ]
-    },
-    {
-      "id": "EVT-0806-004",
-      "label": "Alger wears the Whip of Mind and the pair teleport to the island",
-      "participants": [
-        "E-alger-wilson-3e9f42",
-        "E-whip-of-mind-3a9c47",
-        "E-creeping-hunger-f725d1",
-        "E-the-world-cb4adb",
-        "E-primitive-island-a8cc97"
-      ],
-      "evidence_ids": [
-        "EV-0806-009",
-        "EV-0806-010",
-        "EV-0806-011",
-        "EV-0806-012"
-      ]
-    },
-    {
-      "id": "EVT-0806-005",
-      "label": "The two agree on a route and rules for splitting loot while exploring the ancient ruins",
-      "participants": [
-        "E-alger-wilson-3e9f42",
-        "E-the-world-cb4adb",
-        "E-ancient-ruins-6b4d20"
-      ],
-      "evidence_ids": [
-        "EV-0806-014",
-        "EV-0806-015",
-        "EV-0806-016"
-      ]
-    },
-    {
-      "id": "EVT-0806-006",
-      "label": "Klein notices corpses building a palace and thinks of the Artificial Death Project",
-      "participants": [
-        "E-klein-moretti-6a3250",
-        "E-numinous-episcopate-ef67a7",
-        "E-artificial-death-project-8d3f26"
-      ],
-      "evidence_ids": [
-        "EV-0806-017",
-        "EV-0806-018"
-      ]
-    }
-  ],
-  "relations": [
-    {
-      "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-the-world-cb4adb",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-001"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-006"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-sea-king-6b3598",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-003"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-bayam-bb8c81",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-004"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-grade-1-sealed-artifact-6b2c19",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-005"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-arrodes-49f89a",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-007"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-church-of-evernight-b4c2d7",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-008"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-whip-of-mind-3a9c47",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
+        "EV-0806-008",
         "EV-0806-009"
       ]
     },
     {
-      "type": "APPEARS_IN",
-      "source": "E-creeping-hunger-f725d1",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-010"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-primitive-island-a8cc97",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-011"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-ancient-ruins-6b4d20",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-015"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-numinous-episcopate-ef67a7",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-018"
-      ]
-    },
-    {
-      "type": "APPEARS_IN",
-      "source": "E-artificial-death-project-8d3f26",
-      "target": "C0806",
-      "inverse": "CONTAINS_MENTION",
-      "evidence_ids": [
-        "EV-0806-018"
-      ]
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-sea-king-6b3598",
-      "target": "E-bayam-bb8c81",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0806-003"
+      "id": "EVT-0806-003",
+      "label": "Alger proposes the route and loot-sharing rules for exploring the ancient ruins",
+      "participants": [
+        "E-alger-wilson-3e9f42",
+        "E-klein-moretti-6a3250",
+        "E-ancient-ruins-6f7081"
       ],
-      "label": "Sea King was involved in the battle that damaged Bayam"
+      "evidence_ids": [
+        "EV-0806-010",
+        "EV-0806-011",
+        "EV-0806-012",
+        "EV-0806-013"
+      ]
     },
+    {
+      "id": "EVT-0806-004",
+      "label": "The two enter the dark forest and find corpses building a palace, reminding Klein of the Artificial Death Project",
+      "participants": [
+        "E-klein-moretti-6a3250",
+        "E-alger-wilson-3e9f42",
+        "E-ancient-ruins-6f7081",
+        "E-numinous-episcopate-ef67a7",
+        "E-artificial-death-project-8d3f26"
+      ],
+      "evidence_ids": [
+        "EV-0806-014",
+        "EV-0806-015",
+        "EV-0806-016",
+        "EV-0806-017",
+        "EV-0806-018",
+        "EV-0806-019"
+      ]
+    }
+  ],
+  "relations": [
     {
       "type": "OWNS",
       "source": "E-alger-wilson-3e9f42",
       "target": "E-whip-of-mind-3a9c47",
       "inverse": "OWNED_BY",
       "evidence_ids": [
-        "EV-0806-009"
-      ],
-      "label": "Alger owns the Whip of Mind"
+        "EV-0806-005"
+      ]
     },
     {
       "type": "USES",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-gehrman-sparrow-7a5007",
       "target": "E-creeping-hunger-f725d1",
       "inverse": "USED_BY",
-      "evidence_ids": [
-        "EV-0806-010"
-      ],
-      "label": "Alger deduces Teleport came from Creeping Hunger"
-    },
-    {
-      "type": "USES",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-creeping-hunger-f725d1",
-      "inverse": "USED_BY",
-      "evidence_ids": [
-        "EV-0806-010"
-      ],
-      "label": "Klein uses Creeping Hunger to travel through the spirit world"
-    },
-    {
-      "type": "USES",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-arrodes-49f89a",
-      "inverse": "USED_BY",
-      "evidence_ids": [
-        "EV-0806-007"
-      ],
-      "label": "Klein summons Arrodes to monitor the mirror illusion"
-    },
-    {
-      "type": "LOCATED_IN",
-      "source": "E-ancient-ruins-6b4d20",
-      "target": "E-primitive-island-a8cc97",
-      "inverse": "CONTAINS_LOCATION",
-      "evidence_ids": [
-        "EV-0806-014"
-      ],
-      "label": "The ancient ruins are on the primitive island"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-artificial-death-project-8d3f26",
-      "target": "E-numinous-episcopate-ef67a7",
-      "inverse": "RELATED_TO",
-      "evidence_ids": [
-        "EV-0806-018"
-      ],
-      "label": "The Artificial Death Project is run by the Numinous Episcopate"
-    },
-    {
-      "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-church-of-evernight-b4c2d7",
-      "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0806-008"
-      ],
-      "label": "The Church of Evernight ended its dream treatment of Dwayne Dantès"
+      ]
     }
   ]
 }

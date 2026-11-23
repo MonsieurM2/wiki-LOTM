@@ -32,7 +32,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -121,7 +121,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -399,7 +399,7 @@
     },
     {
       "id": "MEN-0655-004",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0655-002",
         "EV-0655-006"
@@ -479,7 +479,7 @@
     },
     {
       "id": "MEN-0655-015",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0655-016",
         "EV-0655-017"
@@ -493,7 +493,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-leomaster-0fd9fe",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-0655-001",
@@ -556,7 +556,7 @@
       "id": "EVT-0655-005",
       "label": "Anderson tells Klein about a door opening in the dream hall",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc"
       ],
       "evidence_ids": [
@@ -595,7 +595,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0655",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -694,7 +694,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0655",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -753,7 +753,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Anderson asks Klein where he went in the dream",

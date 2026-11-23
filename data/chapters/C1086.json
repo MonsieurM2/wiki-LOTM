@@ -124,7 +124,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [
@@ -570,7 +570,7 @@
     },
     {
       "id": "MEN-1086-015",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1086-015"
       ]
@@ -718,7 +718,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-medici-3a9d61",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-black-emperor-5d2b64",
         "E-black-emperor-5d2b64",
         "E-justiciar-pathway-1a2b53",
@@ -866,7 +866,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1086",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -968,7 +968,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "E-black-emperor-5d2b64",
       "inverse": "RELATED_TO",
       "evidence_ids": [

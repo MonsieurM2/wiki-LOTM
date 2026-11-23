@@ -183,7 +183,7 @@
       "tags": []
     },
     {
-      "id": "E-winter-gifts-day-7e0bb5",
+      "id": "E-winter-gifts-day-32549c",
       "canonical_name": "Winter Gifts Day",
       "primary_type": "Event",
       "aliases": [],
@@ -656,7 +656,7 @@
     },
     {
       "id": "MEN-1187-019",
-      "entity": "E-winter-gifts-day-7e0bb5",
+      "entity": "E-winter-gifts-day-32549c",
       "evidence_ids": [
         "EV-1187-018"
       ]
@@ -765,7 +765,7 @@
         "E-manipulator-0f1b2c",
         "E-tree_mentor-f8ff11",
         "E-derek-769f2b",
-        "E-winter-gifts-day-7e0bb5"
+        "E-winter-gifts-day-32549c"
       ],
       "evidence_ids": [
         "EV-1187-015",
@@ -954,7 +954,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-winter-gifts-day-7e0bb5",
+      "source": "E-winter-gifts-day-32549c",
       "target": "C1187",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1077,7 +1077,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-manipulator-0f1b2c",
-      "target": "E-winter-gifts-day-7e0bb5",
+      "target": "E-winter-gifts-day-32549c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-1187-017"

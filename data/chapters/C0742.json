@@ -7,21 +7,21 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Emperor Roselle",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-walter-7a1269",
+      "id": "E-butler-walter-8a66d9",
       "canonical_name": "Walter",
       "primary_type": "Character",
       "aliases": [],
@@ -49,28 +49,28 @@
       "tags": []
     },
     {
-      "id": "E-160-bäklund-street-dd3a30",
+      "id": "E-160-baklund-street-dd3a30",
       "canonical_name": "160 Bäklund Street",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-32-bäklund-street-06aac1",
+      "id": "E-32-baklund-street-06aac1",
       "canonical_name": "32 Bäklund Street",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-empress-borough-ee0c62",
+      "id": "E-empress-borough-00c1cd",
       "canonical_name": "Empress Borough",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-dwayne-dantès-665674",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Dwayne Dantès",
       "primary_type": "Character",
       "aliases": [
@@ -81,7 +81,7 @@
       "tags": []
     },
     {
-      "id": "E-harvest-church-baed7b",
+      "id": "E-church-earth-01aa65",
       "canonical_name": "Harvest Church",
       "primary_type": "Faction",
       "aliases": [],
@@ -99,28 +99,28 @@
       "tags": []
     },
     {
-      "id": "E-miss-magician-eb5eb7",
+      "id": "E-fors-58fdc6",
       "canonical_name": "Miss Magician",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-primordial-moon-01d15a",
+      "id": "E-mother-goddess-dep-9c4b28",
       "canonical_name": "Primordial Moon",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-moon-puppet-becdd3",
+      "id": "E-moon-puppet-3fd45c",
       "canonical_name": "Moon Puppet",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-rus-bäthory-2aa00c",
+      "id": "E-rus-bathory-2aa00c",
       "canonical_name": "Rus Bäthory",
       "primary_type": "Character",
       "aliases": [
@@ -131,21 +131,21 @@
       "tags": []
     },
     {
-      "id": "E-sanguine-baron-19924c",
+      "id": "E-derek-769f2b",
       "canonical_name": "Sanguine Baron",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-southern-continent-5c8d20",
+      "id": "E-ch0526-000007",
       "canonical_name": "Southern Continent",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-windsor-behring-3b3605",
+      "id": "E-primordial-moon-believers-2f7a11",
       "canonical_name": "Windsor Behring",
       "primary_type": "Character",
       "aliases": [],
@@ -166,7 +166,7 @@
       "tags": []
     },
     {
-      "id": "E-tarot-gathering-bfe4ed",
+      "id": "E-tarot-club-108663",
       "canonical_name": "Tarot Gathering",
       "primary_type": "Event",
       "aliases": [],
@@ -425,7 +425,7 @@
   "mentions": [
     {
       "id": "MEN-0742-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0742-001",
         "EV-0742-002",
@@ -443,7 +443,7 @@
     },
     {
       "id": "MEN-0742-002",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0742-001",
         "EV-0742-017"
@@ -451,7 +451,7 @@
     },
     {
       "id": "MEN-0742-003",
-      "entity": "E-walter-7a1269",
+      "entity": "E-butler-walter-8a66d9",
       "evidence_ids": [
         "EV-0742-002",
         "EV-0742-004",
@@ -486,7 +486,7 @@
     },
     {
       "id": "MEN-0742-007",
-      "entity": "E-160-bäklund-street-dd3a30",
+      "entity": "E-160-baklund-street-dd3a30",
       "evidence_ids": [
         "EV-0742-004",
         "EV-0742-005",
@@ -496,7 +496,7 @@
     },
     {
       "id": "MEN-0742-008",
-      "entity": "E-32-bäklund-street-06aac1",
+      "entity": "E-32-baklund-street-06aac1",
       "evidence_ids": [
         "EV-0742-004",
         "EV-0742-007",
@@ -505,21 +505,21 @@
     },
     {
       "id": "MEN-0742-009",
-      "entity": "E-empress-borough-ee0c62",
+      "entity": "E-empress-borough-00c1cd",
       "evidence_ids": [
         "EV-0742-016"
       ]
     },
     {
       "id": "MEN-0742-010",
-      "entity": "E-dwayne-dantès-665674",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0742-017"
       ]
     },
     {
       "id": "MEN-0742-011",
-      "entity": "E-harvest-church-baed7b",
+      "entity": "E-church-earth-01aa65",
       "evidence_ids": [
         "EV-0742-009"
       ]
@@ -537,7 +537,7 @@
     },
     {
       "id": "MEN-0742-013",
-      "entity": "E-miss-magician-eb5eb7",
+      "entity": "E-fors-58fdc6",
       "evidence_ids": [
         "EV-0742-010",
         "EV-0742-014"
@@ -545,21 +545,21 @@
     },
     {
       "id": "MEN-0742-014",
-      "entity": "E-primordial-moon-01d15a",
+      "entity": "E-mother-goddess-dep-9c4b28",
       "evidence_ids": [
         "EV-0742-011"
       ]
     },
     {
       "id": "MEN-0742-015",
-      "entity": "E-moon-puppet-becdd3",
+      "entity": "E-moon-puppet-3fd45c",
       "evidence_ids": [
         "EV-0742-012"
       ]
     },
     {
       "id": "MEN-0742-016",
-      "entity": "E-rus-bäthory-2aa00c",
+      "entity": "E-rus-bathory-2aa00c",
       "evidence_ids": [
         "EV-0742-012",
         "EV-0742-013",
@@ -568,21 +568,21 @@
     },
     {
       "id": "MEN-0742-017",
-      "entity": "E-sanguine-baron-19924c",
+      "entity": "E-derek-769f2b",
       "evidence_ids": [
         "EV-0742-013"
       ]
     },
     {
       "id": "MEN-0742-018",
-      "entity": "E-southern-continent-5c8d20",
+      "entity": "E-ch0526-000007",
       "evidence_ids": [
         "EV-0742-012"
       ]
     },
     {
       "id": "MEN-0742-019",
-      "entity": "E-windsor-behring-3b3605",
+      "entity": "E-primordial-moon-believers-2f7a11",
       "evidence_ids": [
         "EV-0742-014"
       ]
@@ -603,7 +603,7 @@
     },
     {
       "id": "MEN-0742-022",
-      "entity": "E-tarot-gathering-bfe4ed",
+      "entity": "E-tarot-club-108663",
       "evidence_ids": [
         "EV-0742-019"
       ]
@@ -614,15 +614,15 @@
       "id": "EVT-0742-001",
       "label": "Klein compares three rental houses with Walter and chooses 160 Bäklund Street",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-walter-7a1269",
+        "E-dwayne-802dcc",
+        "E-butler-walter-8a66d9",
         "E-phelps-street-1a436b",
         "E-saint-samuel-cathedral-3d7a51",
         "E-nighthawks-1f592c",
-        "E-160-bäklund-street-dd3a30",
-        "E-32-bäklund-street-06aac1",
-        "E-empress-borough-ee0c62",
-        "E-roselle-gustav-5a8eb2"
+        "E-160-baklund-street-dd3a30",
+        "E-32-baklund-street-06aac1",
+        "E-empress-borough-00c1cd",
+        "E-emperor-roselle-664e32"
       ],
       "evidence_ids": [
         "EV-0742-001",
@@ -642,14 +642,14 @@
       "label": "Emlyn White suspects the Moon Puppet is bait set by Rus Bäthory to find Windsor Behring",
       "participants": [
         "E-emlyn-white-1a2b3c",
-        "E-miss-magician-eb5eb7",
-        "E-primordial-moon-01d15a",
-        "E-moon-puppet-becdd3",
-        "E-rus-bäthory-2aa00c",
-        "E-sanguine-baron-19924c",
-        "E-southern-continent-5c8d20",
-        "E-windsor-behring-3b3605",
-        "E-harvest-church-baed7b"
+        "E-fors-58fdc6",
+        "E-mother-goddess-dep-9c4b28",
+        "E-moon-puppet-3fd45c",
+        "E-rus-bathory-2aa00c",
+        "E-derek-769f2b",
+        "E-ch0526-000007",
+        "E-primordial-moon-believers-2f7a11",
+        "E-church-earth-01aa65"
       ],
       "evidence_ids": [
         "EV-0742-009",
@@ -664,12 +664,12 @@
       "id": "EVT-0742-003",
       "label": "Walter outlines the servants needed and Klein prepares for the Tarot Gathering",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-walter-7a1269",
-        "E-dwayne-dantès-665674",
+        "E-dwayne-802dcc",
+        "E-butler-walter-8a66d9",
+        "E-dwayne-802dcc",
         "E-housekeeper-95d97a",
         "E-family-servant-assistance-association-24ff92",
-        "E-tarot-gathering-bfe4ed"
+        "E-tarot-club-108663"
       ],
       "evidence_ids": [
         "EV-0742-018",
@@ -680,7 +680,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -689,7 +689,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -698,7 +698,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-walter-7a1269",
+      "source": "E-butler-walter-8a66d9",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -734,7 +734,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-160-bäklund-street-dd3a30",
+      "source": "E-160-baklund-street-dd3a30",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -743,7 +743,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-32-bäklund-street-06aac1",
+      "source": "E-32-baklund-street-06aac1",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -752,7 +752,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-empress-borough-ee0c62",
+      "source": "E-empress-borough-00c1cd",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -761,7 +761,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dwayne-dantès-665674",
+      "source": "E-dwayne-802dcc",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -770,7 +770,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-harvest-church-baed7b",
+      "source": "E-church-earth-01aa65",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -788,7 +788,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-miss-magician-eb5eb7",
+      "source": "E-fors-58fdc6",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -797,7 +797,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-primordial-moon-01d15a",
+      "source": "E-mother-goddess-dep-9c4b28",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -806,7 +806,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-moon-puppet-becdd3",
+      "source": "E-moon-puppet-3fd45c",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -815,7 +815,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-rus-bäthory-2aa00c",
+      "source": "E-rus-bathory-2aa00c",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -824,7 +824,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sanguine-baron-19924c",
+      "source": "E-derek-769f2b",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -833,7 +833,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-southern-continent-5c8d20",
+      "source": "E-ch0526-000007",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -842,7 +842,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-windsor-behring-3b3605",
+      "source": "E-primordial-moon-believers-2f7a11",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -869,7 +869,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-tarot-gathering-bfe4ed",
+      "source": "E-tarot-club-108663",
       "target": "C0742",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -878,8 +878,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-rus-bäthory-2aa00c",
-      "target": "E-sanguine-baron-19924c",
+      "source": "E-rus-bathory-2aa00c",
+      "target": "E-derek-769f2b",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0742-013"
@@ -889,7 +889,7 @@
     {
       "type": "MEMBER_OF",
       "source": "E-emlyn-white-1a2b3c",
-      "target": "E-harvest-church-baed7b",
+      "target": "E-church-earth-01aa65",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0742-009"
@@ -898,7 +898,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-emlyn-white-1a2b3c",
-      "target": "E-windsor-behring-3b3605",
+      "target": "E-primordial-moon-believers-2f7a11",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0742-014"
@@ -907,8 +907,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dwayne-dantès-665674",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0742-018"

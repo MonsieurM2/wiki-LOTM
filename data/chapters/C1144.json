@@ -181,7 +181,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -674,7 +674,7 @@
     },
     {
       "id": "MEN-1144-023",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1144-015"
       ]
@@ -774,7 +774,7 @@
         "E-george-iii-4f7da1",
         "E-enuni-3c4d5e",
         "E-audrey-hall-2b8d31",
-        "E-sea-god-scepter-1d4e83"
+        "E-sea-god-scepter-13653b"
       ],
       "evidence_ids": [
         "EV-1144-014",
@@ -1029,7 +1029,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1144",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

@@ -72,7 +72,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "tags": []
@@ -510,7 +510,7 @@
     },
     {
       "id": "MEN-1029-011",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-1029-008"
       ]
@@ -641,7 +641,7 @@
       "participants": [
         "E-qonas-18f91f",
         "E-arianna-2b3c4d",
-        "E-alista-tudor-7e3c19"
+        "E-alista-tudor-505075"
       ],
       "evidence_ids": [
         "EV-1029-008"
@@ -780,7 +780,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C1029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

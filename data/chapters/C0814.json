@@ -113,7 +113,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -582,7 +582,7 @@
     },
     {
       "id": "MEN-0814-012",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0814-012"
       ]
@@ -720,7 +720,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-card-of-blasphemy-4a9d21",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-ocean-songster-1b2c3d"
       ],
       "evidence_ids": [
@@ -878,7 +878,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0814",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1005,7 +1005,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [

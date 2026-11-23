@@ -43,7 +43,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [],
@@ -442,7 +442,7 @@
     },
     {
       "id": "MEN-0702-005",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0702-007",
         "EV-0702-017"
@@ -590,7 +590,7 @@
       "id": "EVT-0702-005",
       "label": "The group carries Groselle out through the door formed from Ulyssan's corpse",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-frunziar-bde57f",
         "E-mobet-f1062f",
         "E-blazing-danitz-a1b2cd",
@@ -627,7 +627,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-ch0523-000020",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-beyonder-characteristic-4c750e"
       ],

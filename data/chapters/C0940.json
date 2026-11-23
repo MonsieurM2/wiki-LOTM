@@ -259,7 +259,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -757,7 +757,7 @@
     },
     {
       "id": "MEN-0940-032",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0940-017",
         "EV-0940-018"
@@ -870,7 +870,7 @@
       "id": "EVT-0940-006",
       "label": "Anderson and Danitz investigate in Cookawa and encounter Ince Zangwill with a priest",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-east-balam-2c8f41",
         "E-ch0526-000006",
@@ -1166,7 +1166,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0940",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

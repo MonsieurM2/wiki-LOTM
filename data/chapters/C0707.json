@@ -54,7 +54,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -65,7 +65,7 @@
       "tags": []
     },
     {
-      "id": "E-conspirer-3b7d18",
+      "id": "E-conspirer-23064f",
       "canonical_name": "Conspirer",
       "primary_type": "Concept",
       "aliases": [],
@@ -548,7 +548,7 @@
     },
     {
       "id": "MEN-0707-006",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0707-005",
         "EV-0707-006",
@@ -559,7 +559,7 @@
     },
     {
       "id": "MEN-0707-007",
-      "entity": "E-conspirer-3b7d18",
+      "entity": "E-conspirer-23064f",
       "evidence_ids": [
         "EV-0707-005",
         "EV-0707-007"
@@ -758,7 +758,7 @@
       "label": "The crew sees Klein off and Anderson jokes about the danger he faced",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-golden-dream-1c9d42",
         "E-bru-walls-3d9f21",
         "E-flowery-bow-tie-jodeson-e6e1c6",
@@ -775,8 +775,8 @@
       "label": "Danitz asks Anderson for the Conspirer formula and vows to become a true Conspirer",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
-        "E-conspirer-3b7d18",
+        "E-anderson-112b7c",
+        "E-conspirer-23064f",
         "E-hunter-pathway-4d7e21",
         "E-provoker-b9428c",
         "E-pyromaniac-4a1c7e"
@@ -806,7 +806,7 @@
       "id": "EVT-0707-005",
       "label": "Anderson brings Klein to Ukfa Connerchris's manor to buy a revolver",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-ukfa-connerchris-bb9364",
         "E-death-knell-18557c",
@@ -824,7 +824,7 @@
       "id": "EVT-0707-006",
       "label": "Anderson impresses Ukfa with tales of Klein hunting Wormtongue Mithor and Kircheis",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc",
         "E-ukfa-connerchris-bb9364",
         "E-baron-ed58e2",
@@ -843,7 +843,7 @@
       "participants": [
         "E-ukfa-connerchris-bb9364",
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-planter-45ee2a",
         "E-healing-pastor-816281",
         "E-harvest-priest-4b7d2e",

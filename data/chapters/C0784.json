@@ -40,7 +40,7 @@
       "primary_type": "Location"
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -462,7 +462,7 @@
     },
     {
       "id": "MEN-0784-005",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0784-002"
       ]
@@ -594,7 +594,7 @@
         "E-dwayne-802dcc",
         "E-ch0524-000013",
         "E-ch0526-000007",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-a-man-with-a-story-072763"
       ],
       "evidence_ids": [
@@ -730,7 +730,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0784",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -884,7 +884,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-dwayne-802dcc",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0784-002"

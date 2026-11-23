@@ -88,7 +88,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -519,7 +519,7 @@
     },
     {
       "id": "MEN-0894-009",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0894-005",
         "EV-0894-006",
@@ -631,7 +631,7 @@
       "label": "Danitz meets Anderson Hood in Behrens Harbor",
       "participants": [
         "E-blazing-danitz-a1b2cd",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-fog-sea-134600",
         "E-ch0526-000006",
         "E-bayam-3c7d52"
@@ -647,7 +647,7 @@
       "id": "EVT-0894-003",
       "label": "Anderson orders a meal using body language",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd",
         "E-dutanese-5320d0"
       ],
@@ -765,7 +765,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0894",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -882,7 +882,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-fog-sea-134600",
       "inverse": "RELATED_TO",
       "evidence_ids": [

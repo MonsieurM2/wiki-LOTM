@@ -72,7 +72,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -569,7 +569,7 @@
     },
     {
       "id": "MEN-0641-007",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0641-009",
         "EV-0641-010"
@@ -764,7 +764,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-fourth-epoch-ruin-30bd22",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-kalvetua-452f62",
         "E-dwayne-802dcc",
         "E-cattleya-3e8f15",
@@ -889,7 +889,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0641",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1072,7 +1072,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-kalvetua-452f62",
       "inverse": "RELATED_TO",
       "label": "The Sea God Scepter is Kalvetua's godhood scepter wielded by Mr. Fool",

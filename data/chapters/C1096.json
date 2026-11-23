@@ -44,7 +44,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -517,7 +517,7 @@
     },
     {
       "id": "MEN-1096-003",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-1096-002",
         "EV-1096-007"
@@ -707,7 +707,7 @@
       "id": "EVT-1096-002",
       "label": "Anderson and Danitz locate Ailment",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-ailment-maiden-tracy-4a6c90"
       ],
       "evidence_ids": [
@@ -762,7 +762,7 @@
       "participants": [
         "E-bartz-5d1c08",
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-blazing-danitz-a1b2cd"
       ],
       "evidence_ids": [
@@ -938,7 +938,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C1096",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1155,7 +1155,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-ailment-maiden-tracy-4a6c90",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1196,7 +1196,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-bartz-5d1c08",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-1096-007"

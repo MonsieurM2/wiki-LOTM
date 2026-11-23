@@ -97,7 +97,7 @@
       "tags": []
     },
     {
-      "id": "E-ricciardo-8c4e62",
+      "id": "E-fate-councilor-ricciardo-f12b56",
       "canonical_name": "Ricciardo",
       "primary_type": "Character",
       "aliases": [],
@@ -579,7 +579,7 @@
     },
     {
       "id": "MEN-0602-008",
-      "entity": "E-ricciardo-8c4e62",
+      "entity": "E-fate-councilor-ricciardo-f12b56",
       "evidence_ids": [
         "EV-0602-009"
       ]
@@ -759,7 +759,7 @@
         "E-darkwill-4a1b2c",
         "E-die-of-probability-7d9541",
         "E-bellman-carnot-2d8e14",
-        "E-ricciardo-8c4e62",
+        "E-fate-councilor-ricciardo-f12b56",
         "E-oravi-a61ce1",
         "E-roy-king-0c28e6"
       ],

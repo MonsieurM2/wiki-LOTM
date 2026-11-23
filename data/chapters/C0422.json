@@ -116,7 +116,7 @@
       "tags": []
     },
     {
-      "id": "E-leodero-649907",
+      "id": "E-card-of-blasphemy-4a9d21",
       "canonical_name": "Tyrant",
       "primary_type": "Concept",
       "aliases": [],
@@ -533,7 +533,7 @@
     },
     {
       "id": "MEN-0422-015",
-      "entity": "E-leodero-649907",
+      "entity": "E-card-of-blasphemy-4a9d21",
       "evidence_ids": [
         "EV-0422-014"
       ]
@@ -678,7 +678,7 @@
         "E-isengard-5e1e43",
         "E-desire-apostle-2f8a61",
         "E-mandated-punisher-4c7d29",
-        "E-leodero-649907",
+        "E-card-of-blasphemy-4a9d21",
         "E-church-of-the-god-of-knowledge-and-wisdom-b78c31",
         "E-kaslana-05ce83"
       ],
@@ -831,7 +831,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leodero-649907",
+      "source": "E-card-of-blasphemy-4a9d21",
       "target": "C0422",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

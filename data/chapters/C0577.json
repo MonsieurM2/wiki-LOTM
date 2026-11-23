@@ -227,7 +227,7 @@
       "tags": []
     },
     {
-      "id": "E-helene-4c1a77",
+      "id": "E-helene-16e74e",
       "canonical_name": "red-haired Helene",
       "primary_type": "Character",
       "aliases": [
@@ -650,7 +650,7 @@
     },
     {
       "id": "MEN-0577-022",
-      "entity": "E-helene-4c1a77",
+      "entity": "E-helene-16e74e",
       "evidence_ids": [
         "EV-0577-019"
       ]
@@ -744,7 +744,7 @@
         "E-dwayne-802dcc",
         "E-kalat-3bdd07",
         "E-bayam-resistance-31190b",
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-intis-embassy-3d8f41",
         "E-bayam-3c7d52"
       ],
@@ -947,7 +947,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "C0577",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -985,7 +985,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "E-intis-embassy-3d8f41",
       "inverse": "RELATED_TO",
       "evidence_ids": [

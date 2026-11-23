@@ -47,7 +47,7 @@
       "tags": []
     },
     {
-      "id": "E-helene-4c1a77",
+      "id": "E-helene-16e74e",
       "canonical_name": "red-haired Helene",
       "primary_type": "Character",
       "aliases": [
@@ -427,7 +427,7 @@
     },
     {
       "id": "MEN-0582-003",
-      "entity": "E-helene-4c1a77",
+      "entity": "E-helene-16e74e",
       "evidence_ids": [
         "EV-0582-001",
         "EV-0582-005"
@@ -539,7 +539,7 @@
       "label": "Klein, disguised as Helene, attacks Tracy with Psychic Piercing and a Zombie's physical powers",
       "participants": [
         "E-dwayne-802dcc",
-        "E-helene-4c1a77",
+        "E-helene-16e74e",
         "E-ailment-maiden-tracy-4a6c90",
         "E-zombie-0d956d",
         "E-mirror-substitution-7b7372"
@@ -629,7 +629,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-helene-4c1a77",
+      "source": "E-helene-16e74e",
       "target": "C0582",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

@@ -25,7 +25,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -378,7 +378,7 @@
     },
     {
       "id": "MEN-0652-003",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0652-001",
         "EV-0652-002",
@@ -457,7 +457,7 @@
       "id": "EVT-0652-001",
       "label": "Cattleya’s introduction confirms Anderson is a treasure hunter",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-cattleya-3e8f15",
         "E-dwayne-802dcc"
       ],
@@ -471,7 +471,7 @@
       "id": "EVT-0652-002",
       "label": "Anderson recounts discovering the strange temple and the silver-haired angel",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-dwayne-802dcc"
       ],
       "evidence_ids": [
@@ -502,7 +502,7 @@
       "id": "EVT-0652-004",
       "label": "Anderson describes his team’s losses and the shipwreck",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-cattleya-3e8f15"
       ],
       "evidence_ids": [
@@ -515,7 +515,7 @@
       "id": "EVT-0652-005",
       "label": "Anderson offers mermaid clues and Cattleya accepts him on the Future",
       "participants": [
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-mermaid-0c9d2e",
         "E-dwayne-802dcc",
         "E-future-3a7b19",
@@ -552,7 +552,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0652",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -624,7 +624,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-cattleya-3e8f15",
       "inverse": "RELATED_TO",
       "label": "Anderson recounts his treasure-hunting expedition to Cattleya",
@@ -656,7 +656,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "E-future-3a7b19",
       "inverse": "RELATED_TO",
       "label": "Cattleya accepts Anderson as a passenger on the Future",
@@ -668,7 +668,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-dwayne-802dcc",
-      "target": "E-anderson-89ba02",
+      "target": "E-anderson-112b7c",
       "inverse": "RELATED_TO",
       "label": "Klein divines whether Anderson Hood is problematic",
       "evidence_ids": [

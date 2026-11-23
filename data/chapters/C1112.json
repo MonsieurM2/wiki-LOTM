@@ -260,7 +260,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -281,7 +281,7 @@
       "tags": []
     },
     {
-      "id": "E-afternoon-town-74a1d3",
+      "id": "E-afternoon-town-66c3e7",
       "canonical_name": "Afternoon Town",
       "primary_type": "Location",
       "aliases": [],
@@ -737,7 +737,7 @@
     },
     {
       "id": "MEN-1112-024",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-1112-014"
       ]
@@ -751,7 +751,7 @@
     },
     {
       "id": "MEN-1112-026",
-      "entity": "E-afternoon-town-74a1d3",
+      "entity": "E-afternoon-town-66c3e7",
       "evidence_ids": [
         "EV-1112-019"
       ]
@@ -850,9 +850,9 @@
       "label": "Klein watches the expedition enter the Giant King Court dusk",
       "participants": [
         "E-dwayne-802dcc",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-giant-king-court-6bae98",
-        "E-afternoon-town-74a1d3",
+        "E-afternoon-town-66c3e7",
         "E-derek-769f2b",
         "E-city-of-silver-000000",
         "E-elder-lovia-000000",
@@ -1075,7 +1075,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C1112",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1093,7 +1093,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-afternoon-town-74a1d3",
+      "source": "E-afternoon-town-66c3e7",
       "target": "C1112",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1161,7 +1161,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-giant-king-court-6bae98",
-      "target": "E-afternoon-town-74a1d3",
+      "target": "E-afternoon-town-66c3e7",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-1112-018",

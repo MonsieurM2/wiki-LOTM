@@ -30,7 +30,7 @@
       "tags": []
     },
     {
-      "id": "E-anderson-89ba02",
+      "id": "E-anderson-112b7c",
       "canonical_name": "Anderson Hood",
       "primary_type": "Character",
       "aliases": [
@@ -97,7 +97,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [
@@ -445,7 +445,7 @@
     },
     {
       "id": "MEN-0665-002",
-      "entity": "E-anderson-89ba02",
+      "entity": "E-anderson-112b7c",
       "evidence_ids": [
         "EV-0665-013",
         "EV-0665-014"
@@ -501,7 +501,7 @@
     },
     {
       "id": "MEN-0665-009",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0665-009"
       ]
@@ -596,7 +596,7 @@
       "label": "Klein returns to the Future and speaks with Anderson Hood about the mermaid ritual",
       "participants": [
         "E-dwayne-802dcc",
-        "E-anderson-89ba02",
+        "E-anderson-112b7c",
         "E-future-3a7b19",
         "E-mermaid-0c9d2e"
       ],
@@ -649,7 +649,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-anderson-89ba02",
+      "source": "E-anderson-112b7c",
       "target": "C0665",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -712,7 +712,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0665",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

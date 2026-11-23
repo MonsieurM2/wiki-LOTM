@@ -191,7 +191,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -637,14 +637,14 @@
     },
     {
       "id": "MEN-0621-019",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0621-015"
       ]
     },
     {
       "id": "MEN-0621-020",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0621-015"
       ]
@@ -726,8 +726,8 @@
         "E-tudor-dynasty-5802ed",
         "E-tudor-trunsoest-united-empire-a57d69",
         "E-solomon-empire-29eeff",
-        "E-alista-tudor-7e3c19",
-        "E-alista-tudor-7e3c19"
+        "E-alista-tudor-505075",
+        "E-alista-tudor-505075"
       ],
       "evidence_ids": [
         "EV-0621-010",
@@ -943,7 +943,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0621",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -952,7 +952,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0621",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1048,8 +1048,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alista-tudor-7e3c19",
-      "target": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
+      "target": "E-alista-tudor-505075",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0621-015"

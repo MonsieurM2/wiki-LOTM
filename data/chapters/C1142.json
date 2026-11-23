@@ -60,7 +60,7 @@
       "tags": []
     },
     {
-      "id": "E-conspirer-3b7d18",
+      "id": "E-conspirer-23064f",
       "canonical_name": "Conspirer",
       "primary_type": "Pathway",
       "aliases": [],
@@ -573,7 +573,7 @@
     },
     {
       "id": "MEN-1142-008",
-      "entity": "E-conspirer-3b7d18",
+      "entity": "E-conspirer-23064f",
       "evidence_ids": [
         "EV-1142-003"
       ]
@@ -971,7 +971,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-conspirer-3b7d18",
+      "source": "E-conspirer-23064f",
       "target": "C1142",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

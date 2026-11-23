@@ -152,7 +152,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [
@@ -660,7 +660,7 @@
     },
     {
       "id": "MEN-0560-016",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0560-010"
       ]
@@ -790,7 +790,7 @@
         "E-spirit-world-0f67a4",
         "E-death-consul-2e6b71",
         "E-azik-copper-whistle-5e3f27",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-gray-fog-3a7d64",
         "E-sonia-sea-0fb1dc",
         "E-loen-9b37f2"
@@ -977,7 +977,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0560",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

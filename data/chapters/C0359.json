@@ -102,7 +102,7 @@
       "tags": []
     },
     {
-      "id": "E-alista-tudor-7e3c19",
+      "id": "E-alista-tudor-505075",
       "canonical_name": "Blood Emperor",
       "primary_type": "Character",
       "aliases": [],
@@ -636,7 +636,7 @@
     },
     {
       "id": "MEN-0359-010",
-      "entity": "E-alista-tudor-7e3c19",
+      "entity": "E-alista-tudor-505075",
       "evidence_ids": [
         "EV-0359-003"
       ]
@@ -798,7 +798,7 @@
         "E-antigonus-family-2e75d4",
         "E-jacob-family-1dce7c",
         "E-tamara-family-6f6192",
-        "E-alista-tudor-7e3c19",
+        "E-alista-tudor-505075",
         "E-ancient-sun-god-0e7a93",
         "E-king-of-the-five-seas-nast-af4c40"
       ],
@@ -976,7 +976,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alista-tudor-7e3c19",
+      "source": "E-alista-tudor-505075",
       "target": "C0359",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [

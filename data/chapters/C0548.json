@@ -67,7 +67,7 @@
       "tags": []
     },
     {
-      "id": "E-sea-god-scepter-1d4e83",
+      "id": "E-sea-god-scepter-13653b",
       "canonical_name": "Sea God Scepter",
       "primary_type": "Artifact",
       "aliases": [],
@@ -375,7 +375,7 @@
     },
     {
       "id": "MEN-0548-008",
-      "entity": "E-sea-god-scepter-1d4e83",
+      "entity": "E-sea-god-scepter-13653b",
       "evidence_ids": [
         "EV-0548-017"
       ]
@@ -457,7 +457,7 @@
       "participants": [
         "E-dwayne-802dcc",
         "E-kalvetua-452f62",
-        "E-sea-god-scepter-1d4e83",
+        "E-sea-god-scepter-13653b",
         "E-bayam-resistance-31190b"
       ],
       "evidence_ids": [
@@ -532,7 +532,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "C0548",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -584,7 +584,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-kalvetua-452f62",
-      "target": "E-sea-god-scepter-1d4e83",
+      "target": "E-sea-god-scepter-13653b",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0548-017"
@@ -593,7 +593,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sea-god-scepter-1d4e83",
+      "source": "E-sea-god-scepter-13653b",
       "target": "E-bayam-resistance-31190b",
       "inverse": "RELATED_TO",
       "evidence_ids": [
