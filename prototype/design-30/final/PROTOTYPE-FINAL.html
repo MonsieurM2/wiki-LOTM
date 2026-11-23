@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!-- FINAL — coherent case-file language. Organisation unchanged. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case Files — Bureau of Mysteries (final)</title>
+<style>
+:root{
+  --kraft:#3A342B;
+  --encre:#141210;
+  --cachet:#B04338;
+  --manille:#DCCFB0;
+  --ref:#A89A7A;
+  --kraft-clair:#463E33;
+  --manille-dim:rgba(201,188,156,.78);
+  --manille-faint:rgba(201,188,156,.58);
+  --ref-ln:rgba(138,126,96,.42);
+  --cachet-ln:rgba(154,52,42,.72);
+  --cachet-soft:rgba(154,52,42,.22);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--kraft);
+  background-image:
+    radial-gradient(ellipse 80% 55% at 50% -12%,rgba(201,188,156,.055),transparent 70%),
+    radial-gradient(ellipse 60% 50% at 100% 100%,rgba(20,18,16,.55),transparent 72%),
+    repeating-linear-gradient(90deg,transparent 0 2px,rgba(20,18,16,.07) 2px 3px),
+    repeating-linear-gradient(0deg,transparent 0 4px,rgba(201,188,156,.014) 4px 5px);
+  color:var(--manille);
+  font-family:"Courier Prime","Courier New",Courier,"Lucida Sans Typewriter",monospace;
+  font-size:15px;
+  line-height:1.7;
+  font-variant-numeric:tabular-nums lining-nums;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--cachet);color:#F1E8D2}
+a{color:inherit}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{
+  outline:1px dashed var(--cachet);
+  outline-offset:4px;
+}
+.site-head,.sections,main{position:relative;z-index:1}
+
+/* ---- Siglet : cachet circulaire unique, filigrane global ---- */
+.bureau-sigil{
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:min(86vw,660px);
+  height:auto;
+  transform:translate(-50%,-50%) rotate(-12deg);
+  opacity:.085;
+  pointer-events:none;
+  z-index:0;
+}
+
+/* ---- En-tête : chemise de dossier ---- */
+.site-head{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:14px 26px;
+  min-height:158px;
+  padding:26px clamp(20px,5vw,64px);
+  border-bottom:3px double var(--ref-ln);
+  background:linear-gradient(180deg,rgba(20,18,16,.28),rgba(58,52,43,.14));
+}
+.brand-mark{
+  display:inline-grid;
+  place-items:center;
+  flex:0 0 auto;
+  width:46px;
+  height:46px;
+  border:2px solid var(--cachet);
+  border-radius:50%;
+  box-shadow:inset 0 0 0 3px var(--kraft),inset 0 0 0 4px var(--cachet-ln);
+  color:var(--cachet);
+  font-size:23px;
+  line-height:1;
+  transform:rotate(-12deg);
+}
+.brand-name{
+  flex:1 1 auto;
+  font-size:clamp(14px,1.6vw,20px);
+  font-weight:700;
+  letter-spacing:.26em;
+  text-transform:uppercase;
+  color:var(--manille);
+}
+.context{
+  font-size:11px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--manille-dim);
+  font-variant-numeric:tabular-nums;
+}
+
+/* ---- Sommaire de classeur ---- */
+.sections{
+  counter-reset:section;
+  display:flex;
+  flex-wrap:wrap;
+  gap:clamp(16px,3vw,46px);
+  padding:0 clamp(20px,5vw,64px);
+  background:var(--encre);
+  border-bottom:1px solid var(--ref-ln);
+  box-shadow:0 12px 26px -26px #000;
+}
+.sections a{
+  position:relative;
+  display:inline-block;
+  padding:14px 2px 13px;
+  font-size:11px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--manille-dim);
+  font-variant-numeric:tabular-nums;
+  transition:color .2s ease;
+}
+.sections a::before{
+  counter-increment:section;
+  content:counter(section,decimal-leading-zero) " / ";
+  color:var(--ref);
+}
+.sections a:hover{color:var(--manille)}
+.sections .current{color:var(--manille);font-weight:700}
+.sections .current::after{
+  content:"";
+  position:absolute;
+  top:50%;
+  right:-12px;
+  width:24px;
+  height:13px;
+  border:1px solid var(--cachet);
+  box-shadow:inset 0 0 0 2px var(--encre),inset 0 0 0 3px var(--cachet-ln);
+  transform:translateY(-50%) rotate(-12deg);
+  opacity:.9;
+}
+
+/* ---- Chapitre ---- */
+main{
+  position:relative;
+  max-width:1180px;
+  margin:0 auto;
+  padding:clamp(32px,6vw,70px) clamp(20px,5vw,64px) 80px clamp(34px,6vw,78px);
+}
+main::before{content:"";position:absolute;left:14px;top:0;bottom:0;width:2px;background:var(--cachet);opacity:.55}
+.lede{
+  margin:0 0 22px;
+  padding-left:16px;
+  border-left:4px solid var(--cachet);
+  font-size:clamp(16px,1.9vw,20px);
+  font-style:italic;
+  color:var(--manille);
+}
+.kicker{
+  margin:0 0 10px;
+  font-size:10px;
+  letter-spacing:.3em;
+  text-transform:uppercase;
+  color:var(--manille-dim);
+}
+.kicker::before{content:"[ ";color:var(--cachet)}
+.kicker::after{content:" ]";color:var(--cachet)}
+h1{
+  margin:0 0 clamp(28px,4vw,46px);
+  padding-bottom:16px;
+  border-bottom:1px dashed var(--ref-ln);
+  font-size:clamp(25px,3.8vw,42px);
+  font-weight:700;
+  line-height:1.18;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--manille);
+}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(260px,340px);
+  gap:clamp(28px,4vw,60px);
+  align-items:start;
+}
+.prose p{margin:0 0 1.45em}
+
+.entity{
+  cursor:pointer;
+  border-bottom:1px dashed var(--cachet);
+  color:var(--manille);
+  font-weight:700;
+  transition:background-color .2s ease;
+}
+.entity:hover,.entity:focus-visible{background:rgba(176,67,56,.22)}
+
+.proofable{
+  cursor:pointer;
+  border-bottom:1px dotted var(--ref);
+  transition:border-color .2s ease,background-color .2s ease;
+}
+.proofable:hover,.proofable:focus-visible{
+  border-bottom-color:var(--cachet);
+  background:rgba(176,67,56,.22);
+}
+
+.continue{
+  display:inline-block;
+  margin-top:6px;
+  padding-top:14px;
+  border-top:1px dashed var(--ref-ln);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--manille);
+  transition:color .2s ease;
+}
+.continue::after{
+  content:" \2192";
+  color:var(--cachet);
+  font-weight:700;
+}
+.continue:hover{color:#F1E8D2}
+
+/* ---- Marge : fiches kraft sur encre, grain feTurbulence ---- */
+.margin{
+  position:relative;
+  padding:clamp(18px,2.6vw,28px);
+  background:var(--encre);
+  border:1px solid var(--ref-ln);
+  box-shadow:
+    inset 0 0 0 5px var(--encre),
+    inset 0 0 0 6px var(--ref-ln),
+    0 22px 50px -34px #000;
+}
+.margin::before{
+  content:"";
+  position:absolute;
+  inset:6px;
+  background:var(--manille);
+  filter:url(#kraft-grain);
+  opacity:.16;
+  pointer-events:none;
+}
+.gloss{
+  position:relative;
+  z-index:1;
+  padding:14px 16px 16px;
+  background:var(--kraft-clair);
+  border-left:4px solid var(--cachet);
+  box-shadow:0 10px 24px -18px #000;
+}
+.gloss + .gloss{margin-top:20px}
+.gloss-label{
+  display:block;
+  margin:-14px -16px 12px;
+  padding:8px 16px;
+  background:var(--encre);
+  font-size:10px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--ref);
+}
+.gloss-label::before{content:"REF. ";color:var(--cachet)}
+.gloss strong{color:var(--manille);font-weight:700;letter-spacing:.04em}
+.gloss q{
+  display:block;
+  margin:9px 0;
+  padding-left:10px;
+  border-left:2px dotted var(--ref-ln);
+  font-style:italic;
+  color:var(--manille-dim);
+}
+.source{
+  display:block;
+  font-size:10px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--manille-faint);
+  font-variant-numeric:tabular-nums;
+}
+.echo{
+  display:block;
+  width:100%;
+  margin-top:14px;
+  padding:9px 11px;
+  font:inherit;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-align:left;
+  color:var(--manille);
+  background:transparent;
+  border:1px dashed var(--cachet-ln);
+  cursor:pointer;
+  transition:background-color .2s ease,border-color .2s ease;
+}
+.echo:hover{background:rgba(176,67,56,.22);border-color:var(--cachet)}
+
+.ledger{
+  margin:clamp(40px,6vw,70px) 0 0;
+  padding-top:18px;
+  border-top:1px dashed var(--ref-ln);
+  font-size:10px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--manille-faint);
+  font-variant-numeric:tabular-nums;
+}
+
+@media (max-width:760px){
+  .layout{grid-template-columns:1fr}
+  .bureau-sigil{width:96vw}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;</span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+  <svg class="bureau-sigil" viewBox="0 0 520 520" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="kraft-grain" x="0" y="0" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" result="noise"/>
+        <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.79  0 0 0 0 0.74  0 0 0 0 0.61  0.6 0 0 0 0" result="grain"/>
+        <feComposite in="grain" in2="SourceGraphic" operator="in"/>
+      </filter>
+    </defs>
+    <g fill="none" stroke="#8A7E60">
+      <circle cx="260" cy="260" r="232" stroke-width="2"/>
+      <circle cx="260" cy="260" r="220" stroke-width="1"/>
+      <circle cx="260" cy="260" r="158" stroke-width="1" stroke-dasharray="2 10"/>
+      <circle cx="260" cy="260" r="104" stroke-width="2" stroke="#B04338"/>
+    </g>
+    <g stroke="#8A7E60" stroke-width="1.5">
+      <path d="M260 24v22M260 474v22M24 260h22M474 260h22"/>
+      <path d="M95 95l15 15M410 410l15 15M425 95l-15 15M110 410l-15 15"/>
+    </g>
+    <rect x="34" y="244" width="452" height="32" fill="#B04338" opacity=".55"/>
+    <path d="M34 240h452M34 280h452" stroke="#C9BC9C" stroke-width="1" opacity=".5"/>
+    <path d="M260 188l72 72-72 72-72-72z" fill="none" stroke="#C9BC9C" stroke-width="1.5" opacity=".7"/>
+    <circle cx="260" cy="260" r="16" fill="none" stroke="#B04338" stroke-width="3"/>
+  </svg>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

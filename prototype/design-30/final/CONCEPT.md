@@ -30,4 +30,13 @@ Typographie : monospace à chiffres tabulaires pour tout l'interface, italique p
 
 Le grain et le grand filigrane coûtent un peu de contraste. Ils sont volontaires : c'est le prix du réalisme. La correction s'est limitée à éclaircir les textes pour que la lecture de 1394 chapitres reste possible.
 
-*`PROTOTYPE-v2.html` est la version finale ; `PROTOTYPE.html` (révision 1) est conservée comme trace de l'écart écarté.*
+## Version définitive
+
+**`PROTOTYPE-FINAL.html` est la version retenue** — voir `screenshot.png` après remplacement. Elle ajoute à la révision 2 deux derniers éléments de cohérence, sans rien retirer au réalisme :
+
+1. une **tranche rouge** court sur le bord gauche de la feuille : le dossier a un dos, pas seulement une couleur de fond ;
+2. la mention de volume devient une **classification entre crochets** `[ VOLUME 1, CLOWN ]`.
+
+`PROTOTYPE.html` (révision 1, trop sage) et `PROTOTYPE-v2.html` (révision 2) restent dans le dossier comme traces du chemin parcouru — aucune n'est à utiliser.
+
+Cette version est gelée. Toute modification future sera une nouvelle décision, pas un raffinement implicite.
