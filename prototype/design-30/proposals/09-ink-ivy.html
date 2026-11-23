@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{
+  font-family:"Spectral";
+  src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");
+  font-style:normal;font-weight:400;font-display:swap;
+}
+@font-face{
+  font-family:"Spectral";
+  src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");
+  font-style:normal;font-weight:500;font-display:swap;
+}
+@font-face{
+  font-family:"Spectral";
+  src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");
+  font-style:italic;font-weight:400;font-display:swap;
+}
+
+:root{
+  --encre:#0B1410;
+  --lierre:#1D3328;
+  --or:#D9CFA4;
+  --mousse:#587A5C;
+  --papier:#A8A88C;
+  --or-dim:rgba(217,207,164,.80);
+  --or-faint:rgba(217,207,164,.46);
+  --mousse-lit:#9CB99B;
+  --mousse-line:rgba(88,122,92,.58);
+  --papier-line:rgba(168,168,140,.30);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--or);
+  font:400 16px/1.7 "Spectral",Georgia,serif;
+  background:
+    radial-gradient(ellipse 80% 55% at 50% -12%,rgba(29,51,40,.72),transparent 72%),
+    radial-gradient(ellipse 60% 50% at 100% 100%,rgba(29,51,40,.38),transparent 75%),
+    linear-gradient(180deg,#0B1410 0%,#09110D 55%,#0B1410 100%);
+  background-attachment:fixed;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  opacity:.055;
+  background:repeating-linear-gradient(93deg,transparent 0 4px,rgba(217,207,164,.14) 4px 5px);
+}
+
+/* pressed-ivy watermark — one imprint for the whole page */
+.ivy-watermark{
+  position:fixed;inset:0;width:100%;height:100%;
+  z-index:0;pointer-events:none;
+  opacity:.09;color:var(--or);
+}
+
+.site-head{
+  position:relative;z-index:1;
+  display:flex;align-items:center;gap:18px;
+  max-width:1180px;margin:0 auto;
+  padding:30px 28px 22px;
+  border-bottom:1px solid var(--mousse-line);
+}
+.site-head::before{
+  content:"";width:9px;height:9px;flex:0 0 9px;
+  border:1px solid var(--mousse);transform:rotate(45deg);
+}
+.site-head > span{position:relative;z-index:1}
+.brand-mark{display:none}
+.brand-name{
+  font-weight:500;font-variant:small-caps;
+  letter-spacing:.20em;text-transform:lowercase;
+  font-size:1.18rem;color:var(--or);
+}
+.context{
+  margin-left:auto;color:var(--papier);
+  font-style:italic;font-size:.82rem;letter-spacing:.06em;
+}
+
+.sections{
+  position:relative;z-index:1;
+  display:flex;flex-wrap:wrap;gap:4px 28px;
+  max-width:1180px;margin:0 auto;padding:0 28px;
+  border-bottom:1px solid var(--papier-line);
+}
+.sections a{
+  color:var(--or-dim);text-decoration:none;
+  font-size:.72rem;font-variant:small-caps;
+  letter-spacing:.19em;text-transform:lowercase;
+  padding:14px 2px 12px;
+  border-bottom:1px solid transparent;
+  transition:color .18s ease,background-color .18s ease;
+}
+.sections a:hover,.sections a:focus-visible{color:var(--or);background:rgba(29,51,40,.55)}
+.sections a.current{color:var(--or);border-bottom-color:var(--mousse)}
+
+main#chapter{
+  position:relative;z-index:2;
+  max-width:1180px;margin:0 auto;
+  padding:46px 28px 70px;
+}
+
+.lede{
+  margin:0 0 30px;padding:2px 0 2px 18px;
+  border-left:2px solid var(--mousse);
+  color:var(--or-dim);font-style:italic;font-size:1.08rem;
+}
+.kicker{
+  color:var(--papier);
+  font-size:.74rem;letter-spacing:.24em;
+  text-transform:uppercase;font-variant:small-caps;
+  margin-bottom:6px;
+}
+h1{
+  margin:0 0 30px;padding-bottom:20px;
+  border-bottom:1px solid var(--papier-line);
+  color:var(--or);
+  font:500 clamp(2rem,5vw,3.4rem)/1.18 "Spectral",Georgia,serif;
+  font-variant:small-caps;letter-spacing:.09em;
+}
+
+.layout{
+  display:grid;grid-template-columns:minmax(0,1fr) 330px;
+  gap:38px;align-items:start;
+}
+.prose{font-size:1rem;line-height:1.7}
+.prose p{margin:0 0 1.25em}
+.prose p:first-child{font-style:italic;color:var(--or)}
+
+.entity{
+  display:inline-block;
+  color:var(--or-dim);
+  border-bottom:1px solid var(--or-faint);
+  cursor:pointer;
+  transition:background-color .18s ease,color .18s ease;
+}
+.entity::first-letter{color:var(--or);font-weight:500}
+.entity:hover,.entity:focus-visible{
+  color:var(--or);background:var(--lierre);
+}
+
+.proofable{
+  cursor:help;
+  border-bottom:1px dotted var(--mousse);
+  background:linear-gradient(180deg,transparent 62%,rgba(88,122,92,.20) 62%);
+}
+
+.continue{
+  display:inline-block;margin-top:8px;
+  padding:9px 16px;
+  border:1px solid var(--mousse);
+  color:var(--or);text-decoration:none;
+  font-size:.78rem;letter-spacing:.16em;
+  font-variant:small-caps;text-transform:lowercase;
+  background:linear-gradient(180deg,rgba(29,51,40,.9),rgba(11,20,16,.6));
+  transition:background-color .18s ease,border-color .18s ease;
+}
+.continue:hover,.continue:focus-visible{
+  background:var(--lierre);border-color:var(--or-faint);
+}
+
+.margin{display:grid;gap:18px}
+
+/* herbarium plate */
+.gloss{
+  position:relative;
+  padding:18px 18px 20px;
+  border:1px solid var(--mousse);
+  background:linear-gradient(155deg,#243D2F 0%,var(--lierre) 62%,#182A20 100%);
+  box-shadow:0 10px 24px rgba(0,0,0,.28),inset 0 0 0 3px rgba(11,20,16,.35);
+  clip-path:polygon(0 0,calc(100% - 18px) 0,100% 18px,100% 100%,0 100%);
+  color:var(--or-dim);
+  font-size:.92rem;line-height:1.6;
+}
+.gloss::before{
+  content:"";position:absolute;top:0;right:0;
+  width:18px;height:18px;
+  background:linear-gradient(225deg,rgba(168,168,140,.55) 0 46%,rgba(11,20,16,.75) 50%);
+  pointer-events:none;
+}
+.gloss-label{
+  display:block;margin-bottom:10px;padding-bottom:8px;
+  border-bottom:1px solid var(--mousse-line);
+  color:var(--papier);
+  font-style:italic;font-size:.76rem;letter-spacing:.08em;
+}
+.gloss strong{
+  display:inline;color:var(--or);
+  font-weight:500;font-variant:small-caps;letter-spacing:.06em;
+}
+.gloss q{
+  display:block;margin:10px 0;
+  color:var(--or-dim);font-style:italic;
+  quotes:"“" "”";
+}
+.gloss .source{
+  display:block;color:var(--papier);
+  font-size:.74rem;letter-spacing:.14em;
+  text-transform:uppercase;font-variant:small-caps;
+}
+.echo{
+  display:block;width:100%;margin-top:12px;
+  padding:7px 10px;
+  border:1px dashed var(--mousse);
+  background:rgba(11,20,16,.35);
+  color:var(--mousse-lit);
+  font:italic .78rem/1.4 "Spectral",Georgia,serif;
+  text-align:left;cursor:pointer;
+  transition:background-color .18s ease,color .18s ease;
+}
+.echo:hover,.echo:focus-visible{background:var(--lierre);color:var(--or)}
+
+.ledger{
+  margin:44px 0 0;padding-top:18px;
+  border-top:1px solid var(--mousse-line);
+  color:var(--papier);
+  font-size:.76rem;letter-spacing:.19em;
+  text-transform:uppercase;font-variant:small-caps;
+  text-align:center;
+}
+
+:focus-visible{outline:2px solid var(--or);outline-offset:3px}
+
+@media (max-width:880px){
+  .layout{grid-template-columns:1fr}
+  .margin{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+  .site-head{flex-wrap:wrap}
+  .context{margin-left:0;flex-basis:100%}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <svg class="ivy-watermark" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <g id="ivy-leaf">
+        <path d="M50 6 C57 19 61 27 68 31 C78 25 88 25 94 32 C86 41 80 47 71 49 C85 53 93 63 91 75 C79 71 69 69 61 73 C63 83 58 91 50 96 C42 91 37 83 39 73 C31 69 21 71 9 75 C7 63 15 53 29 49 C20 47 14 41 6 32 C12 25 22 25 32 31 C39 27 43 19 50 6 Z" fill="none" stroke="currentColor" stroke-width="1.1"/>
+        <path d="M50 94 L50 12 M50 90 L90 34 M50 90 L89 73 M50 90 L62 72 M50 90 L39 72 M50 90 L11 73 M50 90 L9 33" fill="none" stroke="currentColor" stroke-width=".55"/>
+      </g>
+    </defs>
+    <g color="#D9CFA4" fill="none" stroke="currentColor">
+      <ellipse cx="600" cy="450" rx="430" ry="352" stroke-width=".6" opacity=".38"/>
+      <path d="M70 870 C 250 730 330 690 470 560 S 730 350 860 220 S 1010 120 1100 70" stroke-width="1.4"/>
+      <path d="M300 700 C 240 640 220 590 232 540 M560 460 C 620 430 650 388 648 342 M820 250 C 872 232 900 196 898 158" stroke-width=".7"/>
+      <use href="#ivy-leaf" transform="translate(96 770) rotate(-24) scale(1.35)"/>
+      <use href="#ivy-leaf" transform="translate(250 660) rotate(20) scale(1.05)"/>
+      <use href="#ivy-leaf" transform="translate(410 545) rotate(-12) scale(1.25)"/>
+      <use href="#ivy-leaf" transform="translate(570 430) rotate(27) scale(1.02)"/>
+      <use href="#ivy-leaf" transform="translate(730 315) rotate(-20) scale(1.16)"/>
+      <use href="#ivy-leaf" transform="translate(890 205) rotate(13) scale(.92)"/>
+      <use href="#ivy-leaf" transform="translate(1030 118) rotate(-7) scale(.72)"/>
+      <g opacity=".45">
+        <use href="#ivy-leaf" transform="translate(150 470) rotate(64) scale(.62)"/>
+        <use href="#ivy-leaf" transform="translate(960 560) rotate(-52) scale(.7)"/>
+      </g>
+    </g>
+  </svg>
+  <span class="brand-mark" aria-hidden="true">&#9790;</span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

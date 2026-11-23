@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Notarial Baskerville";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Notarial Baskerville";src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:"Notarial Baskerville";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
+@font-face{font-family:"Notarial Display";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+
+:root{
+  --cuir:#1C120C;
+  --kraft:#332318;
+  --parchment:#D9C6A5;
+  --wax:#9E2A1F;
+  --smoke:#7A6650;
+  --smoke-text:#B8A07E;
+  --line:rgba(122,102,80,.55);
+  --line-soft:rgba(122,102,80,.30);
+  --wax-line:rgba(158,42,31,.55);
+  --parchment-line:rgba(217,198,165,.26);
+  --serif:"Notarial Baskerville",Georgia,serif;
+  --display:"Notarial Display","Notarial Baskerville",Georgia,serif;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{background:var(--cuir)}
+body{
+  margin:0;min-height:100vh;
+  color:var(--parchment);
+  font:400 16px/1.7 var(--serif);
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  background:
+    radial-gradient(110% 70% at 50% -16%,rgba(158,42,31,.10),transparent 70%),
+    radial-gradient(120% 90% at 50% 116%,rgba(51,35,24,.62),transparent 72%),
+    repeating-linear-gradient(92deg,rgba(217,198,165,.014) 0 1px,transparent 1px 8px),
+    linear-gradient(180deg,#160E09 0%,var(--cuir) 48%,#150D08 100%);
+  -webkit-font-smoothing:antialiased;
+}
+:focus-visible{outline:1px solid var(--parchment);outline-offset:3px}
+
+/* ---- header: one wax seal pressed behind the archive title ---- */
+.site-head{
+  position:relative;isolation:isolate;overflow:hidden;text-align:center;
+  padding:clamp(2.2rem,5vw,3.6rem) clamp(1rem,5vw,4rem) clamp(1.4rem,3vw,2.1rem);
+  border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(70% 150% at 50% 0%,rgba(158,42,31,.09),transparent 72%),
+    linear-gradient(180deg,rgba(51,35,24,.52),rgba(28,18,12,0));
+}
+.site-head::after{
+  content:"";position:absolute;left:12%;right:12%;bottom:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--smoke),transparent);
+  opacity:.7;pointer-events:none;
+}
+.site-head>span:not(.brand-mark){position:relative;z-index:1}
+.brand-mark{
+  position:absolute;left:50%;top:52%;
+  width:clamp(320px,58vw,560px);height:clamp(320px,58vw,560px);
+  transform:translate(-50%,-50%) rotate(9deg);
+  opacity:.08;font-size:0;line-height:0;color:transparent;
+  pointer-events:none;z-index:0;
+}
+.brand-mark svg{display:block;width:100%;height:100%;overflow:visible}
+.brand-name{
+  display:block;
+  font:400 clamp(1.7rem,4.4vw,3rem)/1.12 var(--display);
+  text-transform:uppercase;letter-spacing:.22em;
+  color:var(--parchment);
+  text-shadow:0 1px 0 rgba(0,0,0,.9),0 -1px 0 rgba(217,198,165,.12),0 6px 18px rgba(0,0,0,.6);
+}
+.context{
+  display:block;margin-top:.65rem;
+  font:400 .78rem/1.4 var(--serif);
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-transform:uppercase;letter-spacing:.3em;
+  color:var(--smoke-text);
+}
+
+/* ---- navigation: stamped index tabs ---- */
+.sections{
+  display:flex;justify-content:center;flex-wrap:wrap;
+  gap:.2rem clamp(1rem,3vw,2.8rem);
+  padding:.85rem clamp(1rem,5vw,4rem);
+  border-bottom:1px solid var(--line-soft);
+  background:linear-gradient(180deg,rgba(28,18,12,.92),rgba(28,18,12,0));
+}
+.sections a{
+  position:relative;padding:.35rem .15rem .7rem;
+  color:var(--smoke-text);text-decoration:none;
+  font:400 .78rem/1.2 var(--serif);
+  text-transform:uppercase;letter-spacing:.22em;
+  transition:color .2s ease;
+}
+.sections a::after{
+  content:"";position:absolute;left:16%;right:16%;bottom:.18rem;height:1px;
+  background:var(--wax);opacity:0;transition:opacity .2s ease;
+}
+.sections a:hover,.sections a.current{color:var(--parchment)}
+.sections a:hover::after,.sections a.current::after{opacity:.9}
+
+/* ---- opening folio ---- */
+main{max-width:1160px;margin:0 auto;padding:clamp(2rem,5vw,3.6rem) clamp(1.4rem,6vw,4.5rem) clamp(3rem,6vw,5rem)}
+.lede{
+  max-width:62ch;margin:0 auto .9rem;text-align:center;
+  font:italic 1.16rem/1.65 var(--serif);
+  color:var(--parchment);
+}
+.lede::before,.ledger::before{
+  content:"";display:block;width:180px;height:9px;margin:0 auto .7rem;
+  background:
+    linear-gradient(90deg,transparent,var(--smoke) 18%,var(--smoke) 82%,transparent) center/100% 1px no-repeat,
+    linear-gradient(45deg,transparent 45%,var(--wax) 45% 55%,transparent 55%) center/9px 9px no-repeat;
+  opacity:.8;
+}
+.kicker{
+  display:block;margin:0 0 .7rem;text-align:center;
+  font:400 .72rem/1.4 var(--serif);
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-transform:uppercase;letter-spacing:.34em;
+  color:var(--smoke-text);
+}
+h1{
+  max-width:24ch;margin:0 auto 2.6rem;text-align:center;
+  font:400 clamp(1.9rem,5vw,3.2rem)/1.18 var(--display);
+  text-transform:uppercase;letter-spacing:.16em;
+  color:var(--parchment);
+  text-shadow:0 1px 0 rgba(0,0,0,.9),0 -1px 0 rgba(217,198,165,.10);
+}
+h1::before,h1::after{
+  content:"";display:block;width:min(76%,340px);height:5px;margin:1.15rem auto;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line-soft);
+}
+
+/* ---- text column and the notarial margins ---- */
+.layout{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,352px);
+  gap:clamp(1.8rem,4.5vw,3.6rem);align-items:start;
+}
+.prose{
+  position:relative;
+  padding:0 clamp(0px,1.5vw,16px) 0 clamp(1.1rem,2.5vw,2rem);
+  border-left:1px solid var(--line);
+}
+.prose::before{
+  content:"";position:absolute;left:-3px;top:0;width:5px;height:5px;
+  border:1px solid var(--wax);transform:rotate(45deg);
+  background:var(--cuir);
+}
+.prose p{margin:0 0 1.25rem;text-align:justify;hyphens:auto}
+.prose>p:first-child:first-letter{
+  float:left;margin:.08em .12em 0 0;
+  font:400 3.6em/.76 var(--display);
+  color:var(--parchment);
+  text-shadow:0 2px 0 rgba(0,0,0,.8);
+}
+.entity{
+  position:relative;padding-left:1.15em;
+  color:var(--parchment);
+  text-transform:uppercase;letter-spacing:.08em;
+  border-bottom:1px solid var(--wax-line);
+  cursor:help;
+}
+.entity::before{
+  content:"";position:absolute;left:0;top:.3em;
+  width:10px;height:10px;
+  border-radius:52% 48% 46% 54%/48% 55% 45% 52%;
+  background:radial-gradient(circle at 32% 28%,#C4452F,var(--wax) 62%,#5E1712);
+  box-shadow:0 1px 2px rgba(0,0,0,.75),0 0 0 1px var(--parchment-line);
+}
+.proofable{border-bottom:1px dotted var(--smoke);color:var(--parchment);cursor:help}
+.proofable:hover{color:#F0E2C6}
+.entity:hover{color:#F0E2C6;border-bottom-color:var(--wax)}
+.continue{
+  display:inline-block;margin-top:.5rem;padding:.55rem 1.2rem;
+  border:1px solid var(--parchment-line);
+  background:linear-gradient(160deg,rgba(51,35,24,.9),rgba(28,18,12,.9));
+  box-shadow:inset 0 1px 0 rgba(217,198,165,.10),0 6px 14px -10px #000;
+  color:var(--parchment);text-decoration:none;
+  font:400 .78rem/1.2 var(--serif);
+  text-transform:uppercase;letter-spacing:.18em;
+  transition:border-color .2s ease,background .2s ease;
+}
+.continue:hover{border-color:var(--wax);background:linear-gradient(160deg,rgba(86,30,22,.85),rgba(51,35,24,.9))}
+
+/* ---- glosses: Kraft sheets under press ---- */
+.margin{display:grid;gap:1.4rem}
+.gloss{
+  position:relative;
+  padding:1.6rem 1.25rem 1.3rem;
+  border:1px solid var(--parchment-line);
+  background:
+    repeating-linear-gradient(135deg,rgba(217,198,165,.020) 0 1px,transparent 1px 6px),
+    repeating-linear-gradient(46deg,rgba(0,0,0,.09) 0 1px,transparent 1px 10px),
+    linear-gradient(162deg,#3B281B 0%,var(--kraft) 62%,#291B12 100%);
+  box-shadow:
+    0 16px 30px -22px rgba(0,0,0,.95),
+    inset 0 1px 0 rgba(217,198,165,.10),
+    inset 0 -16px 26px -20px rgba(0,0,0,.95);
+}
+.gloss:nth-child(2){transform:rotate(.35deg)}
+.gloss::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,transparent,var(--smoke),transparent);
+  opacity:.5;pointer-events:none;
+}
+.gloss-label{
+  display:block;margin:0 0 .9rem;padding:.3rem .4rem;
+  border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);
+  color:var(--smoke-text);
+  font:400 .68rem/1.4 var(--serif);
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-transform:uppercase;letter-spacing:.2em;
+}
+.gloss strong{
+  font-weight:500;color:var(--parchment);
+  text-transform:uppercase;letter-spacing:.1em;
+}
+.gloss q{
+  display:block;margin:.9rem 0 .7rem;padding:.1rem 0 .1rem .9rem;
+  border-left:1px solid var(--smoke);
+  font-style:italic;color:var(--parchment);
+}
+.source{
+  display:block;color:var(--smoke-text);
+  font:400 .72rem/1.4 var(--serif);
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-transform:uppercase;letter-spacing:.16em;
+}
+.echo{
+  display:inline-block;margin-top:.9rem;padding:.45rem .85rem;
+  border:1px solid var(--parchment-line);
+  background:rgba(158,42,31,.10);
+  color:var(--parchment);
+  font:400 .76rem/1.3 var(--serif);
+  text-transform:uppercase;letter-spacing:.1em;
+  cursor:pointer;transition:border-color .2s ease,background .2s ease;
+}
+.echo:hover{border-color:var(--wax);background:rgba(158,42,31,.28)}
+
+/* ---- colophon ---- */
+.ledger{
+  max-width:60ch;margin:clamp(2.4rem,5vw,3.8rem) auto 0;text-align:center;
+  color:var(--smoke-text);
+  font:400 .74rem/1.6 var(--serif);
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-transform:uppercase;letter-spacing:.2em;
+}
+
+@media (max-width:760px){
+  .brand-mark{opacity:.05;width:340px;height:340px}
+  .layout{grid-template-columns:1fr}
+  h1{letter-spacing:.1em}
+  .brand-name{letter-spacing:.14em}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="seal-wax-28" x1=".08" y1="0" x2=".92" y2="1">
+        <stop offset="0" stop-color="#D9C6A5"/>
+        <stop offset=".3" stop-color="#9E2A1F"/>
+        <stop offset=".72" stop-color="#6E1B14"/>
+        <stop offset="1" stop-color="#D9C6A5"/>
+      </linearGradient>
+      <radialGradient id="seal-press-28" cx=".38" cy=".3" r=".74">
+        <stop offset="0" stop-color="#D9C6A5" stop-opacity=".5"/>
+        <stop offset=".58" stop-color="#9E2A1F" stop-opacity=".12"/>
+        <stop offset="1" stop-color="#1C120C" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <path d="M200 36 C228 34 248 46 270 50 C292 54 312 46 328 60 C344 74 338 98 350 118 C362 138 372 154 368 178 C364 202 350 218 350 242 C350 266 360 284 348 304 C336 324 312 320 292 332 C272 344 254 360 230 358 C206 356 186 344 162 346 C138 348 116 360 96 348 C76 336 82 312 72 292 C62 272 46 256 48 232 C50 208 64 192 62 168 C60 144 48 126 60 106 C72 86 96 92 116 80 C136 68 150 48 174 44 C184 42 192 38 200 36 Z" fill="url(#seal-wax-28)"/>
+    <path d="M150 342 C148 358 154 370 163 370 C173 370 179 358 178 344 Z M296 320 C306 334 316 336 321 330 C326 324 318 314 306 308 Z M74 288 C62 296 56 308 62 313 C68 318 78 310 84 298 Z" fill="url(#seal-wax-28)"/>
+    <path d="M200 36 C228 34 248 46 270 50 C292 54 312 46 328 60 C344 74 338 98 350 118 C362 138 372 154 368 178 C364 202 350 218 350 242 C350 266 360 284 348 304 C336 324 312 320 292 332 C272 344 254 360 230 358 C206 356 186 344 162 346 C138 348 116 360 96 348 C76 336 82 312 72 292 C62 272 46 256 48 232 C50 208 64 192 62 168 C60 144 48 126 60 106 C72 86 96 92 116 80 C136 68 150 48 174 44 C184 42 192 38 200 36 Z" fill="url(#seal-press-28)"/>
+    <g fill="none" stroke="#D9C6A5" stroke-linecap="round">
+      <circle cx="200" cy="200" r="124" stroke-width="4" opacity=".7"/>
+      <circle cx="200" cy="200" r="111" stroke-width="1.6" opacity=".55"/>
+      <circle cx="200" cy="200" r="100" stroke-width="1" opacity=".3"/>
+      <path d="M200 128 L272 200 L200 272 L128 200 Z" stroke-width="3" opacity=".8"/>
+      <path d="M174 160 V240 H232" stroke-width="9" opacity=".9"/>
+      <circle cx="226" cy="172" r="22" stroke-width="7" opacity=".9"/>
+      <path d="M156 200 H244 M200 156 V244" stroke-width="1" opacity=".35"/>
+    </g>
+    <g fill="#D9C6A5" opacity=".7">
+      <circle cx="200" cy="76" r="3"/><circle cx="246" cy="88" r="3"/><circle cx="288" cy="114" r="3"/>
+      <circle cx="316" cy="154" r="3"/><circle cx="324" cy="200" r="3"/><circle cx="314" cy="246" r="3"/>
+      <circle cx="286" cy="288" r="3"/><circle cx="244" cy="312" r="3"/><circle cx="200" cy="324" r="3"/>
+      <circle cx="154" cy="312" r="3"/><circle cx="112" cy="288" r="3"/><circle cx="84" cy="246" r="3"/>
+      <circle cx="76" cy="200" r="3"/><circle cx="86" cy="154" r="3"/><circle cx="114" cy="114" r="3"/>
+      <circle cx="154" cy="88" r="3"/>
+    </g>
+  </svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

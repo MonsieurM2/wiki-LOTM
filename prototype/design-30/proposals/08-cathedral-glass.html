@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{
+  font-family:"Cormorant";
+  src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");
+  font-style:normal;font-weight:400;font-display:swap;
+}
+@font-face{
+  font-family:"Cormorant";
+  src:url("../../immersion/fonts/cormorant-italic.woff2") format("woff2");
+  font-style:italic;font-weight:400;font-display:swap;
+}
+@font-face{
+  font-family:"Spectral";
+  src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");
+  font-style:normal;font-weight:500;font-display:swap;
+}
+
+:root{
+  --nef:#0A0910;
+  --saphir:#3757C4;
+  --grenat:#9E2737;
+  --emeraude:#1B7A62;
+  --etain:#E8E2D0;
+  --etain-dim:rgba(232,226,208,.74);
+  --etain-faint:rgba(232,226,208,.48);
+  --lead-line:rgba(232,226,208,.16);
+  --saphir-lit:#A8BAFF;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--nef);
+  background-image:
+    radial-gradient(ellipse 72% 52% at 6% -10%,rgba(55,87,196,.17),transparent 68%),
+    radial-gradient(ellipse 56% 46% at 98% 2%,rgba(158,39,55,.14),transparent 70%),
+    radial-gradient(ellipse 64% 56% at 104% 104%,rgba(27,122,98,.11),transparent 72%),
+    radial-gradient(ellipse 70% 50% at 50% 116%,rgba(55,87,196,.07),transparent 66%);
+  color:var(--etain);
+  font-family:"Cormorant",Georgia,serif;
+  font-size:16px;
+  line-height:1.65;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--emeraude);color:var(--etain)}
+a{color:inherit}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{
+  outline:1px solid var(--saphir-lit);
+  outline-offset:4px;
+  box-shadow:0 0 14px rgba(55,87,196,.55);
+}
+.site-head,.sections,main{position:relative;z-index:1}
+
+/* ---- Filigrane unique : treillis de plomb, losanges inégaux, nœuds de soudure ---- */
+.glass-filigrane{
+  position:fixed;
+  inset:0;
+  width:100%;
+  height:100%;
+  opacity:.13;
+  pointer-events:none;
+  z-index:0;
+}
+
+/* ---- En-tête : verre dormante sertie de plomb ---- */
+.site-head{
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:16px 28px;
+  min-height:158px;
+  padding:26px clamp(20px,5vw,64px);
+  border-bottom:3px solid rgba(232,226,208,.1);
+  box-shadow:0 1px 0 var(--nef),0 0 34px -18px rgba(55,87,196,.7);
+  background:linear-gradient(180deg,rgba(55,87,196,.09),rgba(10,9,16,.2) 55%,rgba(158,39,55,.07));
+}
+.site-head > span{position:relative;z-index:1}
+.brand-mark{
+  display:inline-grid;
+  place-items:center;
+  flex:0 0 auto;
+  width:52px;
+  height:52px;
+  border-radius:50%;
+  background:var(--nef);
+  border:3px solid rgba(232,226,208,.62);
+  box-shadow:
+    inset 0 0 0 3px var(--nef),
+    inset 0 0 0 4px rgba(55,87,196,.8),
+    0 0 0 2px var(--nef),
+    0 0 22px rgba(55,87,196,.45);
+  color:var(--etain);
+  font-size:25px;
+  line-height:1;
+  text-shadow:0 0 14px rgba(158,39,55,.8);
+}
+.brand-name{
+  flex:1 1 auto;
+  font-family:"Spectral",Georgia,serif;
+  font-size:clamp(14px,1.7vw,20px);
+  font-weight:500;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  color:var(--etain);
+  text-shadow:0 0 22px rgba(158,39,55,.45);
+}
+.context{
+  font-family:"Spectral",Georgia,serif;
+  font-size:10px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--etain-dim);
+  font-variant-numeric:tabular-nums;
+}
+
+/* ---- Sommaire : came verticale et nœuds soudés ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  gap:clamp(20px,3.4vw,54px);
+  padding:0 clamp(20px,5vw,64px);
+  background:rgba(10,9,16,.82);
+  border-bottom:1px solid var(--lead-line);
+  box-shadow:0 16px 30px -28px #000;
+}
+.sections a{
+  position:relative;
+  display:inline-block;
+  padding:15px 2px 14px;
+  font-family:"Spectral",Georgia,serif;
+  font-size:10px;
+  font-weight:500;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--etain-dim);
+  transition:color .2s ease;
+}
+.sections a::before{
+  content:"";
+  position:absolute;
+  left:-15px;
+  top:50%;
+  width:4px;
+  height:24px;
+  transform:translateY(-50%);
+  background:
+    radial-gradient(circle at 50% 1px,rgba(232,226,208,.9) 0 1.6px,transparent 2.2px),
+    radial-gradient(circle at 50% calc(100% - 1px),rgba(232,226,208,.9) 0 1.6px,transparent 2.2px),
+    linear-gradient(180deg,transparent,rgba(232,226,208,.5) 28%,rgba(232,226,208,.5) 72%,transparent);
+}
+.sections a:hover{color:var(--etain)}
+.sections .current{
+  color:var(--etain);
+  filter:drop-shadow(0 0 7px rgba(27,122,98,.95)) drop-shadow(0 0 18px rgba(27,122,98,.5));
+}
+.sections .current::before{
+  background:
+    radial-gradient(circle at 50% 1px,var(--etain) 0 1.8px,transparent 2.4px),
+    radial-gradient(circle at 50% calc(100% - 1px),var(--etain) 0 1.8px,transparent 2.4px),
+    linear-gradient(180deg,transparent,var(--emeraude) 28%,var(--emeraude) 72%,transparent);
+}
+
+/* ---- Chapitre ---- */
+main{
+  max-width:1180px;
+  margin:0 auto;
+  padding:clamp(32px,6vw,70px) clamp(20px,5vw,64px) 80px;
+}
+.lede{
+  margin:0 0 24px;
+  padding-left:18px;
+  border-left:3px solid var(--saphir);
+  font-size:clamp(17px,1.9vw,21px);
+  font-style:italic;
+  color:var(--etain);
+  box-shadow:-10px 0 24px -18px rgba(55,87,196,.9);
+}
+.kicker{
+  margin:0 0 12px;
+  font-family:"Spectral",Georgia,serif;
+  font-size:10px;
+  font-weight:500;
+  letter-spacing:.3em;
+  text-transform:uppercase;
+  color:var(--etain-dim);
+}
+.kicker::before{
+  content:"\25C6";
+  margin-right:10px;
+  color:var(--emeraude);
+  text-shadow:0 0 10px rgba(27,122,98,.9);
+}
+h1{
+  margin:0 0 clamp(28px,4vw,46px);
+  padding-bottom:18px;
+  border-bottom:1px solid var(--lead-line);
+  font-family:"Spectral",Georgia,serif;
+  font-size:clamp(26px,4vw,44px);
+  font-weight:500;
+  line-height:1.22;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  background:linear-gradient(100deg,#9E2737 0%,#C9636B 30%,#E8E2D0 58%,#9E2737 100%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  filter:drop-shadow(0 2px 12px rgba(158,39,55,.4));
+}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(260px,340px);
+  gap:clamp(28px,4vw,60px);
+  align-items:start;
+}
+.prose p{margin:0 0 1.45em}
+
+/* ---- Lettrine cerclée de plomb ---- */
+.prose p:first-of-type::first-letter{
+  float:left;
+  margin:.06em .16em 0 0;
+  padding:.06em .16em .02em;
+  font-family:"Spectral",Georgia,serif;
+  font-size:3.1em;
+  line-height:.86;
+  color:var(--etain);
+  border:2px solid rgba(232,226,208,.6);
+  border-radius:50%;
+  box-shadow:
+    inset 0 0 0 3px var(--nef),
+    inset 0 0 0 4px rgba(55,87,196,.75),
+    0 0 20px rgba(55,87,196,.28);
+  text-shadow:0 0 12px rgba(158,39,55,.6);
+}
+
+.entity{
+  cursor:pointer;
+  color:var(--saphir-lit);
+  border-bottom:1px solid rgba(55,87,196,.9);
+  background:linear-gradient(180deg,transparent 64%,rgba(55,87,196,.22) 64%);
+  text-shadow:0 0 12px rgba(55,87,196,.55);
+  transition:background-color .2s ease;
+}
+.entity:hover,.entity:focus-visible{background-color:rgba(55,87,196,.3)}
+
+.proofable{
+  cursor:pointer;
+  color:var(--etain);
+  background:linear-gradient(180deg,transparent 60%,rgba(27,122,98,.32) 60%);
+  box-shadow:inset 0 -1px 0 rgba(27,122,98,.95);
+  transition:background-color .2s ease;
+}
+.proofable:hover,.proofable:focus-visible{background-color:rgba(27,122,98,.3)}
+
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding-top:16px;
+  border-top:1px solid var(--lead-line);
+  font-family:"Spectral",Georgia,serif;
+  font-size:10px;
+  font-weight:500;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--etain);
+  transition:color .2s ease;
+}
+/* nœud de soudure SVG qui scelle le lien */
+.continue::after{
+  content:"";
+  display:inline-block;
+  width:14px;
+  height:14px;
+  margin-left:9px;
+  vertical-align:-2px;
+  background:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2020%2020'%3E%3Cpath%20d='M10%201%2019%2010%2010%2019%201%2010Z'%20fill='none'%20stroke='%233757C4'%20stroke-width='1.6'/%3E%3Ccircle%20cx='10'%20cy='10'%20r='2.6'%20fill='%231B7A62'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+.continue:hover{color:var(--saphir-lit)}
+
+/* ---- Marge : éclats irréguliers déformés par feTurbulence ---- */
+.margin{
+  position:relative;
+  padding:clamp(18px,2.6vw,28px);
+  background:linear-gradient(155deg,rgba(55,87,196,.1),rgba(10,9,16,.72) 42%,rgba(158,39,55,.08));
+  border:1px solid var(--lead-line);
+  box-shadow:
+    inset 0 0 0 4px var(--nef),
+    inset 0 0 0 5px rgba(232,226,208,.15),
+    0 24px 50px -34px #000;
+}
+.margin::before{
+  content:"";
+  position:absolute;
+  inset:5px;
+  pointer-events:none;
+  opacity:.3;
+  filter:url(#glass-grain);
+  background:url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='160'%20height='130'%3E%3Cdefs%3E%3Cpattern%20id='s'%20width='160'%20height='130'%20patternUnits='userSpaceOnUse'%3E%3Cpath%20d='M0%2028%2042%200%20100%2020%20160%200v72l-52%2028-58-16L0%20120Z'%20fill='%233757C4'/%3E%3Cpath%20d='M0%2028%2042%200%2052%2058%2010%2084Z'%20fill='%239E2737'/%3E%3Cpath%20d='M100%2020%20160%200v72l-52%2028Z'%20fill='%231B7A62'/%3E%3C/pattern%3E%3C/defs%3E%3Crect%20width='160'%20height='130'%20fill='url(%23s)'/%3E%3C/svg%3E") repeat;
+}
+.gloss{
+  position:relative;
+  z-index:1;
+  padding:16px 16px 17px;
+  background:linear-gradient(145deg,rgba(55,87,196,.2),rgba(10,9,16,.5) 38%,rgba(158,39,55,.15) 72%,rgba(27,122,98,.14));
+  border:3px solid var(--nef);
+  box-shadow:
+    inset 0 0 0 1px var(--etain),
+    0 16px 34px -26px #000;
+}
+.gloss + .gloss{margin-top:22px}
+.gloss-label{
+  display:block;
+  margin:-16px -16px 13px;
+  padding:8px 13px;
+  background:rgba(10,9,16,.9);
+  border-bottom:1px solid var(--lead-line);
+  font-family:"Spectral",Georgia,serif;
+  font-size:10px;
+  font-weight:500;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--etain-dim);
+}
+.gloss-label::before{
+  content:"\25C6";
+  margin-right:8px;
+  color:var(--emeraude);
+}
+.gloss strong{
+  color:var(--etain);
+  font-weight:400;
+  letter-spacing:.04em;
+  text-shadow:0 0 14px rgba(55,87,196,.75);
+}
+.gloss q{
+  display:block;
+  margin:10px 0;
+  padding-left:11px;
+  border-left:2px solid var(--emeraude);
+  font-style:italic;
+  color:var(--etain-dim);
+}
+.source{
+  display:block;
+  font-family:"Spectral",Georgia,serif;
+  font-size:10px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--etain-faint);
+  font-variant-numeric:tabular-nums;
+}
+.echo{
+  display:block;
+  width:100%;
+  margin-top:15px;
+  padding:9px 11px;
+  font:inherit;
+  font-family:"Spectral",Georgia,serif;
+  font-size:10px;
+  letter-spacing:.08em;
+  text-align:left;
+  color:var(--etain);
+  background:rgba(10,9,16,.6);
+  border:1px solid rgba(232,226,208,.35);
+  cursor:pointer;
+  transition:background-color .2s ease,box-shadow .2s ease;
+}
+.echo:hover{
+  background:rgba(27,122,98,.2);
+  box-shadow:0 0 18px -4px rgba(27,122,98,.75);
+}
+
+.ledger{
+  margin:clamp(40px,6vw,70px) 0 0;
+  padding-top:18px;
+  border-top:1px solid var(--lead-line);
+  font-family:"Spectral",Georgia,serif;
+  font-size:10px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--etain-faint);
+  font-variant-numeric:tabular-nums;
+}
+
+@media (max-width:760px){
+  .layout{grid-template-columns:1fr}
+  .glass-filigrane{opacity:.09}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;</span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+  <svg class="glass-filigrane" viewBox="0 0 960 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <pattern id="lead-lattice" width="180" height="140" patternUnits="userSpaceOnUse" patternTransform="rotate(-7)">
+        <path d="M90 0 180 70 90 140 0 70Z" fill="none" stroke="#E8E2D0" stroke-width="1"/>
+        <path d="M0 0 90 70 180 0M0 140 90 70 180 140" fill="none" stroke="#E8E2D0" stroke-width=".7" opacity=".7"/>
+        <circle cx="90" cy="70" r="3" fill="#0A0910" stroke="#E8E2D0" stroke-width="1.3"/>
+        <circle cx="0" cy="70" r="2.4" fill="#0A0910" stroke="#E8E2D0" stroke-width="1"/>
+        <circle cx="180" cy="70" r="2.4" fill="#0A0910" stroke="#E8E2D0" stroke-width="1"/>
+      </pattern>
+      <linearGradient id="jewel-blue" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#3757C4" stop-opacity=".5"/>
+        <stop offset="1" stop-color="#0A0910" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="jewel-red" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#9E2737" stop-opacity=".5"/>
+        <stop offset="1" stop-color="#0A0910" stop-opacity="0"/>
+      </linearGradient>
+      <linearGradient id="jewel-green" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#1B7A62" stop-opacity=".45"/>
+        <stop offset="1" stop-color="#0A0910" stop-opacity="0"/>
+      </linearGradient>
+      <filter id="glass-grain" x="-10%" y="-10%" width="120%" height="120%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.014 0.032" numOctaves="3" seed="7" result="warp"/>
+        <feDisplacementMap in="SourceGraphic" in2="warp" scale="18" xChannelSelector="R" yChannelSelector="G"/>
+      </filter>
+    </defs>
+    <rect width="960" height="600" fill="url(#lead-lattice)" opacity=".55"/>
+    <g fill="none" stroke="#E8E2D0" stroke-width="1.4" opacity=".8">
+      <path d="M120 30 258 148 132 286-8 166Z"/>
+      <path d="M432-24 604 92 470 246 296 118Z"/>
+      <path d="M764 48 944 196 802 344 636 208Z"/>
+      <path d="M300 356 462 472 330 626 166 500Z"/>
+      <path d="M668 382 844 476 720 646 556 542Z"/>
+    </g>
+    <g opacity=".8">
+      <path d="M120 30 258 148 132 286Z" fill="url(#jewel-blue)"/>
+      <path d="M432-24 604 92 470 246Z" fill="url(#jewel-red)"/>
+      <path d="M764 48 944 196 802 344Z" fill="url(#jewel-green)"/>
+      <path d="M300 356 462 472 330 626Z" fill="url(#jewel-blue)"/>
+      <path d="M668 382 844 476 720 646Z" fill="url(#jewel-red)"/>
+    </g>
+    <g fill="#0A0910" stroke="#E8E2D0" stroke-width="2">
+      <circle cx="132" cy="148" r="5"/>
+      <circle cx="470" cy="92" r="5.5"/>
+      <circle cx="802" cy="196" r="4.5"/>
+      <circle cx="330" cy="472" r="5"/>
+      <circle cx="720" cy="476" r="5"/>
+      <circle cx="258" cy="148" r="3"/>
+      <circle cx="604" cy="92" r="3"/>
+      <circle cx="944" cy="196" r="3"/>
+    </g>
+  </svg>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

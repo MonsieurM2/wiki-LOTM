@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+
+:root{
+  --abysse:#07181C;
+  --teal:#0D3B40;
+  --sel:#E4E1D3;
+  --brume:#78989A;
+  --laiton:#C2A468;
+  --brume-ln:rgba(120,152,154,.55);
+  --brume-dim:rgba(120,152,154,.26);
+  --laiton-ln:rgba(194,164,104,.6);
+  --laiton-dim:rgba(194,164,104,.28);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--abysse);
+  background-image:
+    radial-gradient(ellipse 90% 46% at 50% -6%,rgba(13,59,64,.55),transparent 72%),
+    radial-gradient(ellipse 55% 42% at 4% 96%,rgba(120,152,154,.09),transparent 76%),
+    radial-gradient(ellipse 55% 42% at 98% 74%,rgba(13,59,64,.35),transparent 78%),
+    repeating-linear-gradient(0deg,transparent 0 5px,rgba(228,225,211,.012) 5px 6px);
+  color:var(--sel);
+  font-family:"Spectral",Georgia,serif;
+  font-size:16px;
+  line-height:1.7;
+  font-variant-numeric:lining-nums tabular-nums;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--teal);color:var(--sel)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:1px solid var(--laiton);outline-offset:3px}
+
+/* ---- En-tête : rose des vents en filigrane ---- */
+.site-head{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px 28px;
+  min-height:172px;
+  padding:26px clamp(20px,5vw,64px);
+  border-bottom:1px solid var(--laiton-ln);
+  background:linear-gradient(180deg,rgba(13,59,64,.42),rgba(7,24,28,.2));
+  box-shadow:0 18px 36px -32px #000;
+  overflow:hidden;
+}
+.site-head::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:0;
+  height:5px;
+  border-top:1px solid var(--laiton-dim);
+  border-bottom:1px solid var(--brume-dim);
+  pointer-events:none;
+}
+.site-head>span:not(.brand-mark){position:relative;z-index:1}
+.brand-mark{
+  position:absolute;
+  top:50%;
+  right:clamp(4px,5vw,80px);
+  width:200px;
+  height:200px;
+  transform:translateY(-50%);
+  opacity:.08;
+  color:transparent;
+  font-size:0;
+  line-height:0;
+  pointer-events:none;
+  z-index:0;
+}
+.brand-mark svg{position:absolute;inset:0;width:100%;height:100%;display:block;overflow:visible}
+.brand-name{
+  font-variant:small-caps;
+  font-size:clamp(1.65rem,3.1vw,2.5rem);
+  letter-spacing:.2em;
+  line-height:1.12;
+  color:var(--sel);
+  text-shadow:0 1px 0 rgba(0,0,0,.7);
+}
+.context{
+  font-style:italic;
+  font-size:.9rem;
+  letter-spacing:.14em;
+  font-variant-numeric:tabular-nums;
+  color:var(--brume);
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:clamp(16px,3vw,46px);
+  padding:12px 24px;
+  border-bottom:1px solid var(--brume-dim);
+  background:rgba(7,24,28,.78);
+}
+.sections a{
+  font-variant:small-caps;
+  font-size:1.12rem;
+  letter-spacing:.2em;
+  text-decoration:none;
+  color:var(--brume);
+  padding:3px 1px;
+  border-bottom:1px solid transparent;
+  transition:color .18s,border-color .18s;
+}
+.sections a:hover,.sections a:focus-visible{color:var(--laiton);border-bottom-color:var(--laiton-ln)}
+.sections a.current{color:var(--sel);border-bottom:1px solid var(--laiton)}
+
+/* ---- Contenu ---- */
+main{max-width:1180px;margin:0 auto;padding:clamp(34px,5vw,66px) clamp(20px,5vw,56px) 72px}
+.lede{
+  position:relative;
+  max-width:760px;
+  margin:0 auto 32px;
+  padding:14px 0;
+  text-align:center;
+  font-style:italic;
+  font-size:clamp(1.22rem,2vw,1.55rem);
+  line-height:1.5;
+  color:var(--sel);
+}
+.lede::before,.lede::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:66px;
+  height:1px;
+  transform:translateX(-50%);
+  background:var(--laiton);
+}
+.lede::before{top:0}
+.lede::after{bottom:0}
+.kicker{
+  text-align:center;
+  font-variant:small-caps;
+  font-size:1rem;
+  letter-spacing:.32em;
+  color:var(--laiton);
+  margin-bottom:10px;
+}
+.kicker::before,.kicker::after{
+  content:"";
+  display:inline-block;
+  width:32px;
+  height:1px;
+  vertical-align:middle;
+  margin:0 14px;
+  background:var(--laiton-ln);
+}
+h1{
+  position:relative;
+  margin:0 0 48px;
+  padding-bottom:24px;
+  text-align:center;
+  font-weight:400;
+  font-variant:small-caps;
+  letter-spacing:.15em;
+  font-size:clamp(2.5rem,6vw,4.2rem);
+  line-height:1.08;
+  color:var(--sel);
+  text-shadow:0 -1px 0 rgba(0,0,0,.75);
+}
+h1::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  width:132px;
+  height:4px;
+  transform:translateX(-50%);
+  border-top:1px solid var(--laiton);
+  border-bottom:1px solid var(--laiton-dim);
+}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(290px,350px);gap:clamp(30px,4vw,58px);align-items:start}
+
+/* ---- Prose ---- */
+.prose{color:var(--sel);text-align:justify;hyphens:auto}
+.prose p{margin:0 0 1.5em}
+.entity{
+  color:var(--sel);
+  border-bottom:1px solid var(--laiton);
+  padding-bottom:1px;
+  cursor:pointer;
+  transition:background .18s,color .18s;
+}
+.entity:hover,.entity:focus-visible{
+  background:rgba(13,59,64,.85);
+  color:var(--sel);
+  outline:1px solid var(--brume-ln);
+  outline-offset:3px;
+}
+.proofable{
+  cursor:pointer;
+  padding:0 3px;
+  background:linear-gradient(180deg,transparent 55%,rgba(120,152,154,.42) 55%);
+  box-shadow:inset 0 -1px 0 var(--laiton-ln);
+  transition:background .18s;
+}
+.proofable:hover,.proofable:focus-visible{
+  background:linear-gradient(180deg,rgba(13,59,64,.5),rgba(120,152,154,.6));
+  outline:1px solid var(--brume-ln);
+  outline-offset:2px;
+}
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding:10px 20px;
+  font-variant:small-caps;
+  font-size:1.1rem;
+  letter-spacing:.18em;
+  text-decoration:none;
+  color:var(--laiton);
+  border:1px solid var(--laiton-ln);
+  outline:1px solid var(--laiton-dim);
+  outline-offset:3px;
+  background:rgba(13,59,64,.45);
+  transition:background .2s,color .2s;
+}
+.continue:hover,.continue:focus-visible{background:var(--laiton);color:var(--abysse);outline:none}
+
+/* ---- Marginales : fiches en carte marine ---- */
+.margin{padding-top:6px}
+.gloss{
+  position:relative;
+  margin:0 0 24px;
+  padding:16px 18px 18px;
+  border:1px solid var(--brume);
+  background:linear-gradient(145deg,rgba(13,59,64,.72),var(--abysse) 78%);
+  box-shadow:inset 0 1px 0 var(--laiton-ln),0 14px 28px -24px #000;
+  font-size:16px;
+  line-height:1.6;
+  color:var(--sel);
+  text-align:left;
+}
+.gloss::after{
+  content:"31°12′ N · 29°55′ E";
+  position:absolute;
+  right:12px;
+  bottom:7px;
+  font-size:.72rem;
+  letter-spacing:.12em;
+  font-variant-numeric:tabular-nums;
+  color:var(--brume);
+  opacity:.8;
+}
+.gloss:nth-child(2)::after{content:"32°04′ N · 31°13′ E"}
+.gloss-label{
+  display:block;
+  margin-bottom:8px;
+  font-variant:small-caps;
+  font-size:1rem;
+  letter-spacing:.16em;
+  font-variant-numeric:tabular-nums;
+  color:var(--brume);
+}
+.gloss strong{
+  display:inline-block;
+  font-weight:500;
+  font-size:1.45rem;
+  letter-spacing:.03em;
+  color:var(--sel);
+  border-bottom:1px solid var(--laiton);
+  padding-bottom:2px;
+}
+.gloss strong::first-letter{color:var(--sel)}
+.gloss q{
+  display:block;
+  margin:10px 0 9px;
+  padding-left:12px;
+  border-left:1px solid var(--laiton-ln);
+  font-style:italic;
+  color:var(--brume);
+}
+.source{
+  display:block;
+  font-style:italic;
+  font-size:.95rem;
+  letter-spacing:.05em;
+  color:var(--brume);
+}
+.echo{
+  margin-top:16px;
+  padding:7px 11px;
+  font-family:inherit;
+  font-variant:small-caps;
+  letter-spacing:.13em;
+  font-size:1rem;
+  color:var(--brume);
+  background:transparent;
+  border:1px solid var(--brume-ln);
+  cursor:pointer;
+  transition:background .18s,color .18s;
+}
+.echo:hover,.echo:focus-visible{background:var(--teal);color:var(--sel);border-color:var(--laiton-ln);outline:none}
+.echo:focus-visible{outline:1px solid var(--laiton);outline-offset:2px}
+
+.ledger{
+  margin:52px 0 0;
+  padding-top:20px;
+  border-top:3px double var(--laiton-ln);
+  text-align:center;
+  font-variant:small-caps;
+  letter-spacing:.2em;
+  font-size:1.06rem;
+  color:var(--laiton);
+}
+
+@media (max-width:860px){
+  .site-head{min-height:132px}
+  .brand-mark{width:132px;height:132px;right:8px}
+  .context{width:100%;text-align:center}
+  .layout{grid-template-columns:1fr}
+  .margin{margin-top:10px;border-top:1px solid var(--brume-dim)}
+  .prose{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true">
+    <g fill="none" stroke="#C2A468">
+      <circle cx="150" cy="150" r="141" stroke-width=".6"/>
+      <circle cx="150" cy="150" r="128" stroke-width=".4"/>
+      <circle cx="150" cy="150" r="97" stroke-width=".6"/>
+      <circle cx="150" cy="150" r="42" stroke-width=".5"/>
+      <circle cx="150" cy="150" r="10" stroke-width=".7"/>
+    </g>
+    <g fill="none" stroke="#78989A" stroke-width=".55" opacity=".9">
+      <line x1="150" y1="9" x2="150" y2="19"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(15 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(30 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(45 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(60 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(75 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(90 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(105 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(120 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(135 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(150 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(165 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(180 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(195 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(210 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(225 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(240 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(255 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(270 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(285 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(300 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(315 150 150)"/>
+      <line x1="150" y1="9" x2="150" y2="19" transform="rotate(330 150 150)"/><line x1="150" y1="9" x2="150" y2="19" transform="rotate(345 150 150)"/>
+    </g>
+    <g fill="none" stroke="#78989A" stroke-width=".5" opacity=".65">
+      <path d="M150 8 V292 M8 150 H292 M45 45 L255 255 M255 45 L45 255"/>
+    </g>
+    <g fill="#C2A468" opacity=".9">
+      <path d="M150 13 L158 150 L150 139 L142 150 Z"/>
+      <path d="M150 13 L158 150 L150 139 L142 150 Z" transform="rotate(90 150 150)"/>
+      <path d="M150 13 L158 150 L150 139 L142 150 Z" transform="rotate(180 150 150)"/>
+      <path d="M150 13 L158 150 L150 139 L142 150 Z" transform="rotate(270 150 150)"/>
+      <path d="M150 55 L156 150 L150 142 L144 150 Z" transform="rotate(45 150 150)"/>
+      <path d="M150 55 L156 150 L150 142 L144 150 Z" transform="rotate(135 150 150)"/>
+      <path d="M150 55 L156 150 L150 142 L144 150 Z" transform="rotate(225 150 150)"/>
+      <path d="M150 55 L156 150 L150 142 L144 150 Z" transform="rotate(315 150 150)"/>
+    </g>
+    <circle cx="150" cy="150" r="4" fill="#07181C" stroke="#C2A468" stroke-width=".8"/>
+  </svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

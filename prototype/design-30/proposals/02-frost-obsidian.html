@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+
+:root{
+  --obsidian:#0B1018;
+  --nuit:#141E2E;
+  --argent:#B8C6D6;
+  --lune:#E6EDF5;
+  --frost:#6FA8C4;
+  --soft:#C3D2E0;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--obsidian);
+  background-image:
+    radial-gradient(ellipse 70% 45% at 12% 0%,rgba(111,168,196,.08),transparent 70%),
+    radial-gradient(ellipse 60% 50% at 92% 82%,rgba(184,198,214,.06),transparent 72%),
+    repeating-conic-gradient(from 45deg at 50% 22%,rgba(184,198,214,.014) 0deg 2deg,transparent 2deg 10deg);
+  color:var(--lune);
+  font-family:"Spectral",Georgia,serif;
+  font-size:17px;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--frost);color:var(--obsidian)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--frost);outline-offset:3px}
+
+/* ---- En-tête : cristal en filigrane ---- */
+.site-head{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px 28px;
+  min-height:168px;
+  padding:26px clamp(20px,5vw,64px);
+  border-bottom:1px solid rgba(184,198,214,.35);
+  background:
+    linear-gradient(180deg,rgba(111,168,196,.07),rgba(11,16,24,0)),
+    repeating-conic-gradient(from 0deg at 78% 50%,rgba(111,168,196,.022) 0deg 3deg,transparent 3deg 14deg);
+  box-shadow:0 18px 40px -32px #000;
+  overflow:hidden;
+}
+.site-head::after{
+  content:"";
+  position:absolute;
+  left:clamp(20px,5vw,64px);
+  right:clamp(20px,5vw,64px);
+  bottom:-1px;
+  height:1px;
+  background:linear-gradient(90deg,var(--frost),transparent 45%,transparent 55%,var(--frost));
+  opacity:.5;
+  pointer-events:none;
+}
+.site-head>span:not(.brand-mark){position:relative;z-index:1}
+.brand-mark{
+  position:absolute;
+  top:50%;
+  right:clamp(10px,7vw,110px);
+  width:190px;
+  height:190px;
+  transform:translateY(-50%);
+  opacity:.12;
+  font-size:0;
+  color:transparent;
+  line-height:0;
+  pointer-events:none;
+  z-index:0;
+}
+.brand-mark svg{position:absolute;inset:0;width:100%;height:100%;display:block;overflow:visible}
+.brand-name{
+  font-family:"Spectral",Georgia,serif;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  font-size:clamp(1.2rem,2.5vw,1.9rem);
+  line-height:1.25;
+  color:var(--lune);
+  text-shadow:0 0 26px rgba(111,168,196,.22);
+}
+.context{
+  font-family:"Spectral",Georgia,serif;
+  font-style:italic;
+  font-size:.88rem;
+  letter-spacing:.12em;
+  color:var(--argent);
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:clamp(16px,3vw,44px);
+  padding:14px 24px;
+  border-bottom:1px solid rgba(184,198,214,.22);
+  background:rgba(20,30,46,.62);
+}
+.sections a{
+  font-family:"Spectral",Georgia,serif;
+  font-size:.82rem;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.22em;
+  text-decoration:none;
+  color:var(--argent);
+  padding:4px 1px;
+  border-bottom:1px solid transparent;
+  transition:color .2s,border-color .2s;
+}
+.sections a:hover,.sections a:focus-visible{color:var(--lune);border-bottom-color:var(--frost)}
+.sections a.current{color:var(--lune);border-bottom-color:var(--frost);text-shadow:0 0 14px rgba(111,168,196,.4)}
+
+/* ---- Contenu ---- */
+main{max-width:1160px;margin:0 auto;padding:clamp(34px,5vw,64px) clamp(20px,5vw,56px) 74px}
+.lede{
+  position:relative;
+  max-width:720px;
+  margin:0 auto 30px;
+  padding:16px 0;
+  text-align:center;
+  font-style:italic;
+  font-size:clamp(1.15rem,1.9vw,1.45rem);
+  line-height:1.55;
+  color:var(--soft);
+}
+.lede::before,.lede::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:7px;
+  height:7px;
+  transform:translateX(-50%) rotate(45deg);
+  border:1px solid var(--frost);
+}
+.lede::before{top:0}
+.lede::after{bottom:0}
+.kicker{
+  text-align:center;
+  font-size:.76rem;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.34em;
+  color:var(--frost);
+  margin-bottom:10px;
+}
+.kicker::before,.kicker::after{
+  content:"";
+  display:inline-block;
+  width:30px;
+  height:1px;
+  vertical-align:middle;
+  margin:0 14px;
+  background:rgba(184,198,214,.55);
+}
+h1{
+  position:relative;
+  margin:0 0 48px;
+  padding-bottom:24px;
+  text-align:center;
+  font-family:"Spectral",Georgia,serif;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  font-size:clamp(2rem,5.4vw,3.6rem);
+  line-height:1.15;
+  color:var(--lune);
+  text-shadow:0 0 34px rgba(111,168,196,.18);
+}
+h1::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  width:min(220px,60%);
+  height:1px;
+  transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--argent),transparent);
+}
+h1::before{
+  content:"";
+  position:absolute;
+  bottom:-4px;
+  left:50%;
+  width:9px;
+  height:9px;
+  transform:translateX(-50%) rotate(45deg);
+  background:var(--nuit);
+  border:1px solid var(--frost);
+}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(272px,330px);gap:clamp(30px,4vw,56px);align-items:start}
+
+/* ---- Prose ---- */
+.prose{font-family:"Spectral",Georgia,serif;color:var(--lune);text-align:justify;hyphens:auto}
+.prose p{margin:0 0 1.5em}
+.prose>p:first-of-type::first-letter{
+  float:left;
+  font-weight:500;
+  font-size:3.6em;
+  line-height:.84;
+  padding:6px 12px 0 0;
+  color:var(--frost);
+  text-shadow:0 0 22px rgba(111,168,196,.22);
+}
+.entity{
+  --edge:var(--argent);
+  color:var(--lune);
+  cursor:pointer;
+  padding-bottom:4px;
+  background-image:
+    linear-gradient(45deg,transparent 49%,var(--edge) 50%,transparent 51%),
+    linear-gradient(-45deg,transparent 49%,var(--edge) 50%,transparent 51%);
+  background-size:12px 6px;
+  background-position:0 100%;
+  background-repeat:repeat-x;
+  transition:color .2s,background-color .2s;
+}
+.entity:hover,.entity:focus-visible{
+  --edge:var(--frost);
+  color:#FFFFFF;
+  background-color:rgba(111,168,196,.10);
+  outline:none;
+}
+.entity:focus-visible{outline:1px solid var(--frost);outline-offset:4px}
+.proofable{
+  cursor:pointer;
+  padding:0 2px;
+  background:linear-gradient(180deg,transparent 62%,rgba(20,30,46,.92) 62%);
+  box-shadow:inset 0 -1px 0 rgba(184,198,214,.45);
+  transition:background .2s,box-shadow .2s;
+}
+.proofable:hover,.proofable:focus-visible{
+  background:linear-gradient(180deg,rgba(111,168,196,.16),rgba(111,168,196,.34));
+  box-shadow:inset 0 -1px 0 var(--frost);
+  outline:1px solid rgba(111,168,196,.6);
+  outline-offset:2px;
+}
+.continue{
+  display:inline-block;
+  margin-top:10px;
+  padding:11px 20px;
+  font-size:.8rem;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  text-decoration:none;
+  color:var(--lune);
+  border:1px solid rgba(184,198,214,.55);
+  background:linear-gradient(135deg,rgba(20,30,46,.9),rgba(11,16,24,.9));
+  clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%);
+  transition:color .2s,background .2s;
+}
+.continue:hover,.continue:focus-visible{
+  background:linear-gradient(135deg,var(--frost),#4E86A4);
+  color:var(--obsidian);
+  outline:none;
+}
+
+/* ---- Marginales ---- */
+.margin{padding-top:6px}
+.gloss{
+  position:relative;
+  isolation:isolate;
+  margin:0 0 22px;
+  padding:18px 20px 16px 21px;
+  clip-path:polygon(0 0,calc(100% - 16px) 0,100% 16px,100% 100%,0 100%);
+  background:linear-gradient(135deg,var(--frost),rgba(184,198,214,.5) 45%,rgba(111,168,196,.2));
+  filter:drop-shadow(0 12px 22px rgba(0,0,0,.45));
+  font-size:14.5px;
+  line-height:1.6;
+  color:var(--soft);
+}
+.gloss::before{
+  content:"";
+  position:absolute;
+  inset:1px;
+  z-index:-1;
+  clip-path:polygon(0 0,calc(100% - 15px) 0,100% 15px,100% 100%,0 100%);
+  background:linear-gradient(158deg,rgba(20,30,46,.99),rgba(11,16,24,.99));
+}
+.gloss-label{
+  display:block;
+  margin-bottom:9px;
+  font-size:.7rem;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.18em;
+  color:var(--frost);
+}
+.gloss strong{
+  font-size:1.25rem;
+  font-weight:500;
+  letter-spacing:.03em;
+  color:var(--lune);
+}
+.gloss q{
+  display:block;
+  margin:11px 0 10px;
+  padding-left:12px;
+  border-left:1px solid rgba(111,168,196,.6);
+  font-style:italic;
+  color:#C9D7E5;
+}
+.source{
+  display:block;
+  font-style:italic;
+  font-size:.86rem;
+  letter-spacing:.05em;
+  color:var(--argent);
+}
+.echo{
+  margin-top:13px;
+  padding:8px 12px;
+  font-family:"Spectral",Georgia,serif;
+  font-size:.72rem;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  color:var(--argent);
+  background:transparent;
+  border:1px solid rgba(111,168,196,.55);
+  cursor:pointer;
+  transition:background .2s,color .2s;
+}
+.echo:hover,.echo:focus-visible{background:var(--frost);color:var(--obsidian);outline:none}
+.echo:focus-visible{outline:1px solid var(--lune);outline-offset:2px}
+
+.ledger{
+  position:relative;
+  margin:56px 0 0;
+  padding-top:22px;
+  border-top:1px solid rgba(184,198,214,.3);
+  text-align:center;
+  font-size:.78rem;
+  font-weight:500;
+  text-transform:uppercase;
+  letter-spacing:.22em;
+  color:var(--argent);
+}
+.ledger::before{
+  content:"";
+  position:absolute;
+  top:-5px;
+  left:50%;
+  width:9px;
+  height:9px;
+  transform:translateX(-50%) rotate(45deg);
+  background:var(--obsidian);
+  border:1px solid var(--frost);
+}
+
+@media (max-width:860px){
+  .site-head{min-height:132px}
+  .brand-mark{width:128px;height:128px;right:6px}
+  .context{width:100%;text-align:center}
+  .layout{grid-template-columns:1fr}
+  .margin{margin-top:12px;border-top:1px solid rgba(184,198,214,.22);padding-top:22px}
+  .prose{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><g fill="none" stroke="#B8C6D6" stroke-width="1"><polygon points="120,8 176,64 188,120 176,176 120,232 64,176 52,120 64,64"/><polygon points="120,50 158,120 120,190 82,120"/><line x1="120" y1="8" x2="120" y2="232"/><line x1="52" y1="120" x2="188" y2="120"/></g><g fill="none" stroke="#6FA8C4" stroke-width=".8"><path d="M64 64 L120 120 L176 64 M64 176 L120 120 L176 176"/><path d="M82 120 L120 50 L158 120 M82 120 L120 190 L158 120"/></g><g fill="#E6EDF5"><polygon points="120,8 64,64 52,120 120,120" opacity=".16"/><polygon points="120,8 176,64 188,120 120,120" opacity=".28"/><polygon points="52,120 64,176 120,232 120,120" opacity=".10"/><polygon points="188,120 176,176 120,232 120,120" opacity=".18"/><polygon points="120,50 158,120 120,120" opacity=".22"/><polygon points="120,50 82,120 120,120" opacity=".12"/><polygon points="120,190 158,120 120,120" opacity=".10"/><polygon points="120,190 82,120 120,120" opacity=".20"/></g><g fill="#B8C6D6"><polygon points="120,96 138,120 120,144 102,120" opacity=".35"/><polygon points="30,120 44,106 58,120 44,134" opacity=".5"/><polygon points="182,120 196,106 210,120 196,134" opacity=".5"/><polygon points="120,20 130,30 120,40 110,30" opacity=".4"/></g></svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

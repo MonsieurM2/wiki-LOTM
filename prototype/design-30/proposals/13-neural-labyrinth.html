@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+
+:root{
+  --nuit:#0B0A17;
+  --amethyste:#D9D0F5;
+  --violet:#8B6FD4;
+  --eclat:#B9A0FF;
+  --brume:#58527A;
+  --mono:ui-monospace,"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--nuit);
+  background-image:
+    radial-gradient(ellipse 70% 50% at 16% -6%,rgba(139,111,212,.15),transparent 70%),
+    radial-gradient(ellipse 58% 46% at 94% 80%,rgba(185,160,255,.06),transparent 72%),
+    repeating-linear-gradient(0deg,transparent 0 39px,rgba(88,82,122,.05) 39px 40px),
+    repeating-linear-gradient(90deg,transparent 0 39px,rgba(88,82,122,.05) 39px 40px);
+  color:var(--amethyste);
+  font-family:"Spectral",Georgia,serif;
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--violet);color:var(--nuit)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--eclat);outline-offset:3px}
+
+/* ---- En-tête : labyrinthe en filigrane ---- */
+.site-head{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:8px 28px;
+  min-height:170px;
+  padding:26px clamp(20px,5vw,64px);
+  border-bottom:1px solid rgba(88,82,122,.55);
+  background:linear-gradient(180deg,rgba(139,111,212,.09),rgba(11,10,23,0) 82%);
+  box-shadow:0 22px 48px -36px #000;
+  overflow:hidden;
+}
+.site-head::after{
+  content:"";
+  position:absolute;
+  left:clamp(20px,5vw,64px);
+  right:clamp(20px,5vw,64px);
+  bottom:-1px;
+  height:1px;
+  background:linear-gradient(90deg,var(--violet),transparent 42%,transparent 58%,var(--violet));
+  opacity:.6;
+  pointer-events:none;
+}
+.site-head>span:not(.brand-mark){position:relative;z-index:1}
+.brand-mark{
+  position:absolute;
+  top:50%;
+  right:clamp(8px,6vw,104px);
+  width:212px;
+  height:212px;
+  transform:translateY(-50%);
+  opacity:.08;
+  font-size:0;
+  color:transparent;
+  line-height:0;
+  pointer-events:none;
+  z-index:0;
+}
+.brand-mark svg{position:absolute;inset:0;width:100%;height:100%;display:block;overflow:visible}
+.brand-mark svg .nodes{filter:drop-shadow(0 0 5px #B9A0FF)}
+.brand-mark svg .node{animation:nodePulse 4.8s ease-in-out infinite}
+.brand-mark svg .node:nth-of-type(2n){animation-delay:-1.6s}
+.brand-mark svg .node:nth-of-type(3n){animation-delay:-3.1s}
+@keyframes nodePulse{0%,100%{opacity:.5}50%{opacity:1}}
+.brand-name{
+  font-family:"Cormorant",Georgia,serif;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:.22em;
+  font-size:clamp(1.3rem,2.6vw,2rem);
+  line-height:1.2;
+  color:var(--amethyste);
+  text-shadow:0 0 30px rgba(139,111,212,.28);
+}
+.context{
+  font-family:var(--mono);
+  font-size:.72rem;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  font-variant-numeric:tabular-nums;
+  color:var(--amethyste);
+  opacity:.78;
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:clamp(16px,3vw,44px);
+  padding:14px 24px;
+  border-bottom:1px solid rgba(88,82,122,.36);
+  background:rgba(11,10,23,.72);
+}
+.sections a{
+  font-family:var(--mono);
+  font-size:.72rem;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:.18em;
+  text-decoration:none;
+  color:#A99FD0;
+  padding:5px 2px;
+  border-bottom:1px solid transparent;
+  transition:color .2s,border-color .2s;
+}
+.sections a:hover,.sections a:focus-visible{color:var(--amethyste);border-bottom-color:var(--eclat)}
+.sections a.current{color:var(--amethyste);border-bottom-color:var(--violet);text-shadow:0 0 14px rgba(185,160,255,.35)}
+
+/* ---- Contenu ---- */
+main{max-width:1160px;margin:0 auto;padding:clamp(34px,5vw,64px) clamp(20px,5vw,56px) 74px}
+.lede{
+  position:relative;
+  max-width:720px;
+  margin:0 auto 30px;
+  padding:16px 0;
+  text-align:center;
+  font-style:italic;
+  font-size:clamp(1.12rem,1.9vw,1.42rem);
+  line-height:1.55;
+  color:var(--amethyste);
+}
+.lede::before,.lede::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:7px;
+  height:7px;
+  transform:translateX(-50%) rotate(45deg);
+  border:1px solid var(--violet);
+}
+.lede::before{top:0}
+.lede::after{bottom:0}
+.kicker{
+  text-align:center;
+  font-family:var(--mono);
+  font-size:.72rem;
+  text-transform:uppercase;
+  letter-spacing:.3em;
+  font-variant-numeric:tabular-nums;
+  color:var(--eclat);
+  margin-bottom:10px;
+}
+.kicker::before,.kicker::after{
+  content:"";
+  display:inline-block;
+  width:30px;
+  height:1px;
+  vertical-align:middle;
+  margin:0 14px;
+  background:rgba(88,82,122,.8);
+}
+h1{
+  position:relative;
+  margin:0 0 48px;
+  padding-bottom:24px;
+  text-align:center;
+  font-family:"Cormorant",Georgia,serif;
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  font-size:clamp(2.1rem,5.4vw,3.7rem);
+  line-height:1.12;
+  color:var(--amethyste);
+  text-shadow:0 0 36px rgba(139,111,212,.24);
+}
+h1::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  width:min(220px,60%);
+  height:1px;
+  transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--violet),transparent);
+}
+h1::before{
+  content:"";
+  position:absolute;
+  bottom:-4px;
+  left:50%;
+  width:9px;
+  height:9px;
+  transform:translateX(-50%) rotate(45deg);
+  background:var(--nuit);
+  border:1px solid var(--eclat);
+  box-shadow:0 0 12px rgba(185,160,255,.55);
+}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(272px,330px);gap:clamp(30px,4vw,56px);align-items:start}
+
+/* ---- Prose ---- */
+.prose{font-family:"Spectral",Georgia,serif;color:var(--amethyste);text-align:justify;hyphens:auto}
+.prose p{margin:0 0 1.5em}
+.prose>p:first-of-type::first-letter{
+  float:left;
+  font-family:"Cormorant",Georgia,serif;
+  font-size:3.8em;
+  line-height:.82;
+  padding:6px 12px 0 0;
+  color:var(--eclat);
+  text-shadow:0 0 22px rgba(185,160,255,.28);
+}
+.entity{
+  position:relative;
+  color:var(--amethyste);
+  cursor:pointer;
+  padding-left:15px;
+  padding-bottom:2px;
+  border-bottom:1px dotted rgba(88,82,122,.85);
+  transition:color .2s,border-color .2s,background-color .2s;
+}
+.entity::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:.62em;
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  background:var(--eclat);
+  box-shadow:0 0 0 3px rgba(185,160,255,.12),0 0 12px 2px rgba(185,160,255,.6);
+  transition:box-shadow .2s;
+}
+.entity:hover,.entity:focus-visible{
+  color:#F2EDFF;
+  border-bottom-color:var(--eclat);
+  background-color:rgba(139,111,212,.1);
+  outline:none;
+}
+.entity:hover::before,.entity:focus-visible::before{
+  box-shadow:0 0 0 5px rgba(185,160,255,.15),0 0 18px 4px rgba(185,160,255,.72);
+}
+.entity:focus-visible{outline:1px solid var(--eclat);outline-offset:4px}
+.proofable{
+  cursor:pointer;
+  padding:0 2px;
+  background:linear-gradient(180deg,transparent 62%,rgba(139,111,212,.16) 62%);
+  box-shadow:inset 0 -1px 0 rgba(88,82,122,.9);
+  transition:background .2s,box-shadow .2s;
+}
+.proofable:hover,.proofable:focus-visible{
+  background:linear-gradient(180deg,rgba(139,111,212,.14),rgba(185,160,255,.24));
+  box-shadow:inset 0 -1px 0 var(--eclat);
+  outline:1px solid rgba(185,160,255,.45);
+  outline-offset:2px;
+}
+.continue{
+  display:inline-block;
+  margin-top:10px;
+  padding:11px 20px;
+  font-family:var(--mono);
+  font-size:.74rem;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  text-decoration:none;
+  color:var(--amethyste);
+  border:1px solid var(--brume);
+  background:
+    repeating-linear-gradient(90deg,transparent 0 11px,rgba(88,82,122,.14) 11px 12px),
+    linear-gradient(135deg,rgba(11,10,23,.95),rgba(24,20,46,.95));
+  clip-path:polygon(0 0,calc(100% - 12px) 0,100% 12px,100% 100%,0 100%);
+  transition:color .2s,background-color .2s;
+}
+.continue:hover,.continue:focus-visible{
+  background:var(--violet);
+  color:var(--nuit);
+  outline:none;
+}
+
+/* ---- Marginales : labyrinthe et nœuds ---- */
+.margin{padding-top:6px}
+.gloss{
+  position:relative;
+  isolation:isolate;
+  margin:0 0 22px;
+  padding:18px 20px 16px 21px;
+  border:1px solid rgba(88,82,122,.62);
+  border-left:2px solid var(--violet);
+  background:var(--nuit);
+  filter:drop-shadow(0 12px 22px rgba(0,0,0,.45));
+  font-size:14.5px;
+  line-height:1.6;
+  color:var(--amethyste);
+}
+.gloss::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background-image:
+    repeating-linear-gradient(0deg,transparent 0 17px,rgba(88,82,122,.24) 17px 18px),
+    repeating-linear-gradient(90deg,transparent 0 17px,rgba(88,82,122,.24) 17px 18px);
+}
+.gloss-label{
+  display:block;
+  margin-bottom:9px;
+  font-family:var(--mono);
+  font-size:.68rem;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  font-variant-numeric:tabular-nums;
+  color:var(--eclat);
+}
+.gloss strong{
+  font-family:"Cormorant",Georgia,serif;
+  font-size:1.5rem;
+  font-weight:400;
+  letter-spacing:.04em;
+  color:var(--amethyste);
+}
+.gloss q{
+  display:block;
+  margin:11px 0 10px;
+  padding-left:12px;
+  border-left:1px solid var(--violet);
+  font-style:italic;
+  color:#C7BEE6;
+}
+.source{
+  display:block;
+  font-family:var(--mono);
+  font-size:.72rem;
+  letter-spacing:.05em;
+  font-variant-numeric:tabular-nums;
+  color:#A99FD0;
+}
+.echo{
+  margin-top:13px;
+  padding:8px 12px;
+  font-family:var(--mono);
+  font-size:.7rem;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  color:var(--amethyste);
+  background:transparent;
+  border:1px solid var(--brume);
+  cursor:pointer;
+  transition:background .2s,color .2s;
+}
+.echo:hover,.echo:focus-visible{background:var(--eclat);color:var(--nuit);outline:none}
+.echo:focus-visible{outline:1px solid var(--amethyste);outline-offset:2px}
+
+.ledger{
+  position:relative;
+  margin:56px 0 0;
+  padding-top:22px;
+  border-top:1px solid rgba(88,82,122,.6);
+  text-align:center;
+  font-family:var(--mono);
+  font-size:.74rem;
+  text-transform:uppercase;
+  letter-spacing:.18em;
+  font-variant-numeric:tabular-nums;
+  color:#A99FD0;
+}
+.ledger::before{
+  content:"";
+  position:absolute;
+  top:-5px;
+  left:50%;
+  width:9px;
+  height:9px;
+  transform:translateX(-50%) rotate(45deg);
+  background:var(--nuit);
+  border:1px solid var(--eclat);
+  box-shadow:0 0 10px rgba(185,160,255,.4);
+}
+
+@media (max-width:860px){
+  .site-head{min-height:132px}
+  .brand-mark{width:128px;height:128px;right:6px}
+  .context{width:100%;text-align:center}
+  .layout{grid-template-columns:1fr}
+  .margin{margin-top:12px;border-top:1px solid rgba(88,82,122,.34);padding-top:22px}
+  .prose{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><g fill="none" stroke="#58527A" stroke-width="1"><path d="M24 24H216V216H24Z" opacity=".7"/><path d="M24 48H72V24 M72 48V96H24 M24 96H120V24 M120 96V144H72V216 M72 144H168V72H216 M168 144V216 M120 144H192V192H216 M24 168H72 M144 216V192H120 M192 24V48 M216 120H168"/><path d="M48 24V72H24 M96 48H168 M144 96H192V144 M48 144V192H120 M96 192V216 M192 168H216" opacity=".65"/></g><g fill="none" stroke="#8B6FD4" stroke-width=".8"><path d="M24 24L48 48 M216 24L192 48 M24 216L48 192 M216 216L192 192 M120 24L120 96 M120 144L120 192"/></g><g class="nodes" fill="#B9A0FF"><circle class="node" cx="24" cy="48" r="2"/><circle class="node" cx="72" cy="48" r="2"/><circle class="node" cx="24" cy="96" r="2"/><circle class="node" cx="120" cy="96" r="2"/><circle class="node" cx="120" cy="24" r="2"/><circle class="node" cx="120" cy="144" r="2"/><circle class="node" cx="72" cy="144" r="2"/><circle class="node" cx="168" cy="144" r="2"/><circle class="node" cx="168" cy="72" r="2"/><circle class="node" cx="192" cy="192" r="2"/><circle class="node" cx="24" cy="168" r="2"/><circle class="node" cx="144" cy="192" r="2"/><circle class="node" cx="192" cy="48" r="2"/><circle class="node" cx="168" cy="120" r="2"/></g><g fill="#D9D0F5" opacity=".8"><circle cx="72" cy="24" r="1.2"/><circle cx="72" cy="96" r="1.2"/><circle cx="72" cy="216" r="1.2"/><circle cx="168" cy="216" r="1.2"/><circle cx="216" cy="192" r="1.2"/><circle cx="216" cy="120" r="1.2"/><circle cx="48" cy="192" r="1.2"/><circle cx="120" cy="192" r="1.2"/></g></svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

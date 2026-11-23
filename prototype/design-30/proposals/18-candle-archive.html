@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+/* EB Garamond absent : Cormorant en est le proche gravé ; Spectral sert le corps à 16px/1.8. */
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+
+:root{
+  --noyer:#120C08;       /* fond */
+  --cire:#E8D9B5;        /* texte */
+  --ambre:#D98B32;       /* flaques */
+  --suie:#241A12;        /* panneaux */
+  --meche:#6E4A2A;       /* accent */
+  --corps:#DCCBAA;       /* cire légèrement éteinte, AA sur noyer et suie */
+  --liseré:rgba(110,74,42,.55);
+  --filet:rgba(232,217,181,.12);
+  --halo:rgba(217,139,50,.13); /* ambre désaturé : jamais pur sur du texte */
+  --serif:"Spectral",Georgia,serif;
+  --display:"Cormorant",Garamond,Georgia,serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--corps);
+  font-family:var(--serif);
+  font-size:16px;
+  line-height:1.8;
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background-color:var(--noyer);
+  background-image:
+    radial-gradient(ellipse 42% 26% at 10% 6%,rgba(217,139,50,.06),transparent 78%),
+    radial-gradient(ellipse 40% 30% at 92% 92%,rgba(217,139,50,.05),transparent 80%),
+    repeating-linear-gradient(90deg,rgba(0,0,0,.16) 0 1px,transparent 1px 24px,rgba(110,74,42,.05) 24px 25px,transparent 25px 56px);
+}
+::selection{background:var(--meche);color:var(--cire)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:1px solid var(--cire);outline-offset:3px}
+
+/* ---- En-tête : chandelle SVG, flaque ambre diffuse, voile à opacité .10 ---- */
+.site-head{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px 30px;
+  min-height:196px;
+  padding:38px clamp(20px,5vw,64px) 32px;
+  border-bottom:1px solid var(--liseré);
+  background:
+    radial-gradient(ellipse 30% 130% at 50% 118%,rgba(217,139,50,.10),transparent 74%),
+    linear-gradient(180deg,#1B120B,var(--noyer));
+  box-shadow:inset 0 -20px 32px -26px #000;
+}
+.site-head::after{
+  content:"";
+  position:absolute;
+  left:clamp(20px,5vw,64px);
+  right:clamp(20px,5vw,64px);
+  bottom:8px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--liseré) 18%,var(--liseré) 82%,transparent);
+  pointer-events:none;
+}
+.candle-filigrane{position:absolute;inset:0;width:100%;height:100%;opacity:.10;pointer-events:none;z-index:1}
+.site-head > span{position:relative;z-index:2}
+.brand-mark{
+  flex:0 0 auto;
+  display:inline-grid;
+  place-items:center;
+  width:58px;
+  height:58px;
+  color:transparent;
+  font-size:0;
+  border:1px solid var(--meche);
+  background-color:rgba(36,26,18,.85);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:38px 38px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23E8D9B5' stroke-width='1.3'%3E%3Cpath d='M32 7c-4 6-6 10-6 14a6 6 0 0 0 12 0c0-4-2-8-6-14z' fill='%23D98B32' fill-opacity='.45'/%3E%3Cpath d='M32 28v6'/%3E%3Cpath d='M23 34h18v20H23z'/%3E%3Cpath d='M23 40c3 3 5 0 8 2s5-2 10 0'/%3E%3C/g%3E%3C/svg%3E");
+  box-shadow:inset 0 0 0 3px var(--noyer),0 0 22px rgba(217,139,50,.14);
+}
+.brand-name{
+  flex:1 1 auto;
+  text-align:center;
+  font-family:var(--display);
+  font-size:clamp(22px,2.8vw,32px);
+  font-weight:400;
+  line-height:1.3;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:var(--cire);
+  text-shadow:0 2px 0 rgba(0,0,0,.7);
+}
+.context{
+  flex:0 0 auto;
+  padding-left:18px;
+  border-left:1px solid var(--liseré);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:var(--corps);
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  border-block:1px solid var(--filet);
+  background:linear-gradient(180deg,rgba(36,26,18,.75),rgba(18,12,8,.55));
+}
+.sections a{
+  position:relative;
+  padding:13px 24px;
+  border-right:1px solid var(--filet);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.26em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--corps);
+  transition:color .2s ease,background .2s ease;
+}
+.sections a:last-child{border-right:0}
+.sections a:hover{color:var(--cire);background:var(--halo)}
+.sections a.current{
+  color:var(--cire);
+  background:linear-gradient(180deg,rgba(217,139,50,.09),transparent);
+  box-shadow:inset 0 -2px var(--ambre);
+}
+
+/* ---- Page ---- */
+main{max-width:1140px;margin:0 auto;padding:clamp(38px,6vw,74px) clamp(20px,5vw,56px) 78px}
+.lede{
+  max-width:660px;
+  margin:0 auto 34px;
+  font-family:var(--serif);
+  font-size:clamp(19px,2.3vw,27px);
+  font-style:italic;
+  line-height:1.7;
+  text-align:center;
+  color:var(--cire);
+}
+.kicker{
+  margin-bottom:14px;
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.38em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  text-align:center;
+  color:var(--corps);
+}
+.kicker::before,.kicker::after{content:"—";margin:0 12px;color:var(--meche)}
+h1{
+  position:relative;
+  margin:0 0 54px;
+  font-family:var(--display);
+  font-size:clamp(30px,5vw,52px);
+  font-weight:400;
+  line-height:1.32;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  text-align:center;
+  color:var(--cire);
+  text-shadow:0 2px 0 rgba(0,0,0,.7);
+}
+h1::after{
+  content:"";
+  display:block;
+  width:150px;
+  height:1px;
+  margin:24px auto 0;
+  background:linear-gradient(90deg,transparent,var(--meche) 50%,transparent);
+}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1.35fr) minmax(280px,.85fr);
+  gap:clamp(28px,4vw,58px);
+  align-items:start;
+}
+
+/* ---- Prose : cire sur bois sombre ---- */
+.prose{
+  position:relative;
+  padding:36px clamp(22px,3.4vw,42px);
+  border:1px solid var(--liseré);
+  background:linear-gradient(180deg,rgba(36,26,18,.6),rgba(18,12,8,.2) 60%);
+  box-shadow:
+    inset 0 0 0 5px var(--noyer),
+    inset 0 0 0 6px var(--filet),
+    inset 0 0 80px rgba(110,74,42,.22),
+    0 24px 50px -30px #000;
+}
+.prose p{margin:0 0 1.4em;color:var(--corps)}
+.prose p:first-child::first-letter{
+  float:left;
+  margin:6px 10px 0 0;
+  font-family:var(--display);
+  font-size:3.1em;
+  line-height:.78;
+  color:var(--cire);
+}
+/* étagères Noyer/Suie derrière le nom, filet Cire dessous */
+.entity{
+  position:relative;
+  isolation:isolate;
+  display:inline-block;
+  padding:0 4px 3px;
+  border-bottom:1px solid var(--cire);
+  color:var(--cire);
+  font-variant:small-caps;
+  letter-spacing:.05em;
+  cursor:pointer;
+  transition:text-shadow .2s ease;
+}
+.entity::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  background:repeating-linear-gradient(0deg,var(--noyer) 0 5px,var(--suie) 5px 7px);
+  opacity:.8;
+  pointer-events:none;
+}
+.entity:hover{text-shadow:0 0 16px rgba(232,217,181,.35)}
+.proofable{
+  cursor:pointer;
+  color:var(--corps);
+  border-bottom:1px dashed var(--meche);
+  background:linear-gradient(180deg,transparent 66%,rgba(217,139,50,.10) 66%);
+  transition:background .2s ease,color .2s ease;
+}
+.proofable:hover{color:var(--cire);background:linear-gradient(180deg,transparent 58%,rgba(217,139,50,.2) 58%)}
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding-bottom:4px;
+  border-bottom:1px solid var(--liseré);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--cire);
+}
+.continue::after{content:" →";color:var(--ambre)}
+.continue:hover{border-bottom-color:var(--ambre)}
+
+/* ---- Margin glosses : cartouche Suie, liseré Mèche 1px, ombre ambre floue ---- */
+.margin{display:grid;gap:22px}
+.gloss{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  padding:30px 26px 26px;
+  border:1px solid var(--meche);
+  background:linear-gradient(180deg,rgba(36,26,18,.96),rgba(18,12,8,.9));
+  box-shadow:0 0 38px -10px rgba(217,139,50,.22),inset 0 0 34px rgba(217,139,50,.04);
+}
+.gloss::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:radial-gradient(ellipse 70% 50% at 50% -10%,rgba(217,139,50,.11),transparent 72%);
+}
+.gloss::after{
+  content:"";
+  position:absolute;
+  top:9px;
+  right:10px;
+  width:16px;
+  height:16px;
+  border:1px solid var(--meche);
+  border-radius:50% 50% 45% 45%;
+  box-shadow:inset 0 0 0 3px var(--suie),inset 0 0 0 4px var(--ambre);
+  opacity:.7;
+  pointer-events:none;
+}
+.gloss-label{
+  display:block;
+  margin-bottom:13px;
+  padding-bottom:9px;
+  border-bottom:1px solid var(--filet);
+  font-family:var(--serif);
+  font-size:10px;
+  line-height:1.5;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:var(--corps);
+}
+.gloss strong{
+  display:block;
+  margin-bottom:6px;
+  color:var(--cire);
+  font-family:var(--display);
+  font-size:21px;
+  font-weight:400;
+  letter-spacing:.12em;
+  font-variant:small-caps;
+}
+.gloss q{
+  display:block;
+  margin:14px 0;
+  padding-left:14px;
+  border-left:1px solid var(--meche);
+  quotes:"“" "”";
+  font-family:var(--serif);
+  font-size:17px;
+  font-style:italic;
+  line-height:1.7;
+  color:var(--corps);
+}
+.source{
+  display:block;
+  font-family:var(--serif);
+  font-size:10px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--corps);
+}
+.echo{
+  display:inline-block;
+  margin-top:16px;
+  padding:9px 15px;
+  border:1px solid var(--liseré);
+  background:linear-gradient(180deg,rgba(36,26,18,.95),rgba(18,12,8,.96));
+  color:var(--corps);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  cursor:pointer;
+  box-shadow:inset 0 0 0 2px rgba(18,12,8,.8);
+  transition:color .2s ease,background .2s ease;
+}
+.echo:hover{color:var(--noyer);background:var(--cire)}
+
+.ledger{
+  margin:58px 0 0;
+  padding-top:20px;
+  border-top:1px solid var(--filet);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--corps);
+}
+.ledger::before{
+  content:"";
+  display:block;
+  width:5px;
+  height:11px;
+  margin:0 auto 14px;
+  border:1px solid var(--meche);
+  border-radius:50% 50% 20% 20%;
+  background:linear-gradient(180deg,var(--ambre) 0 40%,var(--cire) 40%);
+  opacity:.7;
+}
+
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr}
+  .brand-name{flex-basis:100%}
+  .context{border-left:0;padding-left:0}
+}
+@media (max-width:560px){
+  .sections a{padding:11px 13px;font-size:10px;letter-spacing:.14em}
+  .prose{padding:26px 18px}
+  .gloss{padding:24px 18px 22px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;</span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+  <svg class="candle-filigrane" viewBox="0 0 1200 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id="wax-pool" cx="50%" cy="50%" r="50%">
+        <stop offset="0" stop-color="#D98B32" stop-opacity=".85"/>
+        <stop offset=".5" stop-color="#D98B32" stop-opacity=".25"/>
+        <stop offset="1" stop-color="#D98B32" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <ellipse cx="600" cy="150" rx="300" ry="110" fill="url(#wax-pool)" stroke="none"/>
+    <g fill="none" stroke="#E8D9B5" stroke-width="1.2">
+      <path d="M0 84h1200M0 156h1200M0 228h1200" opacity=".55"/>
+      <path d="M84 84v72M276 84v72M924 84v72M1116 84v72" opacity=".4"/>
+      <path d="M180 156v72M420 156v72M780 156v72M1020 156v72" opacity=".4"/>
+    </g>
+    <g fill="none" stroke="#E8D9B5" stroke-width="1.4">
+      <path d="M576 96h48v94h-48z"/>
+      <path d="M576 118c6 6 10 1 16 4s10-4 16-1M576 142c6 5 10 0 16 3s10-3 16 0"/>
+      <path d="M600 96V80"/>
+      <path d="M600 44c-9 14-14 22-14 30a14 14 0 0 0 28 0c0-8-5-16-14-30z" fill="#D98B32" fill-opacity=".6"/>
+    </g>
+    <g fill="none" stroke="#D98B32" stroke-width="1">
+      <path d="M470 84c8 10 14 4 20 14s12 2 18 12M712 84c8 10 14 4 20 14s12 2 18 12" opacity=".7"/>
+      <path d="M0 226c30 10 60 4 90 12s60 2 90 10M1200 226c-30 10-60 4-90 12s-60 2-90 10" opacity=".5"/>
+    </g>
+  </svg>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

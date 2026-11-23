@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Cormorant Garamond";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant Garamond";src:url("../../immersion/fonts/cormorant-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+
+:root{
+  --indigo:#1B1B3A;
+  --nuit:#101028;
+  --or:#C6A24B;
+  --papier:#EDE4D0;
+  --pourpre:#5B3A7A;
+  --encre:#2A2340;
+  --soft:#D6CDB4;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--indigo);
+  background-image:
+    radial-gradient(ellipse 85% 52% at 50% -6%,rgba(91,58,122,.38),transparent 72%),
+    radial-gradient(ellipse 70% 55% at 92% 88%,rgba(16,16,40,.72),transparent 74%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'%3E%3Cdefs%3E%3Cpath id='s' d='M0 0l1.3 3.9 3.9 1.3-3.9 1.3L0 10.4-1.3 6.5-5.2 5.2-1.3 3.9z'/%3E%3C/defs%3E%3Cg fill='none' stroke='%23C6A24B' stroke-width='.9' opacity='.22'%3E%3Cpath d='M0 34C20 34 34 20 34 0M0 44C27 44 44 27 44 0'/%3E%3Cpath d='M180 34C160 34 146 20 146 0M180 44C153 44 136 27 136 0'/%3E%3Cpath d='M0 146C20 146 34 160 34 180M0 136C27 136 44 153 44 180'/%3E%3Cpath d='M180 146C160 146 146 160 146 180M180 136C153 136 136 153 136 180'/%3E%3C/g%3E%3Cg fill='%23C6A24B' opacity='.3'%3E%3Cuse href='%23s' x='10' y='10'/%3E%3Cuse href='%23s' x='170' y='10'/%3E%3Cuse href='%23s' x='10' y='170'/%3E%3Cuse href='%23s' x='170' y='170'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:auto,auto,180px 180px;
+  background-repeat:no-repeat,no-repeat,repeat;
+  color:var(--papier);
+  font-family:"Cormorant Garamond","Times New Roman",serif;
+  font-size:17px;
+  line-height:1.7;
+  letter-spacing:.012em;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--or);color:var(--nuit)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--or);outline-offset:3px}
+
+/* ---- En-tête : rosette d'arcane en filigrane ---- */
+.site-head{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px 28px;
+  min-height:182px;
+  padding:26px clamp(20px,5vw,64px);
+  border-bottom:4px double rgba(198,162,75,.82);
+  background:linear-gradient(180deg,rgba(91,58,122,.28),rgba(16,16,40,.12));
+  box-shadow:0 18px 38px -30px #000;
+  overflow:hidden;
+}
+.site-head>span:not(.brand-mark){position:relative;z-index:1}
+.brand-mark{
+  position:absolute;
+  top:50%;
+  right:clamp(10px,7vw,112px);
+  width:186px;
+  height:186px;
+  transform:translateY(-50%);
+  opacity:.12;
+  font-size:0;
+  color:transparent;
+  line-height:0;
+  pointer-events:none;
+  z-index:0;
+}
+.brand-mark svg{position:absolute;inset:0;width:100%;height:100%;display:block;overflow:visible}
+.brand-name{
+  font-variant:small-caps;
+  font-size:clamp(1.7rem,3.2vw,2.6rem);
+  letter-spacing:.17em;
+  line-height:1.1;
+  color:var(--or);
+  text-shadow:0 1px 0 rgba(237,228,208,.18),0 -1px 0 rgba(0,0,0,.65);
+}
+.context{
+  font-family:"Spectral",Georgia,serif;
+  font-style:italic;
+  font-size:.86rem;
+  letter-spacing:.13em;
+  color:var(--soft);
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:clamp(16px,3vw,46px);
+  padding:13px 24px;
+  border-bottom:1px solid rgba(198,162,75,.34);
+  background:rgba(16,16,40,.82);
+}
+.sections a{
+  font-variant:small-caps;
+  font-size:1.14rem;
+  letter-spacing:.2em;
+  text-decoration:none;
+  color:var(--soft);
+  padding:3px 1px;
+  border-bottom:1px solid transparent;
+  transition:color .18s,border-color .18s;
+}
+.sections a:hover,.sections a:focus-visible{color:var(--or);border-bottom-color:var(--or)}
+.sections a.current{color:var(--or);border-bottom-color:var(--or);text-shadow:0 1px 0 rgba(237,228,208,.16)}
+
+/* ---- Contenu ---- */
+main{max-width:1180px;margin:0 auto;padding:clamp(34px,5vw,66px) clamp(20px,5vw,56px) 72px}
+.lede{
+  position:relative;
+  max-width:760px;
+  margin:0 auto 32px;
+  padding:14px 0;
+  text-align:center;
+  font-style:italic;
+  font-size:clamp(1.25rem,2vw,1.62rem);
+  line-height:1.45;
+  color:var(--papier);
+}
+.lede::before,.lede::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:64px;
+  height:1px;
+  transform:translateX(-50%);
+  background:var(--or);
+}
+.lede::before{top:0}
+.lede::after{bottom:0}
+.kicker{
+  text-align:center;
+  font-variant:small-caps;
+  font-size:1rem;
+  letter-spacing:.32em;
+  color:var(--or);
+  margin-bottom:10px;
+}
+.kicker::before,.kicker::after{
+  content:"";
+  display:inline-block;
+  width:36px;
+  height:1px;
+  vertical-align:middle;
+  margin:0 14px;
+  background:rgba(198,162,75,.68);
+}
+h1{
+  position:relative;
+  margin:0 0 50px;
+  padding-bottom:24px;
+  text-align:center;
+  font-weight:400;
+  font-variant:small-caps;
+  letter-spacing:.14em;
+  font-size:clamp(2.6rem,6vw,4.4rem);
+  line-height:1.06;
+  color:var(--papier);
+  text-shadow:0 1px 0 rgba(237,228,208,.16),0 -1px 0 rgba(0,0,0,.55);
+}
+h1::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  width:132px;
+  height:5px;
+  transform:translateX(-50%);
+  border-top:1px solid var(--or);
+  border-bottom:4px double rgba(198,162,75,.7);
+}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(290px,350px);gap:clamp(30px,4vw,58px);align-items:start}
+
+/* ---- Prose ---- */
+.prose{color:var(--papier);text-align:justify;hyphens:auto}
+.prose p{margin:0 0 1.5em}
+.prose>p:first-of-type::first-letter{
+  float:left;
+  font-size:4em;
+  line-height:.8;
+  padding:6px 10px 0 0;
+  color:var(--or);
+  text-shadow:0 1px 0 rgba(237,228,208,.2),0 0 24px rgba(91,58,122,.6);
+}
+.entity{
+  color:#F3E7C7;
+  border-bottom:1px solid rgba(198,162,75,.7);
+  padding-bottom:1px;
+  cursor:pointer;
+  text-shadow:0 1px 0 rgba(237,228,208,.24),0 -1px 0 rgba(0,0,0,.5);
+  transition:background .18s,box-shadow .18s;
+}
+.entity:hover,.entity:focus-visible{
+  background:rgba(91,58,122,.42);
+  box-shadow:inset 0 -2px 0 var(--or);
+  outline:none;
+}
+.entity:focus-visible{outline:1px solid var(--or);outline-offset:3px}
+.proofable{
+  cursor:pointer;
+  padding:0 3px;
+  background:linear-gradient(180deg,transparent 56%,rgba(91,58,122,.88) 56%);
+  box-shadow:inset 0 -1px 0 rgba(198,162,75,.55);
+  transition:background .18s;
+}
+.proofable:hover,.proofable:focus-visible{
+  background:linear-gradient(180deg,rgba(91,58,122,.4),rgba(91,58,122,.98));
+  outline:1px solid rgba(198,162,75,.72);
+  outline-offset:2px;
+}
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding:10px 20px;
+  font-variant:small-caps;
+  font-size:1.1rem;
+  letter-spacing:.18em;
+  text-decoration:none;
+  color:var(--or);
+  border:4px double rgba(198,162,75,.8);
+  background:rgba(91,58,122,.2);
+  transition:background .2s,color .2s;
+}
+.continue:hover,.continue:focus-visible{background:var(--or);color:var(--nuit);outline:none}
+
+/* ---- Marginales : fiches sur papier mat, cadre d'or ---- */
+.margin{padding-top:6px}
+.gloss{
+  position:relative;
+  margin:0 0 24px;
+  padding:17px 18px 16px;
+  border:4px double var(--or);
+  background:linear-gradient(140deg,var(--papier),#E3D8BE);
+  box-shadow:0 16px 30px -22px #000,inset 0 0 0 1px rgba(42,35,64,.14);
+  font-size:16px;
+  line-height:1.6;
+  color:var(--encre);
+  text-align:left;
+}
+.gloss-label{
+  display:block;
+  margin-bottom:8px;
+  font-variant:small-caps;
+  font-size:1rem;
+  letter-spacing:.18em;
+  color:var(--pourpre);
+}
+.gloss strong{
+  font-weight:400;
+  font-size:1.55rem;
+  letter-spacing:.03em;
+  color:var(--encre);
+  text-shadow:0 1px 0 rgba(255,255,255,.45);
+}
+.gloss q{
+  display:block;
+  margin:10px 0 9px;
+  padding-left:12px;
+  border-left:1px solid var(--or);
+  font-style:italic;
+  color:#403555;
+}
+.source{
+  display:block;
+  font-style:italic;
+  font-size:.98rem;
+  letter-spacing:.05em;
+  color:var(--pourpre);
+}
+.echo{
+  margin-top:13px;
+  padding:7px 11px;
+  font-family:inherit;
+  font-variant:small-caps;
+  letter-spacing:.13em;
+  font-size:1rem;
+  color:var(--pourpre);
+  background:transparent;
+  border:1px solid var(--pourpre);
+  cursor:pointer;
+  transition:background .18s,color .18s;
+}
+.echo:hover,.echo:focus-visible{background:var(--pourpre);color:var(--papier);outline:none}
+.echo:focus-visible{outline:1px solid var(--or);outline-offset:2px}
+
+.ledger{
+  margin:54px 0 0;
+  padding-top:20px;
+  border-top:4px double rgba(198,162,75,.6);
+  text-align:center;
+  font-variant:small-caps;
+  letter-spacing:.2em;
+  font-size:1.08rem;
+  color:var(--or);
+}
+
+@media (max-width:860px){
+  .site-head{min-height:134px}
+  .brand-mark{width:126px;height:126px;right:8px}
+  .context{width:100%;text-align:center}
+  .layout{grid-template-columns:1fr}
+  .margin{margin-top:10px;border-top:1px solid rgba(198,162,75,.3)}
+  .prose{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><defs><path id="ar-star" d="M100 4l2.9 8.8 8.8 2.9-8.8 2.9-2.9 8.8-2.9-8.8-8.8-2.9 8.8-2.9z"/></defs><g fill="none" stroke="#C6A24B"><circle cx="100" cy="100" r="94" stroke-width=".7" opacity=".8"/><circle cx="100" cy="100" r="66" stroke-width="1.1"/><circle cx="100" cy="100" r="27" stroke-width=".8"/><path d="M100 34C132 50 150 68 166 100C150 132 132 150 100 166C68 150 50 132 34 100C50 68 68 50 100 34Z" stroke-width="1.2"/><path d="M100 34C68 50 50 68 34 100C50 132 68 150 100 166C132 150 150 132 166 100C150 68 132 50 100 34Z" stroke-width=".7" opacity=".55"/><path d="M100 73c-10 0-17 7-17 15s8 13 14 9 5-11 0-12" stroke-width="1.1"/><path d="M100 127c10 0 17-7 17-15s-8-13-14-9-5 11 0 12" stroke-width="1.1" opacity=".6"/></g><g fill="#C6A24B"><use href="#ar-star"/><use href="#ar-star" transform="rotate(90 100 100)"/><use href="#ar-star" transform="rotate(180 100 100)"/><use href="#ar-star" transform="rotate(270 100 100)"/><circle cx="100" cy="100" r="5" fill="#EDE4D0"/><circle cx="100" cy="64" r="2"/><circle cx="136" cy="100" r="2"/><circle cx="100" cy="136" r="2"/><circle cx="64" cy="100" r="2"/></g></svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

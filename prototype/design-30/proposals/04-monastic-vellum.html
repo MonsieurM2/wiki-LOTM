@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+
+:root{
+  --vellum:#2A1E12;
+  --encre:#E8D7B0;
+  --rubrique:#8C2F24;
+  --or:#B08A4A;
+  --ombre:#16100A;
+  --pale:#F4E7C9;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--vellum);
+  background-image:
+    radial-gradient(ellipse 92% 58% at 50% -8%,rgba(176,138,74,.16),transparent 70%),
+    radial-gradient(ellipse 72% 54% at 100% 100%,rgba(22,16,10,.78),transparent 74%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cg fill='none' stroke='%23B08A4A' stroke-width='.8' opacity='.17'%3E%3Cpath d='M0 80C24 80 30 56 52 56C74 56 78 78 64 86C54 91 46 82 50 74'/%3E%3Cpath d='M160 80C136 80 130 104 108 104C86 104 82 82 96 74C106 69 114 78 110 86'/%3E%3Cpath d='M80 0C80 24 104 30 104 52C104 74 82 78 74 64C69 54 78 46 86 50'/%3E%3Cpath d='M80 160C80 136 56 130 56 108C56 86 78 82 86 96C91 106 82 114 74 110'/%3E%3Cpath d='M0 0C16 0 26 6 30 18M160 160C144 160 134 154 130 142'/%3E%3C/g%3E%3Cg fill='%238C2F24' opacity='.28'%3E%3Ccircle cx='12' cy='12' r='2.6'/%3E%3Ccircle cx='148' cy='148' r='2.6'/%3E%3Ccircle cx='148' cy='12' r='1.5'/%3E%3Ccircle cx='12' cy='148' r='1.5'/%3E%3C/g%3E%3C/svg%3E");
+  background-size:auto,auto,160px 160px;
+  background-repeat:no-repeat,no-repeat,repeat;
+  color:var(--encre);
+  font-family:"Spectral",Georgia,serif;
+  font-size:17px;
+  line-height:1.7;
+  letter-spacing:.01em;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--rubrique);color:var(--pale)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:2px solid var(--or);outline-offset:3px}
+
+/* ---- En-tête : vrille de vigne enluminée en filigrane ---- */
+.site-head{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px 28px;
+  min-height:182px;
+  padding:26px clamp(20px,5vw,64px);
+  border-bottom:3px double var(--or);
+  background:linear-gradient(180deg,rgba(140,47,36,.24),rgba(22,16,10,.72));
+  box-shadow:inset 0 1px 0 rgba(176,138,74,.32),0 18px 38px -30px #000;
+  overflow:hidden;
+}
+.site-head>span:not(.brand-mark){position:relative;z-index:1}
+.brand-mark{
+  position:absolute;
+  top:50%;
+  right:clamp(10px,7vw,112px);
+  width:196px;
+  height:196px;
+  transform:translateY(-50%);
+  opacity:.10;
+  font-size:0;
+  color:transparent;
+  line-height:0;
+  pointer-events:none;
+  z-index:0;
+}
+.brand-mark svg{position:absolute;inset:0;width:100%;height:100%;display:block;overflow:visible}
+.brand-name{
+  font-family:"Cormorant",Georgia,serif;
+  font-variant:small-caps;
+  font-size:clamp(1.7rem,3.4vw,2.7rem);
+  letter-spacing:.19em;
+  line-height:1.1;
+  color:var(--or);
+  text-shadow:0 1px 0 rgba(244,231,201,.16),0 -1px 0 var(--ombre);
+}
+.context{
+  font-family:"Cormorant",Georgia,serif;
+  font-style:italic;
+  font-size:.95rem;
+  letter-spacing:.13em;
+  color:var(--encre);
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:clamp(16px,3vw,46px);
+  padding:13px 24px;
+  border-bottom:1px solid rgba(176,138,74,.36);
+  background:rgba(22,16,10,.82);
+}
+.sections a{
+  font-family:"Cormorant",Georgia,serif;
+  font-variant:small-caps;
+  font-size:1.16rem;
+  letter-spacing:.2em;
+  text-decoration:none;
+  color:var(--encre);
+  padding:3px 1px;
+  border-bottom:1px solid transparent;
+  transition:color .18s,border-color .18s;
+}
+.sections a:hover,.sections a:focus-visible{color:var(--or);border-bottom-color:var(--rubrique)}
+.sections a.current{color:var(--or);border-bottom-color:var(--rubrique)}
+
+/* ---- Contenu ---- */
+main{max-width:1180px;margin:0 auto;padding:clamp(34px,5vw,66px) clamp(20px,5vw,56px) 72px}
+.lede{
+  position:relative;
+  max-width:760px;
+  margin:0 auto 32px;
+  padding:14px 0;
+  text-align:center;
+  font-family:"Cormorant",Georgia,serif;
+  font-style:italic;
+  font-size:clamp(1.25rem,2vw,1.62rem);
+  line-height:1.45;
+  color:var(--pale);
+}
+.lede::before,.lede::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:72px;
+  height:2px;
+  transform:translateX(-50%);
+  border-top:1px solid var(--or);
+  border-bottom:1px solid var(--rubrique);
+}
+.lede::before{top:0}
+.lede::after{bottom:0}
+.kicker{
+  text-align:center;
+  font-family:"Cormorant",Georgia,serif;
+  font-variant:small-caps;
+  font-size:1.02rem;
+  letter-spacing:.32em;
+  color:var(--rubrique);
+  margin-bottom:10px;
+}
+.kicker::before,.kicker::after{
+  content:"";
+  display:inline-block;
+  width:36px;
+  height:1px;
+  vertical-align:middle;
+  margin:0 14px;
+  background:var(--or);
+}
+h1{
+  position:relative;
+  margin:0 0 50px;
+  padding-bottom:24px;
+  text-align:center;
+  font-family:"Cormorant",Georgia,serif;
+  font-weight:400;
+  font-variant:small-caps;
+  letter-spacing:.16em;
+  font-size:clamp(2.6rem,6vw,4.4rem);
+  line-height:1.06;
+  color:var(--pale);
+  text-shadow:0 1px 0 rgba(244,231,201,.14),0 -1px 0 var(--ombre);
+}
+h1::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:50%;
+  width:140px;
+  height:5px;
+  transform:translateX(-50%);
+  border-top:1px solid var(--or);
+  border-bottom:3px double var(--rubrique);
+}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(290px,350px);gap:clamp(30px,4vw,58px);align-items:start}
+
+/* ---- Prose : encre pâle sur parchemin, entités enluminées ---- */
+.prose{color:var(--encre);text-align:justify;hyphens:auto}
+.prose p{margin:0 0 1.5em}
+.entity{
+  display:inline-block;
+  vertical-align:baseline;
+  color:var(--pale);
+  border-bottom:1px solid rgba(176,138,74,.72);
+  padding-bottom:1px;
+  cursor:pointer;
+  transition:background .18s,box-shadow .18s;
+}
+.entity::first-letter{
+  float:left;
+  font-family:"Cormorant",Georgia,serif;
+  font-size:3em;
+  line-height:.72;
+  padding:2px 4px 0 0;
+  color:var(--or);
+  text-shadow:0 1px 0 var(--ombre);
+}
+.entity:hover,.entity:focus-visible{
+  background:rgba(140,47,36,.42);
+  box-shadow:inset 0 -2px 0 var(--or);
+  outline:none;
+}
+.entity:focus-visible{outline:1px solid var(--or);outline-offset:3px}
+.proofable{
+  cursor:pointer;
+  padding:0 3px;
+  background:linear-gradient(180deg,transparent 56%,rgba(140,47,36,.92) 56%);
+  box-shadow:inset 0 -1px 0 rgba(176,138,74,.6);
+  transition:background .18s;
+}
+.proofable:hover,.proofable:focus-visible{
+  background:rgba(140,47,36,.42);
+  outline:1px solid var(--or);
+  outline-offset:2px;
+}
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding:10px 20px;
+  font-family:"Cormorant",Georgia,serif;
+  font-variant:small-caps;
+  font-size:1.12rem;
+  letter-spacing:.18em;
+  text-decoration:none;
+  color:var(--or);
+  border:3px double var(--or);
+  background:rgba(140,47,36,.16);
+  transition:background .2s,color .2s;
+}
+.continue:hover,.continue:focus-visible{background:var(--rubrique);color:var(--pale);outline:none}
+
+/* ---- Marginales : bandeaux de parchemin rubriqué ---- */
+.margin{padding-top:6px}
+.gloss{
+  position:relative;
+  margin:0 0 24px;
+  padding:17px 18px 16px;
+  border-left:4px solid var(--rubrique);
+  border-top:1px solid rgba(176,138,74,.55);
+  border-bottom:1px solid rgba(176,138,74,.55);
+  background:linear-gradient(135deg,rgba(42,30,18,.97),rgba(22,16,10,.93));
+  box-shadow:0 16px 30px -22px #000,inset 0 0 0 1px rgba(176,138,74,.10);
+  font-size:16px;
+  line-height:1.6;
+  color:var(--encre);
+  text-align:left;
+}
+.gloss-label{
+  display:block;
+  margin-bottom:8px;
+  font-family:"Cormorant",Georgia,serif;
+  font-variant:small-caps;
+  font-size:1.02rem;
+  letter-spacing:.18em;
+  color:var(--rubrique);
+}
+.gloss strong{
+  font-family:"Cormorant",Georgia,serif;
+  font-weight:400;
+  font-size:1.55rem;
+  letter-spacing:.03em;
+  color:var(--or);
+}
+.gloss q{
+  display:block;
+  margin:10px 0 9px;
+  padding-left:12px;
+  border-left:1px solid var(--or);
+  font-style:italic;
+  color:var(--pale);
+}
+.source{
+  display:block;
+  font-style:italic;
+  font-size:.98rem;
+  letter-spacing:.05em;
+  color:var(--or);
+}
+.echo{
+  margin-top:13px;
+  padding:7px 11px;
+  font-family:inherit;
+  font-variant:small-caps;
+  letter-spacing:.13em;
+  font-size:1rem;
+  color:var(--encre);
+  background:transparent;
+  border:1px solid var(--rubrique);
+  cursor:pointer;
+  transition:background .18s,color .18s;
+}
+.echo:hover,.echo:focus-visible{background:var(--rubrique);color:var(--pale);outline:none}
+.echo:focus-visible{outline:1px solid var(--or);outline-offset:2px}
+
+.ledger{
+  margin:54px 0 0;
+  padding-top:20px;
+  border-top:3px double rgba(176,138,74,.62);
+  text-align:center;
+  font-family:"Cormorant",Georgia,serif;
+  font-variant:small-caps;
+  letter-spacing:.2em;
+  font-size:1.08rem;
+  color:var(--or);
+}
+
+@media (max-width:860px){
+  .site-head{min-height:134px}
+  .brand-mark{width:126px;height:126px;right:8px}
+  .context{width:100%;text-align:center}
+  .layout{grid-template-columns:1fr}
+  .margin{margin-top:10px;border-top:1px solid rgba(176,138,74,.32)}
+  .prose{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><g fill="none" stroke="#B08A4A" stroke-width="1.3"><path d="M100 196C100 150 60 150 60 108C60 76 86 62 100 40C114 62 140 76 140 108C140 150 100 150 100 196Z"/><path d="M100 40C100 22 112 14 124 18C136 22 138 36 128 42C120 47 112 40 116 34"/><path d="M100 40C100 22 88 14 76 18C64 22 62 36 72 42C80 47 88 40 84 34"/><path d="M60 108C40 108 28 96 28 80C28 64 42 54 54 60C64 65 62 78 52 76"/><path d="M140 108C160 108 172 96 172 80C172 64 158 54 146 60C136 65 138 78 148 76"/><path d="M100 150C78 150 66 138 66 122M100 150C122 150 134 138 134 122"/></g><g fill="#B08A4A" opacity=".85"><path d="M100 92c-14-8-22-22-20-38 14 6 22 20 20 38z"/><path d="M100 92c14-8 22-22 20-38-14 6-22 20-20 38z"/><path d="M100 130c-14-6-22-18-22-34 14 4 22 16 22 34z"/><path d="M100 130c14-6 22-18 22-34-14 4-22 16-22 34z"/></g><g fill="#8C2F24"><circle cx="100" cy="14" r="4"/><circle cx="26" cy="76" r="3"/><circle cx="174" cy="76" r="3"/><circle cx="100" cy="190" r="4"/></g></svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

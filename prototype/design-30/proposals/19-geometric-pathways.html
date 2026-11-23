@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+/* Outfit n'est pas livré : Spectral (humaniste, chiffres tabulaires) s'en rapproche le plus. */
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+
+:root{
+  --abysse:#07110F;   /* fond */
+  --patine:#0E1C1A;   /* panneaux */
+  --teal:#2E6B63;     /* traits */
+  --or:#C9A24B;       /* filets */
+  --ivoire:#DDE6E0;   /* texte */
+  --corps:#CCD8D1;    /* ivoire légèrement éteint, AA sur abysse et patine */
+  --trait:rgba(46,107,99,.45);
+  --filet:rgba(201,162,75,.22);
+  --sans:"Spectral",Trebuchet MS,system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--corps);
+  font-family:var(--sans);
+  font-size:15px;
+  line-height:1.75;
+  font-variant-numeric:tabular-nums lining-nums;
+  letter-spacing:.01em;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background-color:var(--abysse);
+  background-image:
+    linear-gradient(rgba(46,107,99,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(46,107,99,.04) 1px,transparent 1px);
+  background-size:28px 28px;
+}
+::selection{background:var(--teal);color:var(--ivoire)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:1px solid var(--or);outline-offset:3px}
+
+/* ---- En-tête : cercle inscrit dans un carré, nœuds d'or, voile teal .07 ---- */
+.site-head{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px 30px;
+  min-height:184px;
+  padding:36px clamp(20px,5vw,64px) 30px;
+  border-bottom:1px solid var(--filet);
+  background:radial-gradient(ellipse 40% 120% at 50% 100%,rgba(46,107,99,.07),transparent 72%),var(--abysse);
+}
+.site-head::after{
+  content:"";
+  position:absolute;
+  left:clamp(20px,5vw,64px);
+  right:clamp(20px,5vw,64px);
+  bottom:9px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--filet) 16%,var(--filet) 84%,transparent);
+  pointer-events:none;
+}
+.geom-filigrane{position:absolute;inset:0;width:100%;height:100%;opacity:.07;pointer-events:none;z-index:1}
+.site-head > span{position:relative;z-index:2}
+.brand-mark{
+  flex:0 0 auto;
+  display:inline-grid;
+  place-items:center;
+  width:56px;
+  height:56px;
+  color:transparent;
+  font-size:0;
+  border:1px solid var(--or);
+  background-color:var(--patine);
+  background-image:
+    radial-gradient(circle at 50% 50%,rgba(46,107,99,.38),transparent 70%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23C9A24B' stroke-width='1'%3E%3Crect x='11' y='11' width='42' height='42'/%3E%3Ccircle cx='32' cy='32' r='21'/%3E%3Ccircle cx='32' cy='11' r='1.6' fill='%23C9A24B'/%3E%3Ccircle cx='53' cy='32' r='1.6' fill='%23C9A24B'/%3E%3Ccircle cx='32' cy='53' r='1.6' fill='%23C9A24B'/%3E%3Ccircle cx='11' cy='32' r='1.6' fill='%23C9A24B'/%3E%3C/g%3E%3C/svg%3E");
+  background-position:center;
+  background-size:38px 38px;
+  background-repeat:no-repeat;
+}
+.brand-name{
+  flex:1 1 auto;
+  text-align:center;
+  font-size:clamp(20px,2.6vw,30px);
+  font-weight:500;
+  line-height:1.3;
+  letter-spacing:.3em;
+  text-transform:uppercase;
+  color:var(--ivoire);
+}
+.context{
+  flex:0 0 auto;
+  padding-left:18px;
+  border-left:1px solid var(--trait);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--corps);
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  border-block:1px solid var(--trait);
+  background:rgba(14,28,26,.72);
+}
+.sections a{
+  position:relative;
+  padding:13px 26px;
+  border-right:1px solid var(--filet);
+  font-size:11px;
+  letter-spacing:.26em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--corps);
+  transition:color .2s ease,background .2s ease;
+}
+.sections a:last-child{border-right:0}
+.sections a:hover{color:var(--ivoire);background:rgba(46,107,99,.16)}
+.sections a.current{color:var(--ivoire);box-shadow:inset 0 -2px var(--or)}
+
+/* ---- Page ---- */
+main{max-width:1140px;margin:0 auto;padding:clamp(38px,6vw,72px) clamp(20px,5vw,56px) 76px}
+.lede{
+  max-width:660px;
+  margin:0 auto 32px;
+  font-size:clamp(18px,2.2vw,25px);
+  font-weight:400;
+  line-height:1.7;
+  text-align:center;
+  color:var(--ivoire);
+}
+.kicker{
+  margin-bottom:14px;
+  font-size:11px;
+  letter-spacing:.38em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--corps);
+}
+.kicker::before,.kicker::after{content:"—";margin:0 12px;color:var(--or)}
+h1{
+  position:relative;
+  margin:0 0 52px;
+  font-size:clamp(28px,4.6vw,46px);
+  font-weight:500;
+  line-height:1.3;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--ivoire);
+}
+h1::after{
+  content:"";
+  display:block;
+  width:132px;
+  height:1px;
+  margin:22px auto 0;
+  background:linear-gradient(90deg,transparent,var(--or) 50%,transparent);
+}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1.35fr) minmax(280px,.85fr);
+  gap:clamp(28px,4vw,56px);
+  align-items:start;
+}
+
+/* ---- Prose : ivoire sur patine ---- */
+.prose{
+  position:relative;
+  padding:34px clamp(22px,3.4vw,40px);
+  border:1px solid var(--trait);
+  background:linear-gradient(180deg,rgba(14,28,26,.92),rgba(7,17,15,.7));
+  box-shadow:inset 0 0 0 4px var(--abysse),inset 0 0 0 5px var(--filet),0 20px 44px -28px #000;
+}
+.prose p{margin:0 0 1.5em;color:var(--corps)}
+.prose p:first-child::first-letter{
+  float:left;
+  margin:5px 10px 0 0;
+  font-size:2.9em;
+  font-weight:500;
+  line-height:.82;
+  color:var(--ivoire);
+}
+/* grille 24px teal/abysse + point d'or + filet sous le nom */
+.entity{
+  position:relative;
+  isolation:isolate;
+  display:inline-block;
+  padding:0 3px 2px;
+  border-bottom:1px solid var(--or);
+  color:var(--ivoire);
+  letter-spacing:.04em;
+  cursor:pointer;
+  transition:color .2s ease;
+}
+.entity::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background-image:
+    linear-gradient(rgba(46,107,99,.16) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(46,107,99,.16) 1px,transparent 1px);
+  background-color:var(--abysse);
+  background-size:24px 24px;
+}
+.entity::after{
+  content:"";
+  position:absolute;
+  right:-3px;
+  top:-3px;
+  width:4px;
+  height:4px;
+  border-radius:50%;
+  background:var(--or);
+  box-shadow:0 0 6px rgba(201,162,75,.7);
+  pointer-events:none;
+}
+.entity:hover{color:#fff}
+.proofable{
+  cursor:pointer;
+  color:var(--corps);
+  border-bottom:1px dashed var(--teal);
+  background:linear-gradient(180deg,transparent 66%,rgba(46,107,99,.14) 66%);
+  transition:background .2s ease,color .2s ease;
+}
+.proofable:hover{color:var(--ivoire);background:linear-gradient(180deg,transparent 58%,rgba(46,107,99,.24) 58%)}
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding-bottom:4px;
+  border-bottom:1px solid var(--filet);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--ivoire);
+}
+.continue::after{content:" →";color:var(--or)}
+.continue:hover{border-bottom-color:var(--or)}
+
+/* ---- Margin glosses : cartouche patine, liseré or 1px, grille teal 4% ---- */
+.margin{display:grid;gap:22px}
+.gloss{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  padding:28px 26px 24px;
+  border:1px solid var(--or);
+  background:var(--patine);
+  box-shadow:0 0 0 4px var(--abysse),0 0 0 5px var(--filet);
+}
+.gloss::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background-image:
+    linear-gradient(rgba(46,107,99,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(46,107,99,.04) 1px,transparent 1px);
+  background-size:24px 24px;
+}
+.gloss::after{
+  content:"";
+  position:absolute;
+  top:10px;
+  right:11px;
+  width:14px;
+  height:14px;
+  border:1px solid var(--or);
+  background:radial-gradient(circle,rgba(46,107,99,.5),transparent 70%);
+  opacity:.8;
+  pointer-events:none;
+}
+.gloss-label{
+  display:block;
+  margin-bottom:12px;
+  padding-bottom:9px;
+  border-bottom:1px solid var(--filet);
+  font-size:10px;
+  line-height:1.5;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--corps);
+}
+.gloss strong{
+  display:block;
+  margin-bottom:6px;
+  color:var(--ivoire);
+  font-size:20px;
+  font-weight:500;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.gloss q{
+  display:block;
+  margin:14px 0;
+  padding-left:14px;
+  border-left:1px solid var(--teal);
+  quotes:"“" "”";
+  font-size:15px;
+  line-height:1.75;
+  color:var(--corps);
+}
+.source{
+  display:block;
+  font-size:10px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--corps);
+}
+.echo{
+  display:inline-block;
+  margin-top:16px;
+  padding:9px 15px;
+  border:1px solid var(--filet);
+  background:var(--abysse);
+  color:var(--corps);
+  font-family:inherit;
+  font-size:10px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:color .2s ease,background .2s ease;
+}
+.echo:hover{color:var(--abysse);background:var(--or)}
+
+/* ---- Ledger ---- */
+.ledger{
+  margin:56px 0 0;
+  padding-top:20px;
+  border-top:1px solid var(--trait);
+  font-size:11px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--corps);
+}
+.ledger::before{
+  content:"";
+  display:block;
+  width:9px;
+  height:9px;
+  margin:0 auto 14px;
+  border:1px solid var(--or);
+  transform:rotate(45deg);
+}
+
+/* mobile : casser l'alignement des grilles pour éviter le moirage */
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr}
+  .brand-name{flex-basis:100%}
+  .context{border-left:0;padding-left:0}
+}
+@media (max-width:560px){
+  body{background-image:none}
+  .sections a{padding:11px 13px;font-size:10px;letter-spacing:.14em}
+  .geom-filigrane{display:none}
+  .prose{padding:24px 18px}
+  .entity::before,.gloss::before{background-image:none}
+  .gloss{padding:22px 18px 20px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;</span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+  <svg class="geom-filigrane" viewBox="0 0 1200 240" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <pattern id="mm-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+        <path d="M16 0H0V16" fill="none" stroke="#2E6B63" stroke-width=".6"/>
+      </pattern>
+    </defs>
+    <rect x="0" y="0" width="1200" height="240" fill="url(#mm-grid)"/>
+    <g fill="none" stroke="#C9A24B" stroke-width="1.2">
+      <rect x="438" y="6" width="228" height="228"/>
+      <circle cx="552" cy="120" r="114"/>
+      <circle cx="552" cy="120" r="80" stroke="#2E6B63"/>
+      <path d="M552 6v228M438 120h228"/>
+    </g>
+    <g fill="#C9A24B">
+      <circle cx="438" cy="6" r="3"/><circle cx="666" cy="6" r="3"/>
+      <circle cx="438" cy="234" r="3"/><circle cx="666" cy="234" r="3"/>
+      <circle cx="552" cy="120" r="3.5"/>
+    </g>
+  </svg>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

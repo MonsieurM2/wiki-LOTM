@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Garamond Herbier";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Garamond Herbier";src:url("../../immersion/fonts/cormorant-italic.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
+@font-face{font-family:"Caveat Herbier";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
+@font-face{font-family:"Garamond Hand";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+
+:root{
+  --fond:#071A15;
+  --panneau:#14382B;
+  --or:#A8894E;
+  --parchemin:#CBC3A0;
+  --lichen:#7C9A72;
+  --filet:rgba(168,137,78,.48);
+  --filet-fin:rgba(168,137,78,.22);
+  --serif:"Garamond Herbier",EB Garamond,Georgia,serif;
+  --hand:"Caveat Herbier",cursive;
+  --pin:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Ccircle cx='6' cy='6' r='3.2' fill='%23A8894E'/%3E%3Ccircle cx='5' cy='5' r='1.05' fill='%23CBC3A0' opacity='.85'/%3E%3C/svg%3E");
+}
+
+*{box-sizing:border-box}
+html{background:var(--fond)}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--parchemin);
+  font:400 16px/1.75 var(--serif);
+  background:
+    radial-gradient(120% 70% at 50% -12%,rgba(124,154,114,.085),transparent 64%),
+    repeating-linear-gradient(91deg,rgba(203,195,160,.012) 0 1px,transparent 1px 7px),
+    repeating-linear-gradient(3deg,rgba(0,0,0,.09) 0 1px,transparent 1px 13px),
+    var(--fond);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ---- header: single dried fern, ghosted behind the name ---- */
+.site-head{
+  position:relative;
+  isolation:isolate;
+  display:flex;
+  align-items:baseline;
+  flex-wrap:wrap;
+  gap:.45rem clamp(1rem,3vw,2.4rem);
+  min-height:132px;
+  padding:1.5rem clamp(1rem,5vw,4rem) 1.15rem;
+  border-bottom:1px double var(--filet);
+  background:linear-gradient(180deg,#0B221B 0%,rgba(7,26,21,.55) 100%);
+  box-shadow:inset 0 1px 0 rgba(168,137,78,.16),0 18px 40px -34px #000;
+  overflow:hidden;
+}
+.site-head:after{
+  content:"";
+  position:absolute;left:clamp(1rem,5vw,4rem);right:clamp(1rem,5vw,4rem);bottom:4px;height:1px;
+  background:linear-gradient(90deg,var(--or),transparent 78%);
+  opacity:.5;
+  pointer-events:none;
+}
+.site-head>span:not(.brand-mark){position:relative;z-index:1}
+.brand-mark{
+  position:absolute;
+  top:50%;
+  right:clamp(6px,6vw,96px);
+  width:clamp(150px,20vw,260px);
+  height:clamp(150px,20vw,260px);
+  transform:translateY(-50%) rotate(-8deg);
+  opacity:.07;
+  font-size:0;
+  line-height:0;
+  color:transparent;
+  pointer-events:none;
+  z-index:0;
+}
+.brand-mark svg{position:absolute;inset:0;width:100%;height:100%;display:block;overflow:visible}
+.brand-name{
+  font:400 clamp(1.7rem,3.6vw,2.8rem)/1.1 var(--serif);
+  font-variant:small-caps;
+  letter-spacing:.2em;
+  color:var(--or);
+  text-shadow:0 1px 0 rgba(203,195,160,.14);
+}
+.context{
+  font:italic .98rem/1.4 var(--serif);
+  letter-spacing:.1em;
+  color:var(--lichen);
+}
+
+/* ---- navigation: pressed flower-paper tabs ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0 clamp(1.2rem,3vw,2.8rem);
+  padding:.65rem clamp(1rem,5vw,4rem);
+  border-bottom:1px solid var(--filet-fin);
+  background:rgba(20,56,43,.35);
+}
+.sections a{
+  position:relative;
+  padding:.25rem 0 .35rem;
+  color:var(--parchemin);
+  font:400 .82rem/1.2 var(--serif);
+  font-variant:small-caps;
+  letter-spacing:.19em;
+  text-decoration:none;
+  opacity:.78;
+  transition:color .18s ease,opacity .18s ease;
+}
+.sections a:after{
+  content:"";
+  position:absolute;left:0;right:100%;bottom:0;height:1px;
+  background:var(--or);
+  transition:right .22s ease;
+}
+.sections a:hover{color:var(--lichen);opacity:1}
+.sections a:hover:after,.sections a.current:after{right:0}
+.sections a.current{color:var(--or);opacity:1}
+
+/* ---- main: the open cabinet ---- */
+main{
+  max-width:1180px;
+  margin:0 auto;
+  padding:clamp(1.8rem,4vw,3.4rem) clamp(1rem,5vw,4rem) 3rem;
+}
+.lede{
+  max-width:54ch;
+  margin:0 0 .6rem;
+  font:italic 1.16rem/1.65 var(--serif);
+  color:var(--lichen);
+}
+.kicker{
+  display:inline-block;
+  margin:0 0 1.4rem;
+  padding:0 0 .18rem;
+  border-bottom:1px solid var(--filet);
+  font:400 .75rem/1.4 var(--serif);
+  font-variant:small-caps;
+  letter-spacing:.26em;
+  color:var(--or);
+}
+h1{
+  margin:0 0 1.9rem;
+  font:400 clamp(2rem,4.4vw,3.15rem)/1.18 var(--serif);
+  font-variant:small-caps;
+  letter-spacing:.1em;
+  color:var(--or);
+  text-shadow:0 1px 0 rgba(0,0,0,.6);
+}
+h1:after{
+  content:"";
+  display:block;
+  width:min(100%,260px);
+  height:3px;
+  margin-top:.85rem;
+  border-top:1px solid var(--filet);
+  border-bottom:1px solid var(--filet-fin);
+}
+
+/* ---- two columns: text plate / pinned fiches ---- */
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(280px,360px);
+  gap:clamp(1.6rem,4vw,3.4rem);
+  align-items:start;
+}
+.prose{
+  padding-left:clamp(0px,1.5vw,18px);
+  border-left:1px solid var(--filet-fin);
+  font-size:1rem;
+  line-height:1.75;
+}
+.prose p{margin:0 0 1.15rem;text-align:justify;hyphens:auto}
+.prose>p:first-child:first-letter{
+  float:left;
+  margin:.12em .12em 0 0;
+  font:400 3.5em/.78 var(--serif);
+  color:var(--or);
+}
+.entity{
+  position:relative;
+  padding-left:1em;
+  border-bottom:1px dotted var(--or);
+  color:var(--or);
+  font-variant:small-caps;
+  letter-spacing:.06em;
+  cursor:help;
+}
+.entity::before{
+  content:"";
+  position:absolute;left:-1px;top:.34em;
+  width:10px;height:12px;
+  background:var(--pin) no-repeat center/contain;
+}
+.entity:hover,.entity:focus-visible{color:var(--parchemin);border-bottom-color:var(--lichen);outline:none}
+.proofable{
+  border-bottom:1px dashed var(--lichen);
+  background:linear-gradient(180deg,transparent 62%,rgba(124,154,114,.12) 62%);
+  cursor:help;
+}
+.proofable:hover,.proofable:focus-visible{outline:1px solid var(--filet);outline-offset:3px}
+.continue{
+  display:inline-block;
+  margin-top:.4rem;
+  padding:.3rem 0;
+  color:var(--lichen);
+  font:400 .86rem/1.4 var(--serif);
+  font-variant:small-caps;
+  letter-spacing:.16em;
+  text-decoration:none;
+  border-bottom:1px solid var(--filet);
+}
+.continue:hover{color:var(--or);border-bottom-color:var(--or)}
+
+/* ---- margin: herbarium sheets, four pins each ---- */
+.margin{display:grid;gap:1.4rem}
+.gloss{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  gap:.35rem;
+  min-height:170px;
+  padding:1.5rem 1.35rem 2.7rem;
+  border:1px solid var(--or);
+  outline:1px solid var(--filet-fin);
+  outline-offset:4px;
+  background:
+    var(--pin) 9px 9px no-repeat,
+    var(--pin) calc(100% - 9px) 9px no-repeat,
+    var(--pin) 9px calc(100% - 9px) no-repeat,
+    var(--pin) calc(100% - 9px) calc(100% - 9px) no-repeat,
+    linear-gradient(158deg,rgba(203,195,160,.05),transparent 55%),
+    var(--panneau);
+  box-shadow:inset 0 0 0 4px rgba(7,26,21,.55),0 10px 26px -20px #000;
+}
+.gloss-label{
+  order:5;
+  display:inline-block;
+  margin-top:auto;
+  padding-top:.15rem;
+  color:var(--or);
+  font:italic 1.02rem/1.3 var(--hand);
+  letter-spacing:.03em;
+}
+.gloss-label::before{
+  content:"";
+  display:block;
+  width:64px;height:14px;
+  margin-bottom:-2px;
+  border-top:1px solid var(--filet);
+  border-radius:50%;
+  transform:rotate(-4deg);
+}
+.gloss strong{
+  display:block;
+  color:var(--parchemin);
+  font:400 1.13rem/1.35 var(--serif);
+  font-variant:small-caps;
+  letter-spacing:.12em;
+}
+.gloss q{
+  display:block;
+  margin:.1rem 0;
+  padding-left:.7rem;
+  border-left:1px solid var(--filet);
+  font:italic .96rem/1.6 var(--serif);
+  color:var(--parchemin);
+  opacity:.88;
+}
+.source{
+  font:italic .82rem/1.4 var(--serif);
+  letter-spacing:.08em;
+  color:var(--lichen);
+}
+.echo{
+  align-self:flex-start;
+  margin-top:.3rem;
+  padding:.3rem .6rem;
+  border:1px solid var(--filet);
+  background:rgba(7,26,21,.5);
+  color:var(--lichen);
+  font:400 .78rem/1.4 var(--serif);
+  font-variant:small-caps;
+  letter-spacing:.1em;
+  cursor:pointer;
+}
+.echo:hover,.echo:focus-visible{color:var(--or);border-color:var(--or);outline:none}
+
+.ledger{
+  max-width:760px;
+  margin:3rem auto 0;
+  padding-top:1rem;
+  border-top:1px double var(--filet);
+  text-align:center;
+  font:italic .88rem/1.5 var(--serif);
+  letter-spacing:.16em;
+  color:var(--lichen);
+}
+
+@media (max-width:820px){
+  .layout{grid-template-columns:1fr}
+  .brand-mark{right:-20px;opacity:.055}
+  .prose{border-left:none;padding-left:0}
+}
+
+@media (prefers-reduced-motion:reduce){
+  .sections a,.sections a:after{transition:none}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true"><defs><linearGradient id="frondGrad" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#14382B"/><stop offset=".55" stop-color="#A8894E"/><stop offset="1" stop-color="#CBC3A0"/></linearGradient><path id="pinna" d="M0 0C-12-6-26-17-34-36C-19-29-7-17 0 0Z"/></defs><g fill="none" stroke="url(#frondGrad)" stroke-width="2.1" stroke-linecap="round"><path d="M196 386C174 306 190 206 252 40"/><path d="M252 40C260 26 274 20 286 26" opacity=".7"/></g><g fill="url(#frondGrad)" stroke="url(#frondGrad)" stroke-width=".55"><use href="#pinna" transform="translate(192 348) rotate(-8) scale(1.18 .95)"/><use href="#pinna" transform="translate(192 348) rotate(8) scale(-1.12 .9)"/><use href="#pinna" transform="translate(187 316) rotate(-10) scale(1.12 .92)"/><use href="#pinna" transform="translate(187 316) rotate(10) scale(-1.06 .88)"/><use href="#pinna" transform="translate(185 284) rotate(-13) scale(1.04 .88)"/><use href="#pinna" transform="translate(185 284) rotate(13) scale(-.99 .84)"/><use href="#pinna" transform="translate(187 252) rotate(-16) scale(.96 .84)"/><use href="#pinna" transform="translate(187 252) rotate(16) scale(-.91 .8)"/><use href="#pinna" transform="translate(192 220) rotate(-20) scale(.88 .78)"/><use href="#pinna" transform="translate(192 220) rotate(20) scale(-.84 .74)"/><use href="#pinna" transform="translate(199 189) rotate(-24) scale(.8 .72)"/><use href="#pinna" transform="translate(199 189) rotate(24) scale(-.76 .68)"/><use href="#pinna" transform="translate(208 158) rotate(-29) scale(.72 .66)"/><use href="#pinna" transform="translate(208 158) rotate(29) scale(-.68 .62)"/><use href="#pinna" transform="translate(219 128) rotate(-34) scale(.63 .58)"/><use href="#pinna" transform="translate(219 128) rotate(34) scale(-.6 .55)"/><use href="#pinna" transform="translate(231 99) rotate(-40) scale(.54 .5)"/><use href="#pinna" transform="translate(231 99) rotate(40) scale(-.51 .48)"/><use href="#pinna" transform="translate(243 71) rotate(-47) scale(.44 .42)"/><use href="#pinna" transform="translate(243 71) rotate(47) scale(-.42 .4)"/><use href="#pinna" transform="translate(253 47) rotate(-56) scale(.34 .34)"/><use href="#pinna" transform="translate(253 47) rotate(56) scale(-.32 .32)"/></g><g fill="none" stroke="url(#frondGrad)" stroke-width="1" opacity=".65"><path d="M158 372C176 364 190 352 196 342"/><path d="M242 386C258 374 268 360 272 346"/></g></svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

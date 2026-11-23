@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Cormorant Forge";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Spectral Forge";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:"Spectral Forge";src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");font-style:normal;font-weight:500;font-display:swap}
+@font-face{font-family:"Spectral Forge";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-style:italic;font-weight:400;font-display:swap}
+
+:root{
+  --forge:#0C0A09;
+  --scoria:#1A1411;
+  --steel:#D9D3C9;
+  --soot:#948A80;
+  --ember:#C85A28;
+  --ember-ink:#E88A55;
+  --steel-line:rgba(217,211,201,.22);
+  --display:"Cormorant Forge",Georgia,serif;
+  --text:"Spectral Forge",Georgia,serif;
+}
+
+*{box-sizing:border-box}
+html{background:var(--forge)}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--soot);
+  font:400 16px/1.7 var(--text);
+  font-variant-numeric:tabular-nums lining-nums;
+  background:
+    radial-gradient(120% 60% at 50% -10%,rgba(200,90,40,.10),transparent 62%),
+    repeating-linear-gradient(115deg,rgba(217,211,201,.014) 0 2px,transparent 2px 9px),
+    var(--forge);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ---- header: riveted iron band, ember halo ---- */
+.site-head{
+  position:relative;
+  isolation:isolate;
+  display:flex;
+  align-items:baseline;
+  gap:1.1rem;
+  padding:1.15rem clamp(1rem,4vw,3.5rem) 1rem;
+  border-bottom:1px solid var(--steel-line);
+  background:linear-gradient(180deg,#1A1411 0%,#120F0D 100%);
+  box-shadow:0 1px 0 rgba(0,0,0,.8),0 14px 34px -26px rgba(200,90,40,.45);
+  overflow:hidden;
+}
+.site-head:after{
+  content:"";
+  position:absolute;left:0;right:0;bottom:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(200,90,40,.4) 30%,rgba(200,90,40,.4) 70%,transparent);
+  pointer-events:none;
+}
+.brand-mark{
+  position:absolute;
+  inset:-14px 0 auto;
+  height:calc(100% + 14px);
+  z-index:-1;
+  opacity:.08;
+  pointer-events:none;
+  overflow:hidden;
+}
+.brand-mark svg{display:block;width:100%;height:100%}
+.brand-name{
+  position:relative;
+  font:400 1.55rem/1 var(--display);
+  color:var(--steel);
+  text-transform:uppercase;
+  letter-spacing:.085em;
+  white-space:nowrap;
+}
+.context{
+  position:relative;
+  margin-left:auto;
+  font-size:.68rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--soot);
+}
+
+/* ---- nav: rivet-separated steel strip ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0;
+  padding:0 clamp(1rem,4vw,3.5rem);
+  border-bottom:1px solid var(--steel-line);
+  background:rgba(12,10,9,.72);
+}
+.sections a{
+  position:relative;
+  padding:.75rem 1.4rem .75rem 0;
+  margin-right:1.4rem;
+  color:var(--soot);
+  font-size:.7rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  text-decoration:none;
+  transition:color .2s ease;
+}
+.sections a+ a:before{
+  content:"";
+  position:absolute;left:-.75rem;top:50%;
+  width:4px;height:4px;margin-top:-2px;
+  border-radius:50%;
+  background:var(--soot);
+  box-shadow:inset 0 1px 0 rgba(217,211,201,.35),0 0 0 1px rgba(0,0,0,.6);
+}
+.sections a:hover,.sections a:focus-visible{color:var(--ember-ink)}
+.sections a.current{
+  color:var(--ember-ink);
+  box-shadow:inset 0 -2px 0 var(--ember);
+}
+.sections a:focus-visible{outline:1px solid var(--ember);outline-offset:2px}
+
+/* ---- main ---- */
+main#chapter{
+  max-width:1140px;
+  margin:0 auto;
+  padding:clamp(2rem,5vw,4rem) clamp(1rem,4vw,3rem) 3rem;
+}
+.lede{
+  max-width:52ch;
+  margin:0 0 2rem;
+  padding-left:1rem;
+  border-left:2px solid var(--ember);
+  color:var(--steel);
+  font-style:italic;
+  font-size:1.02rem;
+}
+.kicker{
+  margin-bottom:.4rem;
+  color:var(--ember-ink);
+  font-size:.68rem;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+}
+h1{
+  margin:0 0 2.4rem;
+  color:var(--steel);
+  font:400 clamp(2.6rem,6vw,4.4rem)/.98 var(--display);
+  text-transform:uppercase;
+  letter-spacing:-.015em;
+  text-shadow:0 0 26px rgba(200,90,40,.22),0 2px 0 rgba(0,0,0,.7);
+}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(270px,340px);
+  gap:clamp(1.5rem,4vw,3.5rem);
+  align-items:start;
+}
+
+/* ---- prose ---- */
+.prose p{margin:0 0 1.35rem;color:#B8AEA2}
+.prose>p:first-child{color:var(--steel)}
+.entity{
+  position:relative;
+  display:inline-block;
+  padding:0 .18em;
+  color:var(--steel);
+  font-weight:500;
+  cursor:pointer;
+  isolation:isolate;
+  text-shadow:0 0 14px rgba(200,90,40,.4);
+}
+.entity:before{
+  content:"";
+  position:absolute;inset:0;
+  z-index:-1;
+  background:repeating-linear-gradient(118deg,rgba(200,90,40,.22) 0 1px,transparent 1px 4px,rgba(217,211,201,.09) 4px 5px,transparent 5px 9px);
+  box-shadow:inset 0 -1px 0 rgba(200,90,40,.55);
+}
+.entity:hover,.entity:focus-visible{color:var(--ember-ink)}
+.entity:focus-visible{outline:1px solid var(--ember);outline-offset:3px}
+.proofable{
+  color:var(--steel);
+  cursor:pointer;
+  background:linear-gradient(180deg,transparent 72%,rgba(200,90,40,.22) 72%);
+  box-shadow:inset 0 -1px 0 rgba(200,90,40,.5);
+}
+.proofable:hover,.proofable:focus-visible{color:var(--ember-ink);outline:none}
+.proofable:focus-visible{outline:1px solid var(--ember);outline-offset:3px}
+.continue{
+  display:inline-block;
+  margin-top:.6rem;
+  padding:.7rem 1.15rem;
+  border:1px solid var(--steel-line);
+  background:linear-gradient(180deg,var(--scoria),#120F0D);
+  color:var(--steel);
+  font-size:.7rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  text-decoration:none;
+  box-shadow:inset 0 0 0 1px rgba(0,0,0,.6),0 4px 14px -10px rgba(200,90,40,.8);
+  transition:border-color .2s ease,color .2s ease;
+}
+.continue:hover,.continue:focus-visible{border-color:var(--ember);color:var(--ember-ink)}
+.continue:focus-visible{outline:1px solid var(--ember);outline-offset:3px}
+
+/* ---- margin: factory plates ---- */
+.margin{display:grid;gap:1rem}
+.gloss{
+  position:relative;
+  padding:1.15rem 1.2rem 1.05rem;
+  border:1px solid var(--steel-line);
+  background:
+    radial-gradient(circle at 8px 8px,rgba(217,211,201,.14) 0 1px,transparent 1.5px),
+    radial-gradient(circle at calc(100% - 8px) 8px,rgba(217,211,201,.14) 0 1px,transparent 1.5px),
+    radial-gradient(circle at 8px calc(100% - 8px),rgba(217,211,201,.14) 0 1px,transparent 1.5px),
+    radial-gradient(circle at calc(100% - 8px) calc(100% - 8px),rgba(217,211,201,.14) 0 1px,transparent 1.5px),
+    linear-gradient(160deg,var(--scoria),#120F0D);
+  box-shadow:inset 0 1px 0 rgba(217,211,201,.05),0 10px 26px -22px rgba(200,90,40,.9);
+}
+.gloss-label{
+  display:block;
+  margin-bottom:.6rem;
+  padding-bottom:.45rem;
+  border-bottom:1px solid rgba(200,90,40,.28);
+  color:var(--ember-ink);
+  font-size:.62rem;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+}
+.gloss strong{
+  display:inline;
+  color:var(--steel);
+  font:500 1.12rem/1.2 var(--display);
+  text-transform:uppercase;
+  letter-spacing:.06em;
+  text-shadow:0 0 16px rgba(200,90,40,.25);
+}
+.gloss q{display:block;margin:.65rem 0;color:#B8AEA2;font-style:italic}
+.source{display:block;color:var(--soot);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase}
+.echo{
+  display:block;
+  width:100%;
+  margin-top:.9rem;
+  padding:.6rem .7rem;
+  border:1px solid rgba(200,90,40,.42);
+  background:rgba(200,90,40,.06);
+  color:var(--ember-ink);
+  font:400 .68rem/1.4 var(--text);
+  letter-spacing:.1em;
+  text-align:left;
+  text-transform:uppercase;
+  cursor:pointer;
+  transition:background .2s ease,border-color .2s ease;
+}
+.echo:hover,.echo:focus-visible{background:rgba(200,90,40,.14);border-color:var(--ember)}
+.echo:focus-visible{outline:1px solid var(--ember);outline-offset:2px}
+
+.ledger{
+  margin:4rem 0 0;
+  padding:1rem 0 0;
+  border-top:1px solid var(--steel-line);
+  color:var(--soot);
+  font-size:.68rem;
+  letter-spacing:.2em;
+  text-align:center;
+  text-transform:uppercase;
+}
+
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr}
+  .site-head{flex-wrap:wrap}
+  .context{margin-left:0;flex-basis:100%}
+  .sections a{padding-right:.9rem;margin-right:.9rem}
+  .sections a+ a:before{left:-.5rem}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 1200 120" preserveAspectRatio="none" role="presentation" focusable="false">
+    <defs>
+      <linearGradient id="iron" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#D9D3C9"/><stop offset=".28" stop-color="#6E655C"/>
+        <stop offset=".55" stop-color="#241D19"/><stop offset="1" stop-color="#948A80"/>
+      </linearGradient>
+      <linearGradient id="braise" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#C85A28" stop-opacity="0"/>
+        <stop offset=".5" stop-color="#C85A28" stop-opacity="1"/>
+        <stop offset="1" stop-color="#C85A28" stop-opacity="0"/>
+      </linearGradient>
+      <pattern id="braid" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+        <rect width="24" height="24" fill="none"/>
+        <path d="M0 6h24M0 18h24" stroke="#D9D3C9" stroke-opacity=".45" stroke-width="2"/>
+      </pattern>
+    </defs>
+    <rect x="0" y="34" width="1200" height="52" fill="url(#iron)"/>
+    <rect x="0" y="34" width="1200" height="52" fill="url(#braid)"/>
+    <rect x="0" y="58" width="1200" height="4" fill="url(#braise)"/>
+    <path d="M0 34h1200M0 86h1200" stroke="#0C0A09" stroke-width="2"/>
+    <g fill="#0C0A09" stroke="#D9D3C9" stroke-opacity=".6">
+      <circle cx="34" cy="60" r="6"/><circle cx="98" cy="60" r="6"/><circle cx="162" cy="60" r="6"/>
+      <circle cx="226" cy="60" r="6"/><circle cx="290" cy="60" r="6"/><circle cx="354" cy="60" r="6"/>
+      <circle cx="418" cy="60" r="6"/><circle cx="482" cy="60" r="6"/><circle cx="546" cy="60" r="6"/>
+      <circle cx="610" cy="60" r="6"/><circle cx="674" cy="60" r="6"/><circle cx="738" cy="60" r="6"/>
+      <circle cx="802" cy="60" r="6"/><circle cx="866" cy="60" r="6"/><circle cx="930" cy="60" r="6"/>
+      <circle cx="994" cy="60" r="6"/><circle cx="1058" cy="60" r="6"/><circle cx="1122" cy="60" r="6"/>
+      <circle cx="1186" cy="60" r="6"/>
+    </g>
+    <g fill="#C85A28" opacity=".7">
+      <circle cx="34" cy="58" r="2"/><circle cx="162" cy="58" r="2"/><circle cx="290" cy="58" r="2"/>
+      <circle cx="418" cy="58" r="2"/><circle cx="546" cy="58" r="2"/><circle cx="674" cy="58" r="2"/>
+      <circle cx="802" cy="58" r="2"/><circle cx="930" cy="58" r="2"/><circle cx="1058" cy="58" r="2"/>
+      <circle cx="1186" cy="58" r="2"/>
+    </g>
+  </svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

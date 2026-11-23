@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+
+:root{
+  --fouraille:#0C1116;        /* fond */
+  --brume:#8C9AA6;            /* texte */
+  --ambre:#D9A441;            /* ampoules */
+  --gaz:#F0C877;              /* halos */
+  --ardoise:#2A3B47;          /* panneaux */
+  --brume-lt:#B7C2CB;         /* brume éclaircie pour le corps */
+  --liseré:rgba(217,164,64,.34);
+  --brume-filet:rgba(140,154,166,.16);
+  --serif:"Spectral",Georgia,serif;                 /* Lora absent : son proche humaniste */
+  --display:"Cormorant",Garamond,Georgia,serif;     /* petites capitales aérées */
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--brume);
+  font-family:var(--serif);
+  font-size:16px;
+  line-height:1.7;
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background-color:var(--fouraille);
+  background-image:
+    radial-gradient(ellipse 74% 38% at 50% -6%,rgba(240,200,119,.09),transparent 72%),
+    radial-gradient(ellipse 52% 34% at 6% 26%,rgba(140,154,166,.09),transparent 76%),
+    radial-gradient(ellipse 64% 44% at 94% 82%,rgba(42,59,71,.55),transparent 78%),
+    repeating-linear-gradient(96deg,rgba(140,154,166,.012) 0 3px,transparent 3px 14px,rgba(0,0,0,.1) 14px 22px,transparent 22px 38px);
+}
+::selection{background:var(--ambre);color:var(--fouraille)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:1px solid var(--gaz);outline-offset:3px}
+
+/* ---- En-tête : halo radial ambre + ornement unique (réverbère, brume, haut-de-forme) ---- */
+.site-head{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px 28px;
+  min-height:180px;
+  padding:36px clamp(20px,5vw,64px) 32px;
+  border-bottom:1px solid var(--liseré);
+  background:
+    radial-gradient(ellipse 40% 128% at 50% 118%,rgba(217,164,64,.22),transparent 72%),
+    linear-gradient(180deg,#131C24,var(--fouraille));
+  box-shadow:inset 0 -20px 34px -28px #000;
+}
+.site-head::after{
+  content:"";
+  position:absolute;
+  left:clamp(20px,5vw,64px);
+  right:clamp(20px,5vw,64px);
+  bottom:8px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--liseré) 15%,var(--liseré) 85%,transparent);
+  pointer-events:none;
+}
+.veil-filigrane{position:absolute;inset:0;width:100%;height:100%;opacity:.14;pointer-events:none;z-index:1}
+.site-head > span{position:relative;z-index:2}
+.brand-mark{
+  flex:0 0 auto;
+  display:inline-grid;
+  place-items:center;
+  width:58px;
+  height:58px;
+  color:transparent;
+  font-size:0;
+  border:1px solid var(--ambre);
+  border-radius:50%;
+  background-color:rgba(42,59,71,.72);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:40px 40px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%23D9A441' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M32 4v5'/%3E%3Ccircle cx='32' cy='11' r='2.4' fill='%23F0C877' stroke='none'/%3E%3Cpath d='M25 15h14l-2 4H27z'/%3E%3Cpath d='M27 19h10v15H27z'/%3E%3Cpath d='M32 19v15' opacity='.65'/%3E%3Cpath d='M30 22h4v9h-4z' fill='%23F0C877' fill-opacity='.45' stroke='none'/%3E%3Cpath d='M25 34h14l-2 4H27z'/%3E%3Cpath d='M30 38v17M34 38v17'/%3E%3Cpath d='M27 55h10l2 4H25z'/%3E%3Cpath d='M22 60h20'/%3E%3C/g%3E%3C/svg%3E");
+  box-shadow:
+    inset 0 0 0 3px var(--fouraille),
+    inset 0 0 0 4px rgba(217,164,64,.34),
+    0 0 26px rgba(240,200,119,.2);
+}
+.brand-name{
+  flex:1 1 auto;
+  text-align:center;
+  font-family:var(--display);
+  font-size:clamp(21px,2.7vw,31px);
+  font-weight:400;
+  line-height:1.18;
+  letter-spacing:.26em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:#DCE4E8;
+  text-shadow:0 2px 0 rgba(0,0,0,.6),0 0 28px rgba(240,200,119,.2);
+}
+.context{
+  flex:0 0 auto;
+  padding-left:18px;
+  border-left:1px solid var(--liseré);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:var(--brume-lt);
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  border-block:1px solid rgba(217,164,64,.26);
+  background:linear-gradient(180deg,rgba(42,59,71,.7),rgba(12,17,22,.55));
+}
+.sections a{
+  position:relative;
+  padding:13px 24px;
+  border-right:1px solid var(--brume-filet);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--brume-lt);
+  transition:color .2s ease,background .2s ease;
+}
+.sections a:last-child{border-right:0}
+.sections a:hover{color:var(--gaz);background:rgba(240,200,119,.06)}
+.sections a.current{
+  color:var(--gaz);
+  background:linear-gradient(180deg,rgba(217,164,64,.14),transparent);
+  box-shadow:inset 0 -2px var(--ambre);
+}
+
+/* ---- Page ---- */
+main{max-width:1140px;margin:0 auto;padding:clamp(38px,6vw,74px) clamp(20px,5vw,56px) 78px}
+.lede{
+  max-width:660px;
+  margin:0 auto 32px;
+  font-family:var(--serif);
+  font-size:clamp(19px,2.3vw,27px);
+  font-style:italic;
+  line-height:1.55;
+  text-align:center;
+  color:#C6D0D6;
+}
+.kicker{
+  margin-bottom:12px;
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.38em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  text-align:center;
+  color:var(--ambre);
+}
+.kicker::before,.kicker::after{content:"—";margin:0 12px;color:var(--brume)}
+h1{
+  position:relative;
+  margin:0 0 52px;
+  font-family:var(--display);
+  font-size:clamp(30px,5vw,52px);
+  font-weight:400;
+  line-height:1.16;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  text-align:center;
+  color:#E2E8EB;
+  text-shadow:0 2px 0 rgba(0,0,0,.6),0 0 34px rgba(240,200,119,.18);
+}
+h1::after{
+  content:"";
+  display:block;
+  width:160px;
+  height:3px;
+  margin:22px auto 0;
+  background:linear-gradient(90deg,transparent,rgba(140,154,166,.7) 30%,var(--gaz) 50%,rgba(140,154,166,.7) 70%,transparent);
+  filter:blur(.4px);
+}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1.35fr) minmax(280px,.85fr);
+  gap:clamp(28px,4vw,58px);
+  align-items:start;
+}
+
+/* ---- Prose : brume sur ardoise ---- */
+.prose{
+  position:relative;
+  padding:34px clamp(22px,3.4vw,42px);
+  border:1px solid var(--liseré);
+  background:linear-gradient(180deg,rgba(42,59,71,.34),rgba(12,17,22,.1) 52%);
+  box-shadow:
+    inset 0 0 0 5px var(--fouraille),
+    inset 0 0 0 6px rgba(217,164,64,.12),
+    inset 0 0 70px rgba(42,59,71,.5),
+    0 24px 50px -30px #000;
+}
+.prose p{margin:0 0 1.35em;color:var(--brume-lt)}
+.prose p:first-child::first-letter{
+  float:left;
+  margin:4px 10px 0 0;
+  font-family:var(--display);
+  font-size:3.1em;
+  line-height:.78;
+  color:var(--ambre);
+  text-shadow:0 0 18px rgba(240,200,119,.3);
+}
+.entity{
+  position:relative;
+  display:inline-block;
+  padding-bottom:3px;
+  color:#E2E8EB;
+  font-variant:small-caps;
+  letter-spacing:.04em;
+  cursor:pointer;
+  transition:text-shadow .2s ease;
+}
+/* volutes de brume : traînée bleu-gris sous le nom */
+.entity::before{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:3px;
+  background:linear-gradient(90deg,transparent,rgba(140,154,166,.75) 22%,rgba(240,200,119,.35) 50%,rgba(140,154,166,.75) 78%,transparent);
+  filter:blur(.5px);
+  pointer-events:none;
+}
+.entity:hover{text-shadow:0 0 18px rgba(240,200,119,.55)}
+.proofable{
+  cursor:pointer;
+  color:#D6DEE3;
+  border-bottom:1px dashed var(--ambre);
+  background:linear-gradient(180deg,transparent 64%,rgba(217,164,64,.22) 64%);
+  transition:background .2s ease,color .2s ease;
+}
+.proofable:hover{color:#F2F5F6;background:linear-gradient(180deg,transparent 56%,rgba(240,200,119,.36) 56%)}
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding-bottom:4px;
+  border-bottom:1px solid var(--liseré);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--ambre);
+}
+.continue::after{content:" →";color:var(--gaz)}
+.continue:hover{color:var(--gaz);border-bottom-color:var(--gaz)}
+
+/* ---- Margin glosses : cartouche Ardoise, liseré Ambre, halo de gaz ---- */
+.margin{display:grid;gap:22px}
+.gloss{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  padding:26px 24px 22px;
+  border:1px solid var(--ambre);
+  background:linear-gradient(180deg,rgba(42,59,71,.94),rgba(12,17,22,.72));
+  box-shadow:0 0 30px -10px rgba(217,164,64,.34),inset 0 0 40px rgba(240,200,119,.05);
+}
+.gloss::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:radial-gradient(ellipse 80% 60% at 50% -10%,rgba(240,200,119,.12),transparent 72%);
+}
+.gloss::after{
+  content:"";
+  position:absolute;
+  top:7px;
+  right:8px;
+  width:20px;
+  height:20px;
+  border-top:1px solid var(--ambre);
+  border-right:1px solid var(--ambre);
+  opacity:.6;
+  pointer-events:none;
+}
+.gloss-label{
+  display:block;
+  margin-bottom:12px;
+  padding-bottom:8px;
+  border-bottom:1px solid var(--liseré);
+  font-family:var(--serif);
+  font-size:10px;
+  line-height:1.5;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:var(--brume-lt);
+}
+.gloss strong{
+  display:block;
+  margin-bottom:5px;
+  color:#E2E8EB;
+  font-family:var(--display);
+  font-size:20px;
+  font-weight:400;
+  letter-spacing:.1em;
+  font-variant:small-caps;
+}
+.gloss q{
+  display:block;
+  margin:13px 0;
+  padding-left:14px;
+  border-left:1px solid var(--ambre);
+  quotes:"“" "”";
+  font-family:var(--serif);
+  font-size:17px;
+  font-style:italic;
+  line-height:1.55;
+  color:#CBD4D9;
+}
+.source{
+  display:block;
+  font-family:var(--serif);
+  font-size:10px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--brume);
+}
+.echo{
+  display:inline-block;
+  margin-top:15px;
+  padding:8px 14px;
+  border:1px solid var(--liseré);
+  background:linear-gradient(180deg,rgba(42,59,71,.9),rgba(12,17,22,.94));
+  color:var(--ambre);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  cursor:pointer;
+  box-shadow:inset 0 0 0 2px rgba(12,17,22,.8);
+  transition:color .2s ease,background .2s ease;
+}
+.echo:hover{color:var(--fouraille);background:var(--gaz)}
+
+.ledger{
+  margin:58px 0 0;
+  padding-top:20px;
+  border-top:1px solid var(--liseré);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--brume);
+}
+.ledger::before{content:"✦";display:block;margin-bottom:12px;color:var(--ambre)}
+
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr}
+  .brand-name{flex-basis:100%}
+  .context{border-left:0;padding-left:0}
+}
+@media (max-width:560px){
+  .sections a{padding:11px 13px;font-size:10px;letter-spacing:.14em}
+  .prose{padding:26px 18px}
+  .gloss{padding:22px 18px 20px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;</span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+  <svg class="veil-filigrane" viewBox="0 0 1200 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id="veil-halo" cx="50%" cy="82%" r="55%">
+        <stop offset="0" stop-color="#F0C877" stop-opacity=".55"/>
+        <stop offset=".45" stop-color="#D9A441" stop-opacity=".16"/>
+        <stop offset="1" stop-color="#D9A441" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="veil-mist" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#8C9AA6" stop-opacity="0"/>
+        <stop offset=".5" stop-color="#8C9AA6" stop-opacity=".8"/>
+        <stop offset="1" stop-color="#8C9AA6" stop-opacity="0"/>
+      </linearGradient>
+      <g id="veil-wisp">
+        <path d="M0 0c28-14 56-14 84 0s56 14 84 0 56-14 84 0"/>
+        <path d="M0 13c24-10 48-10 72 0s48 10 72 0 48-10 72 0" opacity=".6"/>
+        <path d="M0 26c20-8 40-8 60 0s40 8 60 0 40-8 60 0" opacity=".35"/>
+      </g>
+      <g id="veil-lamp">
+        <path d="M0-26v6"/>
+        <circle cx="0" cy="-18" r="2.4" fill="#F0C877" stroke="none"/>
+        <path d="M-7-13h14l-2 4H-5z"/>
+        <path d="M-5-9h10v14H-5z"/>
+        <path d="M0-9v14" opacity=".6"/>
+        <path d="M-7 5h14l-2 4H-5z"/>
+        <path d="M-2 9v15M2 9v15"/>
+        <path d="M-5 24h10l2 4H-7z"/>
+      </g>
+    </defs>
+    <ellipse cx="600" cy="226" rx="370" ry="122" fill="url(#veil-halo)" stroke="none"/>
+    <g fill="none" stroke="url(#veil-mist)" stroke-width="1.4">
+      <g transform="translate(40 92)"><use href="#veil-wisp"/></g>
+      <g transform="translate(1160 92) scale(-1 1)"><use href="#veil-wisp"/></g>
+      <g transform="translate(150 168) scale(.85)"><use href="#veil-wisp"/></g>
+      <g transform="translate(1050 168) scale(-.85 .85)"><use href="#veil-wisp"/></g>
+    </g>
+    <g fill="none" stroke="#D9A441" stroke-width="1.3" opacity=".85">
+      <g transform="translate(158 150) scale(1.15)"><use href="#veil-lamp"/></g>
+      <g transform="translate(1042 150) scale(-1.15 1.15)"><use href="#veil-lamp"/></g>
+      <g transform="translate(300 172) scale(.8)" opacity=".6"><use href="#veil-lamp"/></g>
+      <g transform="translate(900 172) scale(-.8 .8)" opacity=".6"><use href="#veil-lamp"/></g>
+    </g>
+    <g fill="#2A3B47" stroke="#D9A441" stroke-width="1.2" opacity=".7">
+      <path d="M556 152h88v5h-88z"/>
+      <path d="M568 74h64v78h-64z"/>
+      <path d="M568 140h64v6h-64z" fill="#D9A441" stroke="none" opacity=".5"/>
+    </g>
+    <path d="M0 238h1200" fill="none" stroke="#D9A441" stroke-width=".7" opacity=".5"/>
+  </svg>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

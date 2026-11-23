@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-500.woff2") format("woff2");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+
+:root{
+  --oxblood:#3B0A12;
+  --night:#0A0709;
+  --carmine:#C23642;
+  --moon:#E8C4BA;
+  --view:#7E2A32;
+  --moon-dim:rgba(232,196,186,.72);
+  --moon-faint:rgba(232,196,186,.62);
+  --carmine-ln:rgba(194,54,66,.62);
+  --carmine-soft:rgba(194,54,66,.26);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--oxblood);
+  background-image:
+    radial-gradient(ellipse 70% 46% at 50% -8%,rgba(126,42,50,.30),transparent 72%),
+    radial-gradient(ellipse 50% 40% at 100% 100%,rgba(10,7,9,.55),transparent 70%),
+    repeating-linear-gradient(0deg,transparent 0 3px,rgba(232,196,186,.012) 3px 4px);
+  color:var(--moon);
+  font-family:"Spectral",Georgia,serif;
+  font-size:17px;
+  line-height:1.6;
+  font-variant-numeric:lining-nums tabular-nums;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--view);color:var(--moon)}
+a{color:inherit}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:1px solid var(--carmine);outline-offset:4px}
+
+/* ---- En-tête : réticule en filigrane ---- */
+.site-head{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px 28px;
+  min-height:184px;
+  padding:28px clamp(20px,5vw,64px);
+  overflow:hidden;
+  border-bottom:1px solid var(--carmine-ln);
+  background:linear-gradient(180deg,rgba(10,7,9,.42),rgba(59,10,18,.14));
+  box-shadow:0 18px 38px -32px #000;
+}
+.site-head > *{position:relative;z-index:1}
+.oculus{
+  position:absolute;
+  top:50%;
+  right:clamp(8px,4vw,54px);
+  width:236px;
+  height:236px;
+  transform:translateY(-50%);
+  opacity:.5;
+  pointer-events:none;
+}
+.brand-mark{
+  font-size:34px;
+  line-height:1;
+  color:var(--carmine);
+  text-shadow:0 0 18px rgba(194,54,66,.45);
+}
+.brand-name{
+  flex:1 1 auto;
+  font-size:clamp(15px,1.5vw,19px);
+  font-weight:500;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  color:var(--moon);
+}
+.context{
+  font-size:12px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  color:var(--moon-dim);
+}
+
+/* ---- Sections : règle de focalisation ---- */
+.sections{
+  position:relative;
+  z-index:2;
+  display:flex;
+  flex-wrap:wrap;
+  gap:clamp(18px,3.4vw,48px);
+  padding:0 clamp(20px,5vw,64px);
+  background:var(--night);
+  border-bottom:1px solid var(--carmine);
+  box-shadow:0 10px 26px -24px var(--carmine);
+}
+.sections a{
+  position:relative;
+  display:inline-block;
+  padding:16px 2px 15px;
+  font-size:12px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--moon-dim);
+  transition:color .2s ease;
+}
+.sections a:hover{color:var(--moon)}
+.sections .current{color:var(--moon);font-weight:500}
+.sections .current::before{
+  content:"";
+  position:absolute;
+  top:-5px;
+  left:50%;
+  width:8px;
+  height:8px;
+  background:var(--carmine);
+  transform:translateX(-50%) rotate(45deg);
+  box-shadow:0 0 10px rgba(194,54,66,.8);
+}
+
+/* ----chapitre ---- */
+main{
+  max-width:1180px;
+  margin:0 auto;
+  padding:clamp(32px,6vw,72px) clamp(20px,5vw,64px) 80px;
+}
+.lede{
+  margin:0 0 18px;
+  font-size:clamp(19px,2.2vw,25px);
+  font-style:italic;
+  line-height:1.5;
+  color:var(--moon);
+}
+.kicker{
+  margin:0 0 10px;
+  font-size:11px;
+  letter-spacing:.3em;
+  text-transform:uppercase;
+  color:var(--carmine);
+}
+h1{
+  margin:0 0 clamp(28px,4vw,48px);
+  font-size:clamp(30px,4.4vw,52px);
+  font-weight:400;
+  line-height:1.12;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--moon);
+  text-shadow:0 0 26px rgba(126,42,50,.55);
+}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) minmax(260px,340px);
+  gap:clamp(28px,4vw,64px);
+  align-items:start;
+}
+.prose p{margin:0 0 1.35em}
+.prose p:first-child{font-style:italic;color:var(--moon)}
+
+.entity{
+  cursor:pointer;
+  border-bottom:1px dotted var(--carmine);
+  color:var(--moon);
+  transition:background-color .2s ease,color .2s ease;
+}
+.entity:hover,.entity:focus-visible{
+  background:var(--view);
+  color:var(--moon);
+  outline-offset:4px;
+}
+
+.proofable{
+  cursor:pointer;
+  border-bottom:1px solid transparent;
+  transition:border-color .2s ease,background-color .2s ease;
+}
+.proofable:hover,.proofable:focus-visible{
+  border-bottom-color:var(--carmine);
+  border-bottom-style:dotted;
+  background:rgba(126,42,50,.22);
+}
+
+.continue{
+  display:inline-flex;
+  align-items:center;
+  gap:14px;
+  margin-top:10px;
+  padding:12px 0;
+  font-size:12px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--carmine);
+  transition:color .2s ease;
+}
+.continue::after{
+  content:"";
+  width:15px;
+  height:15px;
+  flex:0 0 auto;
+  background:
+    linear-gradient(var(--carmine),var(--carmine)) center/1px 100% no-repeat,
+    linear-gradient(var(--carmine),var(--carmine)) center/100% 1px no-repeat;
+  border:1px solid var(--carmine-ln);
+  border-radius:50%;
+  transition:background-color .2s ease;
+}
+.continue:hover{color:var(--moon)}
+.continue:hover::after{
+  background:
+    linear-gradient(var(--moon),var(--moon)) center/1px 100% no-repeat,
+    linear-gradient(var(--moon),var(--moon)) center/100% 1px no-repeat;
+  border-color:var(--moon);
+}
+
+/* ---- Marge : champ d'oculaire ---- */
+.margin{
+  position:relative;
+  padding:clamp(22px,3vw,34px);
+  background:var(--night);
+  border:1px solid var(--carmine-ln);
+  box-shadow:0 20px 50px -34px #000,inset 0 0 0 4px rgba(10,7,9,.9);
+}
+.margin::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    radial-gradient(ellipse 72% 62% at 50% 45%,transparent 46%,rgba(10,7,9,.62) 100%),
+    linear-gradient(180deg,rgba(194,54,66,.06),transparent 22%);
+}
+.gloss{position:relative;z-index:1}
+.gloss + .gloss{
+  margin-top:24px;
+  padding-top:24px;
+  border-top:1px solid var(--carmine-soft);
+}
+.gloss-label{
+  display:block;
+  margin-bottom:8px;
+  font-size:10px;
+  font-weight:500;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--moon-dim);
+  border-left:2px solid var(--view);
+  padding-left:8px;
+  font-variant-numeric:tabular-nums;
+}
+.gloss strong{color:var(--moon);font-weight:500}
+.gloss q{
+  display:block;
+  margin:8px 0;
+  font-style:italic;
+  color:var(--moon-dim);
+}
+.source{
+  display:block;
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--moon-faint);
+}
+.echo{
+  display:block;
+  width:100%;
+  margin-top:14px;
+  padding:10px 12px;
+  font:inherit;
+  font-size:12px;
+  letter-spacing:.06em;
+  text-align:left;
+  color:var(--moon);
+  background:rgba(126,42,50,.2);
+  border:1px solid var(--carmine-ln);
+  cursor:pointer;
+  transition:background-color .2s ease;
+}
+.echo:hover{background:var(--view)}
+
+.ledger{
+  margin:clamp(40px,6vw,72px) 0 0;
+  padding-top:18px;
+  border-top:1px solid var(--carmine-soft);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--moon-faint);
+  font-variant-numeric:tabular-nums;
+}
+
+@media (max-width:760px){
+  .layout{grid-template-columns:1fr}
+  .oculus{width:150px;height:150px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;</span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+  <svg class="oculus" viewBox="0 0 240 240" aria-hidden="true" focusable="false">
+    <g fill="none" stroke="#C23642" stroke-width="1">
+      <circle cx="120" cy="120" r="96" opacity=".55"/>
+      <circle cx="120" cy="120" r="86" opacity=".9"/>
+      <circle cx="120" cy="120" r="62" opacity=".45"/>
+      <circle cx="120" cy="120" r="34" opacity=".7"/>
+    </g>
+    <g stroke="#C23642" stroke-width="1" opacity=".9">
+      <path d="M120 14v18M120 208v18M14 120h18M208 120h18"/>
+      <path d="M120 120m-96 0a96 96 0 0 1 24-64M120 120m96 0a96 96 0 0 1-24 64M120 120m0-96a96 96 0 0 1 64 24M120 120m0 96a96 96 0 0 1-64-24" opacity=".5"/>
+    </g>
+    <g stroke="#E8C4BA" stroke-width="1" opacity=".75">
+      <circle cx="132" cy="108" r="30"/>
+      <circle cx="120" cy="120" r="30"/>
+    </g>
+    <path d="M120 120m-118 0a118 118 0 0 1 236 0a118 118 0 0 1-236 0" fill="none" stroke="#7E2A32" stroke-width="1" opacity=".6"/>
+  </svg>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

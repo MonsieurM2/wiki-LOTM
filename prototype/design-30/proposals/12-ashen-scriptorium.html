@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+
+:root{
+  --cendre:#141312;
+  --anthracite:#2B2926;
+  --calcine:#E6DFD2;
+  --braise:#B4713A;
+  --braise-lt:#D89A60; /* éclairci pour contraste AA sur cendre */
+  --suie:#6B655D;
+  --suie-lt:#A79C8D;   /* liens lisibles ; la Suie sert aux filets */
+  --filet:rgba(107,101,93,.5);
+  --filet-dim:rgba(107,101,93,.26);
+  --serif:"Cormorant",Garamond,Georgia,serif;
+  --ui:"Spectral",Georgia,serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  background-color:var(--cendre);
+  background-image:
+    radial-gradient(ellipse 70% 34% at 50% -6%,rgba(180,113,58,.11),transparent 74%),
+    radial-gradient(circle at 12% 78%,rgba(107,101,93,.07),transparent 40%),
+    repeating-linear-gradient(0deg,transparent 0 3px,rgba(230,223,210,.008) 3px 4px);
+  color:var(--calcine);
+  font-family:var(--serif);
+  font-size:16px;
+  line-height:1.7;
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--braise);color:var(--calcine)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:1px solid var(--braise-lt);outline-offset:3px}
+
+/* ---- En-tête : halo de braise derrière la plume ---- */
+.site-head{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:8px 28px;
+  min-height:172px;
+  padding:26px clamp(20px,5vw,64px) 30px;
+  border-bottom:1px solid var(--filet);
+  background:radial-gradient(ellipse 56% 130% at 78% 50%,rgba(180,113,58,.16),transparent 72%);
+  overflow:hidden;
+}
+.site-head::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:0;
+  height:4px;
+  border-top:1px solid var(--filet-dim);
+  border-bottom:1px solid rgba(230,223,210,.05);
+  pointer-events:none;
+}
+.site-head>span:not(.brand-mark){position:relative;z-index:1}
+.brand-mark{
+  position:absolute;
+  top:50%;
+  right:clamp(-24px,3vw,58px);
+  width:270px;
+  height:270px;
+  transform:translateY(-50%);
+  opacity:.09;
+  color:transparent;
+  font-size:0;
+  line-height:0;
+  pointer-events:none;
+  z-index:0;
+}
+.brand-mark svg{display:block;width:100%;height:100%;overflow:visible}
+.brand-name{
+  font-family:var(--serif);
+  font-size:clamp(1.9rem,3.5vw,2.8rem);
+  font-weight:400;
+  letter-spacing:.2em;
+  line-height:1.1;
+  text-transform:uppercase;
+  color:var(--calcine);
+  text-shadow:0 2px 12px rgba(0,0,0,.9);
+}
+.context{
+  font-family:var(--ui);
+  font-size:.76rem;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--suie-lt);
+}
+
+/* ---- Navigation : filets de cendre ---- */
+.sections{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:clamp(16px,3vw,46px);
+  padding:10px 24px 8px;
+  border-bottom:1px solid var(--filet-dim);
+  background:rgba(0,0,0,.32);
+}
+.sections a{
+  position:relative;
+  padding:9px 2px 6px;
+  font-family:var(--ui);
+  font-size:.72rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--suie-lt);
+  transition:color .2s;
+}
+.sections a::before{
+  content:"";
+  position:absolute;
+  top:0;left:50%;
+  width:3px;height:3px;
+  transform:translateX(-50%) rotate(45deg);
+  background:var(--suie);
+}
+.sections a:hover,.sections a:focus-visible{color:var(--calcine)}
+.sections a.current{
+  color:var(--braise-lt);
+  background:linear-gradient(180deg,transparent 78%,rgba(180,113,58,.28) 78%);
+}
+.sections a.current::before{background:var(--braise-lt)}
+
+/* ---- Contenu ---- */
+main{max-width:1180px;margin:0 auto;padding:clamp(36px,5vw,68px) clamp(20px,5vw,56px) 72px}
+.lede{
+  position:relative;
+  max-width:720px;
+  margin:0 auto 36px;
+  padding:16px 0;
+  text-align:center;
+  font-style:italic;
+  font-size:clamp(1.25rem,2vw,1.5rem);
+  line-height:1.5;
+  color:var(--calcine);
+}
+.lede::before,.lede::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  width:76px;height:1px;
+  transform:translateX(-50%);
+  background:linear-gradient(90deg,transparent,var(--filet),transparent);
+}
+.lede::before{top:0}
+.lede::after{bottom:0}
+.kicker{
+  text-align:center;
+  font-family:var(--ui);
+  font-size:.72rem;
+  letter-spacing:.34em;
+  text-transform:uppercase;
+  color:var(--braise-lt);
+  margin-bottom:12px;
+}
+.kicker::before,.kicker::after{
+  content:"";
+  display:inline-block;
+  width:26px;height:1px;
+  vertical-align:middle;
+  margin:0 14px;
+  background:var(--filet);
+}
+h1{
+  position:relative;
+  margin:0 0 50px;
+  padding-bottom:22px;
+  text-align:center;
+  font-family:var(--serif);
+  font-weight:400;
+  font-size:clamp(2.4rem,5.8vw,4rem);
+  letter-spacing:.13em;
+  line-height:1.1;
+  text-transform:uppercase;
+  color:var(--calcine);
+  text-shadow:0 2px 18px rgba(0,0,0,.85);
+}
+h1::after{
+  content:"";
+  position:absolute;
+  bottom:2px;left:50%;
+  width:150px;height:2px;
+  transform:translateX(-50%) skewX(-32deg);
+  background:linear-gradient(90deg,transparent,var(--braise),transparent);
+  box-shadow:0 5px 14px rgba(180,113,58,.22);
+}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,340px);gap:clamp(30px,4vw,58px);align-items:start}
+
+/* ---- Prose ---- */
+.prose{color:var(--calcine);text-align:justify;hyphens:auto}
+.prose p{margin:0 0 1.5em}
+.entity{
+  position:relative;
+  color:var(--calcine);
+  letter-spacing:.01em;
+  text-shadow:0 0 14px rgba(180,113,58,.18);
+  border-bottom:1px solid var(--filet);
+  cursor:pointer;
+  transition:color .2s,text-shadow .2s;
+}
+.entity:hover,.entity:focus-visible{
+  color:#F4EEE2;
+  text-shadow:0 0 18px rgba(180,113,58,.5);
+  border-bottom-color:var(--braise-lt);
+  background:rgba(180,113,58,.12);
+}
+.proofable{
+  cursor:pointer;
+  padding:0 3px;
+  color:var(--calcine);
+  background:linear-gradient(180deg,transparent 62%,rgba(107,101,93,.45) 62%);
+  border-bottom:1px dotted var(--suie-lt);
+  transition:background .2s;
+}
+.proofable:hover,.proofable:focus-visible{
+  background:linear-gradient(180deg,rgba(180,113,58,.18),rgba(107,101,93,.5));
+  border-bottom-style:solid;
+}
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding:10px 22px;
+  font-family:var(--ui);
+  font-size:.74rem;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--braise-lt);
+  border:1px solid var(--filet);
+  background:linear-gradient(180deg,rgba(43,41,38,.7),rgba(20,19,18,.7));
+  box-shadow:inset 0 1px 0 rgba(230,223,210,.05);
+  transition:background .2s,color .2s;
+}
+.continue:hover,.continue:focus-visible{
+  background:rgba(180,113,58,.18);
+  color:var(--calcine);
+  border-color:var(--braise);
+}
+
+/* ---- Marginales : parchemin calciné ---- */
+.margin{padding-top:4px}
+.gloss{
+  position:relative;
+  margin:0 0 24px;
+  padding:24px 20px 18px;
+  border:1px solid var(--filet);
+  background:
+    radial-gradient(ellipse 92% 88% at 50% 42%,rgba(43,41,38,.96) 0 58%,rgba(8,8,7,.97) 100%),
+    var(--cendre);
+  box-shadow:inset 0 0 38px rgba(0,0,0,.8),inset 0 1px 0 rgba(230,223,210,.06),0 14px 30px -24px #000;
+  font-family:var(--serif);
+  font-size:16px;
+  line-height:1.65;
+  color:var(--calcine);
+  text-align:left;
+}
+.gloss::before{
+  content:"";
+  position:absolute;
+  top:0;left:8%;right:8%;
+  height:1px;
+  background:linear-gradient(90deg,transparent,rgba(180,113,58,.6),transparent);
+  pointer-events:none;
+}
+.gloss::after{
+  content:"";
+  position:absolute;
+  bottom:0;left:14%;right:14%;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--filet),transparent);
+  pointer-events:none;
+}
+.gloss-label{
+  display:block;
+  margin-bottom:10px;
+  font-family:var(--ui);
+  font-size:.7rem;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  font-variant-numeric:lining-nums tabular-nums;
+  color:var(--suie-lt);
+}
+.gloss strong{
+  position:relative;
+  display:inline-block;
+  font-family:var(--serif);
+  font-weight:400;
+  font-size:1.55rem;
+  letter-spacing:.03em;
+  color:var(--calcine);
+}
+.gloss strong::first-letter{
+  font-size:1.35em;
+  text-shadow:0 0 16px rgba(180,113,58,.35);
+}
+.gloss strong::after{
+  content:"";
+  position:absolute;
+  left:0;right:0;bottom:-5px;
+  height:2px;
+  transform:skewX(-30deg);
+  transform-origin:left center;
+  background:linear-gradient(90deg,var(--braise),var(--suie-lt),transparent);
+  opacity:.85;
+}
+.gloss q{
+  display:block;
+  margin:12px 0 10px;
+  padding-left:13px;
+  border-left:1px solid var(--filet);
+  font-style:italic;
+  color:var(--suie-lt);
+}
+.source{
+  display:block;
+  font-family:var(--ui);
+  font-size:.72rem;
+  letter-spacing:.08em;
+  color:var(--braise-lt);
+}
+.echo{
+  margin-top:16px;
+  padding:7px 11px;
+  font-family:var(--ui);
+  font-size:.71rem;
+  letter-spacing:.1em;
+  text-transform:uppercase;
+  color:var(--suie-lt);
+  background:transparent;
+  border:1px solid var(--filet);
+  cursor:pointer;
+  transition:background .2s,color .2s;
+}
+.echo:hover,.echo:focus-visible{
+  background:rgba(180,113,58,.16);
+  color:var(--calcine);
+  border-color:var(--braise);
+}
+
+.ledger{
+  margin:52px 0 0;
+  padding-top:20px;
+  border-top:1px solid var(--filet);
+  text-align:center;
+  font-family:var(--ui);
+  font-size:.72rem;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--suie-lt);
+}
+
+@media (max-width:860px){
+  .site-head{min-height:140px}
+  .brand-mark{width:160px;height:160px;right:0}
+  .context{width:100%}
+  .layout{grid-template-columns:1fr}
+  .margin{margin-top:10px}
+  .prose{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true">
+    <defs>
+      <linearGradient id="ashenInk" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0" stop-color="#B4713A"/>
+        <stop offset="1" stop-color="#E6DFD2"/>
+      </linearGradient>
+    </defs>
+    <!-- volutes de fumée -->
+    <g fill="none" stroke="#6B655D" stroke-width="1.2" stroke-linecap="round">
+      <path d="M92 298 c34 -24 74 0 62 34 -11 29 -50 30 -59 6 -7 -20 11 -34 26 -24 11 8 6 21 -4 22"/>
+      <path d="M148 344 c26 -16 54 -6 56 16 2 20 -21 31 -33 19 -10 -10 -3 -23 8 -22"/>
+      <path d="M208 302 c42 -30 90 -10 88 24 -2 28 -36 40 -53 21 -12 -13 -2 -31 13 -28"/>
+      <path d="M278 270 c32 -19 64 -4 64 21 0 19 -23 28 -36 16"/>
+    </g>
+    <!-- trait calligraphique traversant -->
+    <path d="M24 326 C116 288 194 246 262 184 C300 150 332 120 372 80 C334 128 302 166 258 206 C188 268 108 310 24 326 Z" fill="url(#ashenInk)" opacity=".5"/>
+    <!-- plume : hampe, barbes, bec -->
+    <path d="M72 342 C148 272 216 180 322 60" fill="none" stroke="#E6DFD2" stroke-width="1.6" stroke-linecap="round"/>
+    <g fill="none" stroke="#E6DFD2" stroke-width="1.1" stroke-linecap="round" opacity=".9">
+      <path d="M302 82 C270 90 238 110 212 142"/>
+      <path d="M288 98 C258 110 230 130 206 162"/>
+      <path d="M272 116 C244 130 218 150 196 182"/>
+      <path d="M254 136 C228 152 204 172 184 204"/>
+      <path d="M236 156 C212 174 190 194 172 224"/>
+      <path d="M216 178 C194 196 174 216 158 244"/>
+      <path d="M196 200 C176 220 158 238 144 262"/>
+      <path d="M174 224 C156 242 140 260 128 282"/>
+      <path d="M306 80 C318 98 322 120 318 142"/>
+      <path d="M292 96 C304 114 308 134 302 156"/>
+      <path d="M276 114 C288 132 290 152 284 172"/>
+      <path d="M258 134 C268 150 270 168 264 188"/>
+    </g>
+    <path d="M72 342 l-16 20 24 -11 Z" fill="#B4713A"/>
+  </svg></span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>

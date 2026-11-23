@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<!-- CANONICAL SKELETON — every proposal must keep this information structure.
+     Change ONLY the appearance: CSS, decorative SVG, colors, type treatment.
+     Do not add/remove screens, fields, links, or text content. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROPOSAL NN — theme name</title>
+<style>
+/* Newsreader absent : Spectral en est le proche humaniste ; Cormorant sert les petites capitales. */
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Spectral";src:url("../../immersion/fonts/spectral-italic.woff2") format("woff2");font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:"Cormorant";src:url("../../immersion/fonts/cormorant-roman.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap}
+
+:root{
+  --suie:#0B0B0A;        /* fond */
+  --cendre:#9A9A92;      /* texte */
+  --blanc-sale:#DDD8CC;  /* titres */
+  --voile:#2A2A27;       /* panneaux */
+  --pupille:#4A4842;     /* accent */
+  --corps:#B9B8AE;       /* cendre éclairci pour le corps, AA sur suie */
+  --liseré:rgba(154,154,146,.28);
+  --filet:rgba(154,154,146,.14);
+  --brume-filet:rgba(221,216,204,.10);
+  --serif:"Spectral",Georgia,serif;
+  --display:"Cormorant",Garamond,Georgia,serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--cendre);
+  font-family:var(--serif);
+  font-size:16px;
+  line-height:1.9;
+  font-variant-numeric:oldstyle-nums proportional-nums;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+  background-color:var(--suie);
+  background-image:
+    radial-gradient(ellipse 60% 34% at 50% -4%,rgba(154,154,146,.07),transparent 74%),
+    radial-gradient(ellipse 44% 30% at 8% 30%,rgba(74,72,66,.24),transparent 78%),
+    radial-gradient(ellipse 58% 40% at 94% 84%,rgba(42,42,39,.55),transparent 80%);
+}
+::selection{background:var(--pupille);color:var(--blanc-sale)}
+a:focus-visible,button:focus-visible,[tabindex]:focus-visible{outline:1px solid var(--blanc-sale);outline-offset:3px}
+
+/* ---- En-tête : Œil unique, cernes concentriques, voile gris à opacité .06 ---- */
+.site-head{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px 30px;
+  min-height:190px;
+  padding:36px clamp(20px,5vw,64px) 30px;
+  border-bottom:1px solid var(--liseré);
+  background:
+    radial-gradient(ellipse 34% 120% at 50% 116%,rgba(154,154,146,.06),transparent 72%),
+    linear-gradient(180deg,#131310,var(--suie));
+  box-shadow:inset 0 -18px 30px -26px #000;
+}
+.site-head::after{
+  content:"";
+  position:absolute;
+  left:clamp(20px,5vw,64px);
+  right:clamp(20px,5vw,64px);
+  bottom:8px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--filet) 18%,var(--filet) 82%,transparent);
+  pointer-events:none;
+}
+.veil-filigrane{position:absolute;inset:0;width:100%;height:100%;opacity:.06;pointer-events:none;z-index:1}
+.site-head > span{position:relative;z-index:2}
+.brand-mark{
+  flex:0 0 auto;
+  display:inline-grid;
+  place-items:center;
+  width:58px;
+  height:58px;
+  color:transparent;
+  font-size:0;
+  border:1px solid var(--cendre);
+  border-radius:50%;
+  background-color:rgba(42,42,39,.8);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:40px 40px;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cg fill='none' stroke='%239A9A92' stroke-width='1.4'%3E%3Ccircle cx='32' cy='32' r='26' opacity='.7'/%3E%3Cpath d='M10 32c6-9 14-13 22-13s16 4 22 13c-6 9-14 13-22 13S16 41 10 32z'/%3E%3Ccircle cx='32' cy='32' r='7' fill='%234A4842' stroke='%23DDD8CC' stroke-width='.8'/%3E%3Ccircle cx='32' cy='32' r='2.4' fill='%23DDD8CC' stroke='none'/%3E%3C/g%3E%3C/svg%3E");
+  box-shadow:inset 0 0 0 3px var(--suie),0 0 20px rgba(154,154,146,.12);
+}
+.brand-name{
+  flex:1 1 auto;
+  text-align:center;
+  font-family:var(--display);
+  font-size:clamp(22px,2.8vw,32px);
+  font-weight:400;
+  line-height:1.32;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:var(--blanc-sale);
+  text-shadow:0 2px 0 rgba(0,0,0,.6);
+}
+.context{
+  flex:0 0 auto;
+  padding-left:18px;
+  border-left:1px solid var(--liseré);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:var(--cendre);
+}
+
+/* ---- Navigation ---- */
+.sections{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  border-block:1px solid var(--filet);
+  background:linear-gradient(180deg,rgba(42,42,39,.72),rgba(11,11,10,.5));
+}
+.sections a{
+  position:relative;
+  padding:13px 24px;
+  border-right:1px solid var(--filet);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.26em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--cendre);
+  transition:color .2s ease,background .2s ease;
+}
+.sections a:last-child{border-right:0}
+.sections a:hover{color:var(--blanc-sale);background:rgba(154,154,146,.06)}
+.sections a.current{
+  color:var(--blanc-sale);
+  background:linear-gradient(180deg,rgba(154,154,146,.1),transparent);
+  box-shadow:inset 0 -2px var(--cendre);
+}
+
+/* ---- Page ---- */
+main{max-width:1140px;margin:0 auto;padding:clamp(38px,6vw,74px) clamp(20px,5vw,56px) 78px}
+.lede{
+  max-width:660px;
+  margin:0 auto 34px;
+  font-family:var(--serif);
+  font-size:clamp(19px,2.3vw,27px);
+  font-style:italic;
+  line-height:1.7;
+  text-align:center;
+  color:var(--blanc-sale);
+}
+.kicker{
+  margin-bottom:14px;
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.38em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  text-align:center;
+  color:var(--cendre);
+}
+.kicker::before,.kicker::after{content:"—";margin:0 12px;color:var(--pupille)}
+h1{
+  position:relative;
+  margin:0 0 54px;
+  font-family:var(--display);
+  font-size:clamp(30px,5vw,52px);
+  font-weight:400;
+  line-height:1.34;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  text-align:center;
+  color:var(--blanc-sale);
+  text-shadow:0 2px 0 rgba(0,0,0,.6);
+}
+h1::after{
+  content:"";
+  display:block;
+  width:150px;
+  height:1px;
+  margin:24px auto 0;
+  background:linear-gradient(90deg,transparent,var(--cendre) 50%,transparent);
+  filter:blur(.3px);
+}
+.layout{
+  display:grid;
+  grid-template-columns:minmax(0,1.35fr) minmax(280px,.85fr);
+  gap:clamp(28px,4vw,58px);
+  align-items:start;
+}
+
+/* ---- Prose : cendre sur voile ---- */
+.prose{
+  position:relative;
+  padding:36px clamp(22px,3.4vw,42px);
+  border:1px solid var(--liseré);
+  background:linear-gradient(180deg,rgba(42,42,39,.5),rgba(11,11,10,.15) 55%);
+  box-shadow:
+    inset 0 0 0 5px var(--suie),
+    inset 0 0 0 6px var(--brume-filet),
+    inset 0 0 70px rgba(42,42,39,.5),
+    0 24px 50px -30px #000;
+}
+.prose p{margin:0 0 1.4em;color:var(--corps)}
+.prose p:first-child::first-letter{
+  float:left;
+  margin:6px 10px 0 0;
+  font-family:var(--display);
+  font-size:3.1em;
+  line-height:.78;
+  color:var(--blanc-sale);
+}
+/* cernes concentriques cendrés + filet mince sous le nom */
+.entity{
+  position:relative;
+  display:inline-block;
+  padding:0 3px 4px;
+  color:var(--blanc-sale);
+  font-variant:small-caps;
+  letter-spacing:.05em;
+  cursor:pointer;
+  transition:text-shadow .2s ease;
+}
+.entity::before{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:9px;
+  background:repeating-radial-gradient(ellipse 60% 140% at 50% 100%,transparent 0 4px,rgba(154,154,146,.42) 4px 5px,transparent 5px 9px);
+  border-bottom:1px solid var(--cendre);
+  pointer-events:none;
+}
+.entity:hover{text-shadow:0 0 16px rgba(221,216,204,.4)}
+.proofable{
+  cursor:pointer;
+  color:var(--corps);
+  border-bottom:1px dashed var(--cendre);
+  background:linear-gradient(180deg,transparent 66%,rgba(74,72,66,.35) 66%);
+  transition:background .2s ease,color .2s ease;
+}
+.proofable:hover{color:var(--blanc-sale);background:linear-gradient(180deg,transparent 58%,rgba(74,72,66,.6) 58%)}
+.continue{
+  display:inline-block;
+  margin-top:8px;
+  padding-bottom:4px;
+  border-bottom:1px solid var(--liseré);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:var(--cendre);
+}
+.continue::after{content:" →";color:var(--blanc-sale)}
+.continue:hover{color:var(--blanc-sale);border-bottom-color:var(--blanc-sale)}
+
+/* ---- Margin glosses : cartouche Voile, liseré Cendre 1px, ombre floue ---- */
+.margin{display:grid;gap:22px}
+.gloss{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  padding:30px 26px 26px;
+  border:1px solid var(--cendre);
+  background:linear-gradient(180deg,rgba(42,42,39,.96),rgba(11,11,10,.78));
+  box-shadow:0 0 34px -8px rgba(74,72,66,.55),inset 0 0 40px rgba(154,154,146,.04);
+}
+.gloss::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  z-index:-1;
+  pointer-events:none;
+  background:radial-gradient(ellipse 74% 54% at 50% -8%,rgba(154,154,146,.1),transparent 72%);
+}
+.gloss::after{
+  content:"";
+  position:absolute;
+  top:9px;
+  right:10px;
+  width:16px;
+  height:16px;
+  border:1px solid var(--cendre);
+  border-radius:50%;
+  box-shadow:inset 0 0 0 3px var(--voile),inset 0 0 0 4px var(--pupille);
+  opacity:.65;
+  pointer-events:none;
+}
+.gloss-label{
+  display:block;
+  margin-bottom:13px;
+  padding-bottom:9px;
+  border-bottom:1px solid var(--filet);
+  font-family:var(--serif);
+  font-size:10px;
+  line-height:1.5;
+  letter-spacing:.22em;
+  text-transform:uppercase;
+  font-variant:small-caps;
+  color:var(--cendre);
+}
+.gloss strong{
+  display:block;
+  margin-bottom:6px;
+  color:var(--blanc-sale);
+  font-family:var(--display);
+  font-size:21px;
+  font-weight:400;
+  letter-spacing:.12em;
+  font-variant:small-caps;
+}
+.gloss q{
+  display:block;
+  margin:14px 0;
+  padding-left:14px;
+  border-left:1px solid var(--cendre);
+  quotes:"“" "”";
+  font-family:var(--serif);
+  font-size:17px;
+  font-style:italic;
+  line-height:1.7;
+  color:var(--corps);
+}
+.source{
+  display:block;
+  font-family:var(--serif);
+  font-size:10px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--cendre);
+}
+.echo{
+  display:inline-block;
+  margin-top:16px;
+  padding:9px 15px;
+  border:1px solid var(--liseré);
+  background:linear-gradient(180deg,rgba(42,42,39,.94),rgba(11,11,10,.96));
+  color:var(--cendre);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  cursor:pointer;
+  box-shadow:inset 0 0 0 2px rgba(11,11,10,.8);
+  transition:color .2s ease,background .2s ease;
+}
+.echo:hover{color:var(--suie);background:var(--blanc-sale)}
+
+.ledger{
+  margin:58px 0 0;
+  padding-top:20px;
+  border-top:1px solid var(--filet);
+  font-family:var(--serif);
+  font-size:11px;
+  letter-spacing:.24em;
+  text-transform:uppercase;
+  text-align:center;
+  color:var(--cendre);
+}
+.ledger::before{
+  content:"";
+  display:block;
+  width:12px;
+  height:12px;
+  margin:0 auto 14px;
+  border:1px solid var(--cendre);
+  border-radius:50%;
+  box-shadow:inset 0 0 0 3px var(--suie),inset 0 0 0 4px var(--pupille);
+}
+
+@media (max-width:860px){
+  .layout{grid-template-columns:1fr}
+  .brand-name{flex-basis:100%}
+  .context{border-left:0;padding-left:0}
+}
+@media (max-width:560px){
+  .sections a{padding:11px 13px;font-size:10px;letter-spacing:.14em}
+  .prose{padding:26px 18px}
+  .gloss{padding:24px 18px 22px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <span class="brand-mark" aria-hidden="true">&#9790;</span>
+  <span class="brand-name">Lord of the Mysteries</span>
+  <span class="context">Chapter 1 of 1394</span>
+  <svg class="veil-filigrane" viewBox="0 0 1200 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id="fog-halo" cx="50%" cy="50%" r="50%">
+        <stop offset="0" stop-color="#DDD8CC" stop-opacity=".5"/>
+        <stop offset=".55" stop-color="#9A9A92" stop-opacity=".16"/>
+        <stop offset="1" stop-color="#9A9A92" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="fog-mist" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#9A9A92" stop-opacity="0"/>
+        <stop offset=".5" stop-color="#9A9A92" stop-opacity=".75"/>
+        <stop offset="1" stop-color="#9A9A92" stop-opacity="0"/>
+      </linearGradient>
+    </defs>
+    <ellipse cx="600" cy="130" rx="320" ry="122" fill="url(#fog-halo)" stroke="none"/>
+    <g fill="none" stroke="#9A9A92" stroke-width="1">
+      <circle cx="600" cy="130" r="42"/>
+      <circle cx="600" cy="130" r="64" opacity=".8"/>
+      <circle cx="600" cy="130" r="88" opacity=".6"/>
+      <circle cx="600" cy="130" r="114" opacity=".42"/>
+      <circle cx="600" cy="130" r="142" opacity=".26"/>
+    </g>
+    <g fill="none">
+      <path d="M534 130c18-22 40-32 66-32s48 10 66 32c-18 22-40 32-66 32s-48-10-66-32z" stroke="#DDD8CC" stroke-width="1.2"/>
+      <circle cx="600" cy="130" r="11" stroke="#4A4842" stroke-width="3"/>
+      <circle cx="600" cy="130" r="4" fill="#DDD8CC" stroke="none"/>
+    </g>
+    <g fill="none" stroke="url(#fog-mist)" stroke-width="1">
+      <path d="M0 92c40-12 80-12 120 0s80 12 120 0 80-12 120 0"/>
+      <path d="M1200 168c-40 12-80 12-120 0s-80-12-120 0-80 12-120 0"/>
+    </g>
+  </svg>
+</header>
+<nav class="sections" aria-label="Sections">
+  <a href="#chapter" class="current">Chapter</a>
+  <a href="#search">Search</a>
+  <a href="#graph">Graph</a>
+  <a href="#timeline">Chronology</a>
+</nav>
+<main id="chapter">
+  <p class="lede">A name is glossed once. Touch it, and the margin answers.</p>
+  <div class="kicker">Volume 1, Clown</div>
+  <h1>Chapter 1: Crimson</h1>
+  <div class="layout">
+    <article class="prose">
+      <p>Painful! How painful! My head hurts so badly!</p>
+      <p>A gaudy and dazzling dreamworld filled with murmurs instantly shattered. <span class="entity" tabindex="0" role="button">Zhou Mingrui</span> felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again.</p>
+      <p>He sat before a mirror. <span class="entity" tabindex="0" role="button">Klein Moretti</span> looked back at him from the glass.</p>
+      <p><span class="proofable" tabindex="0" role="button">A clear reflection appeared in the mirror. His temple had a grotesque wound with burn marks along its periphery.</span></p>
+      <a class="continue" href="#chapter-2">Continue reading — chapter 2</a>
+    </article>
+    <aside class="margin" aria-label="Glosses">
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-001</span>
+        <strong>Zhou Mingrui</strong> — the name before the mask.
+        <q>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</q>
+        <span class="source">Volume 1, chapter 1</span>
+        <button class="echo" type="button">The same name returns in volume 2</button>
+      </div>
+      <div class="gloss"><span class="gloss-label">First Naming · EV-0001-002</span>
+        <strong>Klein Moretti</strong> — also written Klein.
+        <q>Is this the present me? Klein Moretti?</q>
+        <span class="source">Volume 1, chapter 1</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">1394 chapters · 8 volumes · every named referent keeps a fiche</p>
+</main>
+</body>
+</html>
