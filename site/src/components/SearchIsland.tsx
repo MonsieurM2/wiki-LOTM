@@ -41,14 +41,15 @@ export default function SearchIsland() {
     async function load() {
       try {
         // Vite serves index.html for unknown paths in dev, so probe before importing.
-        const probe = await fetch('/pagefind/pagefind.js');
+        const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
+        const probe = await fetch(`${base}/pagefind/pagefind.js`);
         const type = probe.headers.get('content-type') || '';
         if (!probe.ok || !/javascript|ecmascript/i.test(type)) {
           if (!cancelled) setUnavailable(true);
           return;
         }
         // @ts-ignore: Pagefind exists only in the built site, not at typecheck time.
-        const pagefindModule = '/pagefind/pagefind.js';
+        const pagefindModule = `${base}/pagefind/pagefind.js`;
         const mod = await import(/* @vite-ignore */ pagefindModule);
         const api: Pagefind = (mod as { default?: Pagefind }).default ?? (mod as Pagefind);
         if (api.init) await api.init();
