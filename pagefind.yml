@@ -1,0 +1,11 @@
+# Pagefind cherche sa config dans le répertoire courant ; pendant `npm run build`
+# il tourne depuis site/, donc site/package.json répète ces réglages en CLI.
+site: site/dist
+glob: "**/*.html"
+force_language: en
+exclude_selectors:
+  - "nav"
+  - "site-head"
+  - "footer"
+  - ".evidence-drawer"
+  - ".veil-control"

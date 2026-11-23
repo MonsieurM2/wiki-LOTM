@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import SpoilerVeil from '../../components/SpoilerVeil';
+import { loadChapters, loadEntityFiches } from '../../lib/data';
+
+const fiches = loadEntityFiches(loadChapters());
+const types = [...new Set(fiches.map((f) => f.primary_type))].sort();
+---
+
+<Base title="Entities" kicker="[ Index of named referents ]"
+      lede="Every name keeps a fiche. Eight closed types, no automatic merging."
+      current="Entities">
+  <p slot="context">{fiches.length} files indexed</p>
+  <div class="layout">
+    <article class="prose">
+      {types.map((type) => (
+        <section>
+          <h2>{type}</h2>
+          <ul>
+            {fiches.filter((f) => f.primary_type === type).map((f) => (
+              <li><a href={`/wiki-LOTM/entity/${f.id}/`}>{f.canonical_name}</a>
+                <span class="source">first named in chapter {f.first.chapter}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+      {fiches.length === 0 && <p>No entity files have been generated yet.</p>}
+    </article>
+    <aside class="margin" aria-label="Index note">
+      <div class="gloss">
+        <span class="gloss-label">REF. · index</span>
+        <strong>Eight closed types</strong>
+        <q>Character, Event, Chapter, Faction, Location, Artifact, Pathway, Concept.</q>
+        <span class="source">A fiche exists from the first named mention</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">{fiches.length} fichés · {types.length} types</p>
+  <SpoilerVeil client:load />
+</Base>

@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+import { loadChapters, loadEntityFiches } from '../lib/data';
+import SpoilerVeil from '../components/SpoilerVeil';
+import Ritual from '../components/Ritual';
+
+const chapters = loadChapters();
+const fiches = loadEntityFiches(chapters);
+const facts = chapters.reduce((n, c) => n + c.evidence.length, 0);
+const volumes = new Set(chapters.map((c) => c.book)).size;
+---
+
+<Base title="Case Files" kicker={`Bureau of Mysteries · ${chapters.length} of 1394 chapters on file`}
+      lede="A name is glossed once. Touch it, and the margin answers.">
+  <p slot="context">Open files · {chapters.length} / 1394</p>
+
+  <div class="layout">
+    <article class="prose">
+      <p>The Bureau keeps a case file for every name in the eight volumes. Each fact carries the book, the chapter, and the literal sentence that supports it. Nothing is asserted without its source.</p>
+      <p class="continue"><a href="/wiki-LOTM/chapter/0001/">Open the first file — chapter 1</a></p>
+    </article>
+    <aside class="margin" aria-label="Ledger">
+      <div class="gloss">
+        <span class="gloss-label">Ledger · open files</span>
+        <strong>{chapters.length} chapters</strong> transcribed from {volumes} volumes.
+        <q>{facts} verified pieces of evidence, {fiches.length} named referents.</q>
+        <span class="source">Generated from the canonical chapter files</span>
+      </div>
+      <div class="gloss">
+        <span class="gloss-label">Three gestures</span>
+        <strong>First Naming</strong> marks a name where it first appears.
+        <q>The Testimony opens the literal sentence; The Drawing casts the twenty-two Arcans.</q>
+        <span class="source">Volumes 1–8</span>
+      </div>
+    </aside>
+  </div>
+
+  <section class="entity-page" aria-label="Chapters">
+    <h2>Files on record</h2>
+    <ol class="appearances">
+      {chapters.map((c) => (
+        <li><a href={`/wiki-LOTM/chapter/${String(c.number).padStart(4, '0')}/`}>
+          <span class="ref">CHAPTER {String(c.number).padStart(4, '0')}</span> — {c.title}
+        </a></li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="ritual" aria-label="The Drawing">
+    <h2>The Drawing</h2>
+    <p class="source">Twenty-two Arcans, seeded by today's UTC date — the same spread for every visitor.</p>
+    <Ritual client:load />
+  </section>
+
+  <p class="ledger">{chapters.length} chapters · 8 volumes · every named referent keeps a fiche</p>
+  <SpoilerVeil client:load />
+</Base>

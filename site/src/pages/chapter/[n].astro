@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import EvidenceDrawer from '../../components/EvidenceDrawer';
+import SpoilerVeil from '../../components/SpoilerVeil';
+import { annotateProse, loadChapters } from '../../lib/data';
+
+export function getStaticPaths() {
+  return loadChapters().map((c) => ({
+    params: { n: String(c.number).padStart(4, '0') },
+    props: { chapter: c },
+  }));
+}
+
+const { chapter } = Astro.props;
+const previous = chapter.number > 1 ? String(chapter.number - 1).padStart(4, '0') : null;
+const next = chapter.number < 1394 ? String(chapter.number + 1).padStart(4, '0') : null;
+const glosses = chapter.evidence.slice(0, 6);
+const drawerEvidence = chapter.evidence.map((e) => ({
+  id: e.id, quote: e.quote, book: e.book, chapter: e.chapter, chapterTitle: e.chapter_title,
+}));
+---
+
+<Base title={`Chapter ${chapter.number}: ${chapter.title}`}
+      kicker={`[ Volume ${chapter.book} · Chapter ${String(chapter.number).padStart(4, '0')} of 1394 ]`}
+      lede="A name is glossed once. Touch it, and the margin answers."
+      current="Chapter">
+  <p slot="context">Volume {chapter.book} · chapter {chapter.number} of 1394</p>
+
+  <div class="layout">
+    <article class="prose" set:html={annotateProse(chapter)} />
+
+    <aside class="margin" aria-label="Margin glosses">
+      {glosses.map((ev) => (
+        <div class="gloss">
+          <span class="gloss-label">{ev.id} · testimony</span>
+          <strong data-spoiler>{ev.chapter_title}</strong>
+          <q data-evidence-id={ev.id} tabindex="0">{ev.quote}</q>
+          <span class="source">Volume {ev.book}, chapter {ev.chapter}</span>
+        </div>
+      ))}
+      {glosses.length === 0 && <div class="gloss"><span class="gloss-label">No testimony on file</span></div>}
+    </aside>
+  </div>
+
+  <p>
+    {previous && <a class="continue" href={`/wiki-LOTM/chapter/${previous}/`}>Previous chapter</a>}
+    {next && <a class="continue" href={`/wiki-LOTM/chapter/${next}/`}>Continue reading — chapter {chapter.number + 1}</a>}
+  </p>
+
+  <p class="ledger">{chapter.evidence.length} testimonies · {chapter.entities.length} named referents · volume {chapter.book}</p>
+  <EvidenceDrawer client:load evidence={drawerEvidence} />
+  <SpoilerVeil client:load />
+</Base>

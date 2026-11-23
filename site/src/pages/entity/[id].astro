@@ -1,0 +1,64 @@
+---
+import Base from '../../layouts/Base.astro';
+import EvidenceDrawer from '../../components/EvidenceDrawer';
+import SpoilerVeil from '../../components/SpoilerVeil';
+import { escapeHtml, loadChapters, loadEntityFiches } from '../../lib/data';
+
+export function getStaticPaths() {
+  const fiches = loadEntityFiches(loadChapters());
+  return fiches.map((f) => ({ params: { id: f.id }, props: { fiche: f } }));
+}
+
+const { fiche } = Astro.props;
+const drawerEvidence = fiche.appearances.flatMap((a) =>
+  a.evidence.map((e) => ({
+    id: e.id,
+    quote: e.quote,
+    book: a.book,
+    chapter: a.chapter,
+    chapterTitle: a.chapterTitle,
+  }))
+);
+---
+
+<Base title={fiche.canonical_name}
+      kicker={`[ ${fiche.primary_type.toUpperCase()} · ${fiche.appearances.length} APPEARANCES ]`}
+      lede="Every appearance is cited. Every citation is literal."
+      current="Entities">
+  <p slot="context">Fiche · {fiche.primary_type}</p>
+
+  <div class="entity-page">
+    <div class="entity-heading">
+      <span class="stamp">{fiche.primary_type}</span>
+      <h2>{fiche.canonical_name}</h2>
+      <p class="source">First named · volume {fiche.first.book}, chapter {fiche.first.chapter}</p>
+      {fiche.aliases && fiche.aliases.length > 0 &&
+        <p class="source">Also written: {fiche.aliases.map((a) => a.form).join(', ')}</p>}
+    </div>
+
+    <div class="facts-grid">
+      <section>
+        <h3>First testimony</h3>
+        <div class="gloss">
+          <span class="gloss-label">REF. · {fiche.first.evidenceId}</span>
+          <q set:html={escapeHtml(fiche.first.quote)} data-evidence-id={fiche.first.evidenceId} tabindex="0" />
+          <span class="source">Volume {fiche.first.book}, chapter {fiche.first.chapter}</span>
+        </div>
+      </section>
+      <section>
+        <h3>Appearances on file</h3>
+        <ol class="appearances">
+          {fiche.appearances.map((a) => (
+            <li><a href={`/wiki-LOTM/chapter/${String(a.chapter).padStart(4, '0')}/`}>
+              Chapter {String(a.chapter).padStart(4, '0')} — {escapeHtml(a.chapterTitle)}
+            </a></li>
+          ))}
+        </ol>
+      </section>
+    </div>
+  </div>
+
+  <p class="ledger">{fiche.appearances.length} appearances · {drawerEvidence.length} pieces of evidence</p>
+  <EvidenceDrawer client:load evidence={drawerEvidence} />
+  <SpoilerVeil client:load />
+</Base>

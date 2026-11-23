@@ -1,0 +1,66 @@
+---
+import '../styles/casefiles.css';
+
+interface Props {
+  title: string;
+  kicker?: string;
+  lede?: string;
+  current?: string;
+}
+const { title, kicker, lede, current = 'Chapter' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A verified case file for Lord of the Mysteries — every name, every appearance, every chapter." />
+  <title>{title} — Bureau of Mysteries</title>
+  <link rel="icon" href={`${base}/favicon.svg`} />
+</head>
+<body>
+  <header class="site-head">
+    <span class="brand-mark" aria-hidden="true">&#9790;</span>
+    <span class="brand-name">Lord of the Mysteries</span>
+    <span class="context"><slot name="context">Case files · Bureau of Mysteries</slot></span>
+    <svg class="bureau-sigil" viewBox="0 0 520 520" aria-hidden="true" focusable="false">
+      <defs>
+        <filter id="kraft-grain" x="0" y="0" width="100%" height="100%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" result="noise" />
+          <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.79  0 0 0 0 0.74  0 0 0 0 0.61  0.6 0 0 0 0" result="grain" />
+          <feComposite in="grain" in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+      <g fill="none" stroke="#8A7E60">
+        <circle cx="260" cy="260" r="232" stroke-width="2" />
+        <circle cx="260" cy="260" r="220" stroke-width="1" />
+        <circle cx="260" cy="260" r="158" stroke-width="1" stroke-dasharray="2 10" />
+        <circle cx="260" cy="260" r="104" stroke-width="2" stroke="#B04338" />
+      </g>
+      <g stroke="#8A7E60" stroke-width="1.5">
+        <path d="M260 24v22M260 474v22M24 260h22M474 260h22" />
+        <path d="M95 95l15 15M410 410l15 15M425 95l-15 15M110 410l-15 15" />
+      </g>
+      <rect x="34" y="244" width="452" height="32" fill="#B04338" opacity=".55" />
+      <path d="M34 240h452M34 280h452" stroke="#C9BC9C" stroke-width="1" opacity=".5" />
+      <path d="M260 188l72 72-72 72-72-72z" fill="none" stroke="#C9BC9C" stroke-width="1.5" opacity=".7" />
+      <circle cx="260" cy="260" r="16" fill="none" stroke="#B04338" stroke-width="3" />
+    </svg>
+  </header>
+  <nav class="sections" aria-label="Sections">
+    <a href={`${base}/`} class={current === 'Chapter' ? 'current' : ''}>Chapter</a>
+    <a href={`${base}/entity/`} class={current === 'Entities' ? 'current' : ''}>Entities</a>
+    <a href={`${base}/search/`} class={current === 'Search' ? 'current' : ''}>Search</a>
+    <a href={`${base}/graph/`} class={current === 'Graph' ? 'current' : ''}>Graph</a>
+    <a href={`${base}/chronology/`} class={current === 'Chronology' ? 'current' : ''}>Chronology</a>
+  </nav>
+  <main data-pagefind-body>
+    {lede && <p class="lede">{lede}</p>}
+    {kicker && <p class="kicker">{kicker}</p>}
+    <h1>{title}</h1>
+    <slot />
+  </main>
+</body>
+</html>

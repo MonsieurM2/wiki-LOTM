@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import SpoilerVeil from '../components/SpoilerVeil';
+import { escapeHtml, loadChapters } from '../lib/data';
+
+const chapters = loadChapters();
+const volumes = [...new Set(chapters.map((c) => c.book))].sort();
+---
+
+<Base title="Chronology" kicker="[ Eight volumes · one continuous numbering ]"
+      lede="The files are ordered as the story was told, chapter 1 through 1394."
+      current="Chronology">
+  <p slot="context">{chapters.length} files on record</p>
+  <div class="layout">
+    <article class="prose">
+      {volumes.map((book) => (
+        <section>
+          <h2>Volume {book}</h2>
+          <ol class="appearances">
+            {chapters.filter((c) => c.book === book).map((c) => (
+              <li><a href={`/wiki-LOTM/chapter/${String(c.number).padStart(4, '0')}/`}>
+                <span class="ref">{String(c.number).padStart(4, '0')}</span> — {escapeHtml(c.title)}
+              </a></li>
+            ))}
+          </ol>
+        </section>
+      ))}
+      {chapters.length === 0 && <p>No files on record yet.</p>}
+    </article>
+    <aside class="margin" aria-label="Numbering">
+      <div class="gloss">
+        <span class="gloss-label">REF. · numbering</span>
+        <strong>1–1394, continuous</strong>
+        <q>T1 1–213 · T2 214–482 · T3 483–732 · T4 733–946 · T5 947–1150 · T6 1151–1266 · T7 1267–1353 · T8 1354–1394.</q>
+        <span class="source">Audit of the eight source epubs</span>
+      </div>
+    </aside>
+  </div>
+  <p class="ledger">{chapters.length} chapters · 8 volumes</p>
+  <SpoilerVeil client:load />
+</Base>

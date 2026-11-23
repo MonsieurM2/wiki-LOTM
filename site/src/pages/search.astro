@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import SearchIsland from '../components/SearchIsland';
+import SpoilerVeil from '../components/SpoilerVeil';
+---
+
+<Base title="Search" kicker="[ Full-text index · Pagefind ]"
+      lede="Search the testimony. Results carry the chapter and the literal sentence."
+      current="Search">
+  <p slot="context">Index · all files</p>
+  <div class="search-page">
+    <label for="case-search">Search the case files</label>
+    <div id="case-search">
+      <SearchIsland client:load />
+    </div>
+  </div>
+  <p class="ledger">Search runs in the browser · nothing leaves your machine</p>
+  <SpoilerVeil client:load />
+</Base>
