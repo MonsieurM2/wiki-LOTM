@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -43,7 +43,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Emperor Roselle",
       "primary_type": "Character",
       "aliases": [
@@ -54,7 +54,7 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Character",
       "aliases": [
@@ -89,7 +89,7 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -114,7 +114,7 @@
       ]
     },
     {
-      "id": "E-spectator-pathway-383934",
+      "id": "E-spectator-a9bfae",
       "canonical_name": "Spectator",
       "primary_type": "Concept",
       "aliases": [],
@@ -132,7 +132,7 @@
       ]
     },
     {
-      "id": "E-corpse-collector-a7067a",
+      "id": "E-corpse-collector-2a9f74",
       "canonical_name": "Corpse Collector",
       "primary_type": "Concept",
       "aliases": [],
@@ -180,28 +180,28 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-secret-order-249d57",
+      "id": "E-secret-order-0d7b6a",
       "canonical_name": "Secret Order",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-solomon-empire-cf9d3b",
+      "id": "E-solomon-empire-29eeff",
       "canonical_name": "Solomon Empire",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-antigonus-family-8d93db",
+      "id": "E-antigonus-family-2e75d4",
       "canonical_name": "Antigonus family",
       "primary_type": "Faction",
       "aliases": [],
@@ -215,7 +215,7 @@
       "tags": []
     },
     {
-      "id": "E-hermes-07ed5b",
+      "id": "E-ancient-hermes-2a152002",
       "canonical_name": "Hermes",
       "primary_type": "Concept",
       "aliases": [],
@@ -536,7 +536,7 @@
   "mentions": [
     {
       "id": "MEN-0031-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0031-002",
         "EV-0031-003",
@@ -552,7 +552,7 @@
     },
     {
       "id": "MEN-0031-002",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0031-001",
         "EV-0031-006",
@@ -579,14 +579,14 @@
     },
     {
       "id": "MEN-0031-004",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0031-005"
       ]
     },
     {
       "id": "MEN-0031-005",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0031-011"
       ]
@@ -615,7 +615,7 @@
     },
     {
       "id": "MEN-0031-009",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0031-007"
       ]
@@ -640,7 +640,7 @@
     },
     {
       "id": "MEN-0031-012",
-      "entity": "E-spectator-pathway-383934",
+      "entity": "E-spectator-a9bfae",
       "evidence_ids": [
         "EV-0031-003"
       ]
@@ -654,7 +654,7 @@
     },
     {
       "id": "MEN-0031-014",
-      "entity": "E-corpse-collector-a7067a",
+      "entity": "E-corpse-collector-2a9f74",
       "evidence_ids": [
         "EV-0031-004"
       ]
@@ -697,28 +697,28 @@
     },
     {
       "id": "MEN-0031-020",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0031-009"
       ]
     },
     {
       "id": "MEN-0031-021",
-      "entity": "E-secret-order-249d57",
+      "entity": "E-secret-order-0d7b6a",
       "evidence_ids": [
         "EV-0031-013"
       ]
     },
     {
       "id": "MEN-0031-022",
-      "entity": "E-solomon-empire-cf9d3b",
+      "entity": "E-solomon-empire-29eeff",
       "evidence_ids": [
         "EV-0031-014"
       ]
     },
     {
       "id": "MEN-0031-023",
-      "entity": "E-antigonus-family-8d93db",
+      "entity": "E-antigonus-family-2e75d4",
       "evidence_ids": [
         "EV-0031-015"
       ]
@@ -732,7 +732,7 @@
     },
     {
       "id": "MEN-0031-025",
-      "entity": "E-hermes-07ed5b",
+      "entity": "E-ancient-hermes-2a152002",
       "evidence_ids": [
         "EV-0031-016"
       ]
@@ -792,8 +792,8 @@
       "id": "EVT-0031-001",
       "label": "Dunn warns Klein that consuming the potion leaves no room for regret and Klein confirms his choice",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250"
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0031-001"
@@ -803,13 +803,13 @@
       "id": "EVT-0031-002",
       "label": "Klein weighs the Sequence options and chooses Seer",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-sleepless-aca774",
-        "E-spectator-pathway-383934",
-        "E-corpse-collector-a7067a",
+        "E-spectator-a9bfae",
+        "E-corpse-collector-2a9f74",
         "E-mystery-pryer-ae70fd",
         "E-seer-2e2bc5",
-        "E-roselle-gustav-5a8eb2",
+        "E-emperor-roselle-664e32",
         "E-apprentice-0a6646",
         "E-marauder-fe903e"
       ],
@@ -824,10 +824,10 @@
       "id": "EVT-0031-003",
       "label": "Klein asks Dunn about the origins of mysticism knowledge and becoming a Beyonder",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
         "E-mysticism-14f9f3",
-        "E-beyonder-bc7f3b"
+        "E-beyonder-6b1d42"
       ],
       "evidence_ids": [
         "EV-0031-006",
@@ -838,11 +838,11 @@
       "id": "EVT-0031-004",
       "label": "Dunn leads Klein past Chanis Gate toward Saint Selena Cathedral and the Nighthawks alchemy room",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-chanis-gate-2b3c4d",
         "E-saint-selena-cathedral-25d0a1",
-        "E-nighthawks-acf9cc",
+        "E-nighthawks-1f592c",
         "E-alchemyroom-1dd9e6"
       ],
       "evidence_ids": [
@@ -854,8 +854,8 @@
       "id": "EVT-0031-005",
       "label": "Dunn tells Klein he will remain a civilian staff member and learn mysticism with Old Neil",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
         "E-mysticism-14f9f3"
       ],
@@ -868,11 +868,11 @@
       "id": "EVT-0031-006",
       "label": "Dunn warns Klein about the Secret Order, the Solomon Empire and the Antigonus family notebook",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
-        "E-secret-order-249d57",
-        "E-solomon-empire-cf9d3b",
-        "E-antigonus-family-8d93db"
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-secret-order-0d7b6a",
+        "E-solomon-empire-29eeff",
+        "E-antigonus-family-2e75d4"
       ],
       "evidence_ids": [
         "EV-0031-013",
@@ -884,7 +884,7 @@
       "id": "EVT-0031-007",
       "label": "Klein links his luck enhancement ritual's transformation into Social Network Magic to the harmful murmurs",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-luck-enhancement-ritual-2a8c54",
         "E-socialnetworkmagic-03e56f"
       ],
@@ -897,9 +897,9 @@
       "label": "Old Neil reads the Seer formula in Hermes and concocts the Seer potion from its ingredients",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-seerpotionformula-c9a4c6",
-        "E-hermes-07ed5b",
+        "E-ancient-hermes-2a152002",
         "E-purewater-e4e0b8",
         "E-nightvanilla-f58811",
         "E-goldmint-19b9c6",
@@ -920,7 +920,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -938,7 +938,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-spectator-pathway-383934",
+      "source": "E-spectator-a9bfae",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -947,7 +947,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-corpse-collector-a7067a",
+      "source": "E-corpse-collector-2a9f74",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -974,7 +974,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1001,7 +1001,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1019,7 +1019,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1046,7 +1046,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1082,7 +1082,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1091,7 +1091,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-secret-order-249d57",
+      "source": "E-secret-order-0d7b6a",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1100,7 +1100,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-solomon-empire-cf9d3b",
+      "source": "E-solomon-empire-29eeff",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1109,7 +1109,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-antigonus-family-8d93db",
+      "source": "E-antigonus-family-2e75d4",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1118,7 +1118,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-hermes-07ed5b",
+      "source": "E-ancient-hermes-2a152002",
       "target": "C0031",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1208,7 +1208,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-seer-2e2bc5",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1218,8 +1218,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0031-001"
@@ -1239,7 +1239,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-old-neil-3c4d5e",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0031-020"
@@ -1248,7 +1248,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "E-alchemyroom-1dd9e6",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1258,8 +1258,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-secret-order-249d57",
-      "target": "E-solomon-empire-cf9d3b",
+      "source": "E-secret-order-0d7b6a",
+      "target": "E-solomon-empire-29eeff",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0031-014"
@@ -1268,8 +1268,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-evernight-goddess-4a9d31",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-ch0529-000018",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0031-011"

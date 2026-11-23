@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [
@@ -21,7 +21,7 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -43,7 +43,7 @@
       "tags": []
     },
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger",
       "primary_type": "Character",
       "aliases": [
@@ -64,14 +64,14 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Captain",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Emperor Roselle",
       "primary_type": "Character",
       "aliases": [
@@ -82,7 +82,7 @@
       "tags": []
     },
     {
-      "id": "E-tarot-club-f6c8a2",
+      "id": "E-tarot-club-108663",
       "canonical_name": "Tarot Club",
       "primary_type": "Faction",
       "aliases": [],
@@ -110,7 +110,7 @@
       "tags": []
     },
     {
-      "id": "E-pritz-harbor-3d4e5f",
+      "id": "E-ch0525-000001",
       "canonical_name": "Pritz Harbor",
       "primary_type": "Location",
       "aliases": [],
@@ -124,14 +124,14 @@
       "tags": []
     },
     {
-      "id": "E-blasphemy-slate-f46e14",
+      "id": "E-blasphemy-slate-098c5c",
       "canonical_name": "Blasphemy Slate",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-tarot-cards-607182",
+      "id": "E-ch0524-000003",
       "canonical_name": "Tarot cards",
       "primary_type": "Artifact",
       "aliases": [
@@ -149,21 +149,21 @@
       "tags": []
     },
     {
-      "id": "E-potion-formula-8293a4",
+      "id": "E-bizarro-sorcerer-formula-8d3f41",
       "canonical_name": "potion formula",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-divination-93a4b5",
+      "id": "E-divination-2b9e14",
       "canonical_name": "divination",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-beyonders-a4b5c6",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonders",
       "primary_type": "Concept",
       "aliases": [],
@@ -177,14 +177,14 @@
       "tags": []
     },
     {
-      "id": "E-major-arcana-c6d7e8",
+      "id": "E-major-arcana-00c1ef",
       "canonical_name": "Major Arcana",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-spectator-pathway-383934",
+      "id": "E-spectator-a9bfae",
       "canonical_name": "Spectator",
       "primary_type": "Concept",
       "aliases": [],
@@ -198,7 +198,7 @@
       "tags": []
     },
     {
-      "id": "E-gathering-f90a1b",
+      "id": "E-gathering-778d7f",
       "canonical_name": "gathering",
       "primary_type": "Concept",
       "aliases": [
@@ -461,7 +461,7 @@
   "mentions": [
     {
       "id": "MEN-0007-001",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0007-001",
         "EV-0007-002",
@@ -472,7 +472,7 @@
     },
     {
       "id": "MEN-0007-002",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0007-016"
       ]
@@ -490,7 +490,7 @@
     },
     {
       "id": "MEN-0007-004",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0007-005",
         "EV-0007-010",
@@ -507,14 +507,14 @@
     },
     {
       "id": "MEN-0007-006",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0007-005"
       ]
     },
     {
       "id": "MEN-0007-007",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0007-012",
         "EV-0007-013"
@@ -522,7 +522,7 @@
     },
     {
       "id": "MEN-0007-008",
-      "entity": "E-tarot-club-f6c8a2",
+      "entity": "E-tarot-club-108663",
       "evidence_ids": [
         "EV-0007-011"
       ]
@@ -550,7 +550,7 @@
     },
     {
       "id": "MEN-0007-012",
-      "entity": "E-pritz-harbor-3d4e5f",
+      "entity": "E-ch0525-000001",
       "evidence_ids": [
         "EV-0007-004"
       ]
@@ -564,14 +564,14 @@
     },
     {
       "id": "MEN-0007-014",
-      "entity": "E-blasphemy-slate-f46e14",
+      "entity": "E-blasphemy-slate-098c5c",
       "evidence_ids": [
         "EV-0007-013"
       ]
     },
     {
       "id": "MEN-0007-015",
-      "entity": "E-tarot-cards-607182",
+      "entity": "E-ch0524-000003",
       "evidence_ids": [
         "EV-0007-012",
         "EV-0007-013",
@@ -587,7 +587,7 @@
     },
     {
       "id": "MEN-0007-017",
-      "entity": "E-potion-formula-8293a4",
+      "entity": "E-bizarro-sorcerer-formula-8d3f41",
       "evidence_ids": [
         "EV-0007-006",
         "EV-0007-017"
@@ -595,14 +595,14 @@
     },
     {
       "id": "MEN-0007-018",
-      "entity": "E-divination-93a4b5",
+      "entity": "E-divination-2b9e14",
       "evidence_ids": [
         "EV-0007-018"
       ]
     },
     {
       "id": "MEN-0007-019",
-      "entity": "E-beyonders-a4b5c6",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0007-015"
       ]
@@ -616,14 +616,14 @@
     },
     {
       "id": "MEN-0007-021",
-      "entity": "E-major-arcana-c6d7e8",
+      "entity": "E-major-arcana-00c1ef",
       "evidence_ids": [
         "EV-0007-019"
       ]
     },
     {
       "id": "MEN-0007-022",
-      "entity": "E-spectator-pathway-383934",
+      "entity": "E-spectator-a9bfae",
       "evidence_ids": [
         "EV-0007-017"
       ]
@@ -637,7 +637,7 @@
     },
     {
       "id": "MEN-0007-024",
-      "entity": "E-gathering-f90a1b",
+      "entity": "E-gathering-778d7f",
       "evidence_ids": [
         "EV-0007-007",
         "EV-0007-014"
@@ -649,7 +649,7 @@
       "id": "EVT-0007-001",
       "label": "Zhou Mingrui names himself The Fool",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0007-001"
@@ -660,7 +660,7 @@
       "label": "Audrey asks Mr. Fool to witness the resource trade",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0007-003"
@@ -670,9 +670,9 @@
       "id": "EVT-0007-003",
       "label": "Alger arranges delivery of the Ghost Shark's blood",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-williams-c3f5d9",
-        "E-dunn-smith-0ca9f5"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0007-004",
@@ -683,9 +683,9 @@
       "id": "EVT-0007-004",
       "label": "Zhou Mingrui agrees to hold regular gatherings",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0007-007"
@@ -696,7 +696,7 @@
       "label": "Audrey and Alger adopt the code names Justice and The Hanged Man",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0007-009",
@@ -708,8 +708,8 @@
       "label": "Audrey and Alger declare themselves founding members of the Tarot Club",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42",
-        "E-tarot-club-f6c8a2"
+        "E-alger-willson-3e9f42",
+        "E-tarot-club-108663"
       ],
       "evidence_ids": [
         "EV-0007-011"
@@ -719,7 +719,7 @@
       "id": "EVT-0007-007",
       "label": "Alger explains divination and tarot cards",
       "participants": [
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0007-018"
@@ -729,9 +729,9 @@
       "id": "EVT-0007-008",
       "label": "Zhou Mingrui ends the gathering as his headache intensifies",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0007-014"
@@ -741,8 +741,8 @@
       "id": "EVT-0007-009",
       "label": "Zhou Mingrui returns to his apartment and adopts the name Klein",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0007-016"
@@ -752,7 +752,7 @@
       "id": "EVT-0007-010",
       "label": "Zhou Mingrui resolves to master mysticism before retrying the luck enhancement ritual",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0007-015"
@@ -762,7 +762,7 @@
       "id": "EVT-0007-011",
       "label": "Klein considers learning the Spectator potion formula",
       "participants": [
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0007-017"
@@ -772,7 +772,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0007",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -790,7 +790,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0007",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -799,7 +799,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0007",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -808,8 +808,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Zhou Mingrui adopts Klein as his new name",
       "evidence_ids": [
@@ -819,7 +819,7 @@
     {
       "type": "MEMBER_OF",
       "source": "E-audrey-hall-2b8d31",
-      "target": "E-tarot-club-f6c8a2",
+      "target": "E-tarot-club-108663",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0007-011"
@@ -827,8 +827,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-tarot-club-f6c8a2",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-tarot-club-108663",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0007-011"
@@ -855,7 +855,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-white-rose-borough-2c3d4e",
-      "target": "E-pritz-harbor-3d4e5f",
+      "target": "E-ch0525-000001",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0007-004"
@@ -863,7 +863,7 @@
     },
     {
       "type": "PARTICIPATED_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "EVT-0007-001",
       "inverse": "HAS_PARTICIPANT",
       "evidence_ids": [
@@ -881,7 +881,7 @@
     },
     {
       "type": "PARTICIPATED_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "EVT-0007-003",
       "inverse": "HAS_PARTICIPANT",
       "evidence_ids": [
@@ -890,8 +890,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
-      "target": "E-blasphemy-slate-f46e14",
+      "source": "E-emperor-roselle-664e32",
+      "target": "E-blasphemy-slate-098c5c",
       "inverse": "RELATED_TO",
       "label": "Emperor Roselle is said to have seen the Blasphemy Slate",
       "evidence_ids": [
@@ -900,8 +900,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
-      "target": "E-tarot-cards-607182",
+      "source": "E-emperor-roselle-664e32",
+      "target": "E-ch0524-000003",
       "inverse": "RELATED_TO",
       "label": "Emperor Roselle invented tarot cards as a game",
       "evidence_ids": [
@@ -910,7 +910,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-blasphemy-slate-f46e14",
+      "source": "E-blasphemy-slate-098c5c",
       "target": "E-twenty-two-paths-of-the-divine-b5c6d7",
       "inverse": "RELATED_TO",
       "label": "The paper cards are said to contain the mysteries of the twenty-two paths of the divine",
@@ -920,8 +920,8 @@
     },
     {
       "type": "USES",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-tarot-cards-607182",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-ch0524-000003",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0007-018"
@@ -929,8 +929,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-potion-formula-8293a4",
-      "target": "E-spectator-pathway-383934",
+      "source": "E-bizarro-sorcerer-formula-8d3f41",
+      "target": "E-spectator-a9bfae",
       "inverse": "RELATED_TO",
       "label": "Klein hopes to learn the Spectator potion formula",
       "evidence_ids": [

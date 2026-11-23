@@ -7,14 +7,14 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -60,14 +60,14 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-southern-continent-5c8d20",
+      "id": "E-ch0526-000007",
       "canonical_name": "Southern Continent",
       "primary_type": "Location",
       "aliases": [],
@@ -81,14 +81,14 @@
       "tags": []
     },
     {
-      "id": "E-feysac-3e6f98",
+      "id": "E-ch0529-000020",
       "canonical_name": "Feysac",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-church-of-evernight-b4c2d7",
+      "id": "E-ch0529-000018",
       "canonical_name": "Church of Evernight",
       "primary_type": "Faction",
       "aliases": [],
@@ -116,49 +116,49 @@
       "tags": []
     },
     {
-      "id": "E-lord-of-storms-2b8e57",
+      "id": "E-leodero-649907",
       "canonical_name": "Lord of Storms",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-god-of-steam-and-machinery-8f2c60",
+      "id": "E-church-of-god-of-steam-and-machinery-62e08a",
       "canonical_name": "God of Steam and Machinery",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-eternal-blazing-sun-6d1e94",
+      "id": "E-church-of-the-eternal-blazing-sun-a03d18",
       "canonical_name": "Eternal Blazing Sun",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-god-of-knowledge-and-wisdom-3b7f28",
+      "id": "E-church-of-the-god-of-knowledge-and-wisdom-b78c31",
       "canonical_name": "God of Knowledge and Wisdom",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-earth-mother-5a0c73",
+      "id": "E-ch0523-000016",
       "canonical_name": "Earth Mother",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-god-of-combat-9c4e16",
+      "id": "E-badheil-8d3c21",
       "canonical_name": "God of Combat",
       "primary_type": "Concept",
       "aliases": [],
@@ -444,7 +444,7 @@
   "mentions": [
     {
       "id": "MEN-0003-001",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0003-001",
         "EV-0003-005",
@@ -453,7 +453,7 @@
     },
     {
       "id": "MEN-0003-002",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0003-002",
         "EV-0003-006",
@@ -505,7 +505,7 @@
     },
     {
       "id": "MEN-0003-008",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0003-003",
         "EV-0003-008"
@@ -513,7 +513,7 @@
     },
     {
       "id": "MEN-0003-009",
-      "entity": "E-southern-continent-5c8d20",
+      "entity": "E-ch0526-000007",
       "evidence_ids": [
         "EV-0003-014"
       ]
@@ -528,14 +528,14 @@
     },
     {
       "id": "MEN-0003-011",
-      "entity": "E-feysac-3e6f98",
+      "entity": "E-ch0529-000020",
       "evidence_ids": [
         "EV-0003-018"
       ]
     },
     {
       "id": "MEN-0003-012",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0003-007"
       ]
@@ -563,7 +563,7 @@
     },
     {
       "id": "MEN-0003-016",
-      "entity": "E-lord-of-storms-2b8e57",
+      "entity": "E-leodero-649907",
       "evidence_ids": [
         "EV-0003-010",
         "EV-0003-019"
@@ -571,7 +571,7 @@
     },
     {
       "id": "MEN-0003-017",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0003-010",
         "EV-0003-019"
@@ -579,7 +579,7 @@
     },
     {
       "id": "MEN-0003-018",
-      "entity": "E-god-of-steam-and-machinery-8f2c60",
+      "entity": "E-church-of-god-of-steam-and-machinery-62e08a",
       "evidence_ids": [
         "EV-0003-010",
         "EV-0003-019"
@@ -587,28 +587,28 @@
     },
     {
       "id": "MEN-0003-019",
-      "entity": "E-eternal-blazing-sun-6d1e94",
+      "entity": "E-church-of-the-eternal-blazing-sun-a03d18",
       "evidence_ids": [
         "EV-0003-019"
       ]
     },
     {
       "id": "MEN-0003-020",
-      "entity": "E-god-of-knowledge-and-wisdom-3b7f28",
+      "entity": "E-church-of-the-god-of-knowledge-and-wisdom-b78c31",
       "evidence_ids": [
         "EV-0003-019"
       ]
     },
     {
       "id": "MEN-0003-021",
-      "entity": "E-earth-mother-5a0c73",
+      "entity": "E-ch0523-000016",
       "evidence_ids": [
         "EV-0003-019"
       ]
     },
     {
       "id": "MEN-0003-022",
-      "entity": "E-god-of-combat-9c4e16",
+      "entity": "E-badheil-8d3c21",
       "evidence_ids": [
         "EV-0003-019"
       ]
@@ -633,8 +633,8 @@
       "id": "EVT-0003-001",
       "label": "Zhou Mingrui studies Klein's memory fragments",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0003-002"
@@ -645,7 +645,7 @@
       "label": "Melissa wakes and speaks with Zhou Mingrui",
       "participants": [
         "E-melissa-9d2e41",
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0003-005"
@@ -655,7 +655,7 @@
       "id": "EVT-0003-003",
       "label": "Zhou Mingrui opens the silver vine-leaf pocket watch",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0003-015"
@@ -685,7 +685,7 @@
       "id": "EVT-0003-006",
       "label": "Zhou Mingrui reflects on the luck enhancement ritual",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0003-020"
@@ -695,7 +695,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0003",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -704,7 +704,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0003",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -731,8 +731,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Zhou Mingrui occupies Klein Moretti's body and studies his memories",
       "evidence_ids": [
@@ -752,7 +752,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-melissa-9d2e41",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Klein remembers Melissa as his younger sister",
       "evidence_ids": [
@@ -770,7 +770,7 @@
     },
     {
       "type": "USES",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "E-silver-vine-leaf-pocket-watch-1e8d45",
       "inverse": "USED_BY",
       "evidence_ids": [
@@ -779,8 +779,8 @@
     },
     {
       "type": "OPPOSES",
-      "source": "E-lord-of-storms-2b8e57",
-      "target": "E-evernight-goddess-4a9d31",
+      "source": "E-leodero-649907",
+      "target": "E-ch0529-000018",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
         "EV-0003-010"
@@ -788,8 +788,8 @@
     },
     {
       "type": "OPPOSES",
-      "source": "E-evernight-goddess-4a9d31",
-      "target": "E-god-of-steam-and-machinery-8f2c60",
+      "source": "E-ch0529-000018",
+      "target": "E-church-of-god-of-steam-and-machinery-62e08a",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
         "EV-0003-010"

@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
       "aliases": [
@@ -61,7 +61,7 @@
       "tags": []
     },
     {
-      "id": "E-annie-a6a1d8",
+      "id": "E-anne-1f3021",
       "canonical_name": "Annie",
       "primary_type": "Character",
       "aliases": [],
@@ -111,7 +111,7 @@
       "tags": []
     },
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "The Fool",
       "primary_type": "Character",
       "aliases": [],
@@ -139,21 +139,21 @@
       "tags": []
     },
     {
-      "id": "E-empress-borough-ee0c62",
+      "id": "E-empress-borough-00c1cd",
       "canonical_name": "Empress Borough",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-pritz-harbor-3d4e5f",
+      "id": "E-ch0525-000001",
       "canonical_name": "Pritz Harbor",
       "primary_type": "Location",
       "aliases": [],
@@ -174,7 +174,7 @@
       "tags": []
     },
     {
-      "id": "E-augustus-family-e8d20f",
+      "id": "E-augustus-family-7c1f03",
       "canonical_name": "Augustus family",
       "primary_type": "Faction",
       "aliases": [],
@@ -460,7 +460,7 @@
   "mentions": [
     {
       "id": "MEN-0008-001",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0008-001",
         "EV-0008-003",
@@ -490,7 +490,7 @@
     },
     {
       "id": "MEN-0008-004",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0008-009"
       ]
@@ -519,14 +519,14 @@
     },
     {
       "id": "MEN-0008-008",
-      "entity": "E-empress-borough-ee0c62",
+      "entity": "E-empress-borough-00c1cd",
       "evidence_ids": [
         "EV-0008-011"
       ]
     },
     {
       "id": "MEN-0008-009",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0008-011"
       ]
@@ -542,7 +542,7 @@
     },
     {
       "id": "MEN-0008-011",
-      "entity": "E-annie-a6a1d8",
+      "entity": "E-anne-1f3021",
       "evidence_ids": [
         "EV-0008-013"
       ]
@@ -564,7 +564,7 @@
     },
     {
       "id": "MEN-0008-014",
-      "entity": "E-pritz-harbor-3d4e5f",
+      "entity": "E-ch0525-000001",
       "evidence_ids": [
         "EV-0008-016",
         "EV-0008-020"
@@ -586,7 +586,7 @@
     },
     {
       "id": "MEN-0008-017",
-      "entity": "E-augustus-family-e8d20f",
+      "entity": "E-augustus-family-7c1f03",
       "evidence_ids": [
         "EV-0008-017"
       ]
@@ -634,7 +634,7 @@
       "id": "EVT-0008-001",
       "label": "Alger Wilson subdues the ghost ship's captain",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-the-ghost-ship-captain-43355b"
       ],
       "evidence_ids": [
@@ -647,7 +647,7 @@
       "id": "EVT-0008-002",
       "label": "Alger Wilson and the blond man find the ship empty and the captain gone",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-the-blond-man-1efa82"
       ],
       "evidence_ids": [
@@ -659,8 +659,8 @@
       "id": "EVT-0008-003",
       "label": "Alger Wilson pictures The Fool as a new era begins",
       "participants": [
-        "E-alger-wilson-3e9f42",
-        "E-zhou-mingrui-e5a8be"
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0008-009",
@@ -682,7 +682,7 @@
       "id": "EVT-0008-005",
       "label": "Annie helps Audrey Hall dress while Susie is blamed for the cracked mirror",
       "participants": [
-        "E-annie-a6a1d8",
+        "E-anne-1f3021",
         "E-audrey-hall-2b8d31",
         "E-susie-fccd33"
       ],
@@ -719,7 +719,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0008",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -764,7 +764,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-annie-a6a1d8",
+      "source": "E-anne-1f3021",
       "target": "C0008",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -809,7 +809,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0008",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -874,8 +874,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-zhou-mingrui-e5a8be",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0008-009"
@@ -885,7 +885,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-sword-of-judgment-a2b10b",
-      "target": "E-augustus-family-e8d20f",
+      "target": "E-augustus-family-7c1f03",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0008-017"
@@ -895,7 +895,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-the-pritz-6d4852",
-      "target": "E-pritz-harbor-3d4e5f",
+      "target": "E-ch0525-000001",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0008-020"
@@ -904,7 +904,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-empress-borough-ee0c62",
+      "source": "E-empress-borough-00c1cd",
       "target": "E-backlund-7a4d86",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
@@ -914,7 +914,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-backlund-7a4d86",
-      "target": "E-loen-kingdom-1b9c6e",
+      "target": "E-loen-9b37f2",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0008-011"
@@ -922,7 +922,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-pritz-harbor-3d4e5f",
+      "source": "E-ch0525-000001",
       "target": "E-oak-island-f8542a",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [

@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -29,7 +29,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -40,7 +40,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [
@@ -51,21 +51,21 @@
       "tags": []
     },
     {
-      "id": "E-church-of-evernight-b4c2d7",
+      "id": "E-ch0529-000018",
       "canonical_name": "Church of Evernight",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "The Fool",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-gathering-f90a1b",
+      "id": "E-gathering-778d7f",
       "canonical_name": "gathering",
       "primary_type": "Concept",
       "aliases": [],
@@ -79,14 +79,14 @@
       "tags": []
     },
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "The Hanged Man",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -111,7 +111,7 @@
       "tags": []
     },
     {
-      "id": "E-potion-formula-8293a4",
+      "id": "E-bizarro-sorcerer-formula-8d3f41",
       "canonical_name": "potion formula",
       "primary_type": "Artifact",
       "aliases": [],
@@ -146,7 +146,7 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
@@ -174,7 +174,7 @@
       "tags": []
     },
     {
-      "id": "E-zouteland-street-be6f3a",
+      "id": "E-36-zouteland-street-0bad86",
       "canonical_name": "Zouteland Street",
       "primary_type": "Location",
       "aliases": [
@@ -457,7 +457,7 @@
   "mentions": [
     {
       "id": "MEN-0016-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0016-001",
         "EV-0016-002",
@@ -492,7 +492,7 @@
     },
     {
       "id": "MEN-0016-003",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0016-007",
         "EV-0016-015"
@@ -500,7 +500,7 @@
     },
     {
       "id": "MEN-0016-004",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0016-008",
         "EV-0016-009",
@@ -510,14 +510,14 @@
     },
     {
       "id": "MEN-0016-005",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0016-008"
       ]
     },
     {
       "id": "MEN-0016-006",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0016-008",
         "EV-0016-012"
@@ -525,7 +525,7 @@
     },
     {
       "id": "MEN-0016-007",
-      "entity": "E-gathering-f90a1b",
+      "entity": "E-gathering-778d7f",
       "evidence_ids": [
         "EV-0016-008",
         "EV-0016-013"
@@ -541,7 +541,7 @@
     },
     {
       "id": "MEN-0016-009",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0016-012",
         "EV-0016-013"
@@ -549,7 +549,7 @@
     },
     {
       "id": "MEN-0016-010",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0016-009",
         "EV-0016-010",
@@ -572,7 +572,7 @@
     },
     {
       "id": "MEN-0016-013",
-      "entity": "E-potion-formula-8293a4",
+      "entity": "E-bizarro-sorcerer-formula-8d3f41",
       "evidence_ids": [
         "EV-0016-011"
       ]
@@ -607,7 +607,7 @@
     },
     {
       "id": "MEN-0016-018",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0016-017"
       ]
@@ -635,7 +635,7 @@
     },
     {
       "id": "MEN-0016-022",
-      "entity": "E-zouteland-street-be6f3a",
+      "entity": "E-36-zouteland-street-0bad86",
       "evidence_ids": [
         "EV-0016-019"
       ]
@@ -653,7 +653,7 @@
       "id": "EVT-0016-001",
       "label": "Klein returns home after the seance and Melissa questions his absence",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41"
       ],
       "evidence_ids": [
@@ -667,7 +667,7 @@
       "label": "Melissa shows Klein the mechanical tortoise she built and calls it a puppet",
       "participants": [
         "E-melissa-9d2e41",
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0016-005",
@@ -679,7 +679,7 @@
       "label": "Melissa encourages Klein about the Tingen University interview",
       "participants": [
         "E-melissa-9d2e41",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-tingen-university-4d1f83"
       ],
       "evidence_ids": [
@@ -690,17 +690,17 @@
       "id": "EVT-0016-004",
       "label": "Klein weighs the disadvantages and advantages of Dunn Smith's invitation",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
-        "E-nighthawks-acf9cc",
-        "E-church-of-evernight-b4c2d7",
-        "E-zhou-mingrui-e5a8be",
-        "E-gathering-f90a1b",
-        "E-beyonder-bc7f3b",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
+        "E-nighthawks-1f592c",
+        "E-ch0529-000018",
+        "E-dwayne-802dcc",
+        "E-gathering-778d7f",
+        "E-beyonder-6b1d42",
         "E-luck-enhancement-ritual-2a8c54",
-        "E-potion-formula-8293a4",
+        "E-bizarro-sorcerer-formula-8d3f41",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-psychology-alchemists-4d9e63",
         "E-tingen-city-2f6d90"
       ],
@@ -718,9 +718,9 @@
       "id": "EVT-0016-005",
       "label": "Klein decides to find Dunn Smith and join the Nighthawks as civilian staff",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
-        "E-nighthawks-acf9cc"
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
+        "E-nighthawks-1f592c"
       ],
       "evidence_ids": [
         "EV-0016-015"
@@ -730,9 +730,9 @@
       "id": "EVT-0016-006",
       "label": "Klein takes a public horse carriage from Iron Cross Street towards Besik Street",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-iron-cross-street-b04e18",
-        "E-loen-kingdom-1b9c6e",
+        "E-loen-9b37f2",
         "E-orbital-carriage-company-d08b5c",
         "E-champagne-street-1cd7ca",
         "E-besik-street-ad5e29"
@@ -747,9 +747,9 @@
       "id": "EVT-0016-007",
       "label": "Klein asks Wright for the small mercenary squad and learns the Blackthorn Security Company address",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-wright-9c4d18",
-        "E-zouteland-street-be6f3a",
+        "E-36-zouteland-street-0bad86",
         "E-blackthorn-security-company-cf7a4b"
       ],
       "evidence_ids": [
@@ -761,7 +761,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -779,7 +779,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -788,7 +788,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -797,7 +797,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-church-of-evernight-b4c2d7",
+      "source": "E-ch0529-000018",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -806,7 +806,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -815,7 +815,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-gathering-f90a1b",
+      "source": "E-gathering-778d7f",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -833,7 +833,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -842,7 +842,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -869,7 +869,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-potion-formula-8293a4",
+      "source": "E-bizarro-sorcerer-formula-8d3f41",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -914,7 +914,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-loen-kingdom-1b9c6e",
+      "source": "E-loen-9b37f2",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -950,7 +950,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zouteland-street-be6f3a",
+      "source": "E-36-zouteland-street-0bad86",
       "target": "C0016",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -969,7 +969,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-melissa-9d2e41",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0016-002"
@@ -978,8 +978,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-gathering-f90a1b",
+      "source": "E-dwayne-802dcc",
+      "target": "E-gathering-778d7f",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0016-008"
@@ -989,7 +989,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-audrey-hall-2b8d31",
-      "target": "E-gathering-f90a1b",
+      "target": "E-gathering-778d7f",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0016-013"
@@ -998,8 +998,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-gathering-f90a1b",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-gathering-778d7f",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0016-013"
@@ -1008,7 +1008,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "E-audrey-hall-2b8d31",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1018,7 +1018,7 @@
     },
     {
       "type": "OPPOSES",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "E-psychology-alchemists-4d9e63",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
@@ -1029,7 +1029,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-blackthorn-security-company-cf7a4b",
-      "target": "E-nighthawks-acf9cc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0016-020"
@@ -1049,7 +1049,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-blackthorn-security-company-cf7a4b",
-      "target": "E-zouteland-street-be6f3a",
+      "target": "E-36-zouteland-street-0bad86",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0016-019"

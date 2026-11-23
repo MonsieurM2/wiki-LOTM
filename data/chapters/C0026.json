@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -25,14 +25,14 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [],
@@ -60,7 +60,7 @@
       "tags": []
     },
     {
-      "id": "E-midseashire-ce9924",
+      "id": "E-midseashire-2a8f61",
       "canonical_name": "Midseashire",
       "primary_type": "Location",
       "aliases": [],
@@ -78,7 +78,7 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
@@ -96,7 +96,7 @@
       "tags": []
     },
     {
-      "id": "E-antigonus-family-8d93db",
+      "id": "E-antigonus-family-2e75d4",
       "canonical_name": "Antigonus family",
       "primary_type": "Faction",
       "aliases": [
@@ -114,7 +114,7 @@
       "tags": []
     },
     {
-      "id": "E-zouteland-street-be6f3a",
+      "id": "E-36-zouteland-street-0bad86",
       "canonical_name": "Zouteland Street",
       "primary_type": "Location",
       "aliases": [],
@@ -178,7 +178,7 @@
       "tags": []
     },
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [],
@@ -457,7 +457,7 @@
   "mentions": [
     {
       "id": "MEN-0026-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0026-001",
         "EV-0026-003",
@@ -482,14 +482,14 @@
     },
     {
       "id": "MEN-0026-003",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0026-003"
       ]
     },
     {
       "id": "MEN-0026-004",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0026-004"
       ]
@@ -517,7 +517,7 @@
     },
     {
       "id": "MEN-0026-008",
-      "entity": "E-midseashire-ce9924",
+      "entity": "E-midseashire-2a8f61",
       "evidence_ids": [
         "EV-0026-009"
       ]
@@ -531,7 +531,7 @@
     },
     {
       "id": "MEN-0026-010",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0026-010"
       ]
@@ -545,7 +545,7 @@
     },
     {
       "id": "MEN-0026-012",
-      "entity": "E-antigonus-family-8d93db",
+      "entity": "E-antigonus-family-2e75d4",
       "evidence_ids": [
         "EV-0026-011"
       ]
@@ -559,7 +559,7 @@
     },
     {
       "id": "MEN-0026-014",
-      "entity": "E-zouteland-street-be6f3a",
+      "entity": "E-36-zouteland-street-0bad86",
       "evidence_ids": [
         "EV-0026-013"
       ]
@@ -616,7 +616,7 @@
     },
     {
       "id": "MEN-0026-022",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0026-020"
       ]
@@ -634,7 +634,7 @@
       "id": "EVT-0026-001",
       "label": "Klein follows the priest from the cathedral through the Chanis Gate passage and re-enters Blackthorn Security Company",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-chanis-gate-2b3c4d",
         "E-blackthorn-security-company-cf7a4b"
       ],
@@ -648,9 +648,9 @@
       "id": "EVT-0026-002",
       "label": "Klein greets Rozanne at reception and asks to see Captain Dunn Smith",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-rozanne-16d3a1",
-        "E-dunn-smith-0ca9f5",
+        "E-alger-willson-3e9f42",
         "E-orianna-3b4c5d"
       ],
       "evidence_ids": [
@@ -663,10 +663,10 @@
       "id": "EVT-0026-003",
       "label": "Klein reports being followed to Dunn, who suspects Welch's father, a private investigator from Wind City, or people seeking the Antigonus family's notebook",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
         "E-welch-mcgovern-ae12e5",
-        "E-antigonus-family-8d93db",
+        "E-antigonus-family-2e75d4",
         "E-constant-city-f4707d"
       ],
       "evidence_ids": [
@@ -679,7 +679,7 @@
       "id": "EVT-0026-004",
       "label": "Klein leaves Saint Selena Cathedral and reasons that the observer did not follow him inside",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-saint-selena-cathedral-25d0a1"
       ],
       "evidence_ids": [
@@ -690,7 +690,7 @@
       "id": "EVT-0026-005",
       "label": "Klein goes to the Zouteland Shooting Club and practices with brass rounds after removing the demon hunting bullets",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-zouteland-shooting-club-790b1d",
         "E-special-operations-department-7a25f6",
         "E-demon-hunting-bullets-4c5d6e"
@@ -706,7 +706,7 @@
       "id": "EVT-0026-006",
       "label": "Klein returns to Iron Cross Street and tells Benson about the new job",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-benson-3c1a7f",
         "E-melissa-9d2e41",
         "E-iron-cross-street-b04e18"
@@ -721,7 +721,7 @@
       "id": "EVT-0026-007",
       "label": "The narration recalls Zhou Mingrui's student military stint in China",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0026-020"
@@ -731,7 +731,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0026",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -760,7 +760,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0026",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -769,7 +769,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0026",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -805,7 +805,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-midseashire-ce9924",
+      "source": "E-midseashire-2a8f61",
       "target": "C0026",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -823,7 +823,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-loen-kingdom-1b9c6e",
+      "source": "E-loen-9b37f2",
       "target": "C0026",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -841,7 +841,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-antigonus-family-8d93db",
+      "source": "E-antigonus-family-2e75d4",
       "target": "C0026",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -859,7 +859,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zouteland-street-be6f3a",
+      "source": "E-36-zouteland-street-0bad86",
       "target": "C0026",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -932,7 +932,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0026",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -950,8 +950,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0026-004",
@@ -962,7 +962,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-constant-city-f4707d",
-      "target": "E-midseashire-ce9924",
+      "target": "E-midseashire-2a8f61",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0026-009"
@@ -972,7 +972,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-welch-mcgovern-ae12e5",
-      "target": "E-antigonus-family-8d93db",
+      "target": "E-antigonus-family-2e75d4",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0026-011"
@@ -991,7 +991,7 @@
     },
     {
       "type": "USES",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-demon-hunting-bullets-4c5d6e",
       "inverse": "USED_BY",
       "evidence_ids": [

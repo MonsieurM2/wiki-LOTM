@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -29,7 +29,7 @@
       "tags": []
     },
     {
-      "id": "E-daly-fe77cb",
+      "id": "E-daly-8192a3",
       "canonical_name": "Daly",
       "primary_type": "Character",
       "aliases": [
@@ -61,7 +61,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [
@@ -90,7 +90,7 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Concept",
       "aliases": [
@@ -108,7 +108,7 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -122,7 +122,7 @@
       "tags": []
     },
     {
-      "id": "E-gathering-f90a1b",
+      "id": "E-gathering-778d7f",
       "canonical_name": "gathering",
       "primary_type": "Concept",
       "aliases": [],
@@ -143,14 +143,14 @@
       "tags": []
     },
     {
-      "id": "E-mandated-punishers-ed47bb",
+      "id": "E-mandated-punisher-4c7d29",
       "canonical_name": "Mandated Punishers",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-machinery-hivemind-327b50",
+      "id": "E-machinery-hivemind-00c1fc",
       "canonical_name": "Machinery Hivemind",
       "primary_type": "Faction",
       "aliases": [],
@@ -396,7 +396,7 @@
   "mentions": [
     {
       "id": "MEN-0014-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0014-001",
         "EV-0014-002",
@@ -409,7 +409,7 @@
     },
     {
       "id": "MEN-0014-002",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0014-001",
         "EV-0014-004",
@@ -424,7 +424,7 @@
     },
     {
       "id": "MEN-0014-003",
-      "entity": "E-daly-fe77cb",
+      "entity": "E-daly-8192a3",
       "evidence_ids": [
         "EV-0014-005",
         "EV-0014-006",
@@ -455,7 +455,7 @@
     },
     {
       "id": "MEN-0014-006",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0014-004",
         "EV-0014-016",
@@ -478,7 +478,7 @@
     },
     {
       "id": "MEN-0014-009",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0014-008"
       ]
@@ -492,7 +492,7 @@
     },
     {
       "id": "MEN-0014-011",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0014-016",
         "EV-0014-017",
@@ -509,7 +509,7 @@
     },
     {
       "id": "MEN-0014-013",
-      "entity": "E-gathering-f90a1b",
+      "entity": "E-gathering-778d7f",
       "evidence_ids": [
         "EV-0014-013"
       ]
@@ -530,14 +530,14 @@
     },
     {
       "id": "MEN-0014-016",
-      "entity": "E-mandated-punishers-ed47bb",
+      "entity": "E-mandated-punisher-4c7d29",
       "evidence_ids": [
         "EV-0014-017"
       ]
     },
     {
       "id": "MEN-0014-017",
-      "entity": "E-machinery-hivemind-327b50",
+      "entity": "E-machinery-hivemind-00c1fc",
       "evidence_ids": [
         "EV-0014-017"
       ]
@@ -548,8 +548,8 @@
       "id": "EVT-0014-001",
       "label": "Klein Moretti and Dunn Smith arrive at Welch's rented house in Tingen",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
         "E-welch-mcgovern-ae12e5",
         "E-tingen-city-2f6d90"
       ],
@@ -562,9 +562,9 @@
       "id": "EVT-0014-002",
       "label": "Klein senses unseen spirits watching him and Dunn tells him to ignore them",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
-        "E-nighthawks-acf9cc"
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
+        "E-nighthawks-1f592c"
       ],
       "evidence_ids": [
         "EV-0014-003",
@@ -575,9 +575,9 @@
       "id": "EVT-0014-003",
       "label": "Dunn introduces Klein to the medium Daly, who reports the original spirits have disappeared",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-daly-fe77cb",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-daly-8192a3",
+        "E-dwayne-802dcc",
         "E-welch-mcgovern-ae12e5",
         "E-naya-e2a971"
       ],
@@ -591,8 +591,8 @@
       "id": "EVT-0014-004",
       "label": "Daly burns the fragrances Amantha and Eye of the Spirit to induce a trance in Klein",
       "participants": [
-        "E-daly-fe77cb",
-        "E-klein-moretti-6a3250",
+        "E-daly-8192a3",
+        "E-dwayne-802dcc",
         "E-amantha-6f1a85",
         "E-eye-of-the-spirit-5e0f74"
       ],
@@ -605,10 +605,10 @@
       "id": "EVT-0014-005",
       "label": "Daly tries to probe Klein's mind; Klein feigns ignorance and passes the seance",
       "participants": [
-        "E-daly-fe77cb",
-        "E-klein-moretti-6a3250",
+        "E-daly-8192a3",
+        "E-dwayne-802dcc",
         "E-luck-enhancement-ritual-2a8c54",
-        "E-gathering-f90a1b"
+        "E-gathering-778d7f"
       ],
       "evidence_ids": [
         "EV-0014-011",
@@ -620,8 +620,8 @@
       "id": "EVT-0014-006",
       "label": "Dunn questions Daly for using the theory of the Psychology Alchemists",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-daly-fe77cb",
+        "E-alger-willson-3e9f42",
+        "E-daly-8192a3",
         "E-psychology-alchemists-4d9e63"
       ],
       "evidence_ids": [
@@ -632,7 +632,7 @@
       "id": "EVT-0014-007",
       "label": "Daly tells Dunn that Welch and Naya had indeed committed suicide",
       "participants": [
-        "E-daly-fe77cb",
+        "E-daly-8192a3",
         "E-welch-mcgovern-ae12e5",
         "E-naya-e2a971"
       ],
@@ -644,12 +644,12 @@
       "id": "EVT-0014-008",
       "label": "Dunn offers Klein civilian staff work and explains the risk of Beyonders losing control",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
-        "E-nighthawks-acf9cc",
-        "E-beyonder-bc7f3b",
-        "E-mandated-punishers-ed47bb",
-        "E-machinery-hivemind-327b50"
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-nighthawks-1f592c",
+        "E-beyonder-6b1d42",
+        "E-mandated-punisher-4c7d29",
+        "E-machinery-hivemind-00c1fc"
       ],
       "evidence_ids": [
         "EV-0014-016",
@@ -661,7 +661,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -670,7 +670,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -679,7 +679,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-daly-fe77cb",
+      "source": "E-daly-8192a3",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -706,7 +706,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -733,7 +733,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -751,7 +751,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -769,7 +769,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-gathering-f90a1b",
+      "source": "E-gathering-778d7f",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -796,7 +796,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mandated-punishers-ed47bb",
+      "source": "E-mandated-punisher-4c7d29",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -805,7 +805,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-machinery-hivemind-327b50",
+      "source": "E-machinery-hivemind-00c1fc",
       "target": "C0014",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -814,8 +814,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0014-001"
@@ -824,8 +824,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-daly-fe77cb",
-      "target": "E-nighthawks-acf9cc",
+      "source": "E-daly-8192a3",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0014-006"
@@ -845,7 +845,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-psychology-alchemists-4d9e63",
-      "target": "E-daly-fe77cb",
+      "target": "E-daly-8192a3",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0014-014"
@@ -854,7 +854,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-luck-enhancement-ritual-2a8c54",
       "inverse": "RELATED_TO",
       "evidence_ids": [

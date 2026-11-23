@@ -32,7 +32,7 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -68,7 +68,7 @@
       "tags": []
     },
     {
-      "id": "E-fourth-epoch-5c59d5",
+      "id": "E-fourth-epoch-134600",
       "canonical_name": "Fourth Epoch",
       "primary_type": "Concept",
       "aliases": [],
@@ -97,14 +97,14 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-earth-a07443",
+      "id": "E-ch0523-000016",
       "canonical_name": "Earth",
       "primary_type": "Location",
       "aliases": [],
@@ -407,7 +407,7 @@
     },
     {
       "id": "MEN-0027-004",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0027-006",
         "EV-0027-008",
@@ -445,7 +445,7 @@
     },
     {
       "id": "MEN-0027-008",
-      "entity": "E-fourth-epoch-5c59d5",
+      "entity": "E-fourth-epoch-134600",
       "evidence_ids": [
         "EV-0027-011"
       ]
@@ -468,7 +468,7 @@
     },
     {
       "id": "MEN-0027-011",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0027-017",
         "EV-0027-018"
@@ -476,7 +476,7 @@
     },
     {
       "id": "MEN-0027-012",
-      "entity": "E-earth-a07443",
+      "entity": "E-ch0523-000016",
       "evidence_ids": [
         "EV-0027-020"
       ]
@@ -487,7 +487,7 @@
       "id": "EVT-0027-001",
       "label": "Benson and Klein joke about the foolish coin system and discuss visiting the Tingen City Housing Improvement Company and Mr. Franky",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-benson-3c1a7f",
         "E-mr-franky-7b4c02",
         "E-tingen-city-housing-improvement-company-178465"
@@ -504,7 +504,7 @@
       "participants": [
         "E-benson-3c1a7f",
         "E-mr-franky-7b4c02",
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0027-004",
@@ -516,7 +516,7 @@
       "id": "EVT-0027-003",
       "label": "Klein and Benson eat a simple meal made from the previous night's pan-fried fish",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-benson-3c1a7f"
       ],
       "evidence_ids": [
@@ -527,10 +527,10 @@
       "id": "EVT-0027-004",
       "label": "Klein shops at the Lettuce and Meat market, visits Smyrin Bakery, exercises and reads about the Fourth Epoch",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-lettuce-and-meat-af3d07",
         "E-smyrin-bakery-9e2cf6",
-        "E-fourth-epoch-5c59d5"
+        "E-fourth-epoch-134600"
       ],
       "evidence_ids": [
         "EV-0027-009",
@@ -542,7 +542,7 @@
       "id": "EVT-0027-005",
       "label": "Klein, Benson and Melissa share a celebratory dinner of beef, fish, potatoes and ginger beer",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-benson-3c1a7f",
         "E-melissa-9d2e41"
       ],
@@ -558,8 +558,8 @@
       "id": "EVT-0027-006",
       "label": "Klein dreams that Dunn Smith warns him that someone has sneaked into his room",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5"
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0027-017",
@@ -570,7 +570,7 @@
       "id": "EVT-0027-007",
       "label": "Klein wakes to find an unfamiliar thin figure rummaging at his desk",
       "participants": [
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0027-019"
@@ -617,7 +617,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0027",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -663,7 +663,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fourth-epoch-5c59d5",
+      "source": "E-fourth-epoch-134600",
       "target": "C0027",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -692,7 +692,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0027",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -702,7 +702,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-earth-a07443",
+      "source": "E-ch0523-000016",
       "target": "C0027",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -731,8 +731,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0027-018"

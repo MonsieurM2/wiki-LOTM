@@ -7,14 +7,14 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -60,7 +60,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -77,7 +77,7 @@
       "tags": []
     },
     {
-      "id": "E-god-of-steam-and-machinery-8f2c60",
+      "id": "E-church-of-god-of-steam-and-machinery-62e08a",
       "canonical_name": "God of Craftsmanship",
       "primary_type": "Character",
       "aliases": [
@@ -95,7 +95,7 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
@@ -134,21 +134,21 @@
       "tags": []
     },
     {
-      "id": "E-intis-republic-d2603a",
+      "id": "E-ch0529-000019",
       "canonical_name": "Intis Republic",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-intis-kingdom-e3714b",
+      "id": "E-intis-kingdom-345c26",
       "canonical_name": "Intis Kingdom",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-lenburg-f4825c",
+      "id": "E-lenburg-452a42",
       "canonical_name": "Lenburg",
       "primary_type": "Location",
       "aliases": [],
@@ -169,14 +169,14 @@
       "tags": []
     },
     {
-      "id": "E-feysac-empire-27b58f",
+      "id": "E-ch0529-000020",
       "canonical_name": "Feysac Empire",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-southern-continent-5c8d20",
+      "id": "E-ch0526-000007",
       "canonical_name": "Southern Continent",
       "primary_type": "Location",
       "aliases": [],
@@ -190,7 +190,7 @@
       "tags": []
     },
     {
-      "id": "E-white-maple-palace-5ae8b2",
+      "id": "E-white-maple-palace-0ac2a2",
       "canonical_name": "White Maple Palace",
       "primary_type": "Location",
       "aliases": [],
@@ -232,7 +232,7 @@
       "tags": []
     },
     {
-      "id": "E-sauron-family-b14e29",
+      "id": "E-sauron-family-2f8c17",
       "canonical_name": "Sauron family",
       "primary_type": "Faction",
       "aliases": [
@@ -250,7 +250,7 @@
       "tags": []
     },
     {
-      "id": "E-fifth-epoch-d3604b",
+      "id": "E-fifth-epoch-25cb9d",
       "canonical_name": "Fifth Epoch",
       "primary_type": "Concept",
       "aliases": [],
@@ -529,7 +529,7 @@
   "mentions": [
     {
       "id": "MEN-0004-001",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0004-005",
         "EV-0004-010"
@@ -537,7 +537,7 @@
     },
     {
       "id": "MEN-0004-002",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0004-001"
       ]
@@ -572,7 +572,7 @@
     },
     {
       "id": "MEN-0004-007",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0004-013",
         "EV-0004-014",
@@ -582,7 +582,7 @@
     },
     {
       "id": "MEN-0004-008",
-      "entity": "E-god-of-steam-and-machinery-8f2c60",
+      "entity": "E-church-of-god-of-steam-and-machinery-62e08a",
       "evidence_ids": [
         "EV-0004-014",
         "EV-0004-017"
@@ -597,7 +597,7 @@
     },
     {
       "id": "MEN-0004-010",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0004-004",
         "EV-0004-016"
@@ -633,7 +633,7 @@
     },
     {
       "id": "MEN-0004-015",
-      "entity": "E-intis-republic-d2603a",
+      "entity": "E-intis-kingdom-345c26",
       "evidence_ids": [
         "EV-0004-013",
         "EV-0004-016"
@@ -641,14 +641,14 @@
     },
     {
       "id": "MEN-0004-016",
-      "entity": "E-intis-kingdom-e3714b",
+      "entity": "E-intis-kingdom-345c26",
       "evidence_ids": [
         "EV-0004-014"
       ]
     },
     {
       "id": "MEN-0004-017",
-      "entity": "E-lenburg-f4825c",
+      "entity": "E-lenburg-452a42",
       "evidence_ids": [
         "EV-0004-015"
       ]
@@ -670,14 +670,14 @@
     },
     {
       "id": "MEN-0004-020",
-      "entity": "E-feysac-empire-27b58f",
+      "entity": "E-ch0529-000020",
       "evidence_ids": [
         "EV-0004-016"
       ]
     },
     {
       "id": "MEN-0004-021",
-      "entity": "E-southern-continent-5c8d20",
+      "entity": "E-ch0526-000007",
       "evidence_ids": [
         "EV-0004-018"
       ]
@@ -691,7 +691,7 @@
     },
     {
       "id": "MEN-0004-023",
-      "entity": "E-white-maple-palace-5ae8b2",
+      "entity": "E-white-maple-palace-0ac2a2",
       "evidence_ids": [
         "EV-0004-019"
       ]
@@ -733,7 +733,7 @@
     },
     {
       "id": "MEN-0004-029",
-      "entity": "E-sauron-family-b14e29",
+      "entity": "E-sauron-family-2f8c17",
       "evidence_ids": [
         "EV-0004-019"
       ]
@@ -747,7 +747,7 @@
     },
     {
       "id": "MEN-0004-031",
-      "entity": "E-fifth-epoch-d3604b",
+      "entity": "E-fifth-epoch-25cb9d",
       "evidence_ids": [
         "EV-0004-017",
         "EV-0004-019"
@@ -766,7 +766,7 @@
       "id": "EVT-0004-001",
       "label": "Zhou Mingrui stops at Smyrin Bakery",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0004-005"
@@ -786,7 +786,7 @@
       "id": "EVT-0004-003",
       "label": "Zhou Mingrui heads to the Lettuce and Meat market",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0004-010"
@@ -796,7 +796,7 @@
       "id": "EVT-0004-004",
       "label": "Zhou Mingrui reaches the square at Iron Cross Street and Daffodil Street",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0004-011"
@@ -806,7 +806,7 @@
       "id": "EVT-0004-005",
       "label": "Roselle Gustav creates tarot divination",
       "participants": [
-        "E-roselle-gustav-5a8eb2"
+        "E-emperor-roselle-664e32"
       ],
       "evidence_ids": [
         "EV-0004-013",
@@ -817,7 +817,7 @@
       "id": "EVT-0004-006",
       "label": "Roselle Gustav is assassinated and dies in the White Maple Palace",
       "participants": [
-        "E-roselle-gustav-5a8eb2"
+        "E-emperor-roselle-664e32"
       ],
       "evidence_ids": [
         "EV-0004-019"
@@ -827,7 +827,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0004",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -836,7 +836,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0004",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -854,7 +854,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0004",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -863,8 +863,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Zhou Mingrui inherits Klein Moretti's memories and instincts",
       "evidence_ids": [
@@ -884,7 +884,7 @@
     {
       "type": "OPPOSES",
       "source": "E-church-of-the-eternal-blazing-sun-a03d18",
-      "target": "E-roselle-gustav-5a8eb2",
+      "target": "E-emperor-roselle-664e32",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
         "EV-0004-019"
@@ -892,8 +892,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sauron-family-b14e29",
-      "target": "E-intis-republic-d2603a",
+      "source": "E-sauron-family-2f8c17",
+      "target": "E-intis-kingdom-345c26",
       "inverse": "RELATED_TO",
       "label": "The Sauron family was the former royal family of the Intis Republic",
       "evidence_ids": [

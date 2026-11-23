@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -64,7 +64,7 @@
       "tags": []
     },
     {
-      "id": "E-antigonus-family-8d93db",
+      "id": "E-antigonus-family-2e75d4",
       "canonical_name": "Antigonus family",
       "primary_type": "Faction",
       "aliases": [],
@@ -82,14 +82,14 @@
       "tags": []
     },
     {
-      "id": "E-tarot-cards-607182",
+      "id": "E-ch0524-000003",
       "canonical_name": "Tarot cards",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-divination-93a4b5",
+      "id": "E-divination-2b9e14",
       "canonical_name": "divination",
       "primary_type": "Concept",
       "aliases": [],
@@ -110,7 +110,7 @@
       "tags": []
     },
     {
-      "id": "E-zouteland-street-be6f3a",
+      "id": "E-36-zouteland-street-0bad86",
       "canonical_name": "Zouteland Street",
       "primary_type": "Location",
       "aliases": [],
@@ -124,7 +124,7 @@
       "tags": []
     },
     {
-      "id": "E-leonard-mitchell-4d5e6f",
+      "id": "E-leonard-2c8d91",
       "canonical_name": "Leonard Mitchell",
       "primary_type": "Character",
       "aliases": [],
@@ -402,7 +402,7 @@
   "mentions": [
     {
       "id": "MEN-0038-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0038-001",
         "EV-0038-003",
@@ -465,7 +465,7 @@
     },
     {
       "id": "MEN-0038-008",
-      "entity": "E-antigonus-family-8d93db",
+      "entity": "E-antigonus-family-2e75d4",
       "evidence_ids": [
         "EV-0038-008",
         "EV-0038-018"
@@ -481,7 +481,7 @@
     },
     {
       "id": "MEN-0038-010",
-      "entity": "E-tarot-cards-607182",
+      "entity": "E-ch0524-000003",
       "evidence_ids": [
         "EV-0038-009",
         "EV-0038-010",
@@ -490,7 +490,7 @@
     },
     {
       "id": "MEN-0038-011",
-      "entity": "E-divination-93a4b5",
+      "entity": "E-divination-2b9e14",
       "evidence_ids": [
         "EV-0038-001",
         "EV-0038-009",
@@ -516,7 +516,7 @@
     },
     {
       "id": "MEN-0038-014",
-      "entity": "E-zouteland-street-be6f3a",
+      "entity": "E-36-zouteland-street-0bad86",
       "evidence_ids": [
         "EV-0038-014"
       ]
@@ -530,7 +530,7 @@
     },
     {
       "id": "MEN-0038-016",
-      "entity": "E-leonard-mitchell-4d5e6f",
+      "entity": "E-leonard-2c8d91",
       "evidence_ids": [
         "EV-0038-016",
         "EV-0038-018"
@@ -571,7 +571,7 @@
       "id": "EVT-0038-001",
       "label": "Klein visits the Divination Club and is shown its members Hanass Vincent and Glacis",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-divination-club-e7f809",
         "E-hanass-vincent-1a2b3c",
         "E-glacis-2b3c4d"
@@ -586,10 +586,10 @@
       "id": "EVT-0038-002",
       "label": "Klein chooses the novice Glacis to divine the location of the Antigonus family's notebook",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-glacis-2b3c4d",
         "E-ancient-notebook-01a9db",
-        "E-antigonus-family-8d93db"
+        "E-antigonus-family-2e75d4"
       ],
       "evidence_ids": [
         "EV-0038-005",
@@ -601,10 +601,10 @@
       "id": "EVT-0038-003",
       "label": "Glacis performs tarot divination; The Fool and The Star are drawn inverted",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-glacis-2b3c4d",
-        "E-tarot-cards-607182",
-        "E-divination-93a4b5"
+        "E-ch0524-000003",
+        "E-divination-2b9e14"
       ],
       "evidence_ids": [
         "EV-0038-009",
@@ -616,7 +616,7 @@
       "id": "EVT-0038-004",
       "label": "Klein warns Glacis about his dark glabella and advises a lung check",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-glacis-2b3c4d"
       ],
       "evidence_ids": [
@@ -627,7 +627,7 @@
       "id": "EVT-0038-005",
       "label": "Klein plans to save money to join the Divination Club and act as a Seer",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-divination-club-e7f809",
         "E-seer-2e2bc5"
       ],
@@ -639,8 +639,8 @@
       "id": "EVT-0038-006",
       "label": "Klein travels to Zouteland Street and arrives at Blackthorn Security Company",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-zouteland-street-be6f3a",
+        "E-dwayne-802dcc",
+        "E-36-zouteland-street-0bad86",
         "E-blackthorn-security-company-cf7a4b"
       ],
       "evidence_ids": [
@@ -652,8 +652,8 @@
       "id": "EVT-0038-007",
       "label": "Leonard Mitchell questions Klein about Welch and Naya's suicides and the notebook",
       "participants": [
-        "E-leonard-mitchell-4d5e6f",
-        "E-klein-moretti-6a3250",
+        "E-leonard-2c8d91",
+        "E-dwayne-802dcc",
         "E-welch-mcgovern-ae12e5",
         "E-naya-e2a971",
         "E-ancient-notebook-01a9db"
@@ -668,7 +668,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0038",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -731,7 +731,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-antigonus-family-8d93db",
+      "source": "E-antigonus-family-2e75d4",
       "target": "C0038",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -749,7 +749,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-tarot-cards-607182",
+      "source": "E-ch0524-000003",
       "target": "C0038",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -758,7 +758,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-divination-93a4b5",
+      "source": "E-divination-2b9e14",
       "target": "C0038",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -785,7 +785,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zouteland-street-be6f3a",
+      "source": "E-36-zouteland-street-0bad86",
       "target": "C0038",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -803,7 +803,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leonard-mitchell-4d5e6f",
+      "source": "E-leonard-2c8d91",
       "target": "C0038",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -866,7 +866,7 @@
     },
     {
       "type": "OWNS",
-      "source": "E-antigonus-family-8d93db",
+      "source": "E-antigonus-family-2e75d4",
       "target": "E-ancient-notebook-01a9db",
       "inverse": "OWNED_BY",
       "evidence_ids": [
@@ -875,7 +875,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-benson-3c1a7f",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -885,7 +885,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-melissa-9d2e41",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -895,7 +895,7 @@
     },
     {
       "type": "FOLLOWS_PATHWAY",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-seer-2e2bc5",
       "inverse": "HAS_FOLLOWER",
       "evidence_ids": [
@@ -905,7 +905,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-blackthorn-security-company-cf7a4b",
-      "target": "E-zouteland-street-be6f3a",
+      "target": "E-36-zouteland-street-0bad86",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0038-014",
@@ -915,7 +915,7 @@
     {
       "type": "USES",
       "source": "E-glacis-2b3c4d",
-      "target": "E-tarot-cards-607182",
+      "target": "E-ch0524-000003",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0038-009"
@@ -923,8 +923,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-leonard-mitchell-4d5e6f",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-leonard-2c8d91",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0038-016"

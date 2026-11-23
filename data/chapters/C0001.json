@@ -7,14 +7,14 @@
   "status": "extracted",
   "entities": [
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -69,7 +69,7 @@
   "mentions": [
     {
       "id": "MEN-0001-001",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0001-001",
         "EV-0001-002",
@@ -78,7 +78,7 @@
     },
     {
       "id": "MEN-0001-002",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0001-002"
       ]
@@ -89,7 +89,7 @@
       "id": "EVT-0001-001",
       "label": "Zhou Mingrui wakes in pain",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0001-001"
@@ -99,8 +99,8 @@
       "id": "EVT-0001-002",
       "label": "Zhou Mingrui questions the name Klein Moretti before a mirror",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0001-002"
@@ -110,7 +110,7 @@
       "id": "EVT-0001-003",
       "label": "Zhou Mingrui discovers a grotesque wound on his temple",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0001-003"
@@ -120,7 +120,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0001",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -129,8 +129,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Zhou questions whether Klein Moretti is his present self",
       "evidence_ids": [

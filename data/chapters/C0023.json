@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-zouteland-street-be6f3a",
+      "id": "E-36-zouteland-street-0bad86",
       "canonical_name": "Zouteland Street",
       "primary_type": "Location",
       "aliases": [
@@ -36,7 +36,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
@@ -72,7 +72,7 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
@@ -188,7 +188,7 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Concept",
       "aliases": [],
@@ -434,7 +434,7 @@
   "mentions": [
     {
       "id": "MEN-0023-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0023-001",
         "EV-0023-003",
@@ -445,7 +445,7 @@
     },
     {
       "id": "MEN-0023-002",
-      "entity": "E-zouteland-street-be6f3a",
+      "entity": "E-36-zouteland-street-0bad86",
       "evidence_ids": [
         "EV-0023-001"
       ]
@@ -459,7 +459,7 @@
     },
     {
       "id": "MEN-0023-004",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0023-003"
       ]
@@ -488,7 +488,7 @@
     },
     {
       "id": "MEN-0023-008",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0023-005",
         "EV-0023-009"
@@ -591,7 +591,7 @@
     },
     {
       "id": "MEN-0023-022",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0023-018"
       ]
@@ -602,7 +602,7 @@
       "id": "EVT-0023-001",
       "label": "Klein buys a silver-inlaid ebony cane at Wilker Clothing and Hats to get change",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-cane-7b4d06",
         "E-wilker-clothing-hats-3e8a19"
       ],
@@ -616,7 +616,7 @@
       "id": "EVT-0023-002",
       "label": "Klein loads the revolver with demon hunting bullets and the Dark Sacred Emblem",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-demon-hunting-bullets-4c5d6e",
         "E-dark-sacred-emblem-47f2c3"
       ],
@@ -628,7 +628,7 @@
       "id": "EVT-0023-003",
       "label": "Klein invites Melissa to dinner at Silver Crown Restaurant to celebrate his new job",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41",
         "E-silver-crown-restaurant-4d7c20",
         "E-daffodil-street-c15f29"
@@ -642,7 +642,7 @@
       "id": "EVT-0023-004",
       "label": "Klein tells Melissa he took a job as a consultant for a security company",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41",
         "E-security-company-8e3a56"
       ],
@@ -666,7 +666,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0023",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -675,7 +675,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zouteland-street-be6f3a",
+      "source": "E-36-zouteland-street-0bad86",
       "target": "C0023",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -693,7 +693,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0023",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -729,7 +729,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-loen-kingdom-1b9c6e",
+      "source": "E-loen-9b37f2",
       "target": "C0023",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -855,7 +855,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0023",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -864,7 +864,7 @@
     },
     {
       "type": "OWNS",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-cane-7b4d06",
       "inverse": "OWNED_BY",
       "evidence_ids": [

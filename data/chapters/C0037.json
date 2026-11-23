@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -56,7 +56,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Captain",
       "primary_type": "Character",
       "aliases": [],
@@ -126,14 +126,14 @@
       "tags": []
     },
     {
-      "id": "E-earth-a07443",
+      "id": "E-ch0523-000016",
       "canonical_name": "Earth",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-antigonus-family-8d93db",
+      "id": "E-antigonus-family-2e75d4",
       "canonical_name": "Antigonus family",
       "primary_type": "Faction",
       "aliases": [],
@@ -151,7 +151,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
@@ -193,14 +193,14 @@
       "tags": []
     },
     {
-      "id": "E-spiritvision-94b361",
+      "id": "E-spirit-vision-7c3a19",
       "canonical_name": "Spirit Vision",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-spirit-medium-a2dcea",
+      "id": "E-daly-8192a3",
       "canonical_name": "Spirit Medium",
       "primary_type": "Concept",
       "aliases": [],
@@ -472,7 +472,7 @@
   "mentions": [
     {
       "id": "MEN-0037-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0037-001",
         "EV-0037-002",
@@ -520,7 +520,7 @@
     },
     {
       "id": "MEN-0037-006",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0037-015"
       ]
@@ -584,14 +584,14 @@
     },
     {
       "id": "MEN-0037-015",
-      "entity": "E-earth-a07443",
+      "entity": "E-ch0523-000016",
       "evidence_ids": [
         "EV-0037-010"
       ]
     },
     {
       "id": "MEN-0037-016",
-      "entity": "E-antigonus-family-8d93db",
+      "entity": "E-antigonus-family-2e75d4",
       "evidence_ids": [
         "EV-0037-006"
       ]
@@ -605,7 +605,7 @@
     },
     {
       "id": "MEN-0037-018",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0037-006"
       ]
@@ -651,14 +651,14 @@
     },
     {
       "id": "MEN-0037-024",
-      "entity": "E-spiritvision-94b361",
+      "entity": "E-spirit-vision-7c3a19",
       "evidence_ids": [
         "EV-0037-011"
       ]
     },
     {
       "id": "MEN-0037-025",
-      "entity": "E-spirit-medium-a2dcea",
+      "entity": "E-daly-8192a3",
       "evidence_ids": [
         "EV-0037-013"
       ]
@@ -669,7 +669,7 @@
       "id": "EVT-0037-001",
       "label": "Klein walks from Daffodil Street toward Iron Cross Street",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-daffodil-street-c15f29",
         "E-iron-cross-street-b04e18"
       ],
@@ -682,7 +682,7 @@
       "id": "EVT-0037-002",
       "label": "Klein recalls that he, Benson and Melissa once lived on Lower Street",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-benson-3c1a7f",
         "E-melissa-9d2e41",
         "E-lower-street-5c0d37",
@@ -697,10 +697,10 @@
       "id": "EVT-0037-003",
       "label": "Klein is weighed down by the missing Antigonus family notebook and its importance to the Nighthawks",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-antigonus-family-8d93db",
+        "E-dwayne-802dcc",
+        "E-antigonus-family-2e75d4",
         "E-ancient-notebook-01a9db",
-        "E-nighthawks-acf9cc"
+        "E-nighthawks-1f592c"
       ],
       "evidence_ids": [
         "EV-0037-006"
@@ -710,7 +710,7 @@
       "id": "EVT-0037-004",
       "label": "Wendy Smyrin greets Klein at Smyrin Bakery and offers him sweet iced tea",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-wendy-smyrin-3e6c90",
         "E-smyrin-bakery-9e2cf6",
         "E-tingen-city-2f6d90"
@@ -725,8 +725,8 @@
       "id": "EVT-0037-005",
       "label": "Klein tastes the tea and compares it to iced black tea from Earth",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-earth-a07443"
+        "E-dwayne-802dcc",
+        "E-ch0523-000016"
       ],
       "evidence_ids": [
         "EV-0037-010"
@@ -736,9 +736,9 @@
       "id": "EVT-0037-006",
       "label": "Klein uses Spirit Vision and senses the gloom of the crowd as Old Neil had warned",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
-        "E-spiritvision-94b361"
+        "E-spirit-vision-7c3a19"
       ],
       "evidence_ids": [
         "EV-0037-011"
@@ -748,9 +748,9 @@
       "id": "EVT-0037-007",
       "label": "Klein reflects on acting as a Seer and on Spirit Mediums communicating with spirits",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-seer-2e2bc5",
-        "E-spirit-medium-a2dcea"
+        "E-daly-8192a3"
       ],
       "evidence_ids": [
         "EV-0037-012",
@@ -761,10 +761,10 @@
       "id": "EVT-0037-008",
       "label": "Klein searches his former apartment and Welch's place for the notebook",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-welch-mcgovern-ae12e5",
         "E-ancient-notebook-01a9db",
-        "E-dunn-smith-0ca9f5",
+        "E-alger-willson-3e9f42",
         "E-daly-8192a3"
       ],
       "evidence_ids": [
@@ -776,7 +776,7 @@
       "id": "EVT-0037-009",
       "label": "Klein heads to Blackthorn Security Company for bullets to practice as a Seer",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-blackthorn-security-company-cf7a4b",
         "E-seer-2e2bc5"
       ],
@@ -789,7 +789,7 @@
       "id": "EVT-0037-010",
       "label": "Klein notices the Divination Club and considers joining to act as a Seer",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-divination-club-e7f809",
         "E-harrods-department-store-2c8b74",
         "E-military-veterans-mess-5e9a36",
@@ -806,7 +806,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0037",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -906,7 +906,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-benson-3c1a7f",
       "inverse": "RELATED_TO",
       "label": "Klein and Benson are brothers who lived on Lower Street",
@@ -916,7 +916,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-melissa-9d2e41",
       "inverse": "RELATED_TO",
       "label": "Klein and Melissa are siblings who lived on Lower Street",
@@ -926,8 +926,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-antigonus-family-8d93db",
+      "source": "E-dwayne-802dcc",
+      "target": "E-antigonus-family-2e75d4",
       "inverse": "RELATED_TO",
       "label": "Klein searches for the missing Antigonus family notebook",
       "evidence_ids": [
@@ -936,8 +936,8 @@
     },
     {
       "type": "USES",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-spiritvision-94b361",
+      "source": "E-dwayne-802dcc",
+      "target": "E-spirit-vision-7c3a19",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0037-011"

@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -29,7 +29,7 @@
       "tags": []
     },
     {
-      "id": "E-sealed-artifact-0-08-2a3b4c",
+      "id": "E-0-08-f1d2b9",
       "canonical_name": "Sealed Artifact 0-08",
       "primary_type": "Artifact",
       "aliases": [
@@ -97,14 +97,14 @@
       "tags": []
     },
     {
-      "id": "E-zouteland-street-be6f3a",
+      "id": "E-36-zouteland-street-0bad86",
       "canonical_name": "Zouteland Street",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
@@ -129,7 +129,7 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -157,14 +157,14 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -430,7 +430,7 @@
   "mentions": [
     {
       "id": "MEN-0020-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0020-001",
         "EV-0020-003",
@@ -449,7 +449,7 @@
     },
     {
       "id": "MEN-0020-002",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0020-002",
         "EV-0020-003",
@@ -461,7 +461,7 @@
     },
     {
       "id": "MEN-0020-003",
-      "entity": "E-sealed-artifact-0-08-2a3b4c",
+      "entity": "E-0-08-f1d2b9",
       "evidence_ids": [
         "EV-0020-001"
       ]
@@ -521,14 +521,14 @@
     },
     {
       "id": "MEN-0020-011",
-      "entity": "E-zouteland-street-be6f3a",
+      "entity": "E-36-zouteland-street-0bad86",
       "evidence_ids": [
         "EV-0020-009"
       ]
     },
     {
       "id": "MEN-0020-012",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0020-009"
       ]
@@ -550,7 +550,7 @@
     },
     {
       "id": "MEN-0020-015",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0020-017"
       ]
@@ -579,7 +579,7 @@
     },
     {
       "id": "MEN-0020-019",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0020-015",
         "EV-0020-016"
@@ -587,7 +587,7 @@
     },
     {
       "id": "MEN-0020-020",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0020-018",
         "EV-0020-019"
@@ -599,9 +599,9 @@
       "id": "EVT-0020-001",
       "label": "Klein ponders Sealed Artifact 0-08 as Dunn repeatedly remembers more tasks",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
-        "E-sealed-artifact-0-08-2a3b4c",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
+        "E-0-08-f1d2b9",
         "E-rozanne-16d3a1"
       ],
       "evidence_ids": [
@@ -614,8 +614,8 @@
       "id": "EVT-0020-002",
       "label": "Dunn arranges an advance payment for Klein through Mrs. Orianna",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-orianna-3b4c5d",
         "E-rozanne-16d3a1",
         "E-benson-3c1a7f",
@@ -633,12 +633,12 @@
       "id": "EVT-0020-003",
       "label": "Dunn sends Klein to collect bullets and a badge from Old Neil",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-demon-hunting-bullets-4c5d6e",
         "E-welch-mcgovern-ae12e5",
-        "E-zouteland-street-be6f3a",
-        "E-nighthawks-acf9cc",
+        "E-36-zouteland-street-0bad86",
+        "E-nighthawks-1f592c",
         "E-old-neil-3c4d5e"
       ],
       "evidence_ids": [
@@ -653,14 +653,14 @@
       "label": "Mrs. Orianna tells Klein about the Bloody Butcher and shows him the banknotes",
       "participants": [
         "E-orianna-3b4c5d",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-tingen-city-2f6d90",
         "E-bloody-butcher-6e7f80",
-        "E-beyonder-bc7f3b",
+        "E-beyonder-6b1d42",
         "E-george-iii-4f7da1",
         "E-henry-augustus-i-7f8091",
         "E-william-augustus-vi-8091a2",
-        "E-loen-kingdom-1b9c6e"
+        "E-loen-9b37f2"
       ],
       "evidence_ids": [
         "EV-0020-013",
@@ -674,9 +674,9 @@
       "id": "EVT-0020-005",
       "label": "Old Neil shows Klein pages from Emperor Roselle's lost diary in Chinese",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
-        "E-roselle-gustav-5a8eb2"
+        "E-emperor-roselle-664e32"
       ],
       "evidence_ids": [
         "EV-0020-018",
@@ -687,7 +687,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0020",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -696,7 +696,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0020",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -705,7 +705,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sealed-artifact-0-08-2a3b4c",
+      "source": "E-0-08-f1d2b9",
       "target": "C0020",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -732,7 +732,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0020",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -742,7 +742,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-benson-3c1a7f",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Benson is the original Klein's brother",
       "evidence_ids": [
@@ -762,7 +762,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-bloody-butcher-6e7f80",
-      "target": "E-beyonder-bc7f3b",
+      "target": "E-beyonder-6b1d42",
       "inverse": "RELATED_TO",
       "label": "The Butcher was a Beyonder",
       "evidence_ids": [
@@ -791,8 +791,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-emperor-roselle-664e32",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Klein sees Roselle as a transmigration senior",
       "evidence_ids": [

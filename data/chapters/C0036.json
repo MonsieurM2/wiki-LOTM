@@ -21,7 +21,7 @@
       "tags": []
     },
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
       "aliases": [
@@ -38,7 +38,7 @@
       "tags": []
     },
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [
@@ -49,7 +49,7 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -60,7 +60,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -78,7 +78,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -96,7 +96,7 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [
@@ -107,7 +107,7 @@
       "tags": []
     },
     {
-      "id": "E-intis-kingdom-e3714b",
+      "id": "E-ch0529-000019",
       "canonical_name": "Intis",
       "primary_type": "Location",
       "aliases": [],
@@ -121,14 +121,14 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-antigonus-family-8d93db",
+      "id": "E-antigonus-family-2e75d4",
       "canonical_name": "Antigonus family",
       "primary_type": "Faction",
       "aliases": [],
@@ -142,7 +142,7 @@
       "tags": []
     },
     {
-      "id": "E-tarot-club-f6c8a2",
+      "id": "E-tarot-club-108663",
       "canonical_name": "Tarot Club",
       "primary_type": "Faction",
       "aliases": [],
@@ -177,14 +177,14 @@
       "tags": []
     },
     {
-      "id": "E-spiritvision-94b361",
+      "id": "E-spirit-vision-7c3a19",
       "canonical_name": "Spirit Vision",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-spectator-pathway-383934",
+      "id": "E-spectator-a9bfae",
       "canonical_name": "Spectator potion",
       "primary_type": "Pathway",
       "aliases": [],
@@ -469,7 +469,7 @@
     },
     {
       "id": "MEN-0036-002",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0036-003",
         "EV-0036-006",
@@ -478,7 +478,7 @@
     },
     {
       "id": "MEN-0036-003",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0036-005",
         "EV-0036-006"
@@ -486,7 +486,7 @@
     },
     {
       "id": "MEN-0036-004",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0036-005",
         "EV-0036-007",
@@ -501,7 +501,7 @@
     },
     {
       "id": "MEN-0036-005",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0036-002"
       ]
@@ -516,7 +516,7 @@
     },
     {
       "id": "MEN-0036-007",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0036-011"
       ]
@@ -530,14 +530,14 @@
     },
     {
       "id": "MEN-0036-009",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0036-001"
       ]
     },
     {
       "id": "MEN-0036-010",
-      "entity": "E-intis-kingdom-e3714b",
+      "entity": "E-ch0529-000019",
       "evidence_ids": [
         "EV-0036-002"
       ]
@@ -551,14 +551,14 @@
     },
     {
       "id": "MEN-0036-012",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0036-010"
       ]
     },
     {
       "id": "MEN-0036-013",
-      "entity": "E-antigonus-family-8d93db",
+      "entity": "E-antigonus-family-2e75d4",
       "evidence_ids": [
         "EV-0036-010"
       ]
@@ -572,7 +572,7 @@
     },
     {
       "id": "MEN-0036-015",
-      "entity": "E-tarot-club-f6c8a2",
+      "entity": "E-tarot-club-108663",
       "evidence_ids": [
         "EV-0036-009"
       ]
@@ -607,14 +607,14 @@
     },
     {
       "id": "MEN-0036-020",
-      "entity": "E-spiritvision-94b361",
+      "entity": "E-spirit-vision-7c3a19",
       "evidence_ids": [
         "EV-0036-015"
       ]
     },
     {
       "id": "MEN-0036-021",
-      "entity": "E-spectator-pathway-383934",
+      "entity": "E-spectator-a9bfae",
       "evidence_ids": [
         "EV-0036-017"
       ]
@@ -626,8 +626,8 @@
       "label": "Audrey relays her family's concerns about the Loen government to the Tarot Club",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-loen-kingdom-1b9c6e",
-        "E-alger-wilson-3e9f42"
+        "E-loen-9b37f2",
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0036-001",
@@ -638,8 +638,8 @@
       "id": "EVT-0036-002",
       "label": "Klein proposes a public examination as a simple solution",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31"
       ],
       "evidence_ids": [
@@ -652,8 +652,8 @@
       "label": "Audrey praises Mr. Fool and Klein considers guiding Benson into the civil service",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-zhou-mingrui-e5a8be",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
         "E-benson-3c1a7f"
       ],
       "evidence_ids": [
@@ -666,9 +666,9 @@
       "id": "EVT-0036-004",
       "label": "Klein ends the gathering and severs the connection above the gray fog",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-gray-fog-3a7d64",
         "E-seat-of-honor-aa762a"
       ],
@@ -681,11 +681,11 @@
       "id": "EVT-0036-005",
       "label": "Klein decides to search seriously for the Antigonus notebook to avoid Dunn Smith's suspicion",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-nighthawks-acf9cc",
-        "E-antigonus-family-8d93db",
+        "E-dwayne-802dcc",
+        "E-nighthawks-1f592c",
+        "E-antigonus-family-2e75d4",
         "E-ancient-notebook-01a9db",
-        "E-dunn-smith-0ca9f5"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0036-010",
@@ -696,9 +696,9 @@
       "id": "EVT-0036-006",
       "label": "Klein considers the seven orthodox gods and the identity of a possible fourth member",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-seven-orthodox-gods-5b2d84",
-        "E-dunn-smith-0ca9f5"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0036-013"
@@ -708,9 +708,9 @@
       "id": "EVT-0036-007",
       "label": "Klein plans to act as a Seer using Spirit Vision",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-seer-2e2bc5",
-        "E-spiritvision-94b361"
+        "E-spirit-vision-7c3a19"
       ],
       "evidence_ids": [
         "EV-0036-014",
@@ -722,7 +722,7 @@
       "label": "Audrey writes the Spectator potion formula in her notebook and praises Susie",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-spectator-pathway-383934",
+        "E-spectator-a9bfae",
         "E-susie-fccd33"
       ],
       "evidence_ids": [
@@ -735,7 +735,7 @@
       "id": "EVT-0036-009",
       "label": "Alger studies the goatskin parchment bearing the title 7. Seafarer",
       "participants": [
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0036-019",
@@ -755,7 +755,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0036",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -764,7 +764,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0036",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -773,7 +773,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0036",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -791,7 +791,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0036",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -809,7 +809,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-loen-kingdom-1b9c6e",
+      "source": "E-loen-9b37f2",
       "target": "C0036",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -818,8 +818,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Klein is the person behind Mr. Fool",
       "evidence_ids": [
@@ -828,8 +828,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
-      "target": "E-intis-kingdom-e3714b",
+      "source": "E-emperor-roselle-664e32",
+      "target": "E-ch0529-000019",
       "inverse": "RELATED_TO",
       "label": "Emperor Roselle did not establish a civil service examination in Intis",
       "evidence_ids": [
@@ -838,7 +838,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-benson-3c1a7f",
       "inverse": "RELATED_TO",
       "label": "Klein considers guiding Benson into a civil service career",
@@ -849,7 +849,7 @@
     {
       "type": "MEMBER_OF",
       "source": "E-audrey-hall-2b8d31",
-      "target": "E-tarot-club-f6c8a2",
+      "target": "E-tarot-club-108663",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0036-009"
@@ -857,8 +857,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-tarot-club-f6c8a2",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-tarot-club-108663",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0036-009"
@@ -875,7 +875,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "E-ancient-notebook-01a9db",
       "inverse": "RELATED_TO",
       "evidence_ids": [

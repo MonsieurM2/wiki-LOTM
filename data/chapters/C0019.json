@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -29,14 +29,14 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-beyonders-a4b5c6",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonders",
       "primary_type": "Concept",
       "aliases": [],
@@ -82,7 +82,7 @@
       "tags": []
     },
     {
-      "id": "E-antigonus-family-8d93db",
+      "id": "E-antigonus-family-2e75d4",
       "canonical_name": "Antigonus family",
       "primary_type": "Artifact",
       "aliases": [],
@@ -117,21 +117,21 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-sealed-artifacts-f8091a",
+      "id": "E-sealed-art-134600",
       "canonical_name": "Sealed Artifacts",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-church-of-evernight-b4c2d7",
+      "id": "E-ch0529-000018",
       "canonical_name": "Church of Evernight",
       "primary_type": "Faction",
       "aliases": [],
@@ -145,7 +145,7 @@
       "tags": []
     },
     {
-      "id": "E-sealed-artifact-0-08-2a3b4c",
+      "id": "E-0-08-f1d2b9",
       "canonical_name": "Sealed Artifact 0-08",
       "primary_type": "Artifact",
       "aliases": [
@@ -421,7 +421,7 @@
   "mentions": [
     {
       "id": "MEN-0019-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0019-001",
         "EV-0019-003",
@@ -436,7 +436,7 @@
     },
     {
       "id": "MEN-0019-002",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0019-001",
         "EV-0019-002",
@@ -449,7 +449,7 @@
     },
     {
       "id": "MEN-0019-003",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0019-004",
         "EV-0019-010"
@@ -457,7 +457,7 @@
     },
     {
       "id": "MEN-0019-004",
-      "entity": "E-beyonders-a4b5c6",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0019-002"
       ]
@@ -500,7 +500,7 @@
     },
     {
       "id": "MEN-0019-010",
-      "entity": "E-antigonus-family-8d93db",
+      "entity": "E-antigonus-family-2e75d4",
       "evidence_ids": [
         "EV-0019-009"
       ]
@@ -536,7 +536,7 @@
     },
     {
       "id": "MEN-0019-015",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0019-011",
         "EV-0019-015"
@@ -544,7 +544,7 @@
     },
     {
       "id": "MEN-0019-016",
-      "entity": "E-sealed-artifacts-f8091a",
+      "entity": "E-sealed-art-134600",
       "evidence_ids": [
         "EV-0019-014",
         "EV-0019-015",
@@ -553,7 +553,7 @@
     },
     {
       "id": "MEN-0019-017",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0019-013"
       ]
@@ -568,7 +568,7 @@
     },
     {
       "id": "MEN-0019-019",
-      "entity": "E-sealed-artifact-0-08-2a3b4c",
+      "entity": "E-0-08-f1d2b9",
       "evidence_ids": [
         "EV-0019-018",
         "EV-0019-019"
@@ -580,10 +580,10 @@
       "id": "EVT-0019-001",
       "label": "Dunn warns Klein about the dangers and limits of being a Beyonder",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
-        "E-beyonder-bc7f3b",
-        "E-beyonders-a4b5c6"
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-beyonder-6b1d42",
+        "E-beyonder-6b1d42"
       ],
       "evidence_ids": [
         "EV-0019-002",
@@ -596,7 +596,7 @@
       "id": "EVT-0019-002",
       "label": "Klein weighs the risks of becoming a Beyonder and resolving his transmigration",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-mysticism-14f9f3",
         "E-luck-enhancement-ritual-2a8c54"
       ],
@@ -609,14 +609,14 @@
       "id": "EVT-0019-003",
       "label": "Dunn explains the Nighthawks' civilian staff and Klein's new tasks",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-rozanne-16d3a1",
         "E-bredt-6f7081",
         "E-old-neil-3c4d5e",
         "E-welch-mcgovern-ae12e5",
         "E-naya-e2a971",
-        "E-antigonus-family-8d93db"
+        "E-antigonus-family-2e75d4"
       ],
       "evidence_ids": [
         "EV-0019-007",
@@ -629,13 +629,13 @@
       "id": "EVT-0019-004",
       "label": "Dunn shows Klein Chanis Gate and explains the Holy Cathedral and the Sealed Artifacts",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-chanis-gate-2b3c4d",
         "E-archbishop-chanis-3c4d5e",
-        "E-nighthawks-acf9cc",
-        "E-sealed-artifacts-f8091a",
-        "E-church-of-evernight-b4c2d7"
+        "E-nighthawks-1f592c",
+        "E-sealed-art-134600",
+        "E-ch0529-000018"
       ],
       "evidence_ids": [
         "EV-0019-011",
@@ -650,10 +650,10 @@
       "id": "EVT-0019-005",
       "label": "Dunn shows Klein the photo of Ince Zangwill and describes Sealed Artifact 0-08",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-ince-zangwill-091a2b",
-        "E-sealed-artifact-0-08-2a3b4c"
+        "E-0-08-f1d2b9"
       ],
       "evidence_ids": [
         "EV-0019-017",
@@ -665,7 +665,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0019",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -674,7 +674,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0019",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -710,7 +710,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sealed-artifacts-f8091a",
+      "source": "E-sealed-art-134600",
       "target": "C0019",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -728,7 +728,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-sealed-artifact-0-08-2a3b4c",
+      "source": "E-0-08-f1d2b9",
       "target": "C0019",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -747,8 +747,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-nighthawks-acf9cc",
-      "target": "E-sealed-artifacts-f8091a",
+      "source": "E-nighthawks-1f592c",
+      "target": "E-sealed-art-134600",
       "inverse": "RELATED_TO",
       "label": "The Nighthawks classify and guard the Sealed Artifacts",
       "evidence_ids": [
@@ -758,7 +758,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-ince-zangwill-091a2b",
-      "target": "E-sealed-artifact-0-08-2a3b4c",
+      "target": "E-0-08-f1d2b9",
       "inverse": "RELATED_TO",
       "label": "Ince Zangwill escaped with Sealed Artifact 0-08",
       "evidence_ids": [
@@ -767,7 +767,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-sealed-artifact-0-08-2a3b4c",
+      "source": "E-0-08-f1d2b9",
       "target": "E-ince-zangwill-091a2b",
       "inverse": "RELATED_TO",
       "label": "Sealed Artifact 0-08 appears to be a common quill",

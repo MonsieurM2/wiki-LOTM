@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-leonard-mitchell-4d5e6f",
+      "id": "E-leonard-2c8d91",
       "canonical_name": "Leonard Mitchell",
       "primary_type": "Character",
       "aliases": [],
@@ -43,7 +43,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -61,7 +61,7 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Character",
       "aliases": [
@@ -72,7 +72,7 @@
       "tags": []
     },
     {
-      "id": "E-transmigration-7f1d63",
+      "id": "E-transmigration-01889f",
       "canonical_name": "transmigration",
       "primary_type": "Concept",
       "aliases": [],
@@ -114,7 +114,7 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -135,14 +135,14 @@
       "tags": []
     },
     {
-      "id": "E-north-borough-4d5e63",
+      "id": "E-north-borough-00c1cf",
       "canonical_name": "North Borough",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-zouteland-street-be6f3a",
+      "id": "E-36-zouteland-street-0bad86",
       "canonical_name": "Zouteland Street",
       "primary_type": "Location",
       "aliases": [],
@@ -191,7 +191,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
@@ -437,7 +437,7 @@
   "mentions": [
     {
       "id": "MEN-0039-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0039-001",
         "EV-0039-002",
@@ -453,7 +453,7 @@
     },
     {
       "id": "MEN-0039-002",
-      "entity": "E-leonard-mitchell-4d5e6f",
+      "entity": "E-leonard-2c8d91",
       "evidence_ids": [
         "EV-0039-001",
         "EV-0039-003",
@@ -480,7 +480,7 @@
     },
     {
       "id": "MEN-0039-005",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0039-004"
       ]
@@ -494,14 +494,14 @@
     },
     {
       "id": "MEN-0039-007",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0039-005"
       ]
     },
     {
       "id": "MEN-0039-008",
-      "entity": "E-transmigration-7f1d63",
+      "entity": "E-transmigration-01889f",
       "evidence_ids": [
         "EV-0039-002"
       ]
@@ -545,7 +545,7 @@
     },
     {
       "id": "MEN-0039-014",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0039-008",
         "EV-0039-011"
@@ -567,7 +567,7 @@
     },
     {
       "id": "MEN-0039-017",
-      "entity": "E-north-borough-4d5e63",
+      "entity": "E-north-borough-00c1cf",
       "evidence_ids": [
         "EV-0039-016"
       ]
@@ -581,7 +581,7 @@
     },
     {
       "id": "MEN-0039-019",
-      "entity": "E-zouteland-street-be6f3a",
+      "entity": "E-36-zouteland-street-0bad86",
       "evidence_ids": [
         "EV-0039-012"
       ]
@@ -622,8 +622,8 @@
       "id": "EVT-0039-001",
       "label": "Leonard and Klein debate whether the Antigonus notebook was destroyed or hidden",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-leonard-mitchell-4d5e6f",
+        "E-dwayne-802dcc",
+        "E-leonard-2c8d91",
         "E-welch-mcgovern-ae12e5",
         "E-naya-e2a971"
       ],
@@ -637,10 +637,10 @@
       "id": "EVT-0039-002",
       "label": "Klein cites Captain and Madam Daly's confirmation and invokes the Goddess's blessing",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
         "E-daly-8192a3",
-        "E-evernight-goddess-4a9d31"
+        "E-ch0529-000018"
       ],
       "evidence_ids": [
         "EV-0039-004",
@@ -651,7 +651,7 @@
       "id": "EVT-0039-003",
       "label": "Klein goes to the Shooting Club and practices marksmanship after drawing bullets",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-shooting-club-2b3c41",
         "E-armory-3c4d52"
       ],
@@ -667,9 +667,9 @@
       "participants": [
         "E-rozanne-16d3a1",
         "E-bredt-6f7081",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
-        "E-beyonder-bc7f3b"
+        "E-beyonder-6b1d42"
       ],
       "evidence_ids": [
         "EV-0039-008",
@@ -681,7 +681,7 @@
       "id": "EVT-0039-005",
       "label": "Klein discusses the Seer Sequence potion and mysticism with Rozanne",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-rozanne-16d3a1",
         "E-seer-2e2bc5",
         "E-sequence-potion-6f7085"
@@ -694,7 +694,7 @@
       "id": "EVT-0039-006",
       "label": "Klein argues with Melissa about taking the public carriage and wins her over",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41",
         "E-benson-3c1a7f"
       ],
@@ -709,7 +709,7 @@
       "label": "Old Neil begins a mysticism lesson using a moonstone pendulum",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-moonstone-5e6f74",
         "E-mysticism-14f9f3"
       ],
@@ -722,7 +722,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0039",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -731,7 +731,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leonard-mitchell-4d5e6f",
+      "source": "E-leonard-2c8d91",
       "target": "C0039",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -758,7 +758,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0039",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -776,7 +776,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0039",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -785,7 +785,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-transmigration-7f1d63",
+      "source": "E-transmigration-01889f",
       "target": "C0039",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -839,7 +839,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0039",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -866,7 +866,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-north-borough-4d5e63",
+      "source": "E-north-borough-00c1cf",
       "target": "C0039",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -875,7 +875,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zouteland-street-be6f3a",
+      "source": "E-36-zouteland-street-0bad86",
       "target": "C0039",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -929,8 +929,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-leonard-mitchell-4d5e6f",
+      "source": "E-dwayne-802dcc",
+      "target": "E-leonard-2c8d91",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0039-007"
@@ -940,7 +940,7 @@
     {
       "type": "MENTOR_OF",
       "source": "E-old-neil-3c4d5e",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "MENTORED_BY",
       "evidence_ids": [
         "EV-0039-017"
@@ -948,7 +948,7 @@
     },
     {
       "type": "FOLLOWS_PATHWAY",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-seer-2e2bc5",
       "inverse": "HAS_FOLLOWER",
       "evidence_ids": [
@@ -958,7 +958,7 @@
     {
       "type": "MEMBER_OF",
       "source": "E-bredt-6f7081",
-      "target": "E-nighthawks-acf9cc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0039-010"
@@ -967,7 +967,7 @@
     {
       "type": "MEMBER_OF",
       "source": "E-rozanne-16d3a1",
-      "target": "E-nighthawks-acf9cc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0039-017"
@@ -975,7 +975,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-melissa-9d2e41",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -985,7 +985,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-benson-3c1a7f",
       "inverse": "RELATED_TO",
       "evidence_ids": [

@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -32,7 +32,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -49,14 +49,14 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-leonard-03be8f",
+      "id": "E-leonard-2c8d91",
       "canonical_name": "Leonard",
       "primary_type": "Character",
       "aliases": [],
@@ -84,14 +84,14 @@
       "tags": []
     },
     {
-      "id": "E-church-of-evernight-b4c2d7",
+      "id": "E-ch0529-000018",
       "canonical_name": "Church of Evernight",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Concept",
       "aliases": [],
@@ -141,7 +141,7 @@
       "tags": []
     },
     {
-      "id": "E-zouteland-street-be6f3a",
+      "id": "E-36-zouteland-street-0bad86",
       "canonical_name": "Zouteland Street",
       "primary_type": "Location",
       "aliases": [],
@@ -155,7 +155,7 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
@@ -173,21 +173,21 @@
       "tags": []
     },
     {
-      "id": "E-mandated-punishers-ed47bb",
+      "id": "E-mandated-punisher-4c7d29",
       "canonical_name": "Mandated Punishers",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-machinery-hivemind-327b50",
+      "id": "E-machinery-hivemind-00c1fc",
       "canonical_name": "Machinery Hivemind",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -466,7 +466,7 @@
   "mentions": [
     {
       "id": "MEN-0017-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0017-001",
         "EV-0017-002",
@@ -503,7 +503,7 @@
     },
     {
       "id": "MEN-0017-004",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0017-003",
         "EV-0017-004",
@@ -514,7 +514,7 @@
     },
     {
       "id": "MEN-0017-005",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0017-007",
         "EV-0017-017",
@@ -523,7 +523,7 @@
     },
     {
       "id": "MEN-0017-006",
-      "entity": "E-leonard-03be8f",
+      "entity": "E-leonard-2c8d91",
       "evidence_ids": [
         "EV-0017-005",
         "EV-0017-006"
@@ -555,7 +555,7 @@
     },
     {
       "id": "MEN-0017-010",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0017-011",
         "EV-0017-014"
@@ -563,7 +563,7 @@
     },
     {
       "id": "MEN-0017-011",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0017-009",
         "EV-0017-011"
@@ -608,7 +608,7 @@
     },
     {
       "id": "MEN-0017-017",
-      "entity": "E-zouteland-street-be6f3a",
+      "entity": "E-36-zouteland-street-0bad86",
       "evidence_ids": [
         "EV-0017-011"
       ]
@@ -622,7 +622,7 @@
     },
     {
       "id": "MEN-0017-019",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0017-017"
       ]
@@ -636,21 +636,21 @@
     },
     {
       "id": "MEN-0017-021",
-      "entity": "E-mandated-punishers-ed47bb",
+      "entity": "E-mandated-punisher-4c7d29",
       "evidence_ids": [
         "EV-0017-019"
       ]
     },
     {
       "id": "MEN-0017-022",
-      "entity": "E-machinery-hivemind-327b50",
+      "entity": "E-machinery-hivemind-00c1fc",
       "evidence_ids": [
         "EV-0017-019"
       ]
     },
     {
       "id": "MEN-0017-023",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0017-020"
       ]
@@ -668,9 +668,9 @@
       "id": "EVT-0017-001",
       "label": "Klein arrives at the Blackthorn Security Company signboard on Zouteland Street",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-blackthorn-security-company-cf7a4b",
-        "E-zouteland-street-be6f3a"
+        "E-36-zouteland-street-0bad86"
       ],
       "evidence_ids": [
         "EV-0017-001"
@@ -680,9 +680,9 @@
       "id": "EVT-0017-002",
       "label": "Klein meets Rozanne, who fetches him at Dunn Smith's request",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-rozanne-16d3a1",
-        "E-dunn-smith-0ca9f5"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0017-002",
@@ -695,10 +695,10 @@
       "label": "Rozanne leads Klein down to the underground Nighthawks base and mentions Leonard the Sleepless",
       "participants": [
         "E-rozanne-16d3a1",
-        "E-klein-moretti-6a3250",
-        "E-leonard-03be8f",
+        "E-dwayne-802dcc",
+        "E-leonard-2c8d91",
         "E-sleepless-aca774",
-        "E-nighthawks-acf9cc"
+        "E-nighthawks-1f592c"
       ],
       "evidence_ids": [
         "EV-0017-005",
@@ -711,9 +711,9 @@
       "id": "EVT-0017-004",
       "label": "Klein sees Dark Sacred Emblems of the Evernight Goddess in the underground aisle",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-dark-sacred-emblem-47f2c3",
-        "E-evernight-goddess-4a9d31"
+        "E-ch0529-000018"
       ],
       "evidence_ids": [
         "EV-0017-009"
@@ -724,11 +724,11 @@
       "label": "Rozanne shows Klein Chanis Gate and describes the churches and cathedrals of Tingen",
       "participants": [
         "E-rozanne-16d3a1",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-chanis-gate-2b3c4d",
         "E-saint-selena-cathedral-25d0a1",
         "E-red-moonlight-street-36e1b2",
-        "E-church-of-evernight-b4c2d7",
+        "E-ch0529-000018",
         "E-church-of-craftsmanship-9f2c07",
         "E-river-and-sea-cathedral-5803d4",
         "E-church-of-storms-3c8d52",
@@ -744,9 +744,9 @@
       "id": "EVT-0017-006",
       "label": "Klein signs the confidential contract with Dunn Smith and is welcomed to the Nighthawks",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
-        "E-church-of-evernight-b4c2d7"
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
+        "E-ch0529-000018"
       ],
       "evidence_ids": [
         "EV-0017-013",
@@ -759,12 +759,12 @@
       "id": "EVT-0017-007",
       "label": "Dunn shows Klein the Nighthawk team and Special Operations Department stamps",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
-        "E-nighthawks-acf9cc",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-nighthawks-1f592c",
         "E-tingen-city-2f6d90",
         "E-awwa-796422",
-        "E-loen-kingdom-1b9c6e",
+        "E-loen-9b37f2",
         "E-special-operations-department-7a25f6"
       ],
       "evidence_ids": [
@@ -776,13 +776,13 @@
       "id": "EVT-0017-008",
       "label": "Dunn explains the jurisdictions of the Special Operations Department units and the team size",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
-        "E-mandated-punishers-ed47bb",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-mandated-punisher-4c7d29",
         "E-church-of-storms-3c8d52",
-        "E-machinery-hivemind-327b50",
-        "E-nighthawks-acf9cc",
-        "E-beyonder-bc7f3b"
+        "E-machinery-hivemind-00c1fc",
+        "E-nighthawks-1f592c",
+        "E-beyonder-6b1d42"
       ],
       "evidence_ids": [
         "EV-0017-019",
@@ -793,7 +793,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -820,7 +820,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -829,7 +829,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -838,7 +838,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leonard-03be8f",
+      "source": "E-leonard-2c8d91",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -874,7 +874,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-church-of-evernight-b4c2d7",
+      "source": "E-ch0529-000018",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -883,7 +883,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -937,7 +937,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zouteland-street-be6f3a",
+      "source": "E-36-zouteland-street-0bad86",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -955,7 +955,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-loen-kingdom-1b9c6e",
+      "source": "E-loen-9b37f2",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -973,7 +973,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mandated-punishers-ed47bb",
+      "source": "E-mandated-punisher-4c7d29",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -982,7 +982,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-machinery-hivemind-327b50",
+      "source": "E-machinery-hivemind-00c1fc",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -991,7 +991,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0017",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1010,7 +1010,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-blackthorn-security-company-cf7a4b",
-      "target": "E-nighthawks-acf9cc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0017-001"
@@ -1020,7 +1020,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-special-operations-department-7a25f6",
-      "target": "E-nighthawks-acf9cc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0017-018"
@@ -1030,7 +1030,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-rozanne-16d3a1",
-      "target": "E-nighthawks-acf9cc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0017-007"
@@ -1039,8 +1039,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-leonard-03be8f",
-      "target": "E-nighthawks-acf9cc",
+      "source": "E-leonard-2c8d91",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0017-006"
@@ -1049,8 +1049,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-nighthawks-acf9cc",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0017-013"
@@ -1060,7 +1060,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-saint-selena-cathedral-25d0a1",
-      "target": "E-church-of-evernight-b4c2d7",
+      "target": "E-ch0529-000018",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0017-011"
@@ -1070,7 +1070,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-church-of-storms-3c8d52",
-      "target": "E-mandated-punishers-ed47bb",
+      "target": "E-mandated-punisher-4c7d29",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0017-019"
@@ -1079,8 +1079,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-machinery-hivemind-327b50",
-      "target": "E-nighthawks-acf9cc",
+      "source": "E-machinery-hivemind-00c1fc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0017-019"
@@ -1108,7 +1108,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-blackthorn-security-company-cf7a4b",
-      "target": "E-zouteland-street-be6f3a",
+      "target": "E-36-zouteland-street-0bad86",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0017-001"

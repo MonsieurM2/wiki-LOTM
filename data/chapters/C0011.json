@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -51,7 +51,7 @@
       "aliases": []
     },
     {
-      "id": "E-beyonders-a4b5c6",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonders",
       "primary_type": "Concept",
       "aliases": []
@@ -69,7 +69,7 @@
       "aliases": []
     },
     {
-      "id": "E-midseashire-ce9924",
+      "id": "E-midseashire-2a8f61",
       "canonical_name": "Midseashire",
       "primary_type": "Location",
       "aliases": []
@@ -288,7 +288,7 @@
   "mentions": [
     {
       "id": "MEN-0011-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0011-001",
         "EV-0011-002",
@@ -345,7 +345,7 @@
     },
     {
       "id": "MEN-0011-007",
-      "entity": "E-beyonders-a4b5c6",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0011-008"
       ]
@@ -366,7 +366,7 @@
     },
     {
       "id": "MEN-0011-010",
-      "entity": "E-midseashire-ce9924",
+      "entity": "E-midseashire-2a8f61",
       "evidence_ids": [
         "EV-0011-007"
       ]
@@ -377,7 +377,7 @@
       "id": "EVT-0011-001",
       "label": "Klein suspects the police are still watching him and feigns calm",
       "participants": [
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0011-001",
@@ -388,9 +388,9 @@
       "id": "EVT-0011-002",
       "label": "Klein hides the revolver under the bed board, wary of extraordinary powers",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-age-of-steam-9519a5",
-        "E-beyonders-a4b5c6"
+        "E-beyonder-6b1d42"
       ],
       "evidence_ids": [
         "EV-0011-003"
@@ -400,9 +400,9 @@
       "id": "EVT-0011-003",
       "label": "Klein cooks stewed mutton with tender peas and invents Welch as his teacher",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-welch-mcgovern-ae12e5",
-        "E-midseashire-ce9924",
+        "E-midseashire-2a8f61",
         "E-moretti-family-659517"
       ],
       "evidence_ids": [
@@ -417,7 +417,7 @@
       "id": "EVT-0011-004",
       "label": "Melissa returns and is astonished by the meal Klein cooked",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41"
       ],
       "evidence_ids": [
@@ -433,7 +433,7 @@
       "id": "EVT-0011-005",
       "label": "Klein promises Melissa and Benson a better restaurant meal",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41",
         "E-benson-3c1a7f"
       ],
@@ -445,7 +445,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0011",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -499,7 +499,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonders-a4b5c6",
+      "source": "E-beyonder-6b1d42",
       "target": "C0011",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -526,7 +526,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-midseashire-ce9924",
+      "source": "E-midseashire-2a8f61",
       "target": "C0011",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -535,7 +535,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-melissa-9d2e41",
       "inverse": "RELATED_TO",
       "label": "Melissa is Klein's sister",
@@ -545,7 +545,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-welch-mcgovern-ae12e5",
       "inverse": "RELATED_TO",
       "label": "Klein claims Welch taught him to cook the dish",
@@ -555,7 +555,7 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-moretti-family-659517",
       "inverse": "HAS_MEMBER",
       "label": "Klein belongs to the Moretti family",

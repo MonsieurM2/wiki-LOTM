@@ -4,3 +4,6 @@ dist/
 .scratch/
 .playwright-mcp/
 .astro/
+_gen_chapters.py
+_tmp_registry*.py
+_verify_chapters.py

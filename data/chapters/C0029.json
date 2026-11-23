@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -25,7 +25,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [],
@@ -39,28 +39,28 @@
       "tags": []
     },
     {
-      "id": "E-church-of-evernight-b4c2d7",
+      "id": "E-ch0529-000018",
       "canonical_name": "Church of Evernight",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-corpse-collector-a7067a",
+      "id": "E-corpse-collector-2a9f74",
       "canonical_name": "Corpse Collector",
       "primary_type": "Pathway",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-holy-cathedral-a22aed",
+      "id": "E-cathedral-of-serenity-19dab4",
       "canonical_name": "Holy Cathedral",
       "primary_type": "Location",
       "aliases": [],
@@ -74,7 +74,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -92,7 +92,7 @@
       "tags": []
     },
     {
-      "id": "E-north-borough-4d5e63",
+      "id": "E-north-borough-00c1cf",
       "canonical_name": "North Borough",
       "primary_type": "Location",
       "aliases": [],
@@ -491,7 +491,7 @@
   "mentions": [
     {
       "id": "MEN-0029-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0029-001",
         "EV-0029-008",
@@ -508,7 +508,7 @@
     },
     {
       "id": "MEN-0029-003",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0029-002",
         "EV-0029-006"
@@ -523,28 +523,28 @@
     },
     {
       "id": "MEN-0029-005",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0029-004"
       ]
     },
     {
       "id": "MEN-0029-006",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0029-004"
       ]
     },
     {
       "id": "MEN-0029-007",
-      "entity": "E-corpse-collector-a7067a",
+      "entity": "E-corpse-collector-2a9f74",
       "evidence_ids": [
         "EV-0029-004"
       ]
     },
     {
       "id": "MEN-0029-008",
-      "entity": "E-holy-cathedral-a22aed",
+      "entity": "E-cathedral-of-serenity-19dab4",
       "evidence_ids": [
         "EV-0029-005"
       ]
@@ -558,7 +558,7 @@
     },
     {
       "id": "MEN-0029-010",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0029-007"
       ]
@@ -572,7 +572,7 @@
     },
     {
       "id": "MEN-0029-012",
-      "entity": "E-north-borough-4d5e63",
+      "entity": "E-north-borough-00c1cf",
       "evidence_ids": [
         "EV-0029-010"
       ]
@@ -706,12 +706,12 @@
       "id": "EVT-0029-001",
       "label": "Dunn Smith explains the abilities of a Seer and gives Klein until Monday morning to decide",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-seer-2e2bc5",
         "E-mystery-pryer-ae70fd",
-        "E-church-of-evernight-b4c2d7",
-        "E-holy-cathedral-a22aed",
+        "E-ch0529-000018",
+        "E-cathedral-of-serenity-19dab4",
         "E-cathedral-of-serenity-19dab4"
       ],
       "evidence_ids": [
@@ -727,8 +727,8 @@
       "id": "EVT-0029-002",
       "label": "Klein weighs the missing Sequences, the risk of losing control and Emperor Roselle's diaries before making his choice",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-roselle-gustav-5a8eb2"
+        "E-dwayne-802dcc",
+        "E-emperor-roselle-664e32"
       ],
       "evidence_ids": [
         "EV-0029-007",
@@ -739,7 +739,7 @@
       "id": "EVT-0029-003",
       "label": "Klein buys rye bread from Mrs. Wendy’s and reads a newspaper rental advertisement for 3 Wendel Street and Mr. Gusev",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-mrs-wendy-s-8f5089",
         "E-3-wendel-street-096a68",
         "E-champagne-street-1cd7ca",
@@ -801,7 +801,7 @@
       "id": "EVT-0029-007",
       "label": "The siblings reach the Tingen City Housing Improvement Company on Daffodil Street and meet Scarter",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-benson-3c1a7f",
         "E-melissa-9d2e41",
         "E-tingen-city-housing-improvement-company-178465",
@@ -817,7 +817,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -838,7 +838,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -857,7 +857,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-church-of-evernight-b4c2d7",
+      "source": "E-ch0529-000018",
       "target": "C0029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -866,7 +866,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -875,7 +875,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-corpse-collector-a7067a",
+      "source": "E-corpse-collector-2a9f74",
       "target": "C0029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -884,7 +884,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-holy-cathedral-a22aed",
+      "source": "E-cathedral-of-serenity-19dab4",
       "target": "C0029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -902,7 +902,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -920,7 +920,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-north-borough-4d5e63",
+      "source": "E-north-borough-00c1cf",
       "target": "C0029",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1087,7 +1087,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-cathedral-of-serenity-19dab4",
-      "target": "E-holy-cathedral-a22aed",
+      "target": "E-cathedral-of-serenity-19dab4",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0029-005"
@@ -1105,8 +1105,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-dunn-smith-0ca9f5",
+      "source": "E-dwayne-802dcc",
+      "target": "E-alger-willson-3e9f42",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0029-006"

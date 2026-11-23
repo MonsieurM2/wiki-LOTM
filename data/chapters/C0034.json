@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
       "aliases": [
@@ -41,7 +41,7 @@
       "tags": []
     },
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [
@@ -55,7 +55,7 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -73,7 +73,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -91,7 +91,7 @@
       "tags": []
     },
     {
-      "id": "E-empress-borough-ee0c62",
+      "id": "E-empress-borough-00c1cd",
       "canonical_name": "Empress Borough",
       "primary_type": "Location",
       "aliases": [],
@@ -134,7 +134,7 @@
       "tags": []
     },
     {
-      "id": "E-spectator-pathway-383934",
+      "id": "E-spectator-a9bfae",
       "canonical_name": "Spectator",
       "primary_type": "Pathway",
       "aliases": [
@@ -145,28 +145,28 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-cogitation-ec5fc0",
+      "id": "E-cogitation-3b2e82",
       "canonical_name": "Cogitation",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-astralprojection-2440b3",
+      "id": "E-astral-projection-2440b3",
       "canonical_name": "Astral Projection",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-etherbody-c5beae",
+      "id": "E-ether-body-c5beae",
       "canonical_name": "Ether Body",
       "primary_type": "Concept",
       "aliases": [],
@@ -187,7 +187,7 @@
       "tags": []
     },
     {
-      "id": "E-secret-diary-2e6c80",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "secret diary",
       "primary_type": "Artifact",
       "aliases": [
@@ -198,7 +198,7 @@
       "tags": []
     },
     {
-      "id": "E-tarot-club-f6c8a2",
+      "id": "E-tarot-club-108663",
       "canonical_name": "Tarot Club",
       "primary_type": "Faction",
       "aliases": [
@@ -474,7 +474,7 @@
   "mentions": [
     {
       "id": "MEN-0034-001",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0034-001",
         "EV-0034-002",
@@ -506,7 +506,7 @@
     },
     {
       "id": "MEN-0034-003",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0034-006",
         "EV-0034-008",
@@ -519,7 +519,7 @@
     },
     {
       "id": "MEN-0034-004",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0034-009",
         "EV-0034-012"
@@ -534,7 +534,7 @@
     },
     {
       "id": "MEN-0034-006",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0034-020"
       ]
@@ -548,7 +548,7 @@
     },
     {
       "id": "MEN-0034-008",
-      "entity": "E-empress-borough-ee0c62",
+      "entity": "E-empress-borough-00c1cd",
       "evidence_ids": [
         "EV-0034-003"
       ]
@@ -583,7 +583,7 @@
     },
     {
       "id": "MEN-0034-013",
-      "entity": "E-spectator-pathway-383934",
+      "entity": "E-spectator-a9bfae",
       "evidence_ids": [
         "EV-0034-014",
         "EV-0034-015",
@@ -592,28 +592,28 @@
     },
     {
       "id": "MEN-0034-014",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0034-012"
       ]
     },
     {
       "id": "MEN-0034-015",
-      "entity": "E-cogitation-ec5fc0",
+      "entity": "E-cogitation-3b2e82",
       "evidence_ids": [
         "EV-0034-017"
       ]
     },
     {
       "id": "MEN-0034-016",
-      "entity": "E-astralprojection-2440b3",
+      "entity": "E-astral-projection-2440b3",
       "evidence_ids": [
         "EV-0034-012"
       ]
     },
     {
       "id": "MEN-0034-017",
-      "entity": "E-etherbody-c5beae",
+      "entity": "E-ether-body-c5beae",
       "evidence_ids": [
         "EV-0034-011"
       ]
@@ -634,14 +634,14 @@
     },
     {
       "id": "MEN-0034-020",
-      "entity": "E-secret-diary-2e6c80",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0034-020"
       ]
     },
     {
       "id": "MEN-0034-021",
-      "entity": "E-tarot-club-f6c8a2",
+      "entity": "E-tarot-club-108663",
       "evidence_ids": [
         "EV-0034-006"
       ]
@@ -652,7 +652,7 @@
       "id": "EVT-0034-001",
       "label": "Alger Wilson performs a divination in an underground basement and sees a deep-red light",
       "participants": [
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0034-001",
@@ -675,8 +675,8 @@
       "label": "At the gathering, Audrey greets Mr. Fool and The Hanged Man",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-zhou-mingrui-e5a8be",
-        "E-alger-wilson-3e9f42"
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0034-006",
@@ -688,9 +688,9 @@
       "id": "EVT-0034-004",
       "label": "Mr. Fool observes the auras of Justice and The Hanged Man above the gray fog",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-seat-of-honor-aa762a",
         "E-gray-fog-3a7d64"
       ],
@@ -705,10 +705,10 @@
       "id": "EVT-0034-005",
       "label": "Klein judges that The Hanged Man is a Beyonder stronger than Old Neil",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-alger-wilson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
         "E-old-neil-3c4d5e",
-        "E-astralprojection-2440b3"
+        "E-astral-projection-2440b3"
       ],
       "evidence_ids": [
         "EV-0034-012"
@@ -719,9 +719,9 @@
       "label": "Audrey asks about the Ghost Shark blood and Alger gives her the Spectator potion formula",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-ghost-sharks-blood-4e5f60",
-        "E-spectator-pathway-383934",
+        "E-spectator-a9bfae",
         "E-manhal-fish-8e2b31",
         "E-goat-horned-black-fish-5d9c28"
       ],
@@ -736,9 +736,9 @@
       "id": "EVT-0034-007",
       "label": "Alger instructs Audrey on Cogitation after consuming the potion",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-audrey-hall-2b8d31",
-        "E-cogitation-ec5fc0"
+        "E-cogitation-3b2e82"
       ],
       "evidence_ids": [
         "EV-0034-017"
@@ -748,8 +748,8 @@
       "id": "EVT-0034-008",
       "label": "Mr. Fool gives the hint about digesting and acting as an advance payment",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
-        "E-alger-wilson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
         "E-audrey-hall-2b8d31"
       ],
       "evidence_ids": [
@@ -761,10 +761,10 @@
       "id": "EVT-0034-009",
       "label": "Mr. Fool entrusts Justice and The Hanged Man with collecting Roselle Gustav's secret diary",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42",
-        "E-secret-diary-2e6c80"
+        "E-alger-willson-3e9f42",
+        "E-emperor-roselle-664e32"
       ],
       "evidence_ids": [
         "EV-0034-020"
@@ -774,7 +774,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0034",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -792,7 +792,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0034",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -801,7 +801,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0034",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -819,7 +819,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0034",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -837,7 +837,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-empress-borough-ee0c62",
+      "source": "E-empress-borough-00c1cd",
       "target": "C0034",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -855,7 +855,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-spectator-pathway-383934",
+      "source": "E-spectator-a9bfae",
       "target": "C0034",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -864,8 +864,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Klein acts as Mr. Fool while presiding over the gathering",
       "evidence_ids": [
@@ -875,7 +875,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-audrey-hall-2b8d31",
-      "target": "E-zhou-mingrui-e5a8be",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Audrey uses the code name Justice and greets Mr. Fool",
       "evidence_ids": [
@@ -884,8 +884,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-zhou-mingrui-e5a8be",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Alger uses the code name The Hanged Man and greets Mr. Fool",
       "evidence_ids": [
@@ -895,7 +895,7 @@
     {
       "type": "MEMBER_OF",
       "source": "E-audrey-hall-2b8d31",
-      "target": "E-tarot-club-f6c8a2",
+      "target": "E-tarot-club-108663",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0034-006"
@@ -903,8 +903,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-tarot-club-f6c8a2",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-tarot-club-108663",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0034-007"
@@ -913,7 +913,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-hall-family-be8c2a",
-      "target": "E-empress-borough-ee0c62",
+      "target": "E-empress-borough-00c1cd",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0034-003"
@@ -921,8 +921,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-spectator-pathway-383934",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-spectator-a9bfae",
       "inverse": "RELATED_TO",
       "label": "Alger recites the Spectator potion formula for Audrey",
       "evidence_ids": [

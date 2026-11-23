@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [],
@@ -21,14 +21,14 @@
       "tags": []
     },
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle",
       "primary_type": "Character",
       "aliases": [],
@@ -56,14 +56,14 @@
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-sonia-sea-9c6fa8",
+      "id": "E-sonia-sea-0fb1dc",
       "canonical_name": "Sonia Sea",
       "primary_type": "Location",
       "aliases": [],
@@ -88,7 +88,7 @@
       "tags": []
     },
     {
-      "id": "E-solomon-empire-cf9d3b",
+      "id": "E-solomon-empire-29eeff",
       "canonical_name": "Solomon Empire",
       "primary_type": "Faction",
       "aliases": [],
@@ -354,7 +354,7 @@
   "mentions": [
     {
       "id": "MEN-0005-001",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0005-001",
         "EV-0005-002",
@@ -378,7 +378,7 @@
     },
     {
       "id": "MEN-0005-003",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0005-015",
         "EV-0005-016",
@@ -387,7 +387,7 @@
     },
     {
       "id": "MEN-0005-004",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0005-002"
       ]
@@ -415,14 +415,14 @@
     },
     {
       "id": "MEN-0005-008",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0005-010"
       ]
     },
     {
       "id": "MEN-0005-009",
-      "entity": "E-sonia-sea-9c6fa8",
+      "entity": "E-sonia-sea-0fb1dc",
       "evidence_ids": [
         "EV-0005-014"
       ]
@@ -443,7 +443,7 @@
     },
     {
       "id": "MEN-0005-012",
-      "entity": "E-solomon-empire-cf9d3b",
+      "entity": "E-solomon-empire-29eeff",
       "evidence_ids": [
         "EV-0005-013"
       ]
@@ -462,7 +462,7 @@
       "id": "EVT-0005-001",
       "label": "Zhou Mingrui gets a tarot reading at a circus tent",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0005-001",
@@ -473,7 +473,7 @@
       "id": "EVT-0005-002",
       "label": "Zhou Mingrui buys provisions at the Lettuce and Meat market",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0005-004",
@@ -484,7 +484,7 @@
       "id": "EVT-0005-003",
       "label": "Zhou Mingrui performs the luck enhancement ritual with incantations",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-immortal-lord-e1bf5d"
       ],
       "evidence_ids": [
@@ -497,7 +497,7 @@
       "id": "EVT-0005-004",
       "label": "Zhou Mingrui is drawn into a gray fog of crimson stars",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0005-009"
@@ -522,7 +522,7 @@
       "id": "EVT-0005-006",
       "label": "Alger Wilson is enveloped by a crimson burst at sea",
       "participants": [
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0005-014",
@@ -534,9 +534,9 @@
       "id": "EVT-0005-007",
       "label": "Zhou Mingrui, Audrey Hall and Alger Wilson meet in the gray fog",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0005-017",
@@ -548,7 +548,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0005",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -566,7 +566,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0005",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -575,7 +575,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0005",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -594,7 +594,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-backlund-7a4d86",
-      "target": "E-loen-kingdom-1b9c6e",
+      "target": "E-loen-9b37f2",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0005-010"
@@ -612,7 +612,7 @@
     {
       "type": "MEMBER_OF",
       "source": "E-black-emperor-5d2b64",
-      "target": "E-solomon-empire-cf9d3b",
+      "target": "E-solomon-empire-29eeff",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0005-013"
@@ -620,8 +620,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-roselle-gustav-5a8eb2",
+      "source": "E-dwayne-802dcc",
+      "target": "E-emperor-roselle-664e32",
       "inverse": "RELATED_TO",
       "label": "Zhou Mingrui wonders whether Roselle was a fellow countryman",
       "evidence_ids": [
@@ -630,7 +630,7 @@
     },
     {
       "type": "PARTICIPATED_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "EVT-0005-003",
       "inverse": "HAS_PARTICIPANT",
       "evidence_ids": [
@@ -648,7 +648,7 @@
     },
     {
       "type": "PARTICIPATED_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "EVT-0005-007",
       "inverse": "HAS_PARTICIPANT",
       "evidence_ids": [

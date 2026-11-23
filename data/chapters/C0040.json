@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -36,7 +36,7 @@
       "tags": []
     },
     {
-      "id": "E-transmigration-7f1d63",
+      "id": "E-transmigration-01889f",
       "canonical_name": "transmigration",
       "primary_type": "Concept",
       "aliases": [],
@@ -61,21 +61,21 @@
       "tags": []
     },
     {
-      "id": "E-astralprojection-2440b3",
+      "id": "E-astral-projection-2440b3",
       "canonical_name": "Astral Projection",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-spirit-world-b4c5d0",
+      "id": "E-spirit-world-0f67a4",
       "canonical_name": "spirit world",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-spirit-pendulum-d6e7f2",
+      "id": "E-spirit-pendulum-00c1f2",
       "canonical_name": "spirit pendulum",
       "primary_type": "Artifact",
       "aliases": [],
@@ -89,7 +89,7 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -110,7 +110,7 @@
       "tags": []
     },
     {
-      "id": "E-tarot-cards-607182",
+      "id": "E-ch0524-000003",
       "canonical_name": "Tarot cards",
       "primary_type": "Artifact",
       "aliases": [],
@@ -138,7 +138,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Emperor Roselle",
       "primary_type": "Character",
       "aliases": [
@@ -156,7 +156,7 @@
       "tags": []
     },
     {
-      "id": "E-cogitation-ec5fc0",
+      "id": "E-cogitation-3b2e82",
       "canonical_name": "Cogitation",
       "primary_type": "Concept",
       "aliases": [],
@@ -177,7 +177,7 @@
       "tags": []
     },
     {
-      "id": "E-north-borough-4d5e63",
+      "id": "E-north-borough-00c1cf",
       "canonical_name": "North Borough",
       "primary_type": "Location",
       "aliases": [],
@@ -198,7 +198,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -209,7 +209,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
@@ -481,7 +481,7 @@
   "mentions": [
     {
       "id": "MEN-0040-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0040-001",
         "EV-0040-002",
@@ -523,7 +523,7 @@
     },
     {
       "id": "MEN-0040-004",
-      "entity": "E-transmigration-7f1d63",
+      "entity": "E-transmigration-01889f",
       "evidence_ids": [
         "EV-0040-002"
       ]
@@ -547,21 +547,21 @@
     },
     {
       "id": "MEN-0040-007",
-      "entity": "E-astralprojection-2440b3",
+      "entity": "E-astral-projection-2440b3",
       "evidence_ids": [
         "EV-0040-005"
       ]
     },
     {
       "id": "MEN-0040-008",
-      "entity": "E-spirit-world-b4c5d0",
+      "entity": "E-spirit-world-0f67a4",
       "evidence_ids": [
         "EV-0040-005"
       ]
     },
     {
       "id": "MEN-0040-009",
-      "entity": "E-spirit-pendulum-d6e7f2",
+      "entity": "E-spirit-pendulum-00c1f2",
       "evidence_ids": [
         "EV-0040-009"
       ]
@@ -575,7 +575,7 @@
     },
     {
       "id": "MEN-0040-011",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0040-008",
         "EV-0040-019"
@@ -598,7 +598,7 @@
     },
     {
       "id": "MEN-0040-014",
-      "entity": "E-tarot-cards-607182",
+      "entity": "E-ch0524-000003",
       "evidence_ids": [
         "EV-0040-010"
       ]
@@ -626,7 +626,7 @@
     },
     {
       "id": "MEN-0040-018",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0040-012"
       ]
@@ -640,7 +640,7 @@
     },
     {
       "id": "MEN-0040-020",
-      "entity": "E-cogitation-ec5fc0",
+      "entity": "E-cogitation-3b2e82",
       "evidence_ids": [
         "EV-0040-015"
       ]
@@ -661,7 +661,7 @@
     },
     {
       "id": "MEN-0040-023",
-      "entity": "E-north-borough-4d5e63",
+      "entity": "E-north-borough-00c1cf",
       "evidence_ids": [
         "EV-0040-016"
       ]
@@ -682,14 +682,14 @@
     },
     {
       "id": "MEN-0040-026",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0040-018"
       ]
     },
     {
       "id": "MEN-0040-027",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0040-019"
       ]
@@ -700,7 +700,7 @@
       "id": "EVT-0040-001",
       "label": "Klein prepares two cups of coffee and secretly adds mud to one as Old Neil requested",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e"
       ],
       "evidence_ids": [
@@ -726,10 +726,10 @@
       "label": "Old Neil explains pendulum dowsing, Astral Projection and the spirit world to Klein",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-spirit-dowsing-c5d6e1",
-        "E-astralprojection-2440b3",
-        "E-spirit-world-b4c5d0"
+        "E-astral-projection-2440b3",
+        "E-spirit-world-0f67a4"
       ],
       "evidence_ids": [
         "EV-0040-005",
@@ -741,10 +741,10 @@
       "id": "EVT-0040-004",
       "label": "Klein considers applying for a spirit pendulum as a Beyonder perk",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
-        "E-spirit-pendulum-d6e7f2",
-        "E-beyonder-bc7f3b",
+        "E-spirit-pendulum-00c1f2",
+        "E-beyonder-6b1d42",
         "E-armory-3c4d52"
       ],
       "evidence_ids": [
@@ -757,14 +757,14 @@
       "label": "Old Neil teaches mysticism: symbolism, constellations, astrolabe and crystal ball",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-mysticism-14f9f3",
         "E-symbolism-92a3b8",
         "E-bumper-harvest-constellation-e7f803",
         "E-thunderous-constellation-f80314",
         "E-frost-constellation-031425",
         "E-crystal-ball-142536",
-        "E-tarot-cards-607182"
+        "E-ch0524-000003"
       ],
       "evidence_ids": [
         "EV-0040-010",
@@ -778,9 +778,9 @@
       "label": "Old Neil discusses Emperor Roselle and stresses daily Cogitation",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
-        "E-roselle-gustav-5a8eb2",
-        "E-cogitation-ec5fc0"
+        "E-dwayne-802dcc",
+        "E-emperor-roselle-664e32",
+        "E-cogitation-3b2e82"
       ],
       "evidence_ids": [
         "EV-0040-012",
@@ -791,15 +791,15 @@
       "id": "EVT-0040-007",
       "label": "Klein proposes joining the Divination Club; Old Neil suggests charging the Nighthawks",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
         "E-divination-club-e7f809",
         "E-daly-8192a3",
-        "E-dunn-smith-0ca9f5",
-        "E-nighthawks-acf9cc",
+        "E-alger-willson-3e9f42",
+        "E-nighthawks-1f592c",
         "E-seer-2e2bc5",
         "E-howes-street-8192a7",
-        "E-north-borough-4d5e63"
+        "E-north-borough-00c1cf"
       ],
       "evidence_ids": [
         "EV-0040-016",
@@ -812,7 +812,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -839,7 +839,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-transmigration-7f1d63",
+      "source": "E-transmigration-01889f",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -866,7 +866,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-astralprojection-2440b3",
+      "source": "E-astral-projection-2440b3",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -875,7 +875,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-spirit-world-b4c5d0",
+      "source": "E-spirit-world-0f67a4",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -884,7 +884,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-spirit-pendulum-d6e7f2",
+      "source": "E-spirit-pendulum-00c1f2",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -902,7 +902,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -929,7 +929,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-tarot-cards-607182",
+      "source": "E-ch0524-000003",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -965,7 +965,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -983,7 +983,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-cogitation-ec5fc0",
+      "source": "E-cogitation-3b2e82",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1010,7 +1010,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-north-borough-4d5e63",
+      "source": "E-north-borough-00c1cf",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1037,7 +1037,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1046,7 +1046,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0040",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1056,7 +1056,7 @@
     {
       "type": "MENTOR_OF",
       "source": "E-old-neil-3c4d5e",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "MENTORED_BY",
       "evidence_ids": [
         "EV-0040-010"
@@ -1064,7 +1064,7 @@
     },
     {
       "type": "FOLLOWS_PATHWAY",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-seer-2e2bc5",
       "inverse": "HAS_FOLLOWER",
       "evidence_ids": [
@@ -1073,8 +1073,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-nighthawks-acf9cc",
+      "source": "E-dwayne-802dcc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0040-019"
@@ -1083,7 +1083,7 @@
     {
       "type": "USES",
       "source": "E-old-neil-3c4d5e",
-      "target": "E-spirit-pendulum-d6e7f2",
+      "target": "E-spirit-pendulum-00c1f2",
       "inverse": "USED_BY",
       "evidence_ids": [
         "EV-0040-009"
@@ -1091,7 +1091,7 @@
     },
     {
       "type": "LOCATED_IN",
-      "source": "E-spirit-pendulum-d6e7f2",
+      "source": "E-spirit-pendulum-00c1f2",
       "target": "E-armory-3c4d52",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
@@ -1110,7 +1110,7 @@
     {
       "type": "LOCATED_IN",
       "source": "E-howes-street-8192a7",
-      "target": "E-north-borough-4d5e63",
+      "target": "E-north-borough-00c1cf",
       "inverse": "CONTAINS_LOCATION",
       "evidence_ids": [
         "EV-0040-016"
@@ -1118,7 +1118,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "E-bumper-harvest-constellation-e7f803",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1128,8 +1128,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0040-018"

@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -40,14 +40,14 @@
       "tags": []
     },
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -82,14 +82,14 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": [],
@@ -199,7 +199,7 @@
       "tags": []
     },
     {
-      "id": "E-mr-azik-5ca4f7",
+      "id": "E-death-consul-2e6b71",
       "canonical_name": "Mr. Azik",
       "primary_type": "Character",
       "aliases": [],
@@ -213,14 +213,14 @@
       "tags": []
     },
     {
-      "id": "E-solomon-empire-cf9d3b",
+      "id": "E-solomon-empire-29eeff",
       "canonical_name": "Solomon Empire",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-antigonus-family-8d93db",
+      "id": "E-antigonus-family-2e75d4",
       "canonical_name": "Antigonus family",
       "primary_type": "Faction",
       "aliases": [
@@ -231,7 +231,7 @@
       "tags": []
     },
     {
-      "id": "E-fourth-epoch-5c59d5",
+      "id": "E-fourth-epoch-134600",
       "canonical_name": "Fourth Epoch",
       "primary_type": "Concept",
       "aliases": [],
@@ -514,7 +514,7 @@
   "mentions": [
     {
       "id": "MEN-0024-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0024-001",
         "EV-0024-003",
@@ -542,14 +542,14 @@
     },
     {
       "id": "MEN-0024-004",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0024-002"
       ]
     },
     {
       "id": "MEN-0024-005",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0024-002"
       ]
@@ -585,7 +585,7 @@
     },
     {
       "id": "MEN-0024-010",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0024-006"
       ]
@@ -659,7 +659,7 @@
     },
     {
       "id": "MEN-0024-020",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0024-014"
       ]
@@ -690,7 +690,7 @@
     },
     {
       "id": "MEN-0024-024",
-      "entity": "E-mr-azik-5ca4f7",
+      "entity": "E-death-consul-2e6b71",
       "evidence_ids": [
         "EV-0024-018",
         "EV-0024-020"
@@ -705,14 +705,14 @@
     },
     {
       "id": "MEN-0024-026",
-      "entity": "E-solomon-empire-cf9d3b",
+      "entity": "E-solomon-empire-29eeff",
       "evidence_ids": [
         "EV-0024-019"
       ]
     },
     {
       "id": "MEN-0024-027",
-      "entity": "E-antigonus-family-8d93db",
+      "entity": "E-antigonus-family-2e75d4",
       "evidence_ids": [
         "EV-0024-019",
         "EV-0024-020"
@@ -720,7 +720,7 @@
     },
     {
       "id": "MEN-0024-028",
-      "entity": "E-fourth-epoch-5c59d5",
+      "entity": "E-fourth-epoch-134600",
       "evidence_ids": [
         "EV-0024-019"
       ]
@@ -738,7 +738,7 @@
       "id": "EVT-0024-001",
       "label": "Klein argues with Melissa about moving to a larger home",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41",
         "E-benson-3c1a7f"
       ],
@@ -751,9 +751,9 @@
       "id": "EVT-0024-002",
       "label": "Klein reflects on being a Beyonder and studying mysticism to find his way home",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
-        "E-klein-moretti-6a3250",
-        "E-beyonder-bc7f3b",
+        "E-dwayne-802dcc",
+        "E-dwayne-802dcc",
+        "E-beyonder-6b1d42",
         "E-mysticism-14f9f3"
       ],
       "evidence_ids": [
@@ -789,7 +789,7 @@
       "id": "EVT-0024-005",
       "label": "Klein gives Melissa money and copper pennies for food, fruit and a lemon cake",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41",
         "E-copper-penny-6f2a08",
         "E-smyrin-bakery-9e2cf6"
@@ -803,7 +803,7 @@
       "id": "EVT-0024-006",
       "label": "Klein ends his Tingen University interview with Harvin Stone",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-tingen-university-4d1f83",
         "E-harvin-stone-6e2a48"
       ],
@@ -817,9 +817,9 @@
       "id": "EVT-0024-007",
       "label": "Klein meets his mentor Cohen and Mr. Azik at the university",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-cohen-c17d22",
-        "E-mr-azik-5ca4f7",
+        "E-death-consul-2e6b71",
         "E-khoy-university-1b7e44"
       ],
       "evidence_ids": [
@@ -830,13 +830,13 @@
       "id": "EVT-0024-008",
       "label": "Azik questions Klein about Welch and Naya; Klein mentions the Antigonus family diary",
       "participants": [
-        "E-mr-azik-5ca4f7",
-        "E-klein-moretti-6a3250",
+        "E-death-consul-2e6b71",
+        "E-dwayne-802dcc",
         "E-welch-mcgovern-ae12e5",
         "E-naya-e2a971",
-        "E-solomon-empire-cf9d3b",
-        "E-antigonus-family-8d93db",
-        "E-fourth-epoch-5c59d5",
+        "E-solomon-empire-29eeff",
+        "E-antigonus-family-2e75d4",
+        "E-fourth-epoch-134600",
         "E-antigonus-diary-4b7f91"
       ],
       "evidence_ids": [
@@ -849,7 +849,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -876,7 +876,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -885,7 +885,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -930,7 +930,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -939,7 +939,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-loen-kingdom-1b9c6e",
+      "source": "E-loen-9b37f2",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1056,7 +1056,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mr-azik-5ca4f7",
+      "source": "E-death-consul-2e6b71",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1074,7 +1074,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-solomon-empire-cf9d3b",
+      "source": "E-solomon-empire-29eeff",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1083,7 +1083,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-antigonus-family-8d93db",
+      "source": "E-antigonus-family-2e75d4",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1092,7 +1092,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fourth-epoch-5c59d5",
+      "source": "E-fourth-epoch-134600",
       "target": "C0024",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1111,7 +1111,7 @@
     {
       "type": "MENTOR_OF",
       "source": "E-cohen-c17d22",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "MENTORED_BY",
       "evidence_ids": [
         "EV-0024-017"
@@ -1139,8 +1139,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-antigonus-family-8d93db",
-      "target": "E-solomon-empire-cf9d3b",
+      "source": "E-antigonus-family-2e75d4",
+      "target": "E-solomon-empire-29eeff",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0024-019"

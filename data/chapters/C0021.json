@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -64,14 +64,14 @@
       "tags": []
     },
     {
-      "id": "E-feysac-3e6f98",
+      "id": "E-ch0529-000020",
       "canonical_name": "Feysac",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-loen-d151af",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen",
       "primary_type": "Location",
       "aliases": [],
@@ -85,14 +85,14 @@
       "tags": []
     },
     {
-      "id": "E-forsaken-land-of-god-c4d5e6",
+      "id": "E-forsaken-land-4b8e0d",
       "canonical_name": "Forsaken Land of God",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-miss-ithaca-d5e6f7",
+      "id": "E-miss-ithaca-4a2e11",
       "canonical_name": "Miss Ithaca",
       "primary_type": "Character",
       "aliases": [],
@@ -141,14 +141,14 @@
       "tags": []
     },
     {
-      "id": "E-seventh-unit-special-operations-department-5a6b7c",
+      "id": "E-seventh-unit-badge-3c8f47",
       "canonical_name": "Seventh Unit, Special Operations Department",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-leonard-mitchell-4d5e6f",
+      "id": "E-leonard-2c8d91",
       "canonical_name": "Leonard Mitchell",
       "primary_type": "Character",
       "aliases": [],
@@ -162,7 +162,7 @@
       "tags": []
     },
     {
-      "id": "E-midnight-poet-8d9e0f",
+      "id": "E-leonard-2c8d91",
       "canonical_name": "Midnight Poet",
       "primary_type": "Pathway",
       "aliases": [
@@ -452,7 +452,7 @@
   "mentions": [
     {
       "id": "MEN-0021-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0021-001",
         "EV-0021-002",
@@ -466,7 +466,7 @@
     },
     {
       "id": "MEN-0021-002",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0021-002",
         "EV-0021-003",
@@ -509,14 +509,14 @@
     },
     {
       "id": "MEN-0021-007",
-      "entity": "E-feysac-3e6f98",
+      "entity": "E-ch0529-000020",
       "evidence_ids": [
         "EV-0021-007"
       ]
     },
     {
       "id": "MEN-0021-008",
-      "entity": "E-loen-d151af",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0021-007"
       ]
@@ -530,14 +530,14 @@
     },
     {
       "id": "MEN-0021-010",
-      "entity": "E-forsaken-land-of-god-c4d5e6",
+      "entity": "E-forsaken-land-4b8e0d",
       "evidence_ids": [
         "EV-0021-008"
       ]
     },
     {
       "id": "MEN-0021-011",
-      "entity": "E-miss-ithaca-d5e6f7",
+      "entity": "E-miss-ithaca-4a2e11",
       "evidence_ids": [
         "EV-0021-009"
       ]
@@ -586,14 +586,14 @@
     },
     {
       "id": "MEN-0021-018",
-      "entity": "E-seventh-unit-special-operations-department-5a6b7c",
+      "entity": "E-seventh-unit-badge-3c8f47",
       "evidence_ids": [
         "EV-0021-017"
       ]
     },
     {
       "id": "MEN-0021-019",
-      "entity": "E-leonard-mitchell-4d5e6f",
+      "entity": "E-leonard-2c8d91",
       "evidence_ids": [
         "EV-0021-018",
         "EV-0021-019"
@@ -608,7 +608,7 @@
     },
     {
       "id": "MEN-0021-021",
-      "entity": "E-midnight-poet-8d9e0f",
+      "entity": "E-leonard-2c8d91",
       "evidence_ids": [
         "EV-0021-018"
       ]
@@ -633,8 +633,8 @@
       "id": "EVT-0021-001",
       "label": "Klein reads Emperor Roselle's diary written in Simplified Chinese",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-roselle-gustav-5a8eb2",
+        "E-dwayne-802dcc",
+        "E-emperor-roselle-664e32",
         "E-old-neil-3c4d5e"
       ],
       "evidence_ids": [
@@ -649,15 +649,15 @@
       "id": "EVT-0021-002",
       "label": "Roselle's diary reveals potion digestion, acting and geopolitical alliances",
       "participants": [
-        "E-roselle-gustav-5a8eb2",
+        "E-emperor-roselle-664e32",
         "E-apprentice-0a6646",
         "E-seer-2e2bc5",
         "E-marauder-fe903e",
-        "E-feysac-3e6f98",
-        "E-loen-d151af",
+        "E-ch0529-000020",
+        "E-loen-9b37f2",
         "E-feynapotter-05936d",
-        "E-forsaken-land-of-god-c4d5e6",
-        "E-miss-ithaca-d5e6f7",
+        "E-forsaken-land-4b8e0d",
+        "E-miss-ithaca-4a2e11",
         "E-lady-florena-e6f708"
       ],
       "evidence_ids": [
@@ -673,7 +673,7 @@
       "id": "EVT-0021-003",
       "label": "Klein and Old Neil joke about protecting fantastic beasts",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
         "E-northern-continent-1a7b64",
         "E-dragons-and-giants-protection-association-f70819",
@@ -691,10 +691,10 @@
       "label": "Old Neil gives Klein bullets, a holster and a badge",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-demon-hunting-bullets-4c5d6e",
         "E-awwa-county-police-department-192a3b",
-        "E-seventh-unit-special-operations-department-5a6b7c"
+        "E-seventh-unit-badge-3c8f47"
       ],
       "evidence_ids": [
         "EV-0021-016",
@@ -705,10 +705,10 @@
       "id": "EVT-0021-005",
       "label": "Klein meets the Nighthawk Leonard Mitchell on the stairs",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-leonard-mitchell-4d5e6f",
+        "E-dwayne-802dcc",
+        "E-leonard-2c8d91",
         "E-sequence-8-7c8d9e",
-        "E-midnight-poet-8d9e0f",
+        "E-leonard-2c8d91",
         "E-rozanne-16d3a1",
         "E-the-sleepless-9e0f10"
       ],
@@ -722,7 +722,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0021",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -731,7 +731,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0021",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -749,7 +749,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leonard-mitchell-4d5e6f",
+      "source": "E-leonard-2c8d91",
       "target": "C0021",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -767,8 +767,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-emperor-roselle-664e32",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Roselle is a fellow countryman and transmigration senior to Klein",
       "evidence_ids": [
@@ -777,8 +777,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-feysac-3e6f98",
-      "target": "E-loen-d151af",
+      "source": "E-ch0529-000020",
+      "target": "E-loen-9b37f2",
       "inverse": "RELATED_TO",
       "label": "Feysac and Loen joined an alliance opposing Roselle",
       "evidence_ids": [
@@ -787,7 +787,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-seventh-unit-special-operations-department-5a6b7c",
+      "source": "E-seventh-unit-badge-3c8f47",
       "target": "E-awwa-county-police-department-192a3b",
       "inverse": "RELATED_TO",
       "label": "The Seventh Unit belongs to the Awwa County Police Department",
@@ -797,8 +797,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-leonard-mitchell-4d5e6f",
-      "target": "E-midnight-poet-8d9e0f",
+      "source": "E-leonard-2c8d91",
+      "target": "E-leonard-2c8d91",
       "inverse": "RELATED_TO",
       "label": "Leonard Mitchell is the Sequence 8 Midnight Poet",
       "evidence_ids": [

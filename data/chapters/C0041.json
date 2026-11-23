@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -39,7 +39,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -53,7 +53,7 @@
       "tags": []
     },
     {
-      "id": "E-leonard-mitchell-4d5e6f",
+      "id": "E-leonard-2c8d91",
       "canonical_name": "Leonard Mitchell",
       "primary_type": "Character",
       "aliases": [],
@@ -74,7 +74,7 @@
       "tags": []
     },
     {
-      "id": "E-spirit-pendulum-d6e7f2",
+      "id": "E-spirit-pendulum-00c1f2",
       "canonical_name": "spirit pendulum",
       "primary_type": "Artifact",
       "aliases": [],
@@ -103,7 +103,7 @@
       "tags": []
     },
     {
-      "id": "E-spectator-pathway-383934",
+      "id": "E-spectator-a9bfae",
       "canonical_name": "Spectator potion",
       "primary_type": "Concept",
       "aliases": [],
@@ -117,7 +117,7 @@
       "tags": []
     },
     {
-      "id": "E-annie-a6a1d8",
+      "id": "E-anne-1f3021",
       "canonical_name": "Annie",
       "primary_type": "Character",
       "aliases": [],
@@ -156,7 +156,7 @@
       "tags": []
     },
     {
-      "id": "E-pritz-harbor-3d4e5f",
+      "id": "E-ch0525-000001",
       "canonical_name": "Pritz Harbor",
       "primary_type": "Location",
       "aliases": [],
@@ -174,7 +174,7 @@
       "tags": []
     },
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
       "aliases": [
@@ -192,7 +192,7 @@
       "tags": []
     },
     {
-      "id": "E-lord-of-storms-2b8e57",
+      "id": "E-leodero-649907",
       "canonical_name": "Lord of Storms",
       "primary_type": "Character",
       "aliases": [
@@ -206,7 +206,7 @@
       "tags": []
     },
     {
-      "id": "E-mandated-punishers-ed47bb",
+      "id": "E-mandated-punisher-4c7d29",
       "canonical_name": "Mandated Punishers",
       "primary_type": "Faction",
       "aliases": [
@@ -228,7 +228,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
@@ -500,7 +500,7 @@
   "mentions": [
     {
       "id": "MEN-0041-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0041-001",
         "EV-0041-002",
@@ -535,14 +535,14 @@
     },
     {
       "id": "MEN-0041-005",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0041-003"
       ]
     },
     {
       "id": "MEN-0041-006",
-      "entity": "E-leonard-mitchell-4d5e6f",
+      "entity": "E-leonard-2c8d91",
       "evidence_ids": [
         "EV-0041-004"
       ]
@@ -563,7 +563,7 @@
     },
     {
       "id": "MEN-0041-009",
-      "entity": "E-spirit-pendulum-d6e7f2",
+      "entity": "E-spirit-pendulum-00c1f2",
       "evidence_ids": [
         "EV-0041-006"
       ]
@@ -588,7 +588,7 @@
     },
     {
       "id": "MEN-0041-012",
-      "entity": "E-spectator-pathway-383934",
+      "entity": "E-spectator-a9bfae",
       "evidence_ids": [
         "EV-0041-009"
       ]
@@ -602,7 +602,7 @@
     },
     {
       "id": "MEN-0041-014",
-      "entity": "E-annie-a6a1d8",
+      "entity": "E-anne-1f3021",
       "evidence_ids": [
         "EV-0041-011",
         "EV-0041-012",
@@ -632,7 +632,7 @@
     },
     {
       "id": "MEN-0041-018",
-      "entity": "E-pritz-harbor-3d4e5f",
+      "entity": "E-ch0525-000001",
       "evidence_ids": [
         "EV-0041-015"
       ]
@@ -646,7 +646,7 @@
     },
     {
       "id": "MEN-0041-020",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0041-016",
         "EV-0041-017",
@@ -663,14 +663,14 @@
     },
     {
       "id": "MEN-0041-022",
-      "entity": "E-lord-of-storms-2b8e57",
+      "entity": "E-leodero-649907",
       "evidence_ids": [
         "EV-0041-018"
       ]
     },
     {
       "id": "MEN-0041-023",
-      "entity": "E-mandated-punishers-ed47bb",
+      "entity": "E-mandated-punisher-4c7d29",
       "evidence_ids": [
         "EV-0041-019"
       ]
@@ -688,7 +688,7 @@
       "id": "EVT-0041-001",
       "label": "Klein returns to Blackthorn with historical materials from Old Neil",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-blackthorn-security-company-cf7a4b",
         "E-old-neil-3c4d5e",
         "E-armory-3c4d52"
@@ -702,10 +702,10 @@
       "id": "EVT-0041-002",
       "label": "Klein types an expenditure application and gets Dunn Smith to sign it",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
         "E-old-neil-3c4d5e",
-        "E-spirit-pendulum-d6e7f2"
+        "E-spirit-pendulum-00c1f2"
       ],
       "evidence_ids": [
         "EV-0041-003",
@@ -716,8 +716,8 @@
       "id": "EVT-0041-003",
       "label": "Klein observes his colleagues at Blackthorn and settles into a routine",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-leonard-mitchell-4d5e6f",
+        "E-dwayne-802dcc",
+        "E-leonard-2c8d91",
         "E-bredt-6f7081",
         "E-rozanne-16d3a1",
         "E-welch-mcgovern-ae12e5"
@@ -733,8 +733,8 @@
       "label": "Audrey concocts the Spectator potion but is interrupted by Annie's invitation",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-spectator-pathway-383934",
-        "E-annie-a6a1d8",
+        "E-spectator-a9bfae",
+        "E-anne-1f3021",
         "E-duchess-della-b4c5d6",
         "E-aguesid-negan-d7ccfc",
         "E-madam-vivi-c5d6e7"
@@ -754,7 +754,7 @@
       "participants": [
         "E-audrey-hall-2b8d31",
         "E-susie-fccd33",
-        "E-spectator-pathway-383934"
+        "E-spectator-a9bfae"
       ],
       "evidence_ids": [
         "EV-0041-010"
@@ -764,12 +764,12 @@
       "id": "EVT-0041-006",
       "label": "Alger Wilson and Sainz meet by the seas beyond Pritz Harbor",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-the-blond-man-1efa82",
-        "E-pritz-harbor-3d4e5f",
+        "E-ch0525-000001",
         "E-blue-avenger-364758",
-        "E-lord-of-storms-2b8e57",
-        "E-mandated-punishers-ed47bb"
+        "E-leodero-649907",
+        "E-mandated-punisher-4c7d29"
       ],
       "evidence_ids": [
         "EV-0041-015",
@@ -784,7 +784,7 @@
       "label": "A storm strikes Tingen while Klein eats lunch at Blackthorn",
       "participants": [
         "E-tingen-city-2f6d90",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-rozanne-16d3a1",
         "E-bredt-6f7081"
       ],
@@ -796,7 +796,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -832,7 +832,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -841,7 +841,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-leonard-mitchell-4d5e6f",
+      "source": "E-leonard-2c8d91",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -868,7 +868,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-spirit-pendulum-d6e7f2",
+      "source": "E-spirit-pendulum-00c1f2",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -895,7 +895,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-spectator-pathway-383934",
+      "source": "E-spectator-a9bfae",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -913,7 +913,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-annie-a6a1d8",
+      "source": "E-anne-1f3021",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -949,7 +949,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-pritz-harbor-3d4e5f",
+      "source": "E-ch0525-000001",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -967,7 +967,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -985,7 +985,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-lord-of-storms-2b8e57",
+      "source": "E-leodero-649907",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -994,7 +994,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mandated-punishers-ed47bb",
+      "source": "E-mandated-punisher-4c7d29",
       "target": "C0041",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1012,8 +1012,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-nighthawks-acf9cc",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-nighthawks-1f592c",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0041-003"
@@ -1021,7 +1021,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "E-blackthorn-security-company-cf7a4b",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1031,8 +1031,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-leonard-mitchell-4d5e6f",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-leonard-2c8d91",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0041-004"
@@ -1051,7 +1051,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-audrey-hall-2b8d31",
-      "target": "E-annie-a6a1d8",
+      "target": "E-anne-1f3021",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0041-011"
@@ -1072,7 +1072,7 @@
     {
       "type": "OWNS",
       "source": "E-audrey-hall-2b8d31",
-      "target": "E-spectator-pathway-383934",
+      "target": "E-spectator-a9bfae",
       "inverse": "OWNED_BY",
       "evidence_ids": [
         "EV-0041-009"
@@ -1080,7 +1080,7 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "E-blue-avenger-364758",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
@@ -1089,8 +1089,8 @@
     },
     {
       "type": "FOLLOWS_PATHWAY",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-lord-of-storms-2b8e57",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-leodero-649907",
       "inverse": "HAS_FOLLOWER",
       "evidence_ids": [
         "EV-0041-018"
@@ -1099,7 +1099,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-the-blond-man-1efa82",
-      "target": "E-alger-wilson-3e9f42",
+      "target": "E-alger-willson-3e9f42",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0041-016"

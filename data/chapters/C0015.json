@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Dunn Smith",
       "primary_type": "Character",
       "aliases": [
@@ -32,14 +32,14 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-church-of-evernight-b4c2d7",
+      "id": "E-ch0529-000018",
       "canonical_name": "Church of Evernight",
       "primary_type": "Faction",
       "aliases": [
@@ -50,7 +50,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [
@@ -68,7 +68,7 @@
       "tags": []
     },
     {
-      "id": "E-lord-of-storms-2b8e57",
+      "id": "E-leodero-649907",
       "canonical_name": "Lord of Storms",
       "primary_type": "Concept",
       "aliases": [
@@ -79,14 +79,14 @@
       "tags": []
     },
     {
-      "id": "E-fourth-epoch-5c59d5",
+      "id": "E-fourth-epoch-134600",
       "canonical_name": "Fourth Epoch",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Emperor Roselle",
       "primary_type": "Character",
       "aliases": [
@@ -97,7 +97,7 @@
       "tags": []
     },
     {
-      "id": "E-transmigration-7f1d63",
+      "id": "E-transmigration-01889f",
       "canonical_name": "transmigration",
       "primary_type": "Concept",
       "aliases": [
@@ -397,7 +397,7 @@
   "mentions": [
     {
       "id": "MEN-0015-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0015-001",
         "EV-0015-003",
@@ -415,7 +415,7 @@
     },
     {
       "id": "MEN-0015-002",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0015-001",
         "EV-0015-003",
@@ -433,7 +433,7 @@
     },
     {
       "id": "MEN-0015-003",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0015-002",
         "EV-0015-003",
@@ -443,14 +443,14 @@
     },
     {
       "id": "MEN-0015-004",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0015-015"
       ]
     },
     {
       "id": "MEN-0015-005",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0015-015",
         "EV-0015-016"
@@ -465,28 +465,28 @@
     },
     {
       "id": "MEN-0015-007",
-      "entity": "E-lord-of-storms-2b8e57",
+      "entity": "E-leodero-649907",
       "evidence_ids": [
         "EV-0015-006"
       ]
     },
     {
       "id": "MEN-0015-008",
-      "entity": "E-fourth-epoch-5c59d5",
+      "entity": "E-fourth-epoch-134600",
       "evidence_ids": [
         "EV-0015-007"
       ]
     },
     {
       "id": "MEN-0015-009",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0015-010"
       ]
     },
     {
       "id": "MEN-0015-010",
-      "entity": "E-transmigration-7f1d63",
+      "entity": "E-transmigration-01889f",
       "evidence_ids": [
         "EV-0015-004",
         "EV-0015-010"
@@ -541,9 +541,9 @@
       "id": "EVT-0015-001",
       "label": "Klein asks Dunn why Beyonders have serious hidden dangers",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-dunn-smith-0ca9f5",
-        "E-beyonder-bc7f3b"
+        "E-dwayne-802dcc",
+        "E-alger-willson-3e9f42",
+        "E-beyonder-6b1d42"
       ],
       "evidence_ids": [
         "EV-0015-001",
@@ -554,9 +554,9 @@
       "id": "EVT-0015-002",
       "label": "Dunn explains that a civilian staff member is also one of them",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
-        "E-nighthawks-acf9cc"
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-nighthawks-1f592c"
       ],
       "evidence_ids": [
         "EV-0015-003"
@@ -566,11 +566,11 @@
       "id": "EVT-0015-003",
       "label": "Dunn gives his reasons: Klein's survival and luck, his Khoy University history degree, and confidentiality",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-khoy-university-1b7e44",
-        "E-lord-of-storms-2b8e57",
-        "E-transmigration-7f1d63"
+        "E-leodero-649907",
+        "E-transmigration-01889f"
       ],
       "evidence_ids": [
         "EV-0015-004",
@@ -582,8 +582,8 @@
       "id": "EVT-0015-004",
       "label": "Dunn discusses Fourth Epoch documents and the need for historians in the Nighthawks",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-fourth-epoch-5c59d5"
+        "E-alger-willson-3e9f42",
+        "E-fourth-epoch-134600"
       ],
       "evidence_ids": [
         "EV-0015-007",
@@ -594,10 +594,10 @@
       "id": "EVT-0015-005",
       "label": "Dunn explains the confidentiality clause, quoting Emperor Roselle and a discourse on faith and fear",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-roselle-gustav-5a8eb2",
-        "E-transmigration-7f1d63",
-        "E-klein-moretti-6a3250"
+        "E-alger-willson-3e9f42",
+        "E-emperor-roselle-664e32",
+        "E-transmigration-01889f",
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0015-009",
@@ -609,8 +609,8 @@
       "id": "EVT-0015-006",
       "label": "Dunn formally invites Klein to join as a civilian staff member on Iron Cross Street",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-iron-cross-street-b04e18"
       ],
       "evidence_ids": [
@@ -622,8 +622,8 @@
       "id": "EVT-0015-007",
       "label": "Dunn tells Klein to keep the Welch incident secret and sets a deadline",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-welch-mcgovern-ae12e5"
       ],
       "evidence_ids": [
@@ -634,9 +634,9 @@
       "id": "EVT-0015-008",
       "label": "Dunn explains wages, the five-year contract and the conditions of civilian staff service",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-church-of-evernight-b4c2d7",
-        "E-nighthawks-acf9cc",
+        "E-alger-willson-3e9f42",
+        "E-ch0529-000018",
+        "E-nighthawks-1f592c",
         "E-tingen-city-2f6d90"
       ],
       "evidence_ids": [
@@ -648,8 +648,8 @@
       "id": "EVT-0015-009",
       "label": "Dunn directs Klein to the Hound Pub on Besik Street to find Wright",
       "participants": [
-        "E-dunn-smith-0ca9f5",
-        "E-klein-moretti-6a3250",
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
         "E-hound-pub-8b3c07",
         "E-besik-street-ad5e29",
         "E-wright-9c4d18"
@@ -662,7 +662,7 @@
       "id": "EVT-0015-010",
       "label": "Klein returns home shaken after the medium's seance at Welch's residence",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-welch-mcgovern-ae12e5"
       ],
       "evidence_ids": [
@@ -673,7 +673,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -682,7 +682,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -691,7 +691,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -700,7 +700,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-church-of-evernight-b4c2d7",
+      "source": "E-ch0529-000018",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -709,7 +709,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -727,7 +727,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-lord-of-storms-2b8e57",
+      "source": "E-leodero-649907",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -736,7 +736,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fourth-epoch-5c59d5",
+      "source": "E-fourth-epoch-134600",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -745,7 +745,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -754,7 +754,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-transmigration-7f1d63",
+      "source": "E-transmigration-01889f",
       "target": "C0015",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -817,8 +817,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0015-013"
@@ -828,7 +828,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-khoy-university-1b7e44",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0015-006"
@@ -857,8 +857,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
-      "target": "E-transmigration-7f1d63",
+      "source": "E-emperor-roselle-664e32",
+      "target": "E-transmigration-01889f",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0015-010"
@@ -868,7 +868,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-welch-mcgovern-ae12e5",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0015-014"

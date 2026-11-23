@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -25,7 +25,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Captain",
       "primary_type": "Character",
       "aliases": [
@@ -61,7 +61,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
@@ -89,7 +89,7 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -103,14 +103,14 @@
       "tags": []
     },
     {
-      "id": "E-midnight-poet-8d9e0f",
+      "id": "E-leonard-2c8d91",
       "canonical_name": "Midnight Poet",
       "primary_type": "Pathway",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-nightmare-7f1d60",
+      "id": "E-nightmare-113844",
       "canonical_name": "Nightmare",
       "primary_type": "Pathway",
       "aliases": [],
@@ -124,7 +124,7 @@
       "tags": []
     },
     {
-      "id": "E-spirit-medium-a2dcea",
+      "id": "E-daly-8192a3",
       "canonical_name": "Spirit Medium",
       "primary_type": "Pathway",
       "aliases": [],
@@ -138,7 +138,7 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Concept",
       "aliases": [],
@@ -156,14 +156,14 @@
       "tags": []
     },
     {
-      "id": "E-transmigration-7f1d63",
+      "id": "E-transmigration-01889f",
       "canonical_name": "transmigration",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-north-borough-4d5e63",
+      "id": "E-north-borough-00c1cf",
       "canonical_name": "North Borough",
       "primary_type": "Location",
       "aliases": [],
@@ -435,7 +435,7 @@
   "mentions": [
     {
       "id": "MEN-0022-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0022-001",
         "EV-0022-002",
@@ -457,7 +457,7 @@
     },
     {
       "id": "MEN-0022-003",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0022-001",
         "EV-0022-008",
@@ -490,7 +490,7 @@
     },
     {
       "id": "MEN-0022-007",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0022-002"
       ]
@@ -519,7 +519,7 @@
     },
     {
       "id": "MEN-0022-011",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0022-006",
         "EV-0022-007",
@@ -536,14 +536,14 @@
     },
     {
       "id": "MEN-0022-013",
-      "entity": "E-midnight-poet-8d9e0f",
+      "entity": "E-leonard-2c8d91",
       "evidence_ids": [
         "EV-0022-011"
       ]
     },
     {
       "id": "MEN-0022-014",
-      "entity": "E-nightmare-7f1d60",
+      "entity": "E-nightmare-113844",
       "evidence_ids": [
         "EV-0022-011"
       ]
@@ -557,7 +557,7 @@
     },
     {
       "id": "MEN-0022-016",
-      "entity": "E-spirit-medium-a2dcea",
+      "entity": "E-daly-8192a3",
       "evidence_ids": [
         "EV-0022-015"
       ]
@@ -572,7 +572,7 @@
     },
     {
       "id": "MEN-0022-018",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0022-020"
       ]
@@ -586,14 +586,14 @@
     },
     {
       "id": "MEN-0022-020",
-      "entity": "E-transmigration-7f1d63",
+      "entity": "E-transmigration-01889f",
       "evidence_ids": [
         "EV-0022-019"
       ]
     },
     {
       "id": "MEN-0022-021",
-      "entity": "E-north-borough-4d5e63",
+      "entity": "E-north-borough-00c1cf",
       "evidence_ids": [
         "EV-0022-007"
       ]
@@ -604,9 +604,9 @@
       "id": "EVT-0022-001",
       "label": "Rozanne relays the Captain's approval for Klein to start on Monday",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-rozanne-16d3a1",
-        "E-dunn-smith-0ca9f5"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0022-001"
@@ -616,7 +616,7 @@
       "id": "EVT-0022-002",
       "label": "Klein asks Rozanne about the Church's starting Sequence",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-rozanne-16d3a1"
       ],
       "evidence_ids": [
@@ -628,8 +628,8 @@
       "label": "Rozanne warns Klein about the dangers of becoming a Beyonder",
       "participants": [
         "E-rozanne-16d3a1",
-        "E-klein-moretti-6a3250",
-        "E-beyonder-bc7f3b"
+        "E-dwayne-802dcc",
+        "E-beyonder-6b1d42"
       ],
       "evidence_ids": [
         "EV-0022-006",
@@ -642,9 +642,9 @@
       "participants": [
         "E-rozanne-16d3a1",
         "E-sleepless-aca774",
-        "E-midnight-poet-8d9e0f",
-        "E-nightmare-7f1d60",
-        "E-dunn-smith-0ca9f5",
+        "E-leonard-2c8d91",
+        "E-nightmare-113844",
+        "E-alger-willson-3e9f42",
         "E-tingen-city-2f6d90",
         "E-backlund-7a4d86"
       ],
@@ -673,9 +673,9 @@
       "label": "Rozanne names Spirit Medium and Klein recalls Ma'am Daly",
       "participants": [
         "E-rozanne-16d3a1",
-        "E-spirit-medium-a2dcea",
+        "E-daly-8192a3",
         "E-maam-daly-1d8e42",
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0022-015",
@@ -686,7 +686,7 @@
       "id": "EVT-0022-007",
       "label": "Klein resolves to treat Melissa to dinner with his advance",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-melissa-9d2e41",
         "E-foodaholic-empire-5a6b38"
       ],
@@ -699,7 +699,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -717,7 +717,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -753,7 +753,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -789,7 +789,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -807,7 +807,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-midnight-poet-8d9e0f",
+      "source": "E-leonard-2c8d91",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -816,7 +816,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nightmare-7f1d60",
+      "source": "E-nightmare-113844",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -834,7 +834,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-spirit-medium-a2dcea",
+      "source": "E-daly-8192a3",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -852,7 +852,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-evernight-goddess-4a9d31",
+      "source": "E-ch0529-000018",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -870,7 +870,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-transmigration-7f1d63",
+      "source": "E-transmigration-01889f",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -879,7 +879,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-north-borough-4d5e63",
+      "source": "E-north-borough-00c1cf",
       "target": "C0022",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -888,8 +888,8 @@
     },
     {
       "type": "MEMBER_OF",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-nighthawks-acf9cc",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-nighthawks-1f592c",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0022-013"
@@ -897,8 +897,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-dunn-smith-0ca9f5",
+      "source": "E-dwayne-802dcc",
+      "target": "E-alger-willson-3e9f42",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0022-012"
@@ -917,7 +917,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-maam-daly-1d8e42",
-      "target": "E-spirit-medium-a2dcea",
+      "target": "E-daly-8192a3",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0022-015"

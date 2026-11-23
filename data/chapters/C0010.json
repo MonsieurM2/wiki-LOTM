@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -93,7 +93,7 @@
       "aliases": []
     },
     {
-      "id": "E-loen-kingdom-1b9c6e",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen Kingdom",
       "primary_type": "Location",
       "aliases": []
@@ -111,7 +111,7 @@
       "aliases": []
     },
     {
-      "id": "E-fourth-epoch-5c59d5",
+      "id": "E-fourth-epoch-134600",
       "canonical_name": "Fourth Epoch",
       "primary_type": "Concept",
       "aliases": []
@@ -392,7 +392,7 @@
   "mentions": [
     {
       "id": "MEN-0010-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0010-001",
         "EV-0010-004",
@@ -473,7 +473,7 @@
     },
     {
       "id": "MEN-0010-010",
-      "entity": "E-loen-kingdom-1b9c6e",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0010-015",
         "EV-0010-016"
@@ -495,7 +495,7 @@
     },
     {
       "id": "MEN-0010-013",
-      "entity": "E-fourth-epoch-5c59d5",
+      "entity": "E-fourth-epoch-134600",
       "evidence_ids": [
         "EV-0010-008"
       ]
@@ -513,7 +513,7 @@
       "id": "EVT-0010-001",
       "label": "Klein hides the revolver in the stove before opening the door to the police",
       "participants": [
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0010-001",
@@ -524,7 +524,7 @@
       "id": "EVT-0010-002",
       "label": "Inspectors question Klein about Welch McGovern and Naya",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-bitsch-mountbatten-3baeaf",
         "E-welch-mcgovern-ae12e5",
         "E-naya-e2a971",
@@ -542,7 +542,7 @@
       "id": "EVT-0010-003",
       "label": "The inspectors search Klein's room and read his notebook",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-bitsch-mountbatten-3baeaf"
       ],
       "evidence_ids": [
@@ -554,7 +554,7 @@
       "id": "EVT-0010-004",
       "label": "Klein recalls his university, interview and Tingen's schools",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-tingen-city-2f6d90",
         "E-tingen-university-4d1f83",
         "E-khoy-university-1b7e44",
@@ -570,7 +570,7 @@
       "id": "EVT-0010-005",
       "label": "The gray-eyed inspector says an expert will help Klein recall lost memories",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-bitsch-mountbatten-3baeaf"
       ],
       "evidence_ids": [
@@ -581,7 +581,7 @@
       "id": "EVT-0010-006",
       "label": "The young inspector tells Klein the norm is that all involved parties die",
       "participants": [
-        "E-klein-moretti-6a3250"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0010-019",
@@ -592,7 +592,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0010",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -673,7 +673,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-loen-kingdom-1b9c6e",
+      "source": "E-loen-9b37f2",
       "target": "C0010",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -700,7 +700,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fourth-epoch-5c59d5",
+      "source": "E-fourth-epoch-134600",
       "target": "C0010",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -719,7 +719,7 @@
     {
       "type": "MENTOR_OF",
       "source": "E-cohen-c17d22",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "MENTORED_BY",
       "label": "Cohen was the senior associate professor and mentor of Klein and Welch",
       "evidence_ids": [
@@ -729,7 +729,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-bitsch-mountbatten-3baeaf",
-      "target": "E-klein-moretti-6a3250",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Mountbatten was the policeman in charge of the street where Klein's apartment was located",
       "evidence_ids": [
@@ -769,7 +769,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-higher-education-commission-04938a",
-      "target": "E-loen-kingdom-1b9c6e",
+      "target": "E-loen-9b37f2",
       "inverse": "RELATED_TO",
       "label": "The Loen Kingdom's Higher Education Commission added senior associate professors",
       "evidence_ids": [
@@ -779,7 +779,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-ancient-notebook-01a9db",
-      "target": "E-fourth-epoch-5c59d5",
+      "target": "E-fourth-epoch-134600",
       "inverse": "RELATED_TO",
       "label": "The notebook was from the Fourth Epoch",
       "evidence_ids": [

@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-mr-azik-5ca4f7",
+      "id": "E-death-consul-2e6b71",
       "canonical_name": "Mr. Azik",
       "primary_type": "Character",
       "aliases": [],
@@ -39,7 +39,7 @@
       "tags": []
     },
     {
-      "id": "E-fourth-epoch-5c59d5",
+      "id": "E-fourth-epoch-134600",
       "canonical_name": "Fourth Epoch",
       "primary_type": "Concept",
       "aliases": [],
@@ -113,7 +113,7 @@
       "tags": []
     },
     {
-      "id": "E-backlund-daily-tribune-2d6a95",
+      "id": "E-backlund-daily-tribune-158db2",
       "canonical_name": "Backlund Daily Tribune",
       "primary_type": "Concept",
       "aliases": [],
@@ -127,14 +127,14 @@
       "tags": []
     },
     {
-      "id": "E-earth-a07443",
+      "id": "E-ch0523-000016",
       "canonical_name": "Earth",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-transmigration-7f1d63",
+      "id": "E-transmigration-01889f",
       "canonical_name": "transmigration",
       "primary_type": "Concept",
       "aliases": [],
@@ -148,7 +148,7 @@
       "tags": []
     },
     {
-      "id": "E-zouteland-street-be6f3a",
+      "id": "E-36-zouteland-street-0bad86",
       "canonical_name": "Zouteland Street",
       "primary_type": "Location",
       "aliases": [
@@ -159,7 +159,7 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
@@ -180,7 +180,7 @@
       "tags": []
     },
     {
-      "id": "E-church-of-evernight-b4c2d7",
+      "id": "E-ch0529-000018",
       "canonical_name": "Church of Evernight",
       "primary_type": "Faction",
       "aliases": [],
@@ -212,7 +212,7 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Captain",
       "primary_type": "Character",
       "aliases": [
@@ -509,7 +509,7 @@
   "mentions": [
     {
       "id": "MEN-0025-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0025-001",
         "EV-0025-002",
@@ -523,7 +523,7 @@
     },
     {
       "id": "MEN-0025-002",
-      "entity": "E-mr-azik-5ca4f7",
+      "entity": "E-death-consul-2e6b71",
       "evidence_ids": [
         "EV-0025-001",
         "EV-0025-003"
@@ -538,7 +538,7 @@
     },
     {
       "id": "MEN-0025-004",
-      "entity": "E-fourth-epoch-5c59d5",
+      "entity": "E-fourth-epoch-134600",
       "evidence_ids": [
         "EV-0025-002"
       ]
@@ -595,7 +595,7 @@
     },
     {
       "id": "MEN-0025-012",
-      "entity": "E-backlund-daily-tribune-2d6a95",
+      "entity": "E-backlund-daily-tribune-158db2",
       "evidence_ids": [
         "EV-0025-007"
       ]
@@ -609,14 +609,14 @@
     },
     {
       "id": "MEN-0025-014",
-      "entity": "E-earth-a07443",
+      "entity": "E-ch0523-000016",
       "evidence_ids": [
         "EV-0025-011"
       ]
     },
     {
       "id": "MEN-0025-015",
-      "entity": "E-transmigration-7f1d63",
+      "entity": "E-transmigration-01889f",
       "evidence_ids": [
         "EV-0025-012"
       ]
@@ -630,14 +630,14 @@
     },
     {
       "id": "MEN-0025-017",
-      "entity": "E-zouteland-street-be6f3a",
+      "entity": "E-36-zouteland-street-0bad86",
       "evidence_ids": [
         "EV-0025-013"
       ]
     },
     {
       "id": "MEN-0025-018",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0025-013",
         "EV-0025-014"
@@ -660,7 +660,7 @@
     },
     {
       "id": "MEN-0025-021",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0025-016"
       ]
@@ -688,7 +688,7 @@
     },
     {
       "id": "MEN-0025-025",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0025-019"
       ]
@@ -720,8 +720,8 @@
       "id": "EVT-0025-001",
       "label": "Klein questions Azik and Cohen about Welch and Naya and takes the newspaper",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-mr-azik-5ca4f7",
+        "E-dwayne-802dcc",
+        "E-death-consul-2e6b71",
         "E-cohen-c17d22",
         "E-welch-mcgovern-ae12e5",
         "E-naya-e2a971"
@@ -736,7 +736,7 @@
       "id": "EVT-0025-002",
       "label": "Klein reads the Armed Burglary Murder report in the Tingen Morning Post",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-tingen-morning-post-8b4f33",
         "E-john-browning-7a1d62"
       ],
@@ -750,8 +750,8 @@
       "id": "EVT-0025-003",
       "label": "Klein realizes he is being watched and suspects his enhanced senses",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-transmigration-7f1d63",
+        "E-dwayne-802dcc",
+        "E-transmigration-01889f",
         "E-luck-enhancement-ritual-2a8c54"
       ],
       "evidence_ids": [
@@ -762,9 +762,9 @@
       "id": "EVT-0025-004",
       "label": "Klein takes a carriage toward Champagne Street to avoid leading a tail home",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-zouteland-street-be6f3a",
-        "E-nighthawks-acf9cc"
+        "E-dwayne-802dcc",
+        "E-36-zouteland-street-0bad86",
+        "E-nighthawks-1f592c"
       ],
       "evidence_ids": [
         "EV-0025-013",
@@ -775,7 +775,7 @@
       "id": "EVT-0025-005",
       "label": "Klein enters Saint Selena Cathedral and attends Mass",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-saint-selena-cathedral-25d0a1",
         "E-bishop-6d2b80"
       ],
@@ -788,10 +788,10 @@
       "id": "EVT-0025-006",
       "label": "Klein shows the Seventh Unit badge in the confessional and asks for Dunn Smith",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-seventh-unit-badge-3c8f47",
         "E-bishop-6d2b80",
-        "E-dunn-smith-0ca9f5"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0025-018",
@@ -802,7 +802,7 @@
       "id": "EVT-0025-007",
       "label": "A priest leads Klein through a secret door after the bishop signals",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-bishop-6d2b80",
         "E-priest-9e4c35"
       ],
@@ -814,7 +814,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -823,7 +823,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-mr-azik-5ca4f7",
+      "source": "E-death-consul-2e6b71",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -841,7 +841,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-fourth-epoch-5c59d5",
+      "source": "E-fourth-epoch-134600",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -913,7 +913,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-backlund-daily-tribune-2d6a95",
+      "source": "E-backlund-daily-tribune-158db2",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -931,7 +931,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-earth-a07443",
+      "source": "E-ch0523-000016",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -940,7 +940,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-transmigration-7f1d63",
+      "source": "E-transmigration-01889f",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -958,7 +958,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zouteland-street-be6f3a",
+      "source": "E-36-zouteland-street-0bad86",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -967,7 +967,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-nighthawks-acf9cc",
+      "source": "E-nighthawks-1f592c",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -994,7 +994,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-church-of-evernight-b4c2d7",
+      "source": "E-ch0529-000018",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1030,7 +1030,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-dunn-smith-0ca9f5",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0025",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -1076,7 +1076,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-saint-selena-cathedral-25d0a1",
-      "target": "E-church-of-evernight-b4c2d7",
+      "target": "E-ch0529-000018",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0025-016"
@@ -1086,7 +1086,7 @@
     {
       "type": "MEMBER_OF",
       "source": "E-bishop-6d2b80",
-      "target": "E-church-of-evernight-b4c2d7",
+      "target": "E-ch0529-000018",
       "inverse": "HAS_MEMBER",
       "evidence_ids": [
         "EV-0025-018"
@@ -1095,7 +1095,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-seventh-unit-badge-3c8f47",
-      "target": "E-nighthawks-acf9cc",
+      "target": "E-nighthawks-1f592c",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0025-018"
@@ -1104,8 +1104,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-dunn-smith-0ca9f5",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0025-019"

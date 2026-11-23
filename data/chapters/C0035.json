@@ -24,7 +24,7 @@
       "tags": []
     },
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
       "aliases": [
@@ -38,7 +38,7 @@
       "tags": []
     },
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [
@@ -52,7 +52,7 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -63,7 +63,7 @@
       "tags": []
     },
     {
-      "id": "E-roselle-gustav-5a8eb2",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "Roselle Gustav",
       "primary_type": "Character",
       "aliases": [
@@ -77,7 +77,7 @@
       "tags": []
     },
     {
-      "id": "E-blasphemy-slate-f46e14",
+      "id": "E-blasphemy-slate-098c5c",
       "canonical_name": "Blasphemy Slate",
       "primary_type": "Artifact",
       "aliases": [],
@@ -91,7 +91,7 @@
       "tags": []
     },
     {
-      "id": "E-spectator-pathway-383934",
+      "id": "E-spectator-a9bfae",
       "canonical_name": "Spectator",
       "primary_type": "Pathway",
       "aliases": [
@@ -123,21 +123,21 @@
       "tags": []
     },
     {
-      "id": "E-sonia-sea-9c6fa8",
+      "id": "E-sonia-sea-0fb1dc",
       "canonical_name": "Sonia Sea",
       "primary_type": "Location",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-secret-order-249d57",
+      "id": "E-secret-order-0d7b6a",
       "canonical_name": "Secret Order",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-antigonus-family-8d93db",
+      "id": "E-antigonus-family-2e75d4",
       "canonical_name": "Antigonus family",
       "primary_type": "Faction",
       "aliases": [],
@@ -155,14 +155,14 @@
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-church-of-evernight-b4c2d7",
+      "id": "E-ch0529-000018",
       "canonical_name": "Church of Evernight",
       "primary_type": "Faction",
       "aliases": [],
@@ -176,14 +176,14 @@
       "tags": []
     },
     {
-      "id": "E-dunn-smith-0ca9f5",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Captain",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-secret-diary-2e6c80",
+      "id": "E-emperor-roselle-664e32",
       "canonical_name": "secret diary",
       "primary_type": "Artifact",
       "aliases": [
@@ -194,14 +194,14 @@
       "tags": []
     },
     {
-      "id": "E-fourth-epoch-5c59d5",
+      "id": "E-fourth-epoch-134600",
       "canonical_name": "Fourth Epoch",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Character",
       "aliases": [
@@ -507,7 +507,7 @@
     },
     {
       "id": "MEN-0035-002",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0035-003",
         "EV-0035-008",
@@ -521,7 +521,7 @@
     },
     {
       "id": "MEN-0035-003",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0035-004",
         "EV-0035-006",
@@ -531,7 +531,7 @@
     },
     {
       "id": "MEN-0035-004",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0035-004",
         "EV-0035-011",
@@ -542,7 +542,7 @@
     },
     {
       "id": "MEN-0035-005",
-      "entity": "E-roselle-gustav-5a8eb2",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0035-001",
         "EV-0035-002",
@@ -551,7 +551,7 @@
     },
     {
       "id": "MEN-0035-006",
-      "entity": "E-blasphemy-slate-f46e14",
+      "entity": "E-blasphemy-slate-098c5c",
       "evidence_ids": [
         "EV-0035-001"
       ]
@@ -565,7 +565,7 @@
     },
     {
       "id": "MEN-0035-008",
-      "entity": "E-spectator-pathway-383934",
+      "entity": "E-spectator-a9bfae",
       "evidence_ids": [
         "EV-0035-008",
         "EV-0035-010",
@@ -595,21 +595,21 @@
     },
     {
       "id": "MEN-0035-012",
-      "entity": "E-sonia-sea-9c6fa8",
+      "entity": "E-sonia-sea-0fb1dc",
       "evidence_ids": [
         "EV-0035-013"
       ]
     },
     {
       "id": "MEN-0035-013",
-      "entity": "E-secret-order-249d57",
+      "entity": "E-secret-order-0d7b6a",
       "evidence_ids": [
         "EV-0035-015"
       ]
     },
     {
       "id": "MEN-0035-014",
-      "entity": "E-antigonus-family-8d93db",
+      "entity": "E-antigonus-family-2e75d4",
       "evidence_ids": [
         "EV-0035-015",
         "EV-0035-017"
@@ -626,14 +626,14 @@
     },
     {
       "id": "MEN-0035-016",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0035-018"
       ]
     },
     {
       "id": "MEN-0035-017",
-      "entity": "E-church-of-evernight-b4c2d7",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0035-016",
         "EV-0035-017"
@@ -648,14 +648,14 @@
     },
     {
       "id": "MEN-0035-019",
-      "entity": "E-dunn-smith-0ca9f5",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0035-019"
       ]
     },
     {
       "id": "MEN-0035-020",
-      "entity": "E-secret-diary-2e6c80",
+      "entity": "E-emperor-roselle-664e32",
       "evidence_ids": [
         "EV-0035-003",
         "EV-0035-009"
@@ -663,14 +663,14 @@
     },
     {
       "id": "MEN-0035-021",
-      "entity": "E-fourth-epoch-5c59d5",
+      "entity": "E-fourth-epoch-134600",
       "evidence_ids": [
         "EV-0035-017"
       ]
     },
     {
       "id": "MEN-0035-022",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0035-016"
       ]
@@ -696,9 +696,9 @@
       "label": "Audrey and Alger discuss Roselle's Blasphemy Slate and the twenty-two paths of the divine",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42",
-        "E-roselle-gustav-5a8eb2",
-        "E-blasphemy-slate-f46e14",
+        "E-alger-willson-3e9f42",
+        "E-emperor-roselle-664e32",
+        "E-blasphemy-slate-098c5c",
         "E-twenty-two-paths-of-the-divine-b5c6d7"
       ],
       "evidence_ids": [
@@ -710,9 +710,9 @@
       "id": "EVT-0035-002",
       "label": "Alger notes that Mr. Fool calls Roselle's legacy a diary",
       "participants": [
-        "E-alger-wilson-3e9f42",
-        "E-zhou-mingrui-e5a8be",
-        "E-secret-diary-2e6c80"
+        "E-alger-willson-3e9f42",
+        "E-dwayne-802dcc",
+        "E-emperor-roselle-664e32"
       ],
       "evidence_ids": [
         "EV-0035-003",
@@ -723,7 +723,7 @@
       "id": "EVT-0035-003",
       "label": "Mr. Fool guides Audrey to project written text onto the goatskin parchment",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31"
       ],
       "evidence_ids": [
@@ -736,11 +736,11 @@
       "id": "EVT-0035-004",
       "label": "Alger explains Spectators and Mr. Fool promises further payment for diary pages",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-audrey-hall-2b8d31",
-        "E-zhou-mingrui-e5a8be",
-        "E-spectator-pathway-383934",
-        "E-secret-diary-2e6c80"
+        "E-dwayne-802dcc",
+        "E-spectator-a9bfae",
+        "E-emperor-roselle-664e32"
       ],
       "evidence_ids": [
         "EV-0035-008",
@@ -753,7 +753,7 @@
       "id": "EVT-0035-005",
       "label": "Klein decides to act as a Seer to digest the potion",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-seer-2e2bc5"
       ],
       "evidence_ids": [
@@ -764,11 +764,11 @@
       "id": "EVT-0035-006",
       "label": "Alger shares news of Admiral Ludwell and the Black Tulip on the Sonia Sea",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-audrey-hall-2b8d31",
         "E-admiral-ludwell-1c8e35",
         "E-black-tulip-4f7a92",
-        "E-sonia-sea-9c6fa8"
+        "E-sonia-sea-0fb1dc"
       ],
       "evidence_ids": [
         "EV-0035-013",
@@ -779,9 +779,9 @@
       "id": "EVT-0035-007",
       "label": "Mr. Fool reveals the Secret Order lost an Antigonus family notebook",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
-        "E-secret-order-249d57",
-        "E-antigonus-family-8d93db",
+        "E-dwayne-802dcc",
+        "E-secret-order-0d7b6a",
+        "E-antigonus-family-2e75d4",
         "E-ancient-notebook-01a9db"
       ],
       "evidence_ids": [
@@ -792,10 +792,10 @@
       "id": "EVT-0035-008",
       "label": "Alger reveals the Church of Evernight destroyed the Antigonus family",
       "participants": [
-        "E-alger-wilson-3e9f42",
-        "E-antigonus-family-8d93db",
-        "E-church-of-evernight-b4c2d7",
-        "E-fourth-epoch-5c59d5"
+        "E-alger-willson-3e9f42",
+        "E-antigonus-family-2e75d4",
+        "E-ch0529-000018",
+        "E-fourth-epoch-134600"
       ],
       "evidence_ids": [
         "EV-0035-016",
@@ -806,11 +806,11 @@
       "id": "EVT-0035-009",
       "label": "Klein realizes why the Nighthawks valued the Antigonus notebook",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-nighthawks-acf9cc",
+        "E-dwayne-802dcc",
+        "E-nighthawks-1f592c",
         "E-ancient-notebook-01a9db",
         "E-tingen-city-2f6d90",
-        "E-dunn-smith-0ca9f5"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0035-018",
@@ -830,7 +830,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0035",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -839,7 +839,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0035",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -848,7 +848,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0035",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -857,7 +857,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "C0035",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -875,7 +875,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-secret-order-249d57",
+      "source": "E-secret-order-0d7b6a",
       "target": "C0035",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -884,8 +884,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
-      "target": "E-blasphemy-slate-f46e14",
+      "source": "E-emperor-roselle-664e32",
+      "target": "E-blasphemy-slate-098c5c",
       "inverse": "RELATED_TO",
       "label": "Roselle reportedly saw the Blasphemy Slate",
       "evidence_ids": [
@@ -894,7 +894,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-roselle-gustav-5a8eb2",
+      "source": "E-emperor-roselle-664e32",
       "target": "E-twenty-two-paths-of-the-divine-b5c6d7",
       "inverse": "RELATED_TO",
       "label": "Roselle's secret cards hid the twenty-two paths of the divine",
@@ -904,8 +904,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-zhou-mingrui-e5a8be",
-      "target": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Klein presides as Mr. Fool",
       "evidence_ids": [
@@ -914,8 +914,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-alger-wilson-3e9f42",
-      "target": "E-spectator-pathway-383934",
+      "source": "E-alger-willson-3e9f42",
+      "target": "E-spectator-a9bfae",
       "inverse": "RELATED_TO",
       "label": "Alger explains the demands of a Spectator",
       "evidence_ids": [
@@ -924,8 +924,8 @@
     },
     {
       "type": "OPPOSES",
-      "source": "E-church-of-evernight-b4c2d7",
-      "target": "E-antigonus-family-8d93db",
+      "source": "E-ch0529-000018",
+      "target": "E-antigonus-family-2e75d4",
       "inverse": "OPPOSED_BY",
       "evidence_ids": [
         "EV-0035-017"

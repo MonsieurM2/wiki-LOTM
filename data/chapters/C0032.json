@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -29,7 +29,7 @@
       "tags": []
     },
     {
-      "id": "E-daly-fe77cb",
+      "id": "E-daly-8192a3",
       "canonical_name": "Daly",
       "primary_type": "Character",
       "aliases": [
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -77,42 +77,42 @@
       "tags": []
     },
     {
-      "id": "E-cogitation-ec5fc0",
+      "id": "E-cogitation-3b2e82",
       "canonical_name": "Cogitation",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-spiritvision-94b361",
+      "id": "E-spirit-vision-7c3a19",
       "canonical_name": "Spirit Vision",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-soulbody-de6d84",
+      "id": "E-soul-body-4b9e21",
       "canonical_name": "Soul Body",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-astralprojection-2440b3",
+      "id": "E-astral-projection-2440b3",
       "canonical_name": "Astral Projection",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-bodyofheartandmind-2bb2c5",
+      "id": "E-body-of-heart-and-mind-2bb2c5",
       "canonical_name": "Body of Heart and Mind",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-etherbody-c5beae",
+      "id": "E-ether-body-c5beae",
       "canonical_name": "Ether Body",
       "primary_type": "Concept",
       "aliases": [],
@@ -126,14 +126,14 @@
       "tags": []
     },
     {
-      "id": "E-divination-93a4b5",
+      "id": "E-divination-2b9e14",
       "canonical_name": "divination",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-earth-a07443",
+      "id": "E-ch0523-000016",
       "canonical_name": "Earth",
       "primary_type": "Location",
       "aliases": [],
@@ -442,7 +442,7 @@
   "mentions": [
     {
       "id": "MEN-0032-001",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0032-003",
         "EV-0032-004",
@@ -476,7 +476,7 @@
     },
     {
       "id": "MEN-0032-003",
-      "entity": "E-daly-fe77cb",
+      "entity": "E-daly-8192a3",
       "evidence_ids": [
         "EV-0032-003"
       ]
@@ -492,7 +492,7 @@
     },
     {
       "id": "MEN-0032-005",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0032-008"
       ]
@@ -521,14 +521,14 @@
     },
     {
       "id": "MEN-0032-009",
-      "entity": "E-cogitation-ec5fc0",
+      "entity": "E-cogitation-3b2e82",
       "evidence_ids": [
         "EV-0032-007"
       ]
     },
     {
       "id": "MEN-0032-010",
-      "entity": "E-spiritvision-94b361",
+      "entity": "E-spirit-vision-7c3a19",
       "evidence_ids": [
         "EV-0032-011",
         "EV-0032-013"
@@ -536,7 +536,7 @@
     },
     {
       "id": "MEN-0032-011",
-      "entity": "E-soulbody-de6d84",
+      "entity": "E-soul-body-4b9e21",
       "evidence_ids": [
         "EV-0032-014",
         "EV-0032-015"
@@ -544,21 +544,21 @@
     },
     {
       "id": "MEN-0032-012",
-      "entity": "E-astralprojection-2440b3",
+      "entity": "E-astral-projection-2440b3",
       "evidence_ids": [
         "EV-0032-015"
       ]
     },
     {
       "id": "MEN-0032-013",
-      "entity": "E-bodyofheartandmind-2bb2c5",
+      "entity": "E-body-of-heart-and-mind-2bb2c5",
       "evidence_ids": [
         "EV-0032-017"
       ]
     },
     {
       "id": "MEN-0032-014",
-      "entity": "E-etherbody-c5beae",
+      "entity": "E-ether-body-c5beae",
       "evidence_ids": [
         "EV-0032-018"
       ]
@@ -572,14 +572,14 @@
     },
     {
       "id": "MEN-0032-016",
-      "entity": "E-divination-93a4b5",
+      "entity": "E-divination-2b9e14",
       "evidence_ids": [
         "EV-0032-016"
       ]
     },
     {
       "id": "MEN-0032-017",
-      "entity": "E-earth-a07443",
+      "entity": "E-ch0523-000016",
       "evidence_ids": [
         "EV-0032-010"
       ]
@@ -626,7 +626,7 @@
       "label": "Old Neil jokes about preparations before Klein drinks the Seer potion",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-intisaurmirgrapewine-07317f",
         "E-desicigar-ed5148",
         "E-gwentcards-0a3bd1"
@@ -640,8 +640,8 @@
       "id": "EVT-0032-002",
       "label": "Klein's visions recall the Spirit Medium Daly and his luck enhancement ritual",
       "participants": [
-        "E-klein-moretti-6a3250",
-        "E-daly-fe77cb",
+        "E-dwayne-802dcc",
+        "E-daly-8192a3",
         "E-luck-enhancement-ritual-2a8c54"
       ],
       "evidence_ids": [
@@ -654,10 +654,10 @@
       "label": "Old Neil guides Klein into Cogitation and Klein becomes a Seer and a Beyonder",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
-        "E-cogitation-ec5fc0",
+        "E-dwayne-802dcc",
+        "E-cogitation-3b2e82",
         "E-seer-2e2bc5",
-        "E-beyonder-bc7f3b"
+        "E-beyonder-6b1d42"
       ],
       "evidence_ids": [
         "EV-0032-005",
@@ -671,11 +671,11 @@
       "label": "Old Neil teaches Klein about Mystic Experience and Spirit Vision in the alchemy room",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-mysticism-14f9f3",
         "E-mysticexperience-3d1721",
-        "E-earth-a07443",
-        "E-spiritvision-94b361",
+        "E-ch0523-000016",
+        "E-spirit-vision-7c3a19",
         "E-alchemyroom-1dd9e6"
       ],
       "evidence_ids": [
@@ -691,12 +691,12 @@
       "label": "Old Neil explains the four non-physical levels and the meanings of aura colors",
       "participants": [
         "E-old-neil-3c4d5e",
-        "E-klein-moretti-6a3250",
-        "E-soulbody-de6d84",
-        "E-astralprojection-2440b3",
-        "E-divination-93a4b5",
-        "E-bodyofheartandmind-2bb2c5",
-        "E-etherbody-c5beae",
+        "E-dwayne-802dcc",
+        "E-soul-body-4b9e21",
+        "E-astral-projection-2440b3",
+        "E-divination-2b9e14",
+        "E-body-of-heart-and-mind-2bb2c5",
+        "E-ether-body-c5beae",
         "E-aura-c11807"
       ],
       "evidence_ids": [
@@ -711,7 +711,7 @@
       "id": "EVT-0032-006",
       "label": "Klein sees a pair of translucent eyes behind Old Neil",
       "participants": [
-        "E-klein-moretti-6a3250",
+        "E-dwayne-802dcc",
         "E-old-neil-3c4d5e",
         "E-seer-2e2bc5",
         "E-mystery-pryer-ae70fd"
@@ -761,7 +761,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -770,7 +770,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-daly-fe77cb",
+      "source": "E-daly-8192a3",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -797,7 +797,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-cogitation-ec5fc0",
+      "source": "E-cogitation-3b2e82",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -806,7 +806,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-beyonder-bc7f3b",
+      "source": "E-beyonder-6b1d42",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -833,7 +833,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-earth-a07443",
+      "source": "E-ch0523-000016",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -842,7 +842,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-spiritvision-94b361",
+      "source": "E-spirit-vision-7c3a19",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -869,7 +869,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-soulbody-de6d84",
+      "source": "E-soul-body-4b9e21",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -878,7 +878,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-astralprojection-2440b3",
+      "source": "E-astral-projection-2440b3",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -887,7 +887,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-divination-93a4b5",
+      "source": "E-divination-2b9e14",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -896,7 +896,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-bodyofheartandmind-2bb2c5",
+      "source": "E-body-of-heart-and-mind-2bb2c5",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -905,7 +905,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-etherbody-c5beae",
+      "source": "E-ether-body-c5beae",
       "target": "C0032",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -923,8 +923,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-daly-fe77cb",
+      "source": "E-dwayne-802dcc",
+      "target": "E-daly-8192a3",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0032-003"
@@ -933,7 +933,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-cogitation-ec5fc0",
+      "source": "E-cogitation-3b2e82",
       "target": "E-mysticism-14f9f3",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -943,8 +943,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-soulbody-de6d84",
-      "target": "E-astralprojection-2440b3",
+      "source": "E-soul-body-4b9e21",
+      "target": "E-astral-projection-2440b3",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0032-015"
@@ -953,8 +953,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-divination-93a4b5",
-      "target": "E-astralprojection-2440b3",
+      "source": "E-divination-2b9e14",
+      "target": "E-astral-projection-2440b3",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0032-016"
@@ -964,7 +964,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-aura-c11807",
-      "target": "E-etherbody-c5beae",
+      "target": "E-ether-body-c5beae",
       "inverse": "RELATED_TO",
       "evidence_ids": [
         "EV-0032-018"
@@ -973,7 +973,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-spiritvision-94b361",
+      "source": "E-spirit-vision-7c3a19",
       "target": "E-aura-c11807",
       "inverse": "RELATED_TO",
       "evidence_ids": [
@@ -1003,7 +1003,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
+      "source": "E-dwayne-802dcc",
       "target": "E-seer-2e2bc5",
       "inverse": "RELATED_TO",
       "evidence_ids": [

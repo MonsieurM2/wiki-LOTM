@@ -7,7 +7,7 @@
   "status": "verified",
   "entities": [
     {
-      "id": "E-zhou-mingrui-e5a8be",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Zhou Mingrui",
       "primary_type": "Character",
       "aliases": [
@@ -18,7 +18,7 @@
       "tags": []
     },
     {
-      "id": "E-klein-moretti-6a3250",
+      "id": "E-dwayne-802dcc",
       "canonical_name": "Klein Moretti",
       "primary_type": "Character",
       "aliases": [
@@ -40,7 +40,7 @@
       "tags": []
     },
     {
-      "id": "E-alger-wilson-3e9f42",
+      "id": "E-alger-willson-3e9f42",
       "canonical_name": "Alger Wilson",
       "primary_type": "Character",
       "aliases": [
@@ -51,42 +51,42 @@
       "tags": []
     },
     {
-      "id": "E-evernight-goddess-4a9d31",
+      "id": "E-ch0529-000018",
       "canonical_name": "Evernight Goddess",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-lord-of-storms-2b8e57",
+      "id": "E-leodero-649907",
       "canonical_name": "Lord of Storms",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-god-of-steam-and-machinery-8f2c60",
+      "id": "E-church-of-god-of-steam-and-machinery-62e08a",
       "canonical_name": "God of Steam and Machinery",
       "primary_type": "Character",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-nighthawks-acf9cc",
+      "id": "E-nighthawks-1f592c",
       "canonical_name": "Nighthawks",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-mandated-punishers-ed47bb",
+      "id": "E-mandated-punisher-4c7d29",
       "canonical_name": "Mandated Punishers",
       "primary_type": "Faction",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-machinery-hivemind-327b50",
+      "id": "E-machinery-hivemind-00c1fc",
       "canonical_name": "Machinery Hivemind",
       "primary_type": "Faction",
       "aliases": [],
@@ -100,7 +100,7 @@
       "tags": []
     },
     {
-      "id": "E-loen-d151af",
+      "id": "E-loen-9b37f2",
       "canonical_name": "Loen",
       "primary_type": "Location",
       "aliases": [],
@@ -114,7 +114,7 @@
       "tags": []
     },
     {
-      "id": "E-beyonder-bc7f3b",
+      "id": "E-beyonder-6b1d42",
       "canonical_name": "Beyonder",
       "primary_type": "Concept",
       "aliases": [],
@@ -128,28 +128,28 @@
       "tags": []
     },
     {
-      "id": "E-fifth-epoch-d3604b",
+      "id": "E-fifth-epoch-25cb9d",
       "canonical_name": "Fifth Epoch",
       "primary_type": "Concept",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-blasphemy-slate-f46e14",
+      "id": "E-blasphemy-slate-098c5c",
       "canonical_name": "Blasphemy Slate",
       "primary_type": "Artifact",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-sailor-pathway-9d14e4",
+      "id": "E-sailor-pathway-423e34",
       "canonical_name": "Sailor",
       "primary_type": "Pathway",
       "aliases": [],
       "tags": []
     },
     {
-      "id": "E-spectator-pathway-383934",
+      "id": "E-spectator-a9bfae",
       "canonical_name": "Spectator",
       "primary_type": "Pathway",
       "aliases": [],
@@ -396,7 +396,7 @@
   "mentions": [
     {
       "id": "MEN-0006-001",
-      "entity": "E-zhou-mingrui-e5a8be",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0006-002",
         "EV-0006-004",
@@ -406,7 +406,7 @@
     },
     {
       "id": "MEN-0006-002",
-      "entity": "E-klein-moretti-6a3250",
+      "entity": "E-dwayne-802dcc",
       "evidence_ids": [
         "EV-0006-010"
       ]
@@ -424,7 +424,7 @@
     },
     {
       "id": "MEN-0006-004",
-      "entity": "E-alger-wilson-3e9f42",
+      "entity": "E-alger-willson-3e9f42",
       "evidence_ids": [
         "EV-0006-004",
         "EV-0006-008",
@@ -438,7 +438,7 @@
     },
     {
       "id": "MEN-0006-005",
-      "entity": "E-loen-d151af",
+      "entity": "E-loen-9b37f2",
       "evidence_ids": [
         "EV-0006-001",
         "EV-0006-008"
@@ -446,7 +446,7 @@
     },
     {
       "id": "MEN-0006-006",
-      "entity": "E-beyonder-bc7f3b",
+      "entity": "E-beyonder-6b1d42",
       "evidence_ids": [
         "EV-0006-005",
         "EV-0006-009"
@@ -454,14 +454,14 @@
     },
     {
       "id": "MEN-0006-007",
-      "entity": "E-evernight-goddess-4a9d31",
+      "entity": "E-ch0529-000018",
       "evidence_ids": [
         "EV-0006-009"
       ]
     },
     {
       "id": "MEN-0006-008",
-      "entity": "E-lord-of-storms-2b8e57",
+      "entity": "E-leodero-649907",
       "evidence_ids": [
         "EV-0006-009",
         "EV-0006-016"
@@ -469,28 +469,28 @@
     },
     {
       "id": "MEN-0006-009",
-      "entity": "E-god-of-steam-and-machinery-8f2c60",
+      "entity": "E-church-of-god-of-steam-and-machinery-62e08a",
       "evidence_ids": [
         "EV-0006-009"
       ]
     },
     {
       "id": "MEN-0006-010",
-      "entity": "E-nighthawks-acf9cc",
+      "entity": "E-nighthawks-1f592c",
       "evidence_ids": [
         "EV-0006-011"
       ]
     },
     {
       "id": "MEN-0006-011",
-      "entity": "E-mandated-punishers-ed47bb",
+      "entity": "E-mandated-punisher-4c7d29",
       "evidence_ids": [
         "EV-0006-011"
       ]
     },
     {
       "id": "MEN-0006-012",
-      "entity": "E-machinery-hivemind-327b50",
+      "entity": "E-machinery-hivemind-00c1fc",
       "evidence_ids": [
         "EV-0006-011"
       ]
@@ -504,28 +504,28 @@
     },
     {
       "id": "MEN-0006-014",
-      "entity": "E-fifth-epoch-d3604b",
+      "entity": "E-fifth-epoch-25cb9d",
       "evidence_ids": [
         "EV-0006-010"
       ]
     },
     {
       "id": "MEN-0006-015",
-      "entity": "E-blasphemy-slate-f46e14",
+      "entity": "E-blasphemy-slate-098c5c",
       "evidence_ids": [
         "EV-0006-012"
       ]
     },
     {
       "id": "MEN-0006-016",
-      "entity": "E-sailor-pathway-9d14e4",
+      "entity": "E-sailor-pathway-423e34",
       "evidence_ids": [
         "EV-0006-013"
       ]
     },
     {
       "id": "MEN-0006-017",
-      "entity": "E-spectator-pathway-383934",
+      "entity": "E-spectator-a9bfae",
       "evidence_ids": [
         "EV-0006-014",
         "EV-0006-015"
@@ -566,7 +566,7 @@
       "id": "EVT-0006-001",
       "label": "Zhou Mingrui chooses to keep a mysterious identity before the couple",
       "participants": [
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0006-002"
@@ -576,9 +576,9 @@
       "id": "EVT-0006-002",
       "label": "The gray fog forms a giant palace with a bronze table and high-back chairs",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0006-006"
@@ -589,7 +589,7 @@
       "label": "Audrey asks what she can do to become a Beyonder",
       "participants": [
         "E-audrey-hall-2b8d31",
-        "E-zhou-mingrui-e5a8be"
+        "E-dwayne-802dcc"
       ],
       "evidence_ids": [
         "EV-0006-005"
@@ -599,7 +599,7 @@
       "id": "EVT-0006-004",
       "label": "Alger explains joining the Churches as a route to becoming a Beyonder",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-audrey-hall-2b8d31"
       ],
       "evidence_ids": [
@@ -610,7 +610,7 @@
       "id": "EVT-0006-005",
       "label": "Alger describes the Sequence 9 Sailor and Spectator potions",
       "participants": [
-        "E-alger-wilson-3e9f42",
+        "E-alger-willson-3e9f42",
         "E-audrey-hall-2b8d31"
       ],
       "evidence_ids": [
@@ -622,9 +622,9 @@
       "id": "EVT-0006-006",
       "label": "Audrey and Alger ask the stranger's name and he calls himself The Fool",
       "participants": [
-        "E-zhou-mingrui-e5a8be",
+        "E-dwayne-802dcc",
         "E-audrey-hall-2b8d31",
-        "E-alger-wilson-3e9f42"
+        "E-alger-willson-3e9f42"
       ],
       "evidence_ids": [
         "EV-0006-017"
@@ -634,7 +634,7 @@
   "relations": [
     {
       "type": "APPEARS_IN",
-      "source": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
       "target": "C0006",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -652,7 +652,7 @@
     },
     {
       "type": "APPEARS_IN",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "C0006",
       "inverse": "CONTAINS_MENTION",
       "evidence_ids": [
@@ -661,8 +661,8 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-klein-moretti-6a3250",
-      "target": "E-zhou-mingrui-e5a8be",
+      "source": "E-dwayne-802dcc",
+      "target": "E-dwayne-802dcc",
       "inverse": "RELATED_TO",
       "label": "Zhou Mingrui relies on Klein's fragmented historical knowledge",
       "evidence_ids": [
@@ -672,7 +672,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-audrey-hall-2b8d31",
-      "target": "E-beyonder-bc7f3b",
+      "target": "E-beyonder-6b1d42",
       "inverse": "RELATED_TO",
       "label": "Audrey asks how to become a Beyonder",
       "evidence_ids": [
@@ -682,7 +682,7 @@
     {
       "type": "RELATED_TO",
       "source": "E-keepers-of-the-seas-bdeaf5",
-      "target": "E-lord-of-storms-2b8e57",
+      "target": "E-leodero-649907",
       "inverse": "RELATED_TO",
       "label": "The Keepers of the Seas are associated with the Lord of Storms",
       "evidence_ids": [
@@ -691,7 +691,7 @@
     },
     {
       "type": "OWNS",
-      "source": "E-alger-wilson-3e9f42",
+      "source": "E-alger-willson-3e9f42",
       "target": "E-sequence-9-bd8388",
       "inverse": "OWNED_BY",
       "label": "Alger possesses two sets of Sequence 9 potion formulas",
@@ -702,7 +702,7 @@
     },
     {
       "type": "RELATED_TO",
-      "source": "E-spectator-pathway-383934",
+      "source": "E-spectator-a9bfae",
       "target": "E-ghost-sharks-b52e60",
       "inverse": "RELATED_TO",
       "label": "Alger offers the Spectator formula in exchange for Ghost Shark blood",
