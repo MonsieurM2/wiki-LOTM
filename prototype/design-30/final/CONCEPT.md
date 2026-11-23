@@ -1,38 +1,33 @@
-# Case Files — Bureau of Mysteries (version finale)
+# Case Files — Bureau of Mysteries (version finale, révision 2)
 
-**Réf. BM-07/B rev.2 · Objet : habillage du wiki, organisation inchangée · Classification : ouvert.**
+**Réf. BM-07/B · Objet : habillage du wiki, organisation inchangée · Classification : ouvert.**
 
 ## Le principe
 
-Le site n'est pas un déguisement de détective. C'est un **dossier bien tenu** : chaque chapitre est un rapport, chaque fiche une personne identifiée, chaque citation une pièce versée au dossier avec sa référence. Le lecteur n'a rien à résoudre — il lui suffit de pouvoir vérifier, et de retrouver son chemin. C'est exactement le fonctionnement du Tarot Club dans l'œuvre : on y reçoit des demandes, on y confronte des témoignages, on y rend des comptes. La métaphore est canonique ; elle n'a pas besoin d'être soulignée.
+Le site est un **dossier d'enquête physique** : papier kraft, machine à écrire, cachets rouges, tampon fantôme, sommaire à onglets numérotés, fiches de preuve encadrées. C'est le langage visuel du Tarot Club — on y reçoit des demandes, on confronte des témoignages, on classe des pièces. La métaphore est canonique et doit se *voir*.
 
-Ce qui a été refusé de la version 07 : le monospace appliqué à tout le texte, les majuscules généralisées, le cachet géant en filigrane fixe, la grille papier-bruitée sur toute la page, l'étiquette française injectée en CSS. Tout cela faisait « accessoire de costume » et fragilisait la lecture de 1394 chapitres.
+## Ce qui s'est passé entre les deux révisions
+
+La révision 1 avait « approfondi » le concept en le sage-fié : serif pour tout, monospace réduit aux identifiants, cachet réduit à 34 px, kraft désaturé. Le résultat était propre mais avait **perdu le réalisme du dossier**, qui est précisément ce que tu avais choisi. La révision 2 restaure le langage de la proposition 07 et ne corrige que ses vrais défauts.
+
+## Ce qui a été corrigé (et rien d'autre)
+
+1. **Étiquette anglaise** : `RÉF·` (français) devient `REF.` dans la bande des fiches de preuve. Le site est anglais.
+2. **Lisibilité des métadonnées** : manille `#C9BC9C` → `#DCCFB0`, numéros de référence `#8A7E60` → `#A89A7A`, cachet `#9A342A` → `#B04338`. Le grain kraft et le tampon restent, mais les petits textes se lisent.
+3. Tout le reste est conservé : papier kraft texturé, grand cachet circulaire en filigrane, typographie typewriter en capitales espacées, sommaire `01 / CHAPTER` avec tampon incliné sur l'onglet actif, `CHAPTER 1: CRIMSON` souligné en pointillé, panneau de marge à double cadre, fiches à filet rouge, perforation sur « Continue reading ».
 
 ## Tokens
 
-- `ink #0e0d0b` — fond, noir de chemise de classement
-- `file #24201a` — kraft désaturé des panneaux
-- `paper #ded3bb` — texte, parchemin d'archive
-- `oxblood #6d2027` — seule marque d'autorité : référence de preuve, onglet actif
-- `graphite #948a78` — métadonnées, numéros, filets
+- `kraft #3A342B` — fond, papier d'archive
+- `encre #141210` — panneaux et sommaire
+- `paper #DCCFB0` — texte
+- `cachet #B04338` — tampons, filets d'autorité, onglet actif
+- `ref #A89A7A` — numéros et métadonnées
 
-Typographie — deux rôles, pas deux décorations :
-- **Cormorant Garamond** : titres et noms propres (la voix humaine de l'archive)
-- **Spectral** : corps et interface (la lecture longue)
-- **monospace système** : uniquement les identifiants `EV-0001-001` et les numéros de référence. Jamais une phrase.
+Typographie : monospace à chiffres tabulaires pour tout l'interface, italique pour les citations. C'est un choix lié au sujet — la machine à écrire du dossier — pas un défaut générique.
 
-## Règles de mise en page
+## Limite assumée
 
-1. La chemise se lit en haut : un filet fin, un onglet d'en-tête avec `Ref. BM-07/B`, aucun tampon géant.
-2. Les gloses marginales deviennent des **fiches versées au dossier** : fond kraft, filet oxblood à gauche, référence en monospace, citation en serif italique.
-3. Le sommaire est un **index de classeur** : numéros tabulaires, casse normale, l'onglet actif marqué d'un simple filet oxblood — pas de tampon incliné.
-4. La citation prouvée porte un petit sceau texte `verified` en oxblood, pas un cachet graphique.
-5. Le grain papier reste aux bords (filets, ombres), jamais au-dessus du texte.
+Le grain et le grand filigrane coûtent un peu de contraste. Ils sont volontaires : c'est le prix du réalisme. La correction s'est limitée à éclaircir les textes pour que la lecture de 1394 chapitres reste possible.
 
-## Équilibre
-
-Une seule chose frappe : la **discipline typographique** — serif pour lire, monospace pour vérifier. Le reste est calme. C'est ce qui rend le concept « dossier » crédible sans devenir exotique.
-
-## Risque
-
-L'oxblood sur kraft reste le point sensible : réservé aux filets et aux références, jamais au corps du texte, il doit être vérifié en contraste réel. Le monospace, limité aux identifiants, évite la fatigue de lecture de la version 07.
+*`PROTOTYPE-v2.html` est la version finale ; `PROTOTYPE.html` (révision 1) est conservée comme trace de l'écart écarté.*
