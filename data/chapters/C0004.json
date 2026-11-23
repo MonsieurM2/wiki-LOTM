@@ -88,7 +88,7 @@
       "tags": []
     },
     {
-      "id": "E-tingen-7c0ad4",
+      "id": "E-tingen-city-2f6d90",
       "canonical_name": "Tingen",
       "primary_type": "Location",
       "aliases": [],
@@ -590,7 +590,7 @@
     },
     {
       "id": "MEN-0004-009",
-      "entity": "E-tingen-7c0ad4",
+      "entity": "E-tingen-city-2f6d90",
       "evidence_ids": [
         "EV-0004-004"
       ]

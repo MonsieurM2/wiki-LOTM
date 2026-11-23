@@ -64,7 +64,7 @@
       "tags": []
     },
     {
-      "id": "E-captain-d4a6e0",
+      "id": "E-dunn-smith-0ca9f5",
       "canonical_name": "Captain",
       "primary_type": "Character",
       "aliases": [],
@@ -507,7 +507,7 @@
     },
     {
       "id": "MEN-0007-006",
-      "entity": "E-captain-d4a6e0",
+      "entity": "E-dunn-smith-0ca9f5",
       "evidence_ids": [
         "EV-0007-005"
       ]
@@ -672,7 +672,7 @@
       "participants": [
         "E-alger-wilson-3e9f42",
         "E-williams-c3f5d9",
-        "E-captain-d4a6e0"
+        "E-dunn-smith-0ca9f5"
       ],
       "evidence_ids": [
         "EV-0007-004",
