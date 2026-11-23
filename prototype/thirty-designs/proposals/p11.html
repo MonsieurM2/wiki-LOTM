@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE p11 — The Spiral Stair</title>
+<style>
+@font-face{font-family:Cormorant;src:url('../fonts/cormorant-roman.woff2') format('woff2');font-display:swap}
+@font-face{font-family:Cormorant;src:url('../fonts/cormorant-italic.woff2') format('woff2');font-style:italic;font-display:swap}
+@font-face{font-family:Spectral;src:url('../fonts/spectral-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Spectral;src:url('../fonts/spectral-500.woff2') format('woff2');font-weight:500;font-display:swap}
+:root{--char:#161412;--ox:#6A2027;--gold:#C9A64C;--par:#E6D8B7}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--char);color:var(--par);font:400 15px/1.55 Spectral,Georgia,serif}
+h1,.brand,.ref{font-family:Cormorant,Georgia,serif;font-weight:400}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 24px;border-bottom:1px solid rgba(201,166,76,.3)}
+.brand{font-size:24px}
+.nav{font:500 13px Spectral,serif;color:var(--gold)}
+main{max-width:880px;margin:0 auto;padding:18px 20px 40px}
+h1{font-size:20px;margin:8px 0 0;color:rgba(230,216,183,.7)}
+.stage{display:grid;place-items:center;padding:6px 0}
+.wrap{width:400px;max-width:100%;touch-action:manipulation}
+svg{width:400px;height:400px;max-width:100%;display:block;margin:0 auto}
+.spiral-line{fill:none;stroke:rgba(201,166,76,.45);stroke-width:1.2}
+.tread{stroke:rgba(201,166,76,.55);stroke-width:1.4}
+.tread.crimson{stroke:var(--ox);stroke-width:3}
+svg text{font:500 11px Spectral,serif;fill:rgba(230,216,183,.55);text-anchor:middle;dominant-baseline:middle}
+svg text.gold{font-family:Cormorant,serif;font-style:italic;font-size:14px;fill:var(--gold)}
+.hit{cursor:pointer}
+#walker{fill:var(--gold);transition:transform .25s ease-out}
+#walker.lit{fill:var(--ox)}
+.hint{text-align:center;color:var(--gold);font:500 13px Spectral,serif;min-height:24px;margin:4px 0 0}
+.readout{border-top:1px solid rgba(201,166,76,.35);padding-top:18px;margin-top:14px}
+blockquote{margin:0;max-width:680px}
+.proof{margin-top:14px;border-left:2px solid var(--ox);padding-left:14px}
+.proof p{margin:0 0 5px}
+.ref{font-style:italic;color:var(--gold)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:18px}
+button{font:500 14px Spectral,serif;color:var(--par);background:transparent;border:1px solid var(--gold);min-height:44px;padding:0 18px;cursor:pointer}
+button:hover:not(:disabled){background:rgba(201,166,76,.12)}
+button:disabled{opacity:.35;cursor:not-allowed}
+.sealid{font-family:Cormorant,serif;color:var(--gold);margin-left:8px}
+.link{border:none;border-bottom:1px solid var(--gold);padding:0 0 3px}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media(max-width:820px){svg{height:320px}main{padding:14px 14px 32px}.brand{font-size:20px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><span class="brand">Lord of the Mysteries</span><span class="nav">Volume one</span></header>
+<main>
+<h1>The Spiral Stair</h1>
+<div class="stage">
+<div class="wrap" id="wrap" tabindex="0" role="slider" aria-label="Spiral stair" aria-valuemin="1" aria-valuemax="13" aria-valuenow="1" aria-valuetext="Take the next step">
+<svg id="svg" viewBox="0 0 400 400" aria-hidden="true">
+<path class="spiral-line" id="line"></path>
+<g id="treads"></g>
+<circle id="walker" r="7"></circle>
+</svg>
+</div>
+</div>
+<p class="hint" id="hint">Take the next step</p>
+<div class="readout" id="readout" hidden>
+<blockquote>« A gaudy and dazzling dreamworld filled with murmurs instantly shattered. The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again. »</blockquote>
+<div class="proof" id="proof" hidden>
+<p>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</p>
+<p class="ref">Volume 1, chapter 1 — Crimson</p>
+</div>
+</div>
+<div class="actions">
+<button id="seal" disabled>Read the inscription <span class="sealid">EV-0001-001</span></button>
+<button class="link" id="back" hidden>Descend the stair</button>
+</div>
+</main>
+<script>
+(function(){
+  var NS='http://www.w3.org/2000/svg',cx=200,cy=200,steps=12,target=7;
+  var wrap=document.getElementById('wrap'),line=document.getElementById('line');
+  var treads=document.getElementById('treads'),walker=document.getElementById('walker');
+  var hint=document.getElementById('hint'),readout=document.getElementById('readout');
+  var proof=document.getElementById('proof'),seal=document.getElementById('seal'),back=document.getElementById('back');
+  var step=0;
+  function make(name,attrs){
+    var n=document.createElementNS(NS,name);
+    for(var k in attrs)n.setAttribute(k,attrs[k]);
+    return n;
+  }
+  function point(i){
+    var th=(steps-i)*Math.PI/2;
+    var r=10+6.2*th;
+    return {th:th,r:r,x:cx+r*Math.cos(th),y:cy+r*Math.sin(th)};
+  }
+  function build(){
+    var d='';
+    for(var k=0;k<=240;k++){
+      var th=6*Math.PI*(1-k/240),r=10+6.2*th;
+      d+=(k?' L':'M')+(cx+r*Math.cos(th)).toFixed(2)+' '+(cy+r*Math.sin(th)).toFixed(2);
+    }
+    line.setAttribute('d',d);
+    for(var i=0;i<=steps;i++){
+      var p=point(i),c=Math.cos(p.th),s=Math.sin(p.th);
+      var t=make('line',{x1:cx+(p.r-7)*c,y1:cy+(p.r-7)*s,x2:cx+(p.r+7)*c,y2:cy+(p.r+7)*s});
+      t.setAttribute('class','tread'+(i===target?' crimson':''));
+      treads.appendChild(t);
+      var hitArea=make('circle',{cx:p.x,cy:p.y,r:22,fill:'transparent','class':'hit'});
+      hitArea.addEventListener('click',function(n){return function(){setStep(n);};}(i));
+      treads.appendChild(hitArea);
+      if(i===0||i===target||i===steps){
+        var label=make('text',{x:cx+(p.r+22)*c,y:cy+(p.r+22)*s});
+        if(i===target){label.setAttribute('class','gold');label.textContent='Chapter one';}
+        else label.textContent=(i===0?'The first step':'The landing');
+        treads.appendChild(label);
+      }
+    }
+  }
+  function setStep(n){
+    step=Math.max(0,Math.min(steps,n));
+    var p=point(step);
+    walker.style.transform='translate('+p.x.toFixed(2)+'px,'+p.y.toFixed(2)+'px)';
+    var engaged=step===target;
+    walker.classList.toggle('lit',engaged);
+    readout.hidden=!engaged;
+    seal.disabled=!engaged;
+    hint.textContent=engaged?'The stair holds at chapter one':(step===0?'Take the next step':'The stair turns');
+    if(!engaged){proof.hidden=true;seal.hidden=false;back.hidden=true;}
+    wrap.setAttribute('aria-valuenow',String(step+1));
+    wrap.setAttribute('aria-valuetext',hint.textContent);
+  }
+  wrap.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'||e.key==='ArrowUp')setStep(step+1);
+    else if(e.key==='ArrowLeft'||e.key==='ArrowDown')setStep(step-1);
+    else return;
+    e.preventDefault();
+  });
+  seal.addEventListener('click',function(){
+    proof.hidden=false;seal.hidden=true;back.hidden=false;hint.textContent='The inscription is open';
+  });
+  back.addEventListener('click',function(){setStep(0);});
+  build();
+  setStep(0);
+})();
+</script>
+</body>
+</html>

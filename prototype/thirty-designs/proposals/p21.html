@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE p21 — The Reliquary</title>
+<style>
+@font-face{font-family:Cormorant;src:url('../fonts/cormorant-roman.woff2') format('woff2');font-display:swap}
+@font-face{font-family:Cormorant;src:url('../fonts/cormorant-italic.woff2') format('woff2');font-style:italic;font-display:swap}
+@font-face{font-family:Spectral;src:url('../fonts/spectral-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Spectral;src:url('../fonts/spectral-500.woff2') format('woff2');font-weight:500;font-display:swap}
+:root{--char:#151412;--ox:#7A2429;--gold:#CBA649;--par:#E8D9B6}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;min-height:100vh;background:var(--char);color:var(--par);font:400 15px/1.6 Spectral,Georgia,serif}
+h1,.brand,.labelhead{font-family:Cormorant,Georgia,serif;font-weight:400}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 24px;border-bottom:1px solid rgba(203,166,73,.3)}
+.brand{font-size:24px}
+.nav{font:500 13px Spectral,serif;color:var(--gold)}
+main{max-width:880px;margin:0 auto;padding:18px 20px 44px}
+h1{font-size:27px;margin:10px 0 2px}
+.note{margin:0 0 16px;font-size:13px;color:rgba(232,217,182,.55)}
+.case{position:relative;width:360px;max-width:100%;height:300px;margin:0 auto;border:2px solid var(--gold);box-shadow:inset 0 0 0 1px rgba(232,217,182,.16),0 0 0 1px rgba(203,166,73,.2)}
+.rivet{position:absolute;width:8px;height:8px;border-radius:50%;background:var(--gold);opacity:.8}
+.r1{left:7px;top:7px}.r2{right:7px;top:7px}.r3{left:7px;bottom:7px}.r4{right:7px;bottom:7px}
+.relic{position:absolute;inset:24px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;opacity:0;transition:opacity .5s}
+.case.open .relic{opacity:1}
+.shard{width:38px;height:46px;background:var(--ox);clip-path:polygon(50% 0,100% 36%,72% 100%,22% 88%,0 32%);border:1px solid var(--gold)}
+.relic blockquote{margin:0;font-size:14px;line-height:1.5}
+.glass{position:absolute;inset:0;z-index:2;display:grid;place-items:center;background:rgba(232,217,182,.04);border:1px solid rgba(232,217,182,.24);transition:transform .6s ease,opacity .6s ease}
+.case.open .glass{transform:translateY(-106%) rotate(-3deg);opacity:.18;pointer-events:none}
+.wax{width:88px;height:88px;border-radius:50%;border:3px solid var(--ox);background:var(--ox);color:var(--par);display:grid;place-items:center;font:400 16px Cormorant,Georgia,serif;transform:rotate(-9deg);box-shadow:0 0 0 5px rgba(122,36,41,.25)}
+.plinth{width:230px;max-width:80%;height:12px;margin:-2px auto 0;border:1px solid var(--gold);background:var(--ox)}
+.hint{min-height:24px;margin:14px 0 0;color:var(--gold);font:500 13px Spectral,serif;text-align:center}
+.label{margin:16px auto 0;max-width:560px;border:1px dashed var(--gold);padding:14px 18px}
+.labelhead{margin:0 0 8px;font-size:19px}
+.label p{margin:0 0 6px}
+.ref{font-family:Cormorant,Georgia,serif;font-style:italic;color:var(--gold)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:18px}
+button.action,button.link{font:500 14px Spectral,serif;color:var(--par);background:transparent;border:1px solid var(--gold);min-height:44px;padding:0 18px;cursor:pointer}
+button.action:hover:not(:disabled){background:rgba(203,166,73,.12)}
+button.action:disabled{opacity:.35;cursor:not-allowed}
+.sealid{font-family:Cormorant,Georgia,serif;color:var(--gold);margin-left:6px}
+button.link{border:none;border-bottom:1px solid var(--gold);padding:0 0 3px}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media(max-width:820px){main{padding:14px 14px 32px}.brand{font-size:20px}.case{height:340px}.relic{inset:16px}.relic blockquote{font-size:13px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><span class="brand">Lord of the Mysteries</span><span class="nav">Volume one</span></header>
+<main>
+<h1>The Reliquary</h1>
+<p class="note">A chapter fragment under glass</p>
+<div class="case" id="case">
+<span class="rivet r1" aria-hidden="true"></span><span class="rivet r2" aria-hidden="true"></span>
+<span class="rivet r3" aria-hidden="true"></span><span class="rivet r4" aria-hidden="true"></span>
+<div class="relic" id="relic" aria-hidden="true"><span class="shard" aria-hidden="true"></span>
+<blockquote>« A gaudy and dazzling dreamworld filled with murmurs instantly shattered. The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again. »</blockquote>
+</div>
+<div class="glass" aria-hidden="true"><div class="wax">Wax seal</div></div>
+</div>
+<div class="plinth" aria-hidden="true"></div>
+<p class="hint" id="hint" aria-live="polite">The case is sealed</p>
+<div class="label" id="label" hidden>
+<p class="labelhead">Catalogue note</p>
+<p>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</p>
+<p class="ref">Volume 1, chapter 1 — Crimson</p>
+</div>
+<div class="actions">
+<button class="action" id="breakBtn">Break the seal</button>
+<button class="action" id="seal" disabled>Read the label <span class="sealid">EV-0001-001</span></button>
+<button class="link" id="back" hidden>Reseal the case</button>
+</div>
+</main>
+<script>
+(function(){
+  var box=document.getElementById('case'),relic=document.getElementById('relic'),breakBtn=document.getElementById('breakBtn');
+  var openBtn=document.getElementById('seal'),hint=document.getElementById('hint');
+  var label=document.getElementById('label'),back=document.getElementById('back');
+  function reset(){
+    box.classList.remove('open');relic.setAttribute('aria-hidden','true');label.hidden=true;openBtn.hidden=false;openBtn.disabled=true;
+    back.hidden=true;breakBtn.hidden=false;hint.textContent='The case is sealed';
+  }
+  breakBtn.addEventListener('click',function(){
+    box.classList.add('open');relic.setAttribute('aria-hidden','false');breakBtn.hidden=true;openBtn.disabled=false;back.hidden=false;
+    hint.textContent='The fragment is visible';
+  });
+  openBtn.addEventListener('click',function(){label.hidden=false;openBtn.hidden=true;hint.textContent='The label is unfolded';});
+  back.addEventListener('click',reset);
+})();
+</script>
+</body>
+</html>

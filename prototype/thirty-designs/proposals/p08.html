@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE p08 — The Bell Tower</title>
+<style>
+@font-face{font-family:Cormorant;src:url('../fonts/cormorant-roman.woff2') format('woff2');font-display:swap}
+@font-face{font-family:Cormorant;src:url('../fonts/cormorant-italic.woff2') format('woff2');font-style:italic;font-display:swap}
+@font-face{font-family:Spectral;src:url('../fonts/spectral-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Spectral;src:url('../fonts/spectral-500.woff2') format('woff2');font-weight:500;font-display:swap}
+:root{--char:#171412;--ox:#6B1F27;--gold:#C9A54B;--par:#E7D9BA}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--char);color:var(--par);font:400 15px/1.55 Spectral,Georgia,serif}
+h1,.brand,.ref{font-family:Cormorant,Georgia,serif;font-weight:400}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 24px;border-bottom:1px solid rgba(201,165,75,.3)}
+.brand{font-size:24px}
+.nav{font:500 13px Spectral,serif;color:var(--gold)}
+main{max-width:880px;margin:0 auto;padding:18px 20px 40px}
+h1{font-size:20px;margin:8px 0 0;color:rgba(231,217,186,.7)}
+.stage{display:flex;justify-content:center;padding:14px 0 8px}
+.tower{position:relative;width:280px;height:300px;touch-action:none;cursor:ns-resize}
+.rope{position:absolute;left:210px;top:0;bottom:0;width:1px;background:rgba(201,165,75,.6)}
+.bells{position:absolute;inset:0}
+.bell{position:absolute;left:0;right:0;height:44px;top:calc(var(--i)*28px);display:flex;align-items:center;gap:14px}
+.gong{position:relative;flex:0 0 auto;width:16px;height:16px;border:1px solid rgba(201,165,75,.45);border-radius:50%}
+.bell.crimson .gong{border-color:var(--ox);background:var(--ox)}
+.bell.lit .gong{box-shadow:0 0 0 4px rgba(201,165,75,.25)}
+.bell.ring .gong::after{content:"";position:absolute;inset:-4px;border:1px solid var(--gold);border-radius:50%;animation:ripple .7s ease-out forwards}
+@keyframes ripple{from{transform:scale(.7);opacity:1}to{transform:scale(2.4);opacity:0}}
+.num{font:500 13px Spectral,serif;color:rgba(231,217,186,.4)}
+.bell.crimson .num{color:var(--gold)}
+.clapper{position:absolute;left:202px;top:22px;width:17px;height:17px;background:var(--gold);transform:rotate(45deg);transition:top .2s ease-out}
+.clapper.lit{background:var(--ox);box-shadow:0 0 0 5px rgba(201,165,75,.2)}
+.hint{text-align:center;color:var(--gold);font:500 13px Spectral,serif;min-height:24px;margin:8px 0 0}
+.readout{border-top:1px solid rgba(201,165,75,.35);padding-top:18px;margin-top:14px}
+blockquote{margin:0;max-width:680px}
+.proof{margin-top:14px;border-left:2px solid var(--ox);padding-left:14px}
+.proof p{margin:0 0 5px}
+.ref{font-style:italic;color:var(--gold)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:18px}
+button{font:500 14px Spectral,serif;color:var(--par);background:transparent;border:1px solid var(--gold);min-height:44px;padding:0 18px;cursor:pointer}
+button:hover:not(:disabled){background:rgba(201,165,75,.12)}
+button:disabled{opacity:.35;cursor:not-allowed}
+.sealid{font-family:Cormorant,serif;color:var(--gold);margin-left:8px}
+.link{border:none;border-bottom:1px solid var(--gold);padding:0 0 3px}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media(max-width:820px){.tower{width:240px}.rope{left:170px}.clapper{left:162px}main{padding:14px 14px 32px}.brand{font-size:20px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><span class="brand">Lord of the Mysteries</span><span class="nav">Volume one</span></header>
+<main>
+<h1>The Bell Tower</h1>
+<div class="stage">
+<div class="tower" id="tower" tabindex="0" role="slider" aria-label="Bell rope" aria-valuemin="1" aria-valuemax="10" aria-valuenow="1" aria-valuetext="Pull the rope">
+<div class="rope" aria-hidden="true"></div>
+<div class="bells" id="bells" aria-hidden="true"></div>
+<div class="clapper" id="clapper" aria-hidden="true"></div>
+</div>
+</div>
+<p class="hint" id="hint">Pull the rope</p>
+<div class="readout" id="readout" hidden>
+<blockquote>« A gaudy and dazzling dreamworld filled with murmurs instantly shattered. The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again. »</blockquote>
+<div class="proof" id="proof" hidden>
+<p>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</p>
+<p class="ref">Volume 1, chapter 1 — Crimson</p>
+</div>
+</div>
+<div class="actions">
+<button id="seal" disabled>Read the inscription <span class="sealid">EV-0001-001</span></button>
+<button class="link" id="back" hidden>Climb back down</button>
+</div>
+</main>
+<script>
+(function(){
+  var tower=document.getElementById('tower'),bells=document.getElementById('bells');
+  var clapper=document.getElementById('clapper'),hint=document.getElementById('hint');
+  var readout=document.getElementById('readout'),proof=document.getElementById('proof');
+  var seal=document.getElementById('seal'),back=document.getElementById('back');
+  var count=10,target=3,step=0,dragging=false,startY=0,startStep=0,markers=[];
+  for(var i=0;i<count;i++){
+    var b=document.createElement('div');
+    b.className='bell'+(i===target?' crimson':'');
+    b.style.setProperty('--i',String(i));
+    b.innerHTML='<span class="gong"></span><span class="num">'+String(i+1).padStart(2,'0')+'</span>';
+    bells.appendChild(b);
+    markers.push(b);
+  }
+  function ring(m){m.classList.remove('ring');void m.offsetWidth;m.classList.add('ring');}
+  function setStep(n){
+    var prev=step;
+    step=Math.max(0,Math.min(count-1,n));
+    clapper.style.top=(step*28+22)+'px';
+    if(step!==prev)ring(markers[step]);
+    var engaged=step===target;
+    clapper.classList.toggle('lit',engaged);
+    markers[target].classList.toggle('lit',engaged);
+    readout.hidden=!engaged;
+    seal.disabled=!engaged;
+    hint.textContent=engaged?'The crimson bell answers':(step===0?'Pull the rope':'A bell answers');
+    if(!engaged){proof.hidden=true;seal.hidden=false;back.hidden=true;}
+    tower.setAttribute('aria-valuenow',String(step+1));
+    tower.setAttribute('aria-valuetext',hint.textContent);
+  }
+  tower.addEventListener('keydown',function(e){
+    if(e.key==='ArrowDown'){setStep(step+1);e.preventDefault();}
+    if(e.key==='ArrowUp'){setStep(step-1);e.preventDefault();}
+  });
+  tower.addEventListener('pointerdown',function(e){
+    dragging=true;startY=e.clientY;startStep=step;tower.setPointerCapture(e.pointerId);
+  });
+  tower.addEventListener('pointermove',function(e){
+    if(!dragging)return;
+    setStep(startStep+Math.round((e.clientY-startY)/28));
+  });
+  tower.addEventListener('pointerup',function(){dragging=false;});
+  tower.addEventListener('pointercancel',function(){dragging=false;});
+  seal.addEventListener('click',function(){
+    proof.hidden=false;seal.hidden=true;back.hidden=false;hint.textContent='The inscription is open';
+  });
+  back.addEventListener('click',function(){setStep(0);});
+  setStep(0);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PROTOTYPE p07 — The Clockmaker's Workshop</title>
+<style>
+@font-face{font-family:Cormorant;src:url('../fonts/cormorant-roman.woff2') format('woff2');font-display:swap}
+@font-face{font-family:Cormorant;src:url('../fonts/cormorant-italic.woff2') format('woff2');font-style:italic;font-display:swap}
+@font-face{font-family:Spectral;src:url('../fonts/spectral-400.woff2') format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:Spectral;src:url('../fonts/spectral-500.woff2') format('woff2');font-weight:500;font-display:swap}
+:root{--char:#161311;--ox:#5A1A22;--gold:#C9A54B;--par:#E6D8B8}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--char);color:var(--par);font:400 15px/1.55 Spectral,Georgia,serif}
+h1,.brand,.hub{font-family:Cormorant,Georgia,serif;font-weight:400}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 24px;border-bottom:1px solid rgba(201,165,75,.3)}
+.brand{font-size:24px}
+.nav{font:500 13px Spectral,serif;color:var(--gold)}
+main{max-width:880px;margin:0 auto;padding:18px 20px 40px}
+h1{font-size:20px;margin:8px 0 0;color:rgba(230,216,184,.7)}
+.stage{display:grid;place-items:center;padding:16px 0}
+.workshop{position:relative;width:320px;height:320px;touch-action:none;cursor:grab}
+.workshop:active{cursor:grabbing}
+.wheel{position:absolute;inset:26px;border:2px solid var(--gold);border-radius:50%}
+.wheel::before,.wheel::after{content:"";position:absolute;border:1px solid rgba(201,165,75,.35);border-radius:50%}
+.wheel::before{inset:14px}.wheel::after{inset:46px}
+.rot{position:absolute;inset:0;transition:transform .25s ease-out}
+.tooth{position:absolute;left:50%;top:50%;width:12px;height:26px;margin:-13px 0 0 -6px;border:1px solid var(--gold);transform:rotate(var(--a)) translateY(-144px)}
+.tooth.ox{background:var(--ox);border-width:2px}
+.tooth.engaged{box-shadow:0 0 0 3px rgba(201,165,75,.5)}
+.pallet{position:absolute;left:50%;top:2px;width:100px;height:12px;margin-left:-50px;border:1px solid var(--gold);transform-origin:50% 50%;transform:rotate(var(--tilt));transition:transform .2s}
+.pallet::before,.pallet::after{content:"";position:absolute;top:-6px;width:8px;height:8px;border:1px solid var(--gold)}
+.pallet::before{left:-8px}.pallet::after{right:-8px}
+.hub{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:86px;height:86px;border:1px solid rgba(201,165,75,.6);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:20px}
+.hub.italic{font-style:italic}
+.hint{text-align:center;color:var(--gold);font:500 13px Spectral,serif;min-height:24px;margin:12px 0 0}
+.readout{border-top:1px solid rgba(201,165,75,.35);padding-top:18px;margin-top:14px}
+blockquote{margin:0;max-width:680px}
+.proof{margin-top:14px;border-left:2px solid var(--ox);padding-left:14px}
+.proof p{margin:0 0 5px}
+.ref{font-family:Cormorant,serif;font-style:italic;color:var(--gold)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:18px}
+button{font:500 14px Spectral,serif;color:var(--par);background:transparent;border:1px solid var(--gold);min-height:44px;padding:0 18px;cursor:pointer}
+button:hover:not(:disabled){background:rgba(201,165,75,.12)}
+button:disabled{opacity:.35;cursor:not-allowed}
+.sealid{font-family:Cormorant,serif;color:var(--gold);margin-left:8px}
+.link{border:none;border-bottom:1px solid var(--gold);padding:0 0 3px}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+@media(max-width:820px){.workshop{width:280px;height:280px}.tooth{transform:rotate(var(--a)) translateY(-124px)}main{padding:14px 14px 32px}.brand{font-size:20px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><span class="brand">Lord of the Mysteries</span><span class="nav">Volume one</span></header>
+<main>
+<h1>The Clockmaker's Workshop</h1>
+<div class="stage">
+<div class="workshop" id="workshop" tabindex="0" role="slider" aria-label="Escapement" aria-valuemin="0" aria-valuemax="12" aria-valuenow="0" aria-valuetext="Release the escapement">
+<div class="wheel" aria-hidden="true"></div>
+<div class="rot" id="rot" aria-hidden="true"></div>
+<div class="pallet" id="pallet" aria-hidden="true"></div>
+<div class="hub" id="hub">00</div>
+</div>
+<p class="hint" id="hint">Release the escapement</p>
+</div>
+<div class="readout" id="readout" hidden>
+<blockquote>« A gaudy and dazzling dreamworld filled with murmurs instantly shattered. The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head as though someone had ruthlessly lashed at him with a pole again and again. »</blockquote>
+<div class="proof" id="proof" hidden>
+<p>The sound asleep Zhou Mingrui felt an abnormal throbbing pain in his head</p>
+<p class="ref">Volume 1, chapter 1 — Crimson</p>
+</div>
+</div>
+<div class="actions">
+<button id="seal" disabled>Read the seal <span class="sealid">EV-0001-001</span></button>
+<button class="link" id="back" hidden>Return to the workshop</button>
+</div>
+</main>
+<script>
+(function(){
+  var workshop=document.getElementById('workshop'),rot=document.getElementById('rot');
+  var pallet=document.getElementById('pallet'),hub=document.getElementById('hub'),hint=document.getElementById('hint');
+  var readout=document.getElementById('readout'),proof=document.getElementById('proof');
+  var seal=document.getElementById('seal'),back=document.getElementById('back');
+  var step=0,target=8,dragging=false,startAngle=0,startStep=0,oxTooth=null;
+  for(var i=0;i<24;i++){
+    var t=document.createElement('i');
+    t.className='tooth'+(i===target?' ox':'');
+    t.style.setProperty('--a',(i*15)+'deg');
+    rot.appendChild(t);
+    if(i===target)oxTooth=t;
+  }
+  function angle(e){
+    var r=workshop.getBoundingClientRect();
+    return Math.atan2(e.clientY-r.top-r.height/2,e.clientX-r.left-r.width/2)*180/Math.PI;
+  }
+  function setStep(n){
+    step=((n%12)+12)%12;
+    rot.style.transform='rotate('+(-step*15)+'deg)';
+    pallet.style.setProperty('--tilt',(step%2?12:-12)+'deg');
+    workshop.setAttribute('aria-valuenow',String(step));
+    var engaged=step===target;
+    hub.textContent=engaged?'Crimson':String(step).padStart(2,'0');
+    hub.className='hub'+(engaged?' italic':'');
+    readout.hidden=!engaged;seal.disabled=!engaged;
+    hint.textContent=engaged?'Tooth engaged':'Release the escapement';
+    if(!engaged){
+      proof.hidden=true;seal.hidden=false;back.hidden=true;
+      oxTooth.classList.remove('engaged');
+    }
+    workshop.setAttribute('aria-valuetext',engaged?'Tooth engaged':'Release the escapement');
+  }
+  workshop.addEventListener('keydown',function(e){
+    if(e.key==='ArrowRight'){setStep(step+1);e.preventDefault();}
+    if(e.key==='ArrowLeft'){setStep(step-1);e.preventDefault();}
+  });
+  workshop.addEventListener('pointerdown',function(e){
+    dragging=true;startAngle=angle(e);startStep=step;workshop.setPointerCapture(e.pointerId);
+  });
+  workshop.addEventListener('pointermove',function(e){
+    if(!dragging)return;
+    var d=angle(e)-startAngle;
+    if(d>180)d-=360;if(d<-180)d+=360;
+    setStep(startStep+Math.round(d/15));
+  });
+  workshop.addEventListener('pointerup',function(){dragging=false;});
+  workshop.addEventListener('pointercancel',function(){dragging=false;});
+  seal.addEventListener('click',function(){
+    proof.hidden=false;oxTooth.classList.add('engaged');
+    seal.hidden=true;back.hidden=false;hint.textContent='The tooth turns over';
+  });
+  back.addEventListener('click',function(){setStep(0);});
+  setStep(0);
+})();
+</script>
+</body>
+</html>
