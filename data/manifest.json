@@ -3,289 +3,289 @@
   "chapters": {
     "0001": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0002": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0003": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0004": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0005": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0006": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0007": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0008": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0009": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0010": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0011": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0012": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0013": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0014": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0015": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0016": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0017": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0018": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0019": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0020": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0021": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0022": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0023": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0024": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0025": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0026": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0027": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0028": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0029": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0030": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0031": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0032": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0033": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0034": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0035": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0036": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0037": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0038": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0039": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0040": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0041": {
       "agent": null,
-      "attempts": 0,
+      "attempts": 1,
       "batch": 1,
-      "state": "pending",
+      "state": "done",
       "updated_at": null
     },
     "0042": {
